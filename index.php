@@ -1,62 +1,539 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<!-- Mirrored from www.performanse.com/es/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Feb 2025 16:53:20 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
-
-	<link href="./index.html" rel="alternate" hreflang="x-default">
-
-
-
-	<script
-		type="module">!function () { const e = document.createElement("link").relList; if (!(e && e.supports && e.supports("modulepreload"))) { for (const e of document.querySelectorAll('link[rel="modulepreload"]')) r(e); new MutationObserver((e => { for (const o of e) if ("childList" === o.type) for (const e of o.addedNodes) if ("LINK" === e.tagName && "modulepreload" === e.rel) r(e); else if (e.querySelectorAll) for (const o of e.querySelectorAll("link[rel=modulepreload]")) r(o) })).observe(document, { childList: !0, subtree: !0 }) } function r(e) { if (e.ep) return; e.ep = !0; const r = function (e) { const r = {}; return e.integrity && (r.integrity = e.integrity), e.referrerpolicy && (r.referrerPolicy = e.referrerpolicy), "use-credentials" === e.crossorigin ? r.credentials = "include" : "anonymous" === e.crossorigin ? r.credentials = "omit" : r.credentials = "same-origin", r }(e); fetch(e.href, r) } }();</script>
-		<script type="module" src="/assets/js/main.c3dfb829.js" crossorigin="anonymous"
-			onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);"></script>
-	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet">
-	<title>Evalúa las soft skills de tus talentos - PerformanSe</title>
-	<meta name="generator" content="SEOmatic">
+	<!-- Meta -->
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="generator" content="SEOmatic" />
 	<meta name="description"
-		content="Evalúa las soft skills de tus candidatos y colaboradores con nuestros tests psicométricos y servicios. Dedica tiempo a conocer a tus talentos.">
-	<meta name="referrer" content="no-referrer-when-downgrade">
-	<meta name="robots" content="all">
-	<meta content="es" property="og:locale">
-	<meta content="it" property="og:locale:alternate">
-	<meta content="fr" property="og:locale:alternate">
-	<meta content="nl" property="og:locale:alternate">
-	<meta content="en" property="og:locale:alternate">
-	<meta content="English" property="og:site_name">
-	<meta content="website" property="og:type">
-	<meta content="https://www.performanse.com/es/" property="og:url">
-	<meta content="Evalúa las soft skills de tus talentos - PerformanSe" property="og:title">
+		content="Evalúa las soft skills de tus candidatos y colaboradores con nuestros tests psicométricos y servicios. Dedica tiempo a conocer a tus talentos." />
+	<meta name="referrer" content="no-referrer-when-downgrade" />
+	<meta name="robots" content="all" />
+	<meta content="es" property="og:locale" />
+	<meta content="it" property="og:locale:alternate" />
+	<meta content="fr" property="og:locale:alternate" />
+	<meta content="nl" property="og:locale:alternate" />
+	<meta content="en" property="og:locale:alternate" />
+	<meta content="English" property="og:site_name" />
+	<meta content="website" property="og:type" />
+	<meta content="https://www.performanse.com/es/" property="og:url" />
+	<meta content="Evalúa las soft skills de tus talentos - PerformanSe" property="og:title" />
 	<meta
 		content="Evalúa las soft skills de tus candidatos y colaboradores con nuestros tests psicométricos y servicios. Dedica tiempo a conocer a tus talentos."
-		property="og:description">
+		property="og:description" />
 	<meta content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png"
-		property="og:image">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:creator" content="@">
-	<meta name="twitter:title" content="Evalúa las soft skills de tus talentos - PerformanSe">
+		property="og:image" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@" />
+	<meta name="twitter:title" content="Evalúa las soft skills de tus talentos - PerformanSe" />
 	<meta name="twitter:description"
-		content="Evalúa las soft skills de tus candidatos y colaboradores con nuestros tests psicométricos y servicios. Dedica tiempo a conocer a tus talentos.">
+		content="Evalúa las soft skills de tus candidatos y colaboradores con nuestros tests psicométricos y servicios. Dedica tiempo a conocer a tus talentos." />
 	<meta name="twitter:image"
-		content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png">
-	<link href="./index.html" rel="canonical">
-	<link href="./index.html" rel="home">
-	<link href="https://www.performanse.com/it/" rel="alternate" hreflang="it">
-	<link href="./index.html" rel="alternate" hreflang="es">
-	<link href="https://www.performanse.com/fr/" rel="alternate" hreflang="fr">
-	<link href="https://www.performanse.com/nl/" rel="alternate" hreflang="nl">
-	<link href="https://www.performanse.com/en/" rel="alternate" hreflang="en">
+		content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png" />
+
+	<!-- Link -->
+	<link href="./index.php" rel="alternate" hreflang="x-default" />
+	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet" />
+	<link href="./index.php" rel="canonical" />
+	<link href="./index.php" rel="home" />
+	<link href="https://www.performanse.com/it/" rel="alternate" hreflang="it" />
+	<link href="./index.php" rel="alternate" hreflang="es" />
+	<link href="https://www.performanse.com/fr/" rel="alternate" hreflang="fr" />
+	<link href="https://www.performanse.com/nl/" rel="alternate" hreflang="nl" />
+	<link href="https://www.performanse.com/en/" rel="alternate" hreflang="en" />
+
+	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
+	<title>Evalúa las soft skills de tus talentos - PerformanSe</title>
 </head>
 
-<body style="opacity: 0;">
+<body style="opacity: 0">
+
+	<header>
+		<nav class="c-nav is-dark">
+			<h2 class="hidden">Navigation</h2>
+			<div class="c-nav-bar">
+				<div class="c-nav-bar-outer">
+					<div class="c-nav-bar-inner">
+						<div class="c-nav-bar-bg"></div>
+						<div class="c-nav-bar-part c-nav-bar-part--left">
+							<div class="c-nav-bar-logo">
+								<a href="./index.php">
+									<svg class="site-logo" width="147" height="24" viewBox="0 0 147 24" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<g class="site-logo-type">
+											<path
+												d="M28.8526 10.9772C29.088 9.82025 29.6222 8.87847 30.5007 8.17214C31.3792 7.46582 32.407 7.10126 33.5842 7.12404C34.7615 7.1443 35.7691 7.50885 36.6045 8.21518C37.4399 8.92151 37.9741 9.84303 38.2096 10.9772H28.8526ZM33.8399 5.47594C32.0197 5.36961 30.4577 5.98987 29.1083 7.31645C27.7817 8.62278 27.1387 10.2076 27.1817 12.0278C27.202 13.762 27.8678 15.2405 29.1513 16.5038C30.4349 17.7443 31.9134 18.3443 33.5842 18.324C34.9108 18.3038 36.1108 17.9164 37.202 17.1468C38.2931 16.3772 39.0653 15.3266 39.5134 14.0202H37.7792C36.9437 15.7747 35.5741 16.6759 33.6475 16.6962C32.407 16.719 31.3361 16.3114 30.4146 15.519C29.4931 14.7266 28.9792 13.6987 28.8526 12.4785H39.8146V11.6C39.8146 10.081 39.2374 8.70885 38.0804 7.4886C36.8804 6.24556 35.4678 5.58227 33.8399 5.47594Z"
+												fill="currentColor" />
+											<path
+												d="M43.7097 7.19999V5.4886H42.2109V17.5266H42.216C42.2413 17.9696 42.6059 18.324 43.0565 18.324C43.5071 18.324 43.8717 17.9721 43.897 17.5266H43.9021V10.324C43.9021 9.54176 44.0287 8.9291 44.3021 8.46581C44.4717 8.19239 44.7882 7.85315 45.2514 7.47341C45.7173 7.09366 46.3299 6.881 47.0666 6.86075V5.25569C46.4337 5.23543 45.8211 5.38227 45.2084 5.69872C44.5552 6.05822 44.0489 6.54429 43.7097 7.19999Z"
+												fill="currentColor" />
+											<path
+												d="M49.4688 5.25063V17.5266H49.4713C49.4814 17.9671 49.8384 18.3241 50.2839 18.3241C50.727 18.3241 51.0865 17.9696 51.0966 17.5266H51.0991V6.96203H54.1194V5.48354H51.0991V4.97722C51.0991 4.40759 51.3725 3.85823 51.9017 3.28608C52.2612 2.92658 52.8536 2.73671 53.6966 2.69367L54.1194 2.67342V1.23544H53.6966C51.2232 1.23544 49.4688 2.69367 49.4688 5.25063Z"
+												fill="currentColor" />
+											<path
+												d="M64.4744 15.319C63.5327 16.3266 62.3985 16.7747 61.0491 16.7114C59.7858 16.6684 58.7377 16.1772 57.8592 15.2127C56.9808 14.2481 56.5757 13.1139 56.5959 11.8304C56.6187 10.5241 57.0668 9.43292 57.9884 8.5114C58.9099 7.58988 60.001 7.11899 61.3073 7.14178C62.5478 7.14178 63.5985 7.59241 64.477 8.5114C65.3554 9.43292 65.8263 10.5241 65.8694 11.8076C65.8896 13.157 65.439 14.3139 64.4744 15.319ZM61.3909 5.53418C59.6339 5.47089 58.1149 6.09114 56.8516 7.37469C55.5884 8.63798 54.9453 10.1798 54.9453 11.957C54.9453 13.6709 55.5225 15.1468 56.6997 16.3899C57.877 17.6304 59.3327 18.2734 61.0238 18.3165C62.7782 18.3798 64.2997 17.7595 65.563 16.4962C66.8491 15.2127 67.4896 13.6911 67.4896 11.9367C67.4896 10.2228 66.8896 8.74684 65.7124 7.5038C64.5402 6.24304 63.0846 5.60001 61.3909 5.53418Z"
+												fill="currentColor" />
+											<path
+												d="M71.3944 7.20252V5.4886H69.8906V17.5544H69.8957C69.921 18 70.2856 18.3519 70.7387 18.3519C71.1919 18.3519 71.5564 17.9975 71.5818 17.5544H71.5868V10.3367C71.5868 9.55442 71.7134 8.93923 71.9894 8.47341C72.159 8.19746 72.4754 7.86075 72.9413 7.47847C73.4071 7.09872 74.0197 6.88607 74.7615 6.86581V5.25822C74.1261 5.23797 73.5134 5.3848 72.8982 5.70379C72.24 6.06075 71.7311 6.54683 71.3944 7.20252Z"
+												fill="currentColor" />
+											<path
+												d="M89.3386 5.54937C87.6247 5.40506 86.2602 6.14937 85.2475 7.73924C84.2349 6.14937 82.8703 5.40506 81.1564 5.54937C79.8754 5.65316 78.8424 6.12911 78.0576 6.97468C77.2095 7.86329 76.7969 9.06076 76.7969 10.5291V17.5747H76.7994C76.8146 18.0076 77.169 18.3544 77.6045 18.3544C78.0399 18.3544 78.3943 18.0076 78.4095 17.5747H78.4273V10.3418C78.4273 9.41266 78.6754 8.6481 79.1918 8.0076C79.7083 7.36709 80.3893 7.03544 81.2374 7.03544C82.1057 7.03544 82.85 7.32405 83.4678 7.88354C84.1083 8.44051 84.4171 9.1443 84.4171 9.99241V17.5266H84.4146L84.4171 17.5392V17.5747H84.4197C84.445 18.0076 84.8019 18.3544 85.2424 18.3544C85.683 18.3544 86.0399 18.0101 86.0652 17.5747H86.0703V9.98987C86.0703 9.14177 86.3817 8.44051 86.9994 7.88101C87.6399 7.32405 88.3842 7.03291 89.2526 7.03291C90.1007 7.03291 90.8019 7.36456 91.3184 8.00506C91.8349 8.64557 92.1032 9.43038 92.1032 10.3392V17.5722H92.1083C92.1285 18.0051 92.483 18.3519 92.9209 18.3519C93.3589 18.3519 93.7133 18.0051 93.7336 17.5722H93.7361V10.5291C93.7361 9.06076 93.3032 7.86329 92.4551 6.97468C91.6526 6.12658 90.6197 5.65063 89.3386 5.54937Z"
+												fill="currentColor" />
+											<path
+												d="M105.353 14.9468C104.439 15.9013 103.34 16.357 102.031 16.2962C100.829 16.2329 99.7906 15.757 98.94 14.8228C98.0893 13.8886 97.6944 12.7899 97.7147 11.5443C97.7349 10.2785 98.1704 9.22026 99.064 8.32659C99.9577 7.43292 101.016 6.99748 102.282 6.99748C103.487 6.99748 104.522 7.43292 105.375 8.32659C106.226 9.21773 106.682 10.2785 106.705 11.5215C106.722 12.8304 106.287 13.9722 105.353 14.9468ZM108.279 11.7317V11.6481C108.343 10.0076 107.78 8.57722 106.618 7.37216C105.456 6.14684 104.046 5.52406 102.386 5.4633C100.664 5.40001 99.1906 5.98229 97.9653 7.22786C96.74 8.45317 96.1172 9.94684 96.1172 11.6684C96.1172 13.3291 96.6969 14.7595 97.8387 15.9646C98.9805 17.1671 100.37 17.7899 102.011 17.8532C103.879 17.9165 105.456 17.2101 106.743 15.7367V17.5848C106.748 18.0051 107.089 18.3468 107.512 18.3468C107.937 18.3468 108.282 18.0025 108.282 17.5772H108.277V11.7317H108.279Z"
+												fill="currentColor" />
+											<path
+												d="M115.946 5.43292C114.427 5.43292 113.176 5.95444 112.178 6.97469C111.178 7.99495 110.68 9.2633 110.68 10.8051V17.5696H110.682C110.692 18.0051 111.044 18.3544 111.482 18.3544C111.92 18.3544 112.272 18.0051 112.282 17.5696H112.285V10.638C112.285 9.63799 112.639 8.78482 113.368 8.05571C114.097 7.32659 114.971 6.97216 115.951 6.97216C116.928 6.97216 117.761 7.32659 118.49 8.05571C119.219 8.78482 119.594 9.63799 119.594 10.638V17.5696H119.596C119.604 18.0051 119.958 18.3544 120.396 18.3544C120.834 18.3544 121.186 18.0051 121.196 17.5696H121.199V10.8025C121.199 9.2633 120.7 7.99242 119.7 6.97216C118.692 5.95444 117.444 5.43292 115.946 5.43292Z"
+												fill="currentColor" />
+											<path
+												d="M135.647 11.0101C135.882 9.85317 136.417 8.9114 137.295 8.20507C138.174 7.49874 139.201 7.13419 140.379 7.15444C141.556 7.17722 142.563 7.53925 143.396 8.24558C144.232 8.95191 144.766 9.87343 145.001 11.0076H135.647V11.0101ZM146.609 11.6304C146.609 10.1114 146.032 8.73925 144.875 7.519C143.675 6.27596 142.262 5.61267 140.637 5.50634C138.817 5.40001 137.255 6.02026 135.905 7.34684C134.579 8.65317 133.936 10.238 133.979 12.0557C133.999 13.7899 134.665 15.2684 135.948 16.5317C137.234 17.7722 138.71 18.3722 140.381 18.3519C141.708 18.3317 142.908 17.9443 143.999 17.1747C145.09 16.4051 145.862 15.3544 146.31 14.0481H144.576C143.741 15.8025 142.371 16.7038 140.444 16.7241C139.201 16.7443 138.133 16.3392 137.212 15.5468C136.29 14.7544 135.776 13.7266 135.649 12.5063H146.612V11.6304H146.609Z"
+												fill="currentColor" />
+											<path
+												d="M131.681 14.4152C131.57 12.8253 130.659 11.7443 128.967 11.1924L127.499 10.7266C126.365 10.3671 125.808 9.75189 125.876 8.88354C125.899 7.95189 126.694 7.22531 127.651 7.20506C128.631 7.20506 129.332 7.71139 129.633 8.58734C129.659 8.65822 129.724 8.97468 129.735 9.02278L129.737 9.03038V9.03291C129.823 9.37974 130.135 9.63544 130.507 9.63544C130.932 9.63544 131.276 9.30126 131.299 8.88101H131.302C131.302 8.88101 131.317 8.76455 131.302 8.55696C131.243 7.70886 130.813 7.02025 130.056 6.4481C129.322 5.87594 128.522 5.6 127.654 5.64303C126.654 5.68607 125.808 6.04557 125.094 6.70379C124.405 7.36202 124.071 8.16708 124.114 9.09873C124.18 10.6456 125.005 11.6633 126.562 12.1291L128.053 12.5747C129.299 12.957 129.922 13.6557 129.899 14.6937C129.876 15.2886 129.699 15.7747 129.322 16.1342C128.899 16.5367 128.421 16.7367 127.631 16.7494C127.097 16.757 126.55 16.5696 126.043 16.1342C125.545 15.7063 125.39 15.3873 125.291 14.9038C125.251 14.7038 125.238 14.4405 125.238 14.4405C125.218 14.0177 124.871 13.6785 124.443 13.6785C124.016 13.6785 123.669 14.0152 123.648 14.438V14.4405C123.648 15.4785 124.005 16.3671 124.717 17.1089C125.451 17.8506 126.342 18.2734 127.408 18.3392C128.565 18.4025 129.588 18.043 130.479 17.2582C131.37 16.4506 131.77 15.4987 131.681 14.4152Z"
+												fill="currentColor" />
+										</g>
+										<path class="site-logo-symbol"
+											d="M6.61896 20.7114C5.77845 20.7317 5.07972 20.0962 5.05947 19.2937C5.03921 18.4886 5.70504 17.8203 6.54807 17.8C7.38858 17.7798 8.08732 18.4152 8.10757 19.2177C8.12529 20.0203 7.45947 20.6886 6.61896 20.7114ZM14.0392 0.0810242C7.45947 0.0810242 2.12529 5.4152 2.12529 11.9975C2.12529 13.2532 2.262 14.2684 2.62149 15.4025C1.93035 15.2582 -0.289899 14.3798 0.0316199 15.9949C0.451873 18.0911 4.36327 22.7595 9.68732 23.638C9.98858 23.6886 10.2721 23.4608 10.2696 23.0279V22.7266L10.3101 11.9317C10.3101 11.9317 10.3101 11.8633 10.3101 11.8405C10.3177 9.95444 11.0139 8.32406 12.3759 6.97216C13.7607 5.59748 15.3962 4.93672 17.2823 5.01267C19.1 5.06583 20.6392 5.7595 21.8974 7.09875C23.1582 8.43799 23.7962 10.0279 23.7886 11.8658C23.781 13.7747 23.0848 15.4279 21.7228 16.8051C20.3607 18.157 18.7253 18.8177 16.8392 18.7418C15.9455 18.7063 15.1253 18.5089 14.3683 18.1696C14.3025 18.1443 14.2316 18.1139 14.1607 18.0785C14.1379 18.0684 14.1126 18.0582 14.0898 18.0481V18.043C13.6088 17.7949 13.0772 17.362 13.0417 16.7975C12.9962 16.0785 13.6721 15.7823 14.0974 16.0532C14.9177 16.6911 15.8721 17.0127 16.9607 17.0152C18.3405 17.0203 19.5152 16.5418 20.5076 15.557C21.5 14.5722 22.0114 13.4 22.0392 11.9975C22.0671 10.6177 21.6114 9.42026 20.6721 8.38229C19.7329 7.34431 18.6088 6.78735 17.2493 6.73672C15.8012 6.6633 14.581 7.14178 13.5405 8.21773C12.5455 9.27343 12.0291 10.4836 12.0266 11.8937L12.0088 16.4203L11.9734 21.1114C11.9734 21.1114 11.9633 22.0658 11.9683 22.5798C11.9683 22.5798 11.9734 22.838 11.9734 23.2582C11.9734 23.5924 12.2544 23.8608 12.8063 23.9063C13.2747 23.9443 13.7379 23.9266 14.2139 23.9114C20.8645 23.6734 25.9506 18.5798 25.9506 12C25.9531 5.4152 20.619 0.0810242 14.0392 0.0810242Z"
+											fill="currentColor" />
+									</svg>
+								</a>
+							</div>
+
+							<div class="c-nav-bar-lang">
+								<div class="c-nav-bar-lang-inner">
+									<div class="c-nav-bar-lang-menu">
+										<span class="c-nav-bar-lang-active" aria-haspopup="true">ES</span>
+										<ul class="c-nav-bar-lang-ul">
+											<li class="c-nav-bar-lang-li">
+												<span data-site-handle="en" class="c-nav-bar-lang-a">EN</span>
+											</li>
+											<li class="c-nav-bar-lang-li">
+												<span data-site-handle="nl" class="c-nav-bar-lang-a">NL</span>
+											</li>
+											<li class="c-nav-bar-lang-li">
+												<span data-site-handle="fr" class="c-nav-bar-lang-a">FR</span>
+											</li>
+											<li class="c-nav-bar-lang-li">
+												<span data-site-handle="it" class="c-nav-bar-lang-a">IT</span>
+											</li>
+										</ul>
+									</div>
+									<div class="c-nav-bar-lang-icon">
+										<svg class="icon-r-sm" width="8" height="5" viewBox="0 0 8 5" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M7.21025 0.356159C7.42992 0.575829 7.42992 0.931984 7.21025 1.15165L4.21025 4.15165C3.99058 4.37132 3.63442 4.37132 3.41475 4.15165L0.414752 1.15165C0.195082 0.931984 0.195082 0.575829 0.414752 0.356159C0.634422 0.136489 0.990577 0.136489 1.21025 0.356159L3.8125 2.95841L6.41475 0.356159C6.63442 0.136489 6.99058 0.136489 7.21025 0.356159Z"
+												fill="currentColor" />
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="c-nav-bar-part c-nav-bar-part--right">
+							<button class="c-nav-bar-search">
+								<div class="c-nav-bar-search-icon">
+									<svg class="c-icon-search" width="19" height="18" viewBox="0 0 19 18" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M18.1953 17.25L14.0718 13.1265M14.0718 13.1265C15.3838 11.8145 16.1953 10.002 16.1953 8C16.1953 3.99594 12.9494 0.75 8.94531 0.75C4.94125 0.75 1.69531 3.99594 1.69531 8C1.69531 12.0041 4.94125 15.25 8.94531 15.25C10.9473 15.25 12.7598 14.4385 14.0718 13.1265Z"
+											stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</div>
+							</button>
+							<div class="c-nav-bar-menu">
+								<ul class="c-nav-bar-menu-ul">
+									<li class="c-nav-bar-menu-li">
+										<a href="./pages/contacto/contacto.php" class="c-nav-bar-menu-a">
+											<span class="c-nav-bar-menu-a-text">Necesidades</span>
+										</a>
+
+										<div class="c-nav-bar-menu--sub">
+											<ul class="c-nav-bar-menu-ul--sub">
+												<li class="c-nav-bar-menu-li--sub">
+													<a href="./pages/contacto/seleccion/index.php"
+														class="c-nav-bar-menu-a">
+														<span class="c-nav-bar-menu-a-text">Selección</span>
+													</a>
+												</li>
+												<li class="c-nav-bar-menu-li--sub">
+													<a href="./pages/contacto/desarrollo-del-talento/index.php"
+														class="c-nav-bar-menu-a">
+														<span class="c-nav-bar-menu-a-text">Desarrollo del talento</span>
+													</a>
+												</li>
+												<li class="c-nav-bar-menu-li--sub">
+													<a href="./pages/contacto/gestion-de-equipos/index.php"
+														class="c-nav-bar-menu-a">
+														<span class="c-nav-bar-menu-a-text">Gestión de equipos</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="c-nav-bar-menu-li">
+										<a href="./pages/nuestros-productos/productos.php" class="c-nav-bar-menu-a">
+											<span class="c-nav-bar-menu-a-text">Productos</span>
+										</a>
+									</li>
+									<li class="c-nav-bar-menu-li">
+										<a href="./pages/nuestros-servicios/servicios.php" class="c-nav-bar-menu-a">
+											<span class="c-nav-bar-menu-a-text">Servicios</span>
+										</a>
+									</li>
+								</ul>
+								<button class="c-nav-bar-menu-toggle">
+									<div class="c-nav-bar-menu-toggle-icon">
+										<svg class="c-icon-menu" width="20" height="8" viewBox="0 0 20 8" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<line x1="0.75" y1="1.25" x2="19.25" y2="1.25" stroke="currentColor"
+												stroke-width="1.5" stroke-linecap="round" />
+											<line x1="0.75" y1="7.25" x2="19.25" y2="7.25" stroke="currentColor"
+												stroke-width="1.5" stroke-linecap="round" />
+										</svg>
+									</div>
+								</button>
+							</div>
+							<div class="c-nav-bar-cta">
+								<span data-obfuscated-link data-olink="aHR0cHM6Ly9hcHAucGVyZm9ybWFuc2UuY29tLz9sPWVzX0VT"
+									target="_blank" rel="noopener noreferrer" class="c-nav-bar-cta-icon">
+									<svg class="c-icon-user" width="18" height="19" viewBox="0 0 18 19" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M12.6953 4.5C12.6953 6.57107 11.0164 8.25 8.94532 8.25C6.87425 8.25 5.19532 6.57107 5.19532 4.5C5.19532 2.42893 6.87425 0.75 8.94532 0.75C11.0164 0.75 12.6953 2.42893 12.6953 4.5Z"
+											stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+										<path
+											d="M8.94532 11.25C5.14971 11.25 2.37923 13.7735 1.61687 17.1657C1.48766 17.7406 1.95448 18.25 2.54373 18.25H15.3469C15.9362 18.25 16.403 17.7406 16.2738 17.1657C15.5114 13.7735 12.7409 11.25 8.94532 11.25Z"
+											stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+									</svg>
+								</span>
+								<div class="c-nav-bar-cta-a">
+									<span target="_blank" rel="noopener noreferrer" data-obfuscated-link
+										data-olink="aHR0cHM6Ly90ZXN0LnBlcmZvcm1hbnNlLmNvbS8/bG9jYWxlPWVzLUVT"
+										class="c-button c-button--ts-2">
+										<span class="c-button-bg">
+											<span class="c-button-bg-hover"></span>
+										</span>
+										<span class="c-button-text">
+											<span class="c-button-text-inner">
+												<span class="c-button-text-hover">Pruebe gratis</span>
+												<span class="c-button-text-static">Pruebe gratis</span>
+											</span>
+										</span>
+										<span class="c-button-icon">
+											<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
+												fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</span>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="c-nav-menu">
+				<div class="c-nav-menu-bg"></div>
+				<div class="c-nav-menu-top">
+					<div class="c-nav-menu-logo">
+						<a href="./index.php">
+							<svg class="site-logo" width="147" height="24" viewBox="0 0 147 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<g class="site-logo-type">
+									<path
+										d="M28.8526 10.9772C29.088 9.82025 29.6222 8.87847 30.5007 8.17214C31.3792 7.46582 32.407 7.10126 33.5842 7.12404C34.7615 7.1443 35.7691 7.50885 36.6045 8.21518C37.4399 8.92151 37.9741 9.84303 38.2096 10.9772H28.8526ZM33.8399 5.47594C32.0197 5.36961 30.4577 5.98987 29.1083 7.31645C27.7817 8.62278 27.1387 10.2076 27.1817 12.0278C27.202 13.762 27.8678 15.2405 29.1513 16.5038C30.4349 17.7443 31.9134 18.3443 33.5842 18.324C34.9108 18.3038 36.1108 17.9164 37.202 17.1468C38.2931 16.3772 39.0653 15.3266 39.5134 14.0202H37.7792C36.9437 15.7747 35.5741 16.6759 33.6475 16.6962C32.407 16.719 31.3361 16.3114 30.4146 15.519C29.4931 14.7266 28.9792 13.6987 28.8526 12.4785H39.8146V11.6C39.8146 10.081 39.2374 8.70885 38.0804 7.4886C36.8804 6.24556 35.4678 5.58227 33.8399 5.47594Z"
+										fill="currentColor" />
+									<path
+										d="M43.7097 7.19999V5.4886H42.2109V17.5266H42.216C42.2413 17.9696 42.6059 18.324 43.0565 18.324C43.5071 18.324 43.8717 17.9721 43.897 17.5266H43.9021V10.324C43.9021 9.54176 44.0287 8.9291 44.3021 8.46581C44.4717 8.19239 44.7882 7.85315 45.2514 7.47341C45.7173 7.09366 46.3299 6.881 47.0666 6.86075V5.25569C46.4337 5.23543 45.8211 5.38227 45.2084 5.69872C44.5552 6.05822 44.0489 6.54429 43.7097 7.19999Z"
+										fill="currentColor" />
+									<path
+										d="M49.4688 5.25063V17.5266H49.4713C49.4814 17.9671 49.8384 18.3241 50.2839 18.3241C50.727 18.3241 51.0865 17.9696 51.0966 17.5266H51.0991V6.96203H54.1194V5.48354H51.0991V4.97722C51.0991 4.40759 51.3725 3.85823 51.9017 3.28608C52.2612 2.92658 52.8536 2.73671 53.6966 2.69367L54.1194 2.67342V1.23544H53.6966C51.2232 1.23544 49.4688 2.69367 49.4688 5.25063Z"
+										fill="currentColor" />
+									<path
+										d="M64.4744 15.319C63.5327 16.3266 62.3985 16.7747 61.0491 16.7114C59.7858 16.6684 58.7377 16.1772 57.8592 15.2127C56.9808 14.2481 56.5757 13.1139 56.5959 11.8304C56.6187 10.5241 57.0668 9.43292 57.9884 8.5114C58.9099 7.58988 60.001 7.11899 61.3073 7.14178C62.5478 7.14178 63.5985 7.59241 64.477 8.5114C65.3554 9.43292 65.8263 10.5241 65.8694 11.8076C65.8896 13.157 65.439 14.3139 64.4744 15.319ZM61.3909 5.53418C59.6339 5.47089 58.1149 6.09114 56.8516 7.37469C55.5884 8.63798 54.9453 10.1798 54.9453 11.957C54.9453 13.6709 55.5225 15.1468 56.6997 16.3899C57.877 17.6304 59.3327 18.2734 61.0238 18.3165C62.7782 18.3798 64.2997 17.7595 65.563 16.4962C66.8491 15.2127 67.4896 13.6911 67.4896 11.9367C67.4896 10.2228 66.8896 8.74684 65.7124 7.5038C64.5402 6.24304 63.0846 5.60001 61.3909 5.53418Z"
+										fill="currentColor" />
+									<path
+										d="M71.3944 7.20252V5.4886H69.8906V17.5544H69.8957C69.921 18 70.2856 18.3519 70.7387 18.3519C71.1919 18.3519 71.5564 17.9975 71.5818 17.5544H71.5868V10.3367C71.5868 9.55442 71.7134 8.93923 71.9894 8.47341C72.159 8.19746 72.4754 7.86075 72.9413 7.47847C73.4071 7.09872 74.0197 6.88607 74.7615 6.86581V5.25822C74.1261 5.23797 73.5134 5.3848 72.8982 5.70379C72.24 6.06075 71.7311 6.54683 71.3944 7.20252Z"
+										fill="currentColor" />
+									<path
+										d="M89.3386 5.54937C87.6247 5.40506 86.2602 6.14937 85.2475 7.73924C84.2349 6.14937 82.8703 5.40506 81.1564 5.54937C79.8754 5.65316 78.8424 6.12911 78.0576 6.97468C77.2095 7.86329 76.7969 9.06076 76.7969 10.5291V17.5747H76.7994C76.8146 18.0076 77.169 18.3544 77.6045 18.3544C78.0399 18.3544 78.3943 18.0076 78.4095 17.5747H78.4273V10.3418C78.4273 9.41266 78.6754 8.6481 79.1918 8.0076C79.7083 7.36709 80.3893 7.03544 81.2374 7.03544C82.1057 7.03544 82.85 7.32405 83.4678 7.88354C84.1083 8.44051 84.4171 9.1443 84.4171 9.99241V17.5266H84.4146L84.4171 17.5392V17.5747H84.4197C84.445 18.0076 84.8019 18.3544 85.2424 18.3544C85.683 18.3544 86.0399 18.0101 86.0652 17.5747H86.0703V9.98987C86.0703 9.14177 86.3817 8.44051 86.9994 7.88101C87.6399 7.32405 88.3842 7.03291 89.2526 7.03291C90.1007 7.03291 90.8019 7.36456 91.3184 8.00506C91.8349 8.64557 92.1032 9.43038 92.1032 10.3392V17.5722H92.1083C92.1285 18.0051 92.483 18.3519 92.9209 18.3519C93.3589 18.3519 93.7133 18.0051 93.7336 17.5722H93.7361V10.5291C93.7361 9.06076 93.3032 7.86329 92.4551 6.97468C91.6526 6.12658 90.6197 5.65063 89.3386 5.54937Z"
+										fill="currentColor" />
+									<path
+										d="M105.353 14.9468C104.439 15.9013 103.34 16.357 102.031 16.2962C100.829 16.2329 99.7906 15.757 98.94 14.8228C98.0893 13.8886 97.6944 12.7899 97.7147 11.5443C97.7349 10.2785 98.1704 9.22026 99.064 8.32659C99.9577 7.43292 101.016 6.99748 102.282 6.99748C103.487 6.99748 104.522 7.43292 105.375 8.32659C106.226 9.21773 106.682 10.2785 106.705 11.5215C106.722 12.8304 106.287 13.9722 105.353 14.9468ZM108.279 11.7317V11.6481C108.343 10.0076 107.78 8.57722 106.618 7.37216C105.456 6.14684 104.046 5.52406 102.386 5.4633C100.664 5.40001 99.1906 5.98229 97.9653 7.22786C96.74 8.45317 96.1172 9.94684 96.1172 11.6684C96.1172 13.3291 96.6969 14.7595 97.8387 15.9646C98.9805 17.1671 100.37 17.7899 102.011 17.8532C103.879 17.9165 105.456 17.2101 106.743 15.7367V17.5848C106.748 18.0051 107.089 18.3468 107.512 18.3468C107.937 18.3468 108.282 18.0025 108.282 17.5772H108.277V11.7317H108.279Z"
+										fill="currentColor" />
+									<path
+										d="M115.946 5.43292C114.427 5.43292 113.176 5.95444 112.178 6.97469C111.178 7.99495 110.68 9.2633 110.68 10.8051V17.5696H110.682C110.692 18.0051 111.044 18.3544 111.482 18.3544C111.92 18.3544 112.272 18.0051 112.282 17.5696H112.285V10.638C112.285 9.63799 112.639 8.78482 113.368 8.05571C114.097 7.32659 114.971 6.97216 115.951 6.97216C116.928 6.97216 117.761 7.32659 118.49 8.05571C119.219 8.78482 119.594 9.63799 119.594 10.638V17.5696H119.596C119.604 18.0051 119.958 18.3544 120.396 18.3544C120.834 18.3544 121.186 18.0051 121.196 17.5696H121.199V10.8025C121.199 9.2633 120.7 7.99242 119.7 6.97216C118.692 5.95444 117.444 5.43292 115.946 5.43292Z"
+										fill="currentColor" />
+									<path
+										d="M135.647 11.0101C135.882 9.85317 136.417 8.9114 137.295 8.20507C138.174 7.49874 139.201 7.13419 140.379 7.15444C141.556 7.17722 142.563 7.53925 143.396 8.24558C144.232 8.95191 144.766 9.87343 145.001 11.0076H135.647V11.0101ZM146.609 11.6304C146.609 10.1114 146.032 8.73925 144.875 7.519C143.675 6.27596 142.262 5.61267 140.637 5.50634C138.817 5.40001 137.255 6.02026 135.905 7.34684C134.579 8.65317 133.936 10.238 133.979 12.0557C133.999 13.7899 134.665 15.2684 135.948 16.5317C137.234 17.7722 138.71 18.3722 140.381 18.3519C141.708 18.3317 142.908 17.9443 143.999 17.1747C145.09 16.4051 145.862 15.3544 146.31 14.0481H144.576C143.741 15.8025 142.371 16.7038 140.444 16.7241C139.201 16.7443 138.133 16.3392 137.212 15.5468C136.29 14.7544 135.776 13.7266 135.649 12.5063H146.612V11.6304H146.609Z"
+										fill="currentColor" />
+									<path
+										d="M131.681 14.4152C131.57 12.8253 130.659 11.7443 128.967 11.1924L127.499 10.7266C126.365 10.3671 125.808 9.75189 125.876 8.88354C125.899 7.95189 126.694 7.22531 127.651 7.20506C128.631 7.20506 129.332 7.71139 129.633 8.58734C129.659 8.65822 129.724 8.97468 129.735 9.02278L129.737 9.03038V9.03291C129.823 9.37974 130.135 9.63544 130.507 9.63544C130.932 9.63544 131.276 9.30126 131.299 8.88101H131.302C131.302 8.88101 131.317 8.76455 131.302 8.55696C131.243 7.70886 130.813 7.02025 130.056 6.4481C129.322 5.87594 128.522 5.6 127.654 5.64303C126.654 5.68607 125.808 6.04557 125.094 6.70379C124.405 7.36202 124.071 8.16708 124.114 9.09873C124.18 10.6456 125.005 11.6633 126.562 12.1291L128.053 12.5747C129.299 12.957 129.922 13.6557 129.899 14.6937C129.876 15.2886 129.699 15.7747 129.322 16.1342C128.899 16.5367 128.421 16.7367 127.631 16.7494C127.097 16.757 126.55 16.5696 126.043 16.1342C125.545 15.7063 125.39 15.3873 125.291 14.9038C125.251 14.7038 125.238 14.4405 125.238 14.4405C125.218 14.0177 124.871 13.6785 124.443 13.6785C124.016 13.6785 123.669 14.0152 123.648 14.438V14.4405C123.648 15.4785 124.005 16.3671 124.717 17.1089C125.451 17.8506 126.342 18.2734 127.408 18.3392C128.565 18.4025 129.588 18.043 130.479 17.2582C131.37 16.4506 131.77 15.4987 131.681 14.4152Z"
+										fill="currentColor" />
+								</g>
+								<path class="site-logo-symbol"
+									d="M6.61896 20.7114C5.77845 20.7317 5.07972 20.0962 5.05947 19.2937C5.03921 18.4886 5.70504 17.8203 6.54807 17.8C7.38858 17.7798 8.08732 18.4152 8.10757 19.2177C8.12529 20.0203 7.45947 20.6886 6.61896 20.7114ZM14.0392 0.0810242C7.45947 0.0810242 2.12529 5.4152 2.12529 11.9975C2.12529 13.2532 2.262 14.2684 2.62149 15.4025C1.93035 15.2582 -0.289899 14.3798 0.0316199 15.9949C0.451873 18.0911 4.36327 22.7595 9.68732 23.638C9.98858 23.6886 10.2721 23.4608 10.2696 23.0279V22.7266L10.3101 11.9317C10.3101 11.9317 10.3101 11.8633 10.3101 11.8405C10.3177 9.95444 11.0139 8.32406 12.3759 6.97216C13.7607 5.59748 15.3962 4.93672 17.2823 5.01267C19.1 5.06583 20.6392 5.7595 21.8974 7.09875C23.1582 8.43799 23.7962 10.0279 23.7886 11.8658C23.781 13.7747 23.0848 15.4279 21.7228 16.8051C20.3607 18.157 18.7253 18.8177 16.8392 18.7418C15.9455 18.7063 15.1253 18.5089 14.3683 18.1696C14.3025 18.1443 14.2316 18.1139 14.1607 18.0785C14.1379 18.0684 14.1126 18.0582 14.0898 18.0481V18.043C13.6088 17.7949 13.0772 17.362 13.0417 16.7975C12.9962 16.0785 13.6721 15.7823 14.0974 16.0532C14.9177 16.6911 15.8721 17.0127 16.9607 17.0152C18.3405 17.0203 19.5152 16.5418 20.5076 15.557C21.5 14.5722 22.0114 13.4 22.0392 11.9975C22.0671 10.6177 21.6114 9.42026 20.6721 8.38229C19.7329 7.34431 18.6088 6.78735 17.2493 6.73672C15.8012 6.6633 14.581 7.14178 13.5405 8.21773C12.5455 9.27343 12.0291 10.4836 12.0266 11.8937L12.0088 16.4203L11.9734 21.1114C11.9734 21.1114 11.9633 22.0658 11.9683 22.5798C11.9683 22.5798 11.9734 22.838 11.9734 23.2582C11.9734 23.5924 12.2544 23.8608 12.8063 23.9063C13.2747 23.9443 13.7379 23.9266 14.2139 23.9114C20.8645 23.6734 25.9506 18.5798 25.9506 12C25.9531 5.4152 20.619 0.0810242 14.0392 0.0810242Z"
+									fill="currentColor" />
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="c-nav-menu-content">
+					<div class="c-nav-menu-content-inner">
+						<div class="wrap wrap--max">
+							<div class="grid grid-cols-10 md:grid-cols-14 lg:gap-x-60">
+								<div class="c-nav-menu-content-dark col-span-10 md:col-span-14 lg:col-span-6">
+									<div class="c-nav-menu-content-illustration">
+										<svg class="c-illustration-menu-dark" width="470" height="350" viewBox="0 0 470 350"
+											fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path class="c-illustration-part box-5" fill="#000014"
+												d="M80,39c5.5,0,10,4.5,10,10v39c0,5.5-4.5,10-10,10H41c-5.5,0-10-4.5-10-10V49c0-5.5,4.5-10,10-10 H80z" />
+											<path class="c-illustration-part box-4" fill="#1B3372"
+												d="M16,98H5c-2.8,0-5,2.2-5,5v11c0,2.8,2.2,5,5,5h11c2.8,0,5-2.2,5-5v-11C21,100.2,18.8,98,16,98z" />
+											<linearGradient id="box-3_00000043432431702465588030000014618737457836606641_"
+												gradientUnits="userSpaceOnUse" x1="252.6743" y1="241.683" x2="367.7853"
+												y2="56.684" gradientTransform="matrix(1 0 0 -1 0 349.8898)">
+												<stop offset="0" style="stop-color: #102458; stop-opacity: 0" />
+												<stop offset="1" style="stop-color: #102458" />
+											</linearGradient>
+											<path class="c-illustration-part box-3"
+												fill="url(#box-3_00000043432431702465588030000014618737457836606641_)" d="M352.7,117.3H236.4v116.4h116.4V117.3z
+	" />
+											<linearGradient id="box-1_00000145746085537635137840000011506026458380074391_"
+												gradientUnits="userSpaceOnUse" x1="122.387" y1="2.2708" x2="351.048"
+												y2="230.9318" gradientTransform="matrix(1 0 0 -1 0 349.8898)">
+												<stop offset="0" style="stop-color: #102458; stop-opacity: 0" />
+												<stop offset="0.1286" style="stop-color: #102458; stop-opacity: 1.531e-2" />
+												<stop offset="0.2546" style="stop-color: #102458; stop-opacity: 6.155e-2" />
+												<stop offset="0.3795" style="stop-color: #102458; stop-opacity: 0.1388" />
+												<stop offset="0.5038" style="stop-color: #102458; stop-opacity: 0.2474" />
+												<stop offset="0.6278" style="stop-color: #102458; stop-opacity: 0.3873" />
+												<stop offset="0.7515" style="stop-color: #102458; stop-opacity: 0.5587" />
+												<stop offset="0.875" style="stop-color: #102458; stop-opacity: 0.7618" />
+												<stop offset="0.9955" style="stop-color: #102458; stop-opacity: 0.9909" />
+												<stop offset="1" style="stop-color: #102458" />
+											</linearGradient>
+											<path class="c-illustration-part box-1"
+												fill="url(#box-1_00000145746085537635137840000011506026458380074391_)"
+												d="M352.7,117.3H120V350h232.7V117.3z" />
+											<linearGradient id="box-2_00000152952259493852938340000015463531670965894078_"
+												gradientUnits="userSpaceOnUse" x1="254.8461" y1="134.7297" x2="460.6781"
+												y2="340.5621" gradientTransform="matrix(1 0 0 -1 0 349.8898)">
+												<stop offset="0" style="stop-color: #102458; stop-opacity: 0" />
+												<stop offset="0.2062" style="stop-color: #102458; stop-opacity: 1.054e-2" />
+												<stop offset="0.3411" style="stop-color: #102458; stop-opacity: 4.498e-2" />
+												<stop offset="0.4555" style="stop-color: #102458; stop-opacity: 0.1036" />
+												<stop offset="0.5586" style="stop-color: #102458; stop-opacity: 0.1866" />
+												<stop offset="0.654" style="stop-color: #102458; stop-opacity: 0.294" />
+												<stop offset="0.7439" style="stop-color: #102458; stop-opacity: 0.4261" />
+												<stop offset="0.8293" style="stop-color: #102458; stop-opacity: 0.583" />
+												<stop offset="0.9112" style="stop-color: #102458; stop-opacity: 0.7648" />
+												<stop offset="0.9877" style="stop-color: #102458; stop-opacity: 0.9649" />
+												<stop offset="1" style="stop-color: #102458" />
+											</linearGradient>
+											<path class="c-illustration-part box-2"
+												fill="url(#box-2_00000152952259493852938340000015463531670965894078_)" d="M449.1,0.9H256.4c-11,0-20,9-20,20
+	v192.7c0,11,9,20,20,20h192.7c11,0,20-9,20-20V20.9C469.1,9.9,460.1,0.9,449.1,0.9z" />
+											<g>
+												<defs>
+													<path class="c-illustration-part eye" id="SVGID_1_" d="M295.5,193c17.9,0,34.2-6.8,46.6-18c-12.4-11.2-28.8-18-46.6-18c-17.9,0-34.1,6.8-46.6,18
+			C261.4,186.2,277.6,193,295.5,193z" />
+												</defs>
+												<clipPath id="SVGID_00000115508294369876013940000015555830408347978916_">
+													<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_1_"
+														overflow="visible" />
+												</clipPath>
+												<g
+													clip-path="url(#SVGID_00000115508294369876013940000015555830408347978916_)">
+													<rect x="247.2" y="157" fill="#2F4A8F" width="94.9" height="37" />
+													<path fill="#050B28"
+														d="M294.7,193c9.9,0,18-8.1,18-18s-8.1-18-18-18c-9.9,0-18,8.1-18,18S284.7,193,294.7,193z" />
+													<path fill="#9CAEDD"
+														d="M294.7,181.5c3.6,0,6.5-2.9,6.5-6.5s-2.9-6.5-6.5-6.5c-3.6,0-6.5,2.9-6.5,6.5S291.1,181.5,294.7,181.5z" />
+												</g>
+											</g>
+										</svg>
+									</div>
+
+									<ul class="c-nav-menu-content-ul">
+										<li class="c-nav-menu-content-li">
+											<span data-obfuscated-link
+												data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VzL3R1cy1uZWNlc2lkYWRlcy8="
+												class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														Tus necesidades
+													</span>
+												</span>
+											</span>
+										</li>
+
+										<li class="c-nav-menu-content-li">
+											<span data-obfuscated-link
+												data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VzL251ZXN0cm9zLXByb2R1Y3Rvcy8="
+												class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														Nuestros Productos
+													</span>
+												</span>
+											</span>
+										</li>
+
+										<li class="c-nav-menu-content-li">
+											<span data-obfuscated-link
+												data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VzL251ZXN0cm9zLXNlcnZpY2lvcy8="
+												class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														Nuestros Servicios
+													</span>
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+								<div
+									class="c-nav-menu-content-light col-span-10 md:col-span-14 lg:col-span-5 lg:col-start-10">
+									<div class="c-nav-menu-content-illustration">
+										<svg class="c-illustration-menu-light" width="89" height="78" viewBox="0 0 89 78"
+											xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 89 78"
+											xml:space="preserve">
+											<path class="c-illustration-part box-1" fill="#F7FAF9"
+												d="M1,67.6v-29c0-5.5,4.5-10,10-10h28c5.5,0,10,4.5,10,10v29c0,5.5-4.5,10-10,10H11C5.5,77.6,1,73.1,1,67.6z" />
+											<path class="c-illustration-part box-2" fill="#69DFCA"
+												d="M89,5v20.2c0,2.8-2.2,5-5,5H63.8c-2.8,0-5-2.2-5-5V5c0-2.8,2.2-5,5-5H84C86.8,0,89,2.2,89,5z" />
+										</svg>
+									</div>
+
+									<ul class="c-nav-menu-content-ul c-nav-menu-content-ul--main">
+										<li class="c-nav-menu-content-li">
+											<a href="./pages/blog/index.php" class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														Blog
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li class="c-nav-menu-content-li">
+											<a href="./pages/nuestros-exitos/index.php" class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														Nuestros éxitos
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li class="c-nav-menu-content-li">
+											<a href="./pages/acerca-de/acerca-de.php" class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														Acerca de
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li class="c-nav-menu-content-li">
+											<a href="./pages/ciencia-e-innovacion/index.php" class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														Ciencia e Innovación
+													</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+
+									<ul class="c-nav-menu-content-ul c-nav-menu-content-ul--sub">
+										<li class="c-nav-menu-content-li">
+											<a href="https://app.performanse.com/?l=es_ES/" target="_blank"
+												class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														Espacio personal
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li class="c-nav-menu-content-li">
+											<a href="./pages/blog/articulos/index.php" class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														Articulos
+													</span>
+												</span>
+											</a>
+										</li>
+
+										<li class="c-nav-menu-content-li">
+											<a href="./pages/blog/e-books/index.php" class="c-nav-menu-content-a">
+												<span class="c-nav-menu-content-a-text">
+													<span class="c-nav-menu-content-a-text-static">
+														E-books
+													</span>
+												</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="c-button--round c-nav-menu-close">
+					<svg class="c-icon-close" width="10" height="10" viewBox="0 0 10 10" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M0.21967 0.21967C0.512563 -0.0732233 0.987437 -0.0732233 1.28033 0.21967L5 3.93934L8.71967 0.21967C9.01256 -0.0732233 9.48744 -0.0732233 9.78033 0.21967C10.0732 0.512563 10.0732 0.987437 9.78033 1.28033L6.06066 5L9.78033 8.71967C10.0732 9.01256 10.0732 9.48744 9.78033 9.78033C9.48744 10.0732 9.01256 10.0732 8.71967 9.78033L5 6.06066L1.28033 9.78033C0.987437 10.0732 0.512563 10.0732 0.21967 9.78033C-0.0732233 9.48744 -0.0732233 9.01256 0.21967 8.71967L3.93934 5L0.21967 1.28033C-0.0732233 0.987437 -0.0732233 0.512563 0.21967 0.21967Z"
+							fill="#102458" />
+					</svg>
+				</button>
+			</div>
+
+			<div class="c-nav-search" data-search-endpoint="/es/api/search/"
+				data-translations-endpoint="/es/api/translations/">
+				<div class="c-nav-search-bg"></div>
+				<div class="c-nav-search-top">
+					<div class="wrap wrap--max">
+						<div class="c-grid">
+							<div class="col-span-12 md:col-span-14 lg:col-span-12 lg:col-start-2">
+								<input type="text" id="c-nav-search-input" placeholder="Buscar..." />
+							</div>
+						</div>
+						<div class="c-button--round c-modal-close c-nav-search-close">
+							<svg class="c-icon-close" width="10" height="10" viewBox="0 0 10 10" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M0.21967 0.21967C0.512563 -0.0732233 0.987437 -0.0732233 1.28033 0.21967L5 3.93934L8.71967 0.21967C9.01256 -0.0732233 9.48744 -0.0732233 9.78033 0.21967C10.0732 0.512563 10.0732 0.987437 9.78033 1.28033L6.06066 5L9.78033 8.71967C10.0732 9.01256 10.0732 9.48744 9.78033 9.78033C9.48744 10.0732 9.01256 10.0732 8.71967 9.78033L5 6.06066L1.28033 9.78033C0.987437 10.0732 0.512563 10.0732 0.21967 9.78033C-0.0732233 9.48744 -0.0732233 9.01256 0.21967 8.71967L3.93934 5L0.21967 1.28033C-0.0732233 0.987437 -0.0732233 0.512563 0.21967 0.21967Z"
+									fill="#102458" />
+							</svg>
+						</div>
+					</div>
+				</div>
+				<div class="c-nav-search-content">
+					<div class="wrap wrap--max">
+						<div class="c-grid">
+							<ul class="c-nav-search-content-ul col-span-12 md:col-span-14 lg:col-span-12 lg:col-start-2">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
 	<main>
 		<div data-view="home">
 			<div data-page data-entry-id="1">
@@ -65,23 +542,24 @@
 					<ul class="c-news-widget-ul">
 						<li class="c-news-widget-li">
 							<span class="c-news-widget-li-type ts-eyebrow">Evento</span>
-							<a href="./pages/evento/games-of-hr-barcelona-edicion-especial-management/index.html"
+							<a href="./pages/evento/games-of-hr-barcelona-edicion-especial-management/index.php"
 								class="c-news-widget-a ts-button-2">Games of HR Barcelona - Especial Management</a>
 						</li>
 						<li class="c-news-widget-li">
 							<span class="c-news-widget-li-type ts-eyebrow">Evento</span>
-							<a href="./pages/evento/games-of-hr-madrid-4-edicion-especial-engagement/index.html"
+							<a href="./pages/evento/games-of-hr-madrid-4-edicion-especial-engagement/index.php"
 								class="c-news-widget-a ts-button-2">Games of HR Madrid - Especial Engagement</a>
 						</li>
 						<li class="c-news-widget-li">
 							<span class="c-news-widget-li-type ts-eyebrow">E-book</span>
-							<a href="./pages/blog/e-book/el-poder-predictivo-de-los-metodos-de-evaluacion/index.html"
+							<a href="./pages/blog/e-book/el-poder-predictivo-de-los-metodos-de-evaluacion/index.php"
 								class="c-news-widget-a ts-button-2">El poder predictivo de las Soft Skills</a>
 						</li>
 					</ul>
 					<div class="c-news-widget-controls">
-						<button class="c-news-widget-control-prev"><svg class="icon-r-md" width="6" height="10"
-								viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<button class="c-news-widget-control-prev">
+							<svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd"
 									d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
 									fill="currentColor" />
@@ -104,8 +582,6 @@
 						</button>
 					</div>
 				</div>
-
-
 				<div class="c-hero">
 					<div class="c-hero-section-1" data-nav-section="dark"></div>
 					<div class="c-hero-section-2" data-nav-section="light"></div>
@@ -131,11 +607,10 @@
 								<div class="c-hero-part c-hero-part--2">
 									<svg width="1535" height="1577" viewbox="0 0 1535 1577" fill="none"
 										xmlns="http://www.w3.org/2000/svg">
-
 										<path fill-rule="evenodd" clip-rule="evenodd"
 											d="M0 118.564C0 100.825 11.6832 85.2048 28.6997 80.1934L249.7 15.1081C275.322 7.56227 301 26.7685 301 53.4787V1363C301 1385.09 283.091 1403 261 1403H40C17.9086 1403 0 1385.09 0 1363V118.564Z"
 											fill="url(#paint0_linear_335_13537)" />
-										<mask id="mask0_335_13537" style="mask-type:luminance"
+										<mask id="mask0_335_13537" style="mask-type: luminance"
 											maskunits="userSpaceOnUse" x="0" y="0" width="301" height="1403">
 											<path d="M0 88.6456L301 0V1403H0V88.6456Z" fill="white" />
 										</mask>
@@ -207,7 +682,7 @@
 											<path
 												d="M1222 943H786C758.386 943 736 965.386 736 993V1434C736 1461.61 758.386 1484 786 1484H1172C1199.61 1484 1222 1461.61 1222 1434V943Z"
 												fill="url(#paint0_linear_671_1154)" />
-											<mask id="mask3_671_1153" style="mask-type:luminance"
+											<mask id="mask3_671_1153" style="mask-type: luminance"
 												maskunits="userSpaceOnUse" x="736" y="943" width="486" height="541">
 												<path d="M1222 943H736V1484H1222V943Z" fill="white" />
 											</mask>
@@ -221,8 +696,8 @@
 										</g>
 
 										<g class="c-hero-part--3-square-2">
-											<mask id="mask0_671_1154" style="mask-type:alpha" maskunits="userSpaceOnUse"
-												x="1204" y="442" width="294" height="1042">
+											<mask id="mask0_671_1154" style="mask-type: alpha"
+												maskunits="userSpaceOnUse" x="1204" y="442" width="294" height="1042">
 												<path d="M1498 442H1204V1484H1498V442Z" fill="#BBBBBB" />
 											</mask>
 
@@ -232,7 +707,7 @@
 													fill="url(#paint1_linear_671_1154)" />
 											</g>
 
-											<mask id="mask1_671_1154" style="mask-type:luminance"
+											<mask id="mask1_671_1154" style="mask-type: luminance"
 												maskunits="userSpaceOnUse" x="1204" y="442" width="331" height="1041">
 												<path d="M1535 442H1204V1483H1535V442Z" fill="white" />
 											</mask>
@@ -249,7 +724,7 @@
 													stroke-miterlimit="10" stroke-linejoin="round" />
 											</g>
 											<path d="M1498 303.41H1364.77V441.999H1498V303.41Z" fill="#07296F" />
-											<mask id="mask2_671_1154" style="mask-type:luminance"
+											<mask id="mask2_671_1154" style="mask-type: luminance"
 												maskunits="userSpaceOnUse" x="1364" y="302" width="134" height="140">
 												<path d="M1498 302.645H1364.77V441.234H1498V302.645Z" fill="white" />
 											</mask>
@@ -257,7 +732,7 @@
 												<path
 													d="M1434.01 425.703C1463.7 425.703 1487.77 401.631 1487.77 371.936C1487.77 342.242 1463.7 318.17 1434.01 318.17C1404.31 318.17 1380.24 342.242 1380.24 371.936C1380.24 401.631 1404.31 425.703 1434.01 425.703Z"
 													fill="#081948" />
-												<mask id="mask3_671_1154" style="mask-type:luminance"
+												<mask id="mask3_671_1154" style="mask-type: luminance"
 													maskunits="userSpaceOnUse" x="1380" y="318" width="108"
 													height="108">
 													<path
@@ -289,14 +764,13 @@
 												</linearGradient>
 											</defs>
 										</g>
-
 									</svg>
 								</div>
 							</div>
 
 							<div class="c-hero-illustration-part">
 								<div class="c-hero-part c-hero-part--4">
-									<svg style="overflow: visible;" width="1535" height="1577" viewbox="0 0 1535 1577"
+									<svg style="overflow: visible" width="1535" height="1577" viewbox="0 0 1535 1577"
 										fill="none" xmlns="http://www.w3.org/2000/svg">
 										<g class="c-hero-part c-hero-part--4-bottom-1">
 											<path d="M525 1503H201V1370H525V1503Z" fill="white" />
@@ -308,7 +782,7 @@
 												d="M301 582L502 702.308V973H301V582Z" fill="#0E1A3F" />
 											<path d="M502 702H141V1403H502V702Z" fill="url(#paint0_linear_671_1153)" />
 											<path d="M502 1164H0V1403H502V1164Z" fill="url(#paint1_linear_671_1153)" />
-											<mask id="mask0_671_1153" style="mask-type:luminance"
+											<mask id="mask0_671_1153" style="mask-type: luminance"
 												maskunits="userSpaceOnUse" x="0" y="1164" width="502" height="239">
 												<path d="M502 1164H0V1403H502V1164Z" fill="white" />
 											</mask>
@@ -377,7 +851,6 @@
 												fill="#1C336E" />
 										</g>
 
-
 										<g class="c-hero-part c-hero-part--4-bottom-2">
 											<path d="M1498 1184H1339V1484H1498V1184Z"
 												fill="url(#paint2_linear_671_1153)" />
@@ -385,8 +858,8 @@
 												d="M502 881V1484H1339V1444.19C1339 1444.19 1250.88 1444.19 1133.37 1444.19C801.262 1444.19 525.58 1198.26 502 881Z"
 												fill="url(#paint3_linear_671_1153)" />
 
-											<mask id="mask1_671_1153" style="mask-type:alpha" maskunits="userSpaceOnUse"
-												x="502" y="862" width="46" height="641">
+											<mask id="mask1_671_1153" style="mask-type: alpha"
+												maskunits="userSpaceOnUse" x="502" y="862" width="46" height="641">
 												<rect x="502" y="862" width="46" height="641" fill="#D9D9D9" />
 											</mask>
 											<g mask="url(#mask1_671_1153)">
@@ -394,7 +867,7 @@
 													d="M502 881V1484H1365V1444.19C1365 1444.19 1274.15 1444.19 1152.98 1444.19C810.558 1444.19 526.312 1198.26 502 881Z"
 													fill="url(#paint4_linear_671_1153)" />
 											</g>
-											<mask id="mask2_671_1153" style="mask-type:luminance"
+											<mask id="mask2_671_1153" style="mask-type: luminance"
 												maskunits="userSpaceOnUse" x="502" y="881" width="837" height="603">
 												<path
 													d="M502 881V1484H1339V1444.19C1339 1444.19 1250.88 1444.19 1133.37 1444.19C801.262 1444.19 525.58 1198.26 502 881Z"
@@ -455,7 +928,6 @@
 												d="M296 1484H267C258.716 1484 252 1490.72 252 1499V1528C252 1536.28 258.716 1543 267 1543H296C304.284 1543 311 1536.28 311 1528V1499C311 1490.72 304.284 1484 296 1484Z"
 												fill="#E1E2F7" />
 										</g>
-
 
 										<g class="c-hero-part c-hero-part--4-hand">
 											<path fill-rule="evenodd" clip-rule="evenodd"
@@ -532,7 +1004,7 @@
 												d="M1279.58 779H1118C1101.43 779 1088 792.431 1088 809V970.58C1088 987.149 1101.43 1000.58 1118 1000.58H1279.58C1296.15 1000.58 1309.58 987.149 1309.58 970.58V809C1309.58 792.431 1296.15 779 1279.58 779Z"
 												fill="url(#paint0_linear_672_1161)" />
 											<mask class="c-hero-part c-hero-part--5-head-mask" id="mask0_672_1161"
-												style="mask-type:luminance" maskunits="userSpaceOnUse" x="1088" y="779"
+												style="mask-type: luminance" maskunits="userSpaceOnUse" x="1088" y="779"
 												width="222" height="222">
 												<path
 													d="M1279.58 779H1118C1101.43 779 1088 792.431 1088 809V970.58C1088 987.149 1101.43 1000.58 1118 1000.58H1279.58C1296.15 1000.58 1309.58 987.149 1309.58 970.58V809C1309.58 792.431 1296.15 779 1279.58 779Z"
@@ -542,7 +1014,6 @@
 											<path
 												d="M1382 1003.58H1350.58C1343.95 1003.58 1338.58 1008.95 1338.58 1015.58V1047C1338.58 1053.63 1343.95 1059 1350.58 1059H1382C1388.63 1059 1394 1053.63 1394 1047V1015.58C1394 1008.95 1388.63 1003.58 1382 1003.58Z"
 												fill="#07296F" />
-
 
 											<g mask="url(#mask0_672_1161)">
 												<g class="c-hero-part c-hero-part--5-head">
@@ -586,8 +1057,8 @@
 								<path fill-rule="evenodd" clip-rule="evenodd"
 									d="M-1 43.7954C-1 37.2429 3.31557 31.4731 9.60115 29.622L91.2345 5.58066C100.699 2.79337 110.184 9.8878 110.184 19.7541V799.225C110.184 807.385 103.569 814 95.4086 814H13.7753C5.61512 814 -1 807.385 -1 799.225V43.7954Z"
 									fill="url(#paint1_linear_335_22568)" />
-								<mask id="mask0_335_22568" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1"
-									y="0" width="111" height="796">
+								<mask id="mask0_335_22568" style="mask-type: luminance" maskUnits="userSpaceOnUse"
+									x="-1" y="0" width="111" height="796">
 									<path d="M-1 50.2936L110 0V796H-1V50.2936Z" fill="white" />
 								</mask>
 								<g mask="url(#mask0_335_22568)">
@@ -642,8 +1113,8 @@
 								<path
 									d="M172.919 783H10.0815C3.96134 783 -1 787.961 -1 794.081V979.919C-1 986.039 3.96134 991 10.0815 991H172.919C179.039 991 184 986.039 184 979.919V794.081C184 787.961 179.039 783 172.919 783Z"
 									fill="url(#paint3_linear_335_22568)" />
-								<mask id="mask1_335_22568" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1"
-									y="783" width="185" height="214">
+								<mask id="mask1_335_22568" style="mask-type: luminance" maskUnits="userSpaceOnUse"
+									x="-1" y="783" width="185" height="214">
 									<path d="M184 783H-1V997H184V783Z" fill="white" />
 								</mask>
 								<g mask="url(#mask1_335_22568)">
@@ -728,8 +1199,8 @@
 								<path
 									d="M245.412 948H23.5879C10.0084 948 -1 959.008 -1 972.588V1213.41C-1 1226.99 10.0084 1238 23.5879 1238H245.412C258.992 1238 270 1226.99 270 1213.41V972.588C270 959.008 258.992 948 245.412 948Z"
 									fill="url(#paint6_linear_335_22568)" />
-								<mask id="mask2_335_22568" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1"
-									y="948" width="271" height="290">
+								<mask id="mask2_335_22568" style="mask-type: luminance" maskUnits="userSpaceOnUse"
+									x="-1" y="948" width="271" height="290">
 									<path d="M270 948H-1V1238H270V948Z" fill="white" />
 								</mask>
 								<g mask="url(#mask2_335_22568)">
@@ -738,7 +1209,7 @@
 										stroke="#2A5FE6" stroke-width="1.63897" stroke-miterlimit="10"
 										stroke-linecap="square" />
 								</g>
-								<mask id="mask3_335_22568" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="224"
+								<mask id="mask3_335_22568" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="224"
 									y="235" width="151" height="1003">
 									<path d="M375 235H224V1238H375V235Z" fill="#BBBBBB" />
 								</mask>
@@ -747,7 +1218,7 @@
 										d="M379.225 251H238.775C230.615 251 224 257.615 224 265.775V1223.22C224 1231.38 230.615 1238 238.775 1238H379.225C387.385 1238 394 1231.38 394 1223.22V265.775C394 257.615 387.385 251 379.225 251Z"
 										fill="url(#paint7_linear_335_22568)" />
 								</g>
-								<mask id="mask4_335_22568" style="mask-type:luminance" maskUnits="userSpaceOnUse"
+								<mask id="mask4_335_22568" style="mask-type: luminance" maskUnits="userSpaceOnUse"
 									x="224" y="251" width="164" height="987">
 									<path d="M388 251H224V1238H388V251Z" fill="white" />
 								</mask>
@@ -764,7 +1235,7 @@
 								<path
 									d="M280.766 532.002H221.081C214.961 532.002 210 536.963 210 543.083V602.768C210 608.888 214.961 613.85 221.081 613.85H280.766C286.886 613.85 291.848 608.888 291.848 602.768V543.083C291.848 536.963 286.886 532.002 280.766 532.002Z"
 									fill="url(#paint8_linear_335_22568)" />
-								<mask id="mask5_335_22568" style="mask-type:luminance" maskUnits="userSpaceOnUse"
+								<mask id="mask5_335_22568" style="mask-type: luminance" maskUnits="userSpaceOnUse"
 									x="210" y="532" width="82" height="82">
 									<path d="M291.852 532H210.004V613.848H291.852V532Z" fill="white" />
 								</mask>
@@ -783,7 +1254,7 @@
 										fill="#020621" />
 								</g>
 								<path d="M375.136 199.773H325.924V250.966H375.136V199.773Z" fill="#07296F" />
-								<mask id="mask6_335_22568" style="mask-type:luminance" maskUnits="userSpaceOnUse"
+								<mask id="mask6_335_22568" style="mask-type: luminance" maskUnits="userSpaceOnUse"
 									x="325" y="199" width="51" height="52">
 									<path d="M375.138 199.484H325.926V250.677H375.138V199.484Z" fill="white" />
 								</mask>
@@ -791,7 +1262,7 @@
 									<path
 										d="M351.502 244.94C362.47 244.94 371.362 236.049 371.362 225.08C371.362 214.111 362.47 205.22 351.502 205.22C340.533 205.22 331.642 214.111 331.642 225.08C331.642 236.049 340.533 244.94 351.502 244.94Z"
 										fill="#081948" />
-									<mask id="mask7_335_22568" style="mask-type:luminance" maskUnits="userSpaceOnUse"
+									<mask id="mask7_335_22568" style="mask-type: luminance" maskUnits="userSpaceOnUse"
 										x="331" y="205" width="41" height="40">
 										<path
 											d="M351.503 244.942C362.471 244.942 371.363 236.051 371.363 225.082C371.363 214.113 362.471 205.222 351.503 205.222C340.534 205.222 331.643 214.113 331.643 225.082C331.643 236.051 340.534 244.942 351.503 244.942Z"
@@ -813,7 +1284,7 @@
 								<path fill-rule="evenodd" clip-rule="evenodd"
 									d="M-1 1014.21V1242.58H315.997V1227.5C315.997 1227.5 282.624 1227.5 238.117 1227.5C112.339 1227.5 7.9303 1134.36 -1 1014.21Z"
 									fill="url(#paint10_linear_335_22568)" />
-								<mask id="mask8_335_22568" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-1"
+								<mask id="mask8_335_22568" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="-1"
 									y="1007" width="18" height="243">
 									<rect x="-0.998047" y="1007.01" width="17.4216" height="242.766" fill="#D9D9D9" />
 								</mask>
@@ -822,8 +1293,8 @@
 										d="M-0.998047 1014.21V1242.58H325.846V1227.5C325.846 1227.5 291.436 1227.5 245.547 1227.5C115.862 1227.5 8.20966 1134.36 -0.998047 1014.21Z"
 										fill="url(#paint11_linear_335_22568)" />
 								</g>
-								<mask id="mask9_335_22568" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1"
-									y="1014" width="318" height="229">
+								<mask id="mask9_335_22568" style="mask-type: luminance" maskUnits="userSpaceOnUse"
+									x="-1" y="1014" width="318" height="229">
 									<path
 										d="M-0.996094 1014.2V1242.58H316.001V1227.5C316.001 1227.5 282.628 1227.5 238.121 1227.5C112.343 1227.5 7.93421 1134.36 -0.996094 1014.2Z"
 										fill="white" />
@@ -936,23 +1407,16 @@
 					<div class="wrap">
 						<h1 class="c-hero-title">
 							<div class="grid grid-cols-10 md:grid-cols-14 gap-x-20 md:gap-x-60">
-
 								<div class="col-span-10 md:col-span-12 md:col-start-2 line">
-									<div class="line-inner">
-										Hablemos del
-									</div>
+									<div class="line-inner">Hablemos del</div>
 								</div>
 
 								<div class="col-span-7 col-start-3 md:col-span-8 md:col-start-6 line">
-									<div class="line-inner">
-										poder de las
-									</div>
+									<div class="line-inner">poder de las</div>
 								</div>
 
 								<div class="col-span-9 col-start-2 md:col-span-10 md:col-start-4 line">
-									<div class="line-inner">
-										Soft Skills
-									</div>
+									<div class="line-inner">Soft Skills</div>
 								</div>
 							</div>
 						</h1>
@@ -961,11 +1425,14 @@
 							<div
 								class="col-span-8 col-start-2 md:col-span-5 md:col-start-6 lg:col-span-4 lg:col-start-6">
 								<div class="ts-p" data-split-articles>
-									<p>...con los tests psicométricos más fiables e innovadores del mercado. Saca el
-										máximo partido a la gestión inclusiva de los recursos humanos con métodos de
-										evaluación más predictivos.</p>
+									<p>
+										...con los tests psicométricos más fiables e innovadores
+										del mercado. Saca el máximo partido a la gestión inclusiva
+										de los recursos humanos con métodos de evaluación más
+										predictivos.
+									</p>
 								</div>
-								<a href="./pages/nuestros-productos/index.html"
+								<a href="./pages/nuestros-productos/productos.php"
 									class="c-button c-button--icon-hover c-button--ts-1 c-button--cyan c-button--hover-blue">
 									<span class="c-button-bg">
 										<span class="c-button-bg-hover"></span>
@@ -1022,10 +1489,9 @@
 								</div>
 							</div>
 						</div>
-
 					</div>
 
-					<div class="c-video-modal" style="opacity: 0; pointer-events: none;" data-video-modal="hero"
+					<div class="c-video-modal" style="opacity: 0; pointer-events: none" data-video-modal="hero"
 						data-video-id="917423547"
 						data-video-url="https://player.vimeo.com/external/917423547.m3u8?s=ebdce5bb51ea2d7a03c9407a680a94e985e30449&amp;oauth2_token_id=1749906544">
 						<div class="c-video-modal-outer">
@@ -1053,42 +1519,51 @@
 						</div>
 					</div>
 				</div>
-
 				<section class="c-section c-section--title-text-center c-section--light" data-animate-section
 					data-nav-section="light">
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center">
-							<span class="ts-eyebrow ts-indicator" data-animate data-animate-y='50'>Tus
+							<span class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">Tus
 								necesidades</span>
-							<h2 class="ts-2" data-animate-title data-animate-delay="100">¡Sitúa las <span>soft
-									skills</span> en el centro de tu estrategia de Recursos Humanos!</h2>
+							<h2 class="ts-2" data-animate-title data-animate-delay="100">
+								¡Sitúa las <span>soft skills</span> en el centro de tu
+								estrategia de Recursos Humanos!
+							</h2>
 							<div class="ts-p" data-split-articles data-animate-paragraph data-animate-delay="500">
-								<p>En un futuro en el que las competencias técnicas se están quedando rápidamente
-									obsoletas y las condiciones del entorno cambian a una velocidad vertiginosa, las
-									soft skills son esenciales. Constituyen la base de las organizaciones de alto
-									rendimiento y abiertas al aprendizaje. Ve más allá de tu intuición: descubre
-									nuestros tests psicométricos que permiten evaluar el desempeño y valoran estas
-									competencias esenciales para adaptarse a un mundo cambiante.</p>
+								<p>
+									En un futuro en el que las competencias técnicas se están
+									quedando rápidamente obsoletas y las condiciones del entorno
+									cambian a una velocidad vertiginosa, las soft skills son
+									esenciales. Constituyen la base de las organizaciones de
+									alto rendimiento y abiertas al aprendizaje. Ve más allá de
+									tu intuición: descubre nuestros tests psicométricos que
+									permiten evaluar el desempeño y valoran estas competencias
+									esenciales para adaptarse a un mundo cambiante.
+								</p>
 							</div>
 						</div>
 					</div>
 				</section>
-
 				<div class="c-cards-wrap">
 					<section class="c-cards c-cards--1" data-animate-section data-animate-margin="-35% 0% -35% 0%"
 						data-nav-section="dark">
 						<div class="wrap wrap--max">
 							<div class="c-grid items-center">
 								<div class="col-span-10 md:col-span-7 mobile:order-2 mobile:mt-80 relative">
-									<h2 class="ts-eyebrow ts-indicator" data-animate>Selección</h2>
+									<h2 class="ts-eyebrow ts-indicator" data-animate>
+										Selección
+									</h2>
 									<div class="ts-body--xl" data-animate-paragraph data-animate-delay="100"
 										data-split-articles>
-										<p>Gracias a nuestros tests de selección y a nuestros centros de evaluación,
-											desarrolla procesos de selección más inclusivos. ¡Aclara tus decisiones y
-											elimina los sesgos cognitivos!</p>
+										<p>
+											Gracias a nuestros tests de selección y a nuestros
+											centros de evaluación, desarrolla procesos de selección
+											más inclusivos. ¡Aclara tus decisiones y elimina los
+											sesgos cognitivos!
+										</p>
 									</div>
 									<a data-animate data-animate-y="50" data-animate-delay="300"
-										href="./pages/tus-necesidades/seleccion/index.html"
+										href="./pages/contacto/seleccion/index.php"
 										class="c-button c-button--icon-hover c-button--ts-1 c-button--blue c-button--hover-cyan">
 										<span class="c-button-bg">
 											<span class="c-button-bg-hover"></span>
@@ -1115,13 +1590,13 @@
 								</div>
 								<div class="col-span-10 md:col-span-7 md:text-right mobile:order-1">
 									<div class="c-cards-illustration">
-										<div data-animate data-animate-scale='0.8'>
+										<div data-animate data-animate-scale="0.8">
 											<svg class="c-illustration-recruiting" width="584" height="387"
 												viewBox="0 0 584 387" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<g class="c-illustration-part graph">
 													<path d="M556.439 194.342H368.101V326.056H556.439V194.342Z"
 														fill="#07296F" />
-													<mask id="mask0_335_16551" style="mask-type:luminance"
+													<mask id="mask0_335_16551" style="mask-type: luminance"
 														maskUnits="userSpaceOnUse" x="368" y="194" width="189"
 														height="133">
 														<path d="M556.439 194.342H368.101V326.056H556.439V194.342Z"
@@ -1137,7 +1612,7 @@
 													<path
 														d="M234.381 24.7148H87.4653C81.2244 24.7148 76.165 29.7742 76.165 36.0151V107.584C76.165 113.825 81.2243 118.884 87.4653 118.884H234.381C240.622 118.884 245.681 113.825 245.681 107.584V36.0152C245.681 29.7742 240.622 24.7148 234.381 24.7148Z"
 														fill="#BDEBE0" />
-													<mask id="mask1_335_16551" style="mask-type:luminance"
+													<mask id="mask1_335_16551" style="mask-type: luminance"
 														maskUnits="userSpaceOnUse" x="76" y="24" width="170"
 														height="95">
 														<path
@@ -1209,7 +1684,6 @@
 												</g>
 
 												<g class="c-illustration-part eye-box">
-
 													<path fill-rule="evenodd" clip-rule="evenodd"
 														d="M292.767 231.887L10.2588 382.558L518.773 231.887H292.767Z"
 														fill="url(#paint0_linear_335_16551)" />
@@ -1219,7 +1693,7 @@
 														class="c-illustration-part eye-bg"
 														d="M405.769 86.1484C460.978 86.1484 496.804 120.229 496.804 120.229C496.804 120.229 463.722 154.31 405.769 154.31C347.816 154.31 314.733 120.229 314.733 120.229C314.733 120.229 350.56 86.1484 405.769 86.1484Z"
 														fill="white" />
-													<mask id="mask2_335_16551" style="mask-type:luminance"
+													<mask id="mask2_335_16551" style="mask-type: luminance"
 														maskUnits="userSpaceOnUse" x="314" y="86" width="183"
 														height="69">
 														<path class="c-illustration-part eye-mask"
@@ -1241,15 +1715,13 @@
 													<path class="c-illustration-part box-blue"
 														d="M144.732 241.262H92.3622C88.6176 241.262 85.582 244.297 85.582 248.042V253.356C85.582 257.101 88.6176 260.136 92.3622 260.136H144.732C148.477 260.136 151.512 257.101 151.512 253.356V248.042C151.512 244.297 148.477 241.262 144.732 241.262Z"
 														fill="url(#paint3_linear_335_16551)" />
-
 												</g>
-
 
 												<g class="c-illustration-part cross">
 													<path fill-rule="evenodd" clip-rule="evenodd"
 														d="M532.381 313.154C532.381 312.269 532.029 311.42 531.403 310.794C530.777 310.168 529.928 309.816 529.043 309.816C522.818 309.816 509.502 309.816 503.276 309.816C502.391 309.816 501.542 310.168 500.916 310.794C500.29 311.42 499.938 312.269 499.938 313.154C499.938 319.383 499.938 332.708 499.938 338.937C499.938 339.822 500.29 340.671 500.916 341.297C501.542 341.923 502.391 342.274 503.276 342.274C509.502 342.274 522.818 342.274 529.043 342.274C529.928 342.274 530.777 341.923 531.403 341.297C532.029 340.671 532.381 339.822 532.381 338.937C532.381 332.708 532.381 319.383 532.381 313.154Z"
 														fill="#69DFCA" />
-													<mask id="mask3_335_16551" style="mask-type:luminance"
+													<mask id="mask3_335_16551" style="mask-type: luminance"
 														maskUnits="userSpaceOnUse" x="499" y="309" width="34"
 														height="34">
 														<path
@@ -1265,7 +1737,6 @@
 															stroke-linecap="square" />
 													</g>
 												</g>
-
 
 												<defs>
 													<linearGradient id="paint0_linear_335_16551" x1="58.4261"
@@ -1306,15 +1777,20 @@
 						<div class="wrap wrap--max">
 							<div class="c-grid items-center">
 								<div class="col-span-10 md:col-span-7 mobile:order-2 mobile:mt-80 relative">
-									<h2 class="ts-eyebrow ts-indicator" data-animate>Desarrollo del talento</h2>
+									<h2 class="ts-eyebrow ts-indicator" data-animate>
+										Desarrollo del talento
+									</h2>
 									<div class="ts-body--xl" data-animate-paragraph data-animate-delay="100"
 										data-split-articles>
-										<p>Con nuestras herramientas psicométricas y nuestros centros de desarrollo,
-											acompaña al talento en su gestión de carrera y promueve la movilidad
-											interna. ¡Construye el liderazgo del mañana!</p>
+										<p>
+											Con nuestras herramientas psicométricas y nuestros
+											centros de desarrollo, acompaña al talento en su gestión
+											de carrera y promueve la movilidad interna. ¡Construye
+											el liderazgo del mañana!
+										</p>
 									</div>
 									<a data-animate data-animate-y="50" data-animate-delay="300"
-										href="./pages/tus-necesidades/desarrollo-del-talento/index.html"
+										href="./pages/contacto/desarrollo-del-talento/index.php"
 										class="c-button c-button--icon-hover c-button--ts-1 c-button--blue c-button--hover-cyan">
 										<span class="c-button-bg">
 											<span class="c-button-bg-hover"></span>
@@ -1341,7 +1817,7 @@
 								</div>
 								<div class="col-span-10 md:col-span-7 md:text-right mobile:order-1">
 									<div class="c-cards-illustration">
-										<div data-animate data-animate-scale='0.8'>
+										<div data-animate data-animate-scale="0.8">
 											<svg class="c-illustration-growing-talents" width="558" height="382"
 												viewBox="0 0 558 382" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<g class="c-illustration-part blue-box-2">
@@ -1361,7 +1837,7 @@
 														fill="url(#paint3_linear_335_13741)" />
 													<path d="M214.826 257.51H96.7432V381.32H214.826V257.51Z"
 														fill="#0040B4" />
-													<mask id="mask0_335_13741" style="mask-type:luminance"
+													<mask id="mask0_335_13741" style="mask-type: luminance"
 														maskUnits="userSpaceOnUse" x="96" y="257" width="119"
 														height="125">
 														<path d="M214.826 257.51H96.7422V381.32H214.826V257.51Z"
@@ -1401,7 +1877,6 @@
 														fill="#3B63E0" />
 												</g>
 
-
 												<g class="c-illustration-part box-2">
 													<path class="box-2-1"
 														d="M302.249 307.75C302.249 300.846 307.845 295.25 314.749 295.25H331.999V325.25H302.249V307.75Z"
@@ -1421,7 +1896,7 @@
 													<path fill-rule="evenodd" clip-rule="evenodd"
 														d="M298.383 135.556L229.191 99.5781L160 135.556L229.191 237.961L298.383 135.556Z"
 														fill="#69DFCA" />
-													<mask id="mask1_335_13741" style="mask-type:luminance"
+													<mask id="mask1_335_13741" style="mask-type: luminance"
 														maskUnits="userSpaceOnUse" x="160" y="99" width="139"
 														height="139">
 														<path
@@ -1444,7 +1919,7 @@
 													<path fill-rule="evenodd" clip-rule="evenodd"
 														d="M347.865 0L301.954 37.1175L416.731 172.661L531.508 37.1175L485.597 0H347.865Z"
 														fill="url(#paint5_linear_335_13741)" />
-													<mask id="mask2_335_13741" style="mask-type:luminance"
+													<mask id="mask2_335_13741" style="mask-type: luminance"
 														maskUnits="userSpaceOnUse" x="301" y="0" width="231"
 														height="173">
 														<path
@@ -1519,15 +1994,20 @@
 						<div class="wrap wrap--max">
 							<div class="c-grid items-center">
 								<div class="col-span-10 md:col-span-7 mobile:order-2 mobile:mt-80 relative">
-									<h2 class="ts-eyebrow ts-indicator" data-animate>Gestión de equipos</h2>
+									<h2 class="ts-eyebrow ts-indicator" data-animate>
+										Gestión de equipos
+									</h2>
 									<div class="ts-body--xl" data-animate-paragraph data-animate-delay="100"
 										data-split-articles>
-										<p>Observa tus equipos con una nueva perspectiva. Descubre nuestro coaching para
-											ayudarlos a colaborar, cooperar y apuntar alto. ¡Da rienda suelta a la
-											inteligencia colectiva de tus talentos!</p>
+										<p>
+											Observa tus equipos con una nueva perspectiva. Descubre
+											nuestro coaching para ayudarlos a colaborar, cooperar y
+											apuntar alto. ¡Da rienda suelta a la inteligencia
+											colectiva de tus talentos!
+										</p>
 									</div>
 									<a data-animate data-animate-y="50" data-animate-delay="300"
-										href="./pages/tus-necesidades/gestion-de-equipos/index.html"
+										href="./pages/contacto/gestion-de-equipos/index.php"
 										class="c-button c-button--icon-hover c-button--ts-1 c-button--blue c-button--hover-cyan">
 										<span class="c-button-bg">
 											<span class="c-button-bg-hover"></span>
@@ -1554,7 +2034,7 @@
 								</div>
 								<div class="col-span-10 md:col-span-7 md:text-right mobile:order-1">
 									<div class="c-cards-illustration">
-										<div data-animate data-animate-scale='0.8'>
+										<div data-animate data-animate-scale="0.8">
 											<svg class="c-illustration-managing-teams" version="1.1" id="Layer_1"
 												xmlns="http://www.w3.org/2000/svg"
 												xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -1563,9 +2043,9 @@
 												<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse"
 													x1="191.6613" y1="166.0418" x2="191.6613" y2="433.0164"
 													gradientTransform="matrix(1 0 0 -1 0 381.8898)">
-													<stop offset="0" style="stop-color:#9CB8FF" />
-													<stop offset="0.51" style="stop-color:#A6C3FF" />
-													<stop offset="1" style="stop-color:#C3E6FF" />
+													<stop offset="0" style="stop-color: #9cb8ff" />
+													<stop offset="0.51" style="stop-color: #a6c3ff" />
+													<stop offset="1" style="stop-color: #c3e6ff" />
 												</linearGradient>
 												<path fill="url(#SVGID_1_)" d="M284.6,4.6H98.8v185.8h185.8V4.6z" />
 												<defs>
@@ -1601,8 +2081,8 @@
 													gradientUnits="userSpaceOnUse" x1="210.2395" y1="-28.8312"
 													x2="210.2395" y2="221.7488"
 													gradientTransform="matrix(1 0 0 -1 0 381.8898)">
-													<stop offset="0" style="stop-color:#07296F" />
-													<stop offset="1" style="stop-color:#0B1841" />
+													<stop offset="0" style="stop-color: #07296f" />
+													<stop offset="1" style="stop-color: #0b1841" />
 												</linearGradient>
 												<path fill-rule="evenodd" clip-rule="evenodd"
 													fill="url(#SVGID_00000138554774749882851600000010661839793696777106_)"
@@ -1613,8 +2093,8 @@
 													gradientUnits="userSpaceOnUse" x1="367.2621" y1="145.1218"
 													x2="365.3301" y2="330.4212"
 													gradientTransform="matrix(1 0 0 -1 0 381.8898)">
-													<stop offset="0" style="stop-color:#17274F" />
-													<stop offset="1" style="stop-color:#071744" />
+													<stop offset="0" style="stop-color: #17274f" />
+													<stop offset="1" style="stop-color: #071744" />
 												</linearGradient>
 												<path fill-rule="evenodd" clip-rule="evenodd"
 													fill="url(#SVGID_00000070823334452868598420000000988872852878592386_)"
@@ -1627,8 +2107,8 @@
 													gradientUnits="userSpaceOnUse" x1="145.2159" y1="80.2588"
 													x2="145.2159" y2="5.7208"
 													gradientTransform="matrix(1 0 0 -1 0 381.8898)">
-													<stop offset="0" style="stop-color:#17274F" />
-													<stop offset="1" style="stop-color:#071744" />
+													<stop offset="0" style="stop-color: #17274f" />
+													<stop offset="1" style="stop-color: #071744" />
 												</linearGradient>
 												<path fill-rule="evenodd" clip-rule="evenodd"
 													fill="url(#SVGID_00000062872771206548242820000008529294718942982810_)"
@@ -1640,7 +2120,6 @@
 													d="M135.9,153.2l148.6,222.9L135.9,264.7V153.2z" />
 												<path fill="#050B28" d="M135.9,153.2H5.9v111.5h130V153.2z" />
 												<defs>
-
 													<filter
 														id="Adobe_OpacityMaskFilter_00000064317638129871961310000013095372453099660933_"
 														filterUnits="userSpaceOnUse" x="33.7" y="171.8" width="74.3"
@@ -1671,7 +2150,6 @@
 	C423.7,73.8,419.6,69.6,414.5,69.6z" />
 												<path fill="#17274F" d="M563.2,153.2H396v74.3h167.2V153.2z" />
 												<defs>
-
 													<filter
 														id="Adobe_OpacityMaskFilter_00000054968640487569147310000017466569059237260168_"
 														filterUnits="userSpaceOnUse" x="395.1" y="159.6" width="175.5"
@@ -1690,7 +2168,6 @@
 												</mask>
 												<g
 													mask="url(#mask2_335_13785_00000024701076082745143530000016772626031052960917_)">
-
 													<path fill="none" stroke="#2F4A8F" stroke-width="1.8571"
 														stroke-linecap="round" stroke-linejoin="round"
 														stroke-miterlimit="1.5"
@@ -1702,8 +2179,8 @@
 													gradientUnits="userSpaceOnUse" x1="423.887" y1="253.2608"
 													x2="423.887" y2="-0.6692"
 													gradientTransform="matrix(1 0 0 -1 0 381.8898)">
-													<stop offset="0" style="stop-color:#2F4A8F" />
-													<stop offset="1" style="stop-color:#071744" />
+													<stop offset="0" style="stop-color: #2f4a8f" />
+													<stop offset="1" style="stop-color: #071744" />
 												</linearGradient>
 												<path fill-rule="evenodd" clip-rule="evenodd"
 													fill="url(#SVGID_00000178185892119012487040000010110553407975849600_)"
@@ -1718,9 +2195,9 @@
 													gradientUnits="userSpaceOnUse" x1="108.9888" y1="261.2458"
 													x2="108.9888" y2="368.4576"
 													gradientTransform="matrix(1 0 0 -1 0 381.8898)">
-													<stop offset="0" style="stop-color:#25A4FF" />
-													<stop offset="0.52" style="stop-color:#2794FA" />
-													<stop offset="1" style="stop-color:#2D62E8" />
+													<stop offset="0" style="stop-color: #25a4ff" />
+													<stop offset="0.52" style="stop-color: #2794fa" />
+													<stop offset="1" style="stop-color: #2d62e8" />
 												</linearGradient>
 												<path class="c-illustration-part box-1"
 													fill="url(#SVGID_00000138531904476014166290000015251413674366389899_)"
@@ -1734,7 +2211,6 @@
 						</div>
 					</section>
 				</div>
-
 				<section class="c-section c-section--light c-section--cyan-highlight c-section--title-1"
 					data-animate-section data-nav-section="light">
 					<div class="wrap wrap--max">
@@ -1746,11 +2222,11 @@
 											<span class="c-title-parts-bg"></span>
 											<span class="c-title-parts">
 												<span class="c-title-part" data-split-chars
-													data-split-resize='false'>Orienta</span>
+													data-split-resize="false">Orienta</span>
 												<span class="c-title-part" data-split-chars
-													data-split-resize='false'>Selecciona</span>
+													data-split-resize="false">Selecciona</span>
 												<span class="c-title-part" data-split-chars
-													data-split-resize='false'>Descubre</span>
+													data-split-resize="false">Descubre</span>
 											</span>
 										</span>
 										tus talentos
@@ -1760,8 +2236,7 @@
 						</div>
 					</div>
 				</section>
-
-				<section class="c-section c-section--light c-section--list  c-section--cyan-highlight"
+				<section class="c-section c-section--light c-section--list c-section--cyan-highlight"
 					data-animate-section data-nav-section="light">
 					<div class="wrap wrap--max">
 						<div class="grid grid-cols-10 lg:grid-cols-14 gap-x-20 lg:gap-x-60">
@@ -1769,35 +2244,44 @@
 								data-animate-items>
 								<li>
 									<h3>01.</h3>
-									<p>Orienta tus decisiones con herramientas validadas científicamente y servicios
-										certificados. Conocer a tus candidatos y empleados a través de sus soft skills
-										significa garantizar un futuro excelente para tu empresa.</p>
+									<p>
+										Orienta tus decisiones con herramientas validadas
+										científicamente y servicios certificados. Conocer a tus
+										candidatos y empleados a través de sus soft skills
+										significa garantizar un futuro excelente para tu empresa.
+									</p>
 								</li>
 								<li>
 									<h3>02.</h3>
-									<p>Gracias a nuestros algoritmos de evaluación de habilidades blandas, puedes
-										reconsiderar tus selecciones, tus entrevistas y el apoyo brindado a los
-										candidatos para fomentar un enfoque humano y reducir los errores de selección.
+									<p>
+										Gracias a nuestros algoritmos de evaluación de habilidades
+										blandas, puedes reconsiderar tus selecciones, tus
+										entrevistas y el apoyo brindado a los candidatos para
+										fomentar un enfoque humano y reducir los errores de
+										selección.
 									</p>
 								</li>
 								<li>
 									<h3>03.</h3>
-									<p>Descubre a empleados con un alto potencial gracias a nuestro enfoque
-										cognitivo-comportamental único en el mercado. Construye la gestión del mañana y
-										desarrolla a los futuros líderes de tu empresa.</p>
+									<p>
+										Descubre a empleados con un alto potencial gracias a
+										nuestro enfoque cognitivo-comportamental único en el
+										mercado. Construye la gestión del mañana y desarrolla a
+										los futuros líderes de tu empresa.
+									</p>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</section>
-
 				<section class="c-section--dark-1 c-cards c-cards--5" data-animate-section>
 					<div class="c-cards-inner">
 						<div class="c-cards-title wrap wrap--max">
 							<div class="c-grid">
 								<div class="col-span-8 md:col-span-6">
-									<h2 class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">NUESTROS
-										PRODUCTOS Y SERVICIOS</h2>
+									<h2 class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">
+										NUESTROS PRODUCTOS Y SERVICIOS
+									</h2>
 									<p class="ts-2" data-animate-title data-animate-delay="100">
 										Respuestas a tus retos de RR. HH.
 									</p>
@@ -1807,7 +2291,7 @@
 
 						<div class="c-cards-content">
 							<div class="c-cards-content-inner no-scrollbar">
-								<a href="./pages/nuestros-productos/idoneo/index.html"
+								<a href="./pages/nuestros-productos/idoneo/index.php"
 									class="c-card-item c-card-item--5">
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -1920,12 +2404,15 @@
 
 									<div class="c-card-item-text ts-p">
 										<p></p>
-										<p>Descubre un nuevo enfoque de la evaluación de las soft skills, más preciso y
-											a medida, con un matching contextual a tu empresa.</p>
+										<p>
+											Descubre un nuevo enfoque de la evaluación de las soft
+											skills, más preciso y a medida, con un matching
+											contextual a tu empresa.
+										</p>
 										<p></p>
 									</div>
 								</a>
-								<a href="./pages/nuestros-servicios/assessment-center/index.html"
+								<a href="./pages/nuestros-servicios/assessment-center/index.php"
 									class="c-card-item c-card-item--5">
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -2036,12 +2523,15 @@
 									</div>
 
 									<div class="c-card-item-text ts-p">
-										<p>Evalúa las soft skills clave de un puesto en concreto gracias a un enfoque
-											multidimensional: tests psicométricos, simulaciones, role play y entrevistas
-											estructuradas.</p>
+										<p>
+											Evalúa las soft skills clave de un puesto en concreto
+											gracias a un enfoque multidimensional: tests
+											psicométricos, simulaciones, role play y entrevistas
+											estructuradas.
+										</p>
 									</div>
 								</a>
-								<a href="./pages/nuestros-productos/echo/index.html" class="c-card-item c-card-item--5">
+								<a href="./pages/nuestros-productos/echo/index.php" class="c-card-item c-card-item--5">
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
 									</span>
@@ -2170,11 +2660,14 @@
 									</div>
 
 									<div class="c-card-item-text ts-p">
-										<p>Test de personalidad profesional para analizar la motivación, el
-											comportamiento y el compromiso en el trabajo.</p>
+										<p>
+											Test de personalidad profesional para analizar la
+											motivación, el comportamiento y el compromiso en el
+											trabajo.
+										</p>
 									</div>
 								</a>
-								<a href="./pages/nuestros-servicios/evaluacion-de-las-soft-skills/index.html"
+								<a href="./pages/nuestros-servicios/evaluacion-de-las-soft-skills/index.php"
 									class="c-card-item c-card-item--5">
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -2344,12 +2837,14 @@
 									</div>
 
 									<div class="c-card-item-text ts-p">
-										<p>Haz más fiable la evaluación del potencial de tus candidatos con nuestro
-											servicio de consultoría, que mide las competencias comportamentales y
-											cognitivas.</p>
+										<p>
+											Haz más fiable la evaluación del potencial de tus
+											candidatos con nuestro servicio de consultoría, que mide
+											las competencias comportamentales y cognitivas.
+										</p>
 									</div>
 								</a>
-								<a href="./pages/nuestros-productos/twob-r/index.html"
+								<a href="./pages/nuestros-productos/twob-r/index.php"
 									class="c-card-item c-card-item--5">
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -2437,11 +2932,14 @@
 									</div>
 
 									<div class="c-card-item-text ts-p">
-										<p>Test basado en un enfoque cognitivo-comportamental para detectar y
-											desarrollar el potencial de tus candidatos y colaboradores.</p>
+										<p>
+											Test basado en un enfoque cognitivo-comportamental para
+											detectar y desarrollar el potencial de tus candidatos y
+											colaboradores.
+										</p>
 									</div>
 								</a>
-								<a href="./pages/nuestros-productos/manage-r/index.html"
+								<a href="./pages/nuestros-productos/manage-r/index.php"
 									class="c-card-item c-card-item--5">
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -2532,11 +3030,14 @@
 									</div>
 
 									<div class="c-card-item-text ts-p">
-										<p>Herramienta para detectar el potencial y competencias directivas de tus
-											talentos y optimizar la gestión en tu empresa.</p>
+										<p>
+											Herramienta para detectar el potencial y competencias
+											directivas de tus talentos y optimizar la gestión en tu
+											empresa.
+										</p>
 									</div>
 								</a>
-								<a href="./pages/nuestros-servicios/revision-de-la-carrera/index.html"
+								<a href="./pages/nuestros-servicios/revision-de-la-carrera/index.php"
 									class="c-card-item c-card-item--5">
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -2601,11 +3102,14 @@
 									</div>
 
 									<div class="c-card-item-text ts-p">
-										<p>Fideliza a tus empleados con un asesoramiento profesional a medida que
-											ofrezca oportunidades de evolución.</p>
+										<p>
+											Fideliza a tus empleados con un asesoramiento
+											profesional a medida que ofrezca oportunidades de
+											evolución.
+										</p>
 									</div>
 								</a>
-								<a href="./pages/nuestros-productos/evolution/index.html"
+								<a href="./pages/nuestros-productos/evolution/index.php"
 									class="c-card-item c-card-item--5">
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -2703,11 +3207,14 @@
 									</div>
 
 									<div class="c-card-item-text ts-p">
-										<p>La prueba de proyección profesional para orientar y desarrollar la
-											empleabilidad y la movilidad de tus colaboradores.</p>
+										<p>
+											La prueba de proyección profesional para orientar y
+											desarrollar la empleabilidad y la movilidad de tus
+											colaboradores.
+										</p>
 									</div>
 								</a>
-								<a href="./pages/nuestros-servicios/perfiles-competenciales/index.html"
+								<a href="./pages/nuestros-servicios/perfiles-competenciales/index.php"
 									class="c-card-item c-card-item--5">
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -2803,15 +3310,18 @@
 									</div>
 
 									<div class="c-card-item-text ts-p">
-										<p>Transforma tu estrategia de RR. HH. con PerformanSe: crea un perfil
-											competencial a medida y adapta el potencial de tus candidatos y empleados a
-											la cultura de la empresa.</p>
+										<p>
+											Transforma tu estrategia de RR. HH. con PerformanSe:
+											crea un perfil competencial a medida y adapta el
+											potencial de tus candidatos y empleados a la cultura de
+											la empresa.
+										</p>
 									</div>
 								</a>
 							</div>
 							<div class="c-cards-content-cta">
 								<div data-animate data-animate-delay="400">
-									<a href="./pages/nuestros-productos/index.html"
+									<a href="./pages/nuestros-productos/productos.php"
 										class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined">
 										<span class="c-button-bg">
 											<span class="c-button-bg-hover"></span>
@@ -2837,886 +3347,712 @@
 						</div>
 					</div>
 				</section>
-
-
 				<section class="c-section c-section--light c-carousel c-carousel--2" data-animate-section>
 					<div class="wrap wrap--max">
 						<div class="c-carousel-inner c-grid">
 							<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-								<h2 class="ts-3" data-animate-title>Ellos <span>confían</span> en nosotros, ¿por qué no
-									tú?</h2>
+								<h2 class="ts-3" data-animate-title>
+									Ellos <span>confían</span> en nosotros, ¿por qué no tú?
+								</h2>
 							</div>
 						</div>
 					</div>
 
-
-
-
 					<div class="c-carousel-slides" data-carousel data-animate data-animate-y="100"
 						data-animate-delay="400">
-
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_nickel.svg"
-										alt="Logo Nickel"></span>
+										alt="Logo Nickel" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_nickel.svg"
-										alt="Logo Nickel"></span>
+										alt="Logo Nickel" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/stelliant-logo.svg"
-										alt="Logo Stelliant"></span>
+										alt="Logo Stelliant" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/stelliant-logo.svg"
-										alt="Logo Stelliant"></span>
+										alt="Logo Stelliant" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Sodexo_logo_svg.svg"
-										alt="Logo Sodexo"></span>
+										alt="Logo Sodexo" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Sodexo_logo_svg.svg"
-										alt="Logo Sodexo"></span>
+										alt="Logo Sodexo" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_Ami.svg"
-										alt="Logo Ami Paris"></span>
+										alt="Logo Ami Paris" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_Ami.svg"
-										alt="Logo Ami Paris"></span>
+										alt="Logo Ami Paris" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/ID_Logistics_logo.svg"
-										alt="Logo ID Logistics"></span>
+										alt="Logo ID Logistics" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/ID_Logistics_logo.svg"
-										alt="Logo ID Logistics"></span>
+										alt="Logo ID Logistics" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Presidence_Republique.svg"
-										alt="Logo de la Présidence de la République"></span>
+										alt="Logo de la Présidence de la République" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Presidence_Republique.svg"
-										alt="Logo de la Présidence de la République"></span>
+										alt="Logo de la Présidence de la République" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="https://www.performanse.com/fr/nos-succes/aligner-strategies-dentreprise-et-soft-skills-des-equipes"
 								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_de_Daher.svg"
-										alt="Logo de Daher"></span>
+										alt="Logo de Daher" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_de_Daher.svg"
-										alt="Logo de Daher"></span>
+										alt="Logo de Daher" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-chantelle.svg"
-										alt="Logo Client PerformanSe Chantelle"></span>
+										alt="Logo Client PerformanSe Chantelle" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-chantelle.svg"
-										alt="Logo Client PerformanSe Chantelle"></span>
+										alt="Logo Client PerformanSe Chantelle" /></span>
 							</a>
 						</div>
 
-
-
-
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/nuestros-exitos/como-ataraxis-transformo-su-seleccion-de-personal/index.html"
+							<a href="./pages/nuestros-exitos/como-ataraxis-transformo-su-seleccion-de-personal/index.php"
 								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/AtaraxisV2.svg"
-										alt="Logo Ataraxis"></span>
+										alt="Logo Ataraxis" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/AtaraxisV2.svg"
-										alt="Logo Ataraxis"></span>
+										alt="Logo Ataraxis" /></span>
 							</a>
 						</div>
 
-
-
-
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/business-cases/como-profesionalizar-y-evitar-los-sesgos-en-un-proceso-de-seleccion/index.html"
+							<a href="./pages/business-cases/como-profesionalizar-y-evitar-los-sesgos-en-un-proceso-de-seleccion/index.php"
 								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Agbar_Svg.svg"
-										alt="Logo Agabar"></span>
+										alt="Logo Agabar" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Agbar_Svg.svg"
-										alt="Logo Agabar"></span>
+										alt="Logo Agabar" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-pole-emploi.svg"
-										alt="Logo Pole Emploi"></span>
+										alt="Logo Pole Emploi" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-pole-emploi.svg"
-										alt="Logo Pole Emploi"></span>
+										alt="Logo Pole Emploi" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Min_Culture_Svg.svg"
-										alt="Logo Ministère de la Culture"></span>
+										alt="Logo Ministère de la Culture" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Min_Culture_Svg.svg"
-										alt="Logo Ministère de la Culture"></span>
+										alt="Logo Ministère de la Culture" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Elior.svg"
-										alt="Logo Elior"></span>
+										alt="Logo Elior" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Elior.svg"
-										alt="Logo Elior"></span>
+										alt="Logo Elior" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/MalakoffHumanis.svg"
-										alt="Logo Malakoff Humanis"></span>
+										alt="Logo Malakoff Humanis" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/MalakoffHumanis.svg"
-										alt="Logo Malakoff Humanis"></span>
+										alt="Logo Malakoff Humanis" /></span>
 							</a>
 						</div>
 
-
-
-
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/nuestros-exitos/como-detectar-a-los-mejores-talentos-entre-sus-empleados/index.html"
+							<a href="./pages/nuestros-exitos/como-detectar-a-los-mejores-talentos-entre-sus-empleados/index.php"
 								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Leroy_Merlin_Logo.svg"
-										alt="Logo Leroy Merlin"></span>
+										alt="Logo Leroy Merlin" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Leroy_Merlin_Logo.svg"
-										alt="Logo Leroy Merlin"></span>
+										alt="Logo Leroy Merlin" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/dalkia_logo.svg"
-										alt="Logo Dalkia"></span>
+										alt="Logo Dalkia" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/dalkia_logo.svg"
-										alt="Logo Dalkia"></span>
+										alt="Logo Dalkia" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-barriere.svg"
-										alt="Logo Barrière"></span>
+										alt="Logo Barrière" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-barriere.svg"
-										alt="Logo Barrière"></span>
+										alt="Logo Barrière" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/CA_Logo_seul.svg"
-										alt="Logo Crédit Agricole"></span>
+										alt="Logo Crédit Agricole" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/CA_Logo_seul.svg"
-										alt="Logo Crédit Agricole"></span>
+										alt="Logo Crédit Agricole" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/ENSP.svg"
-										alt="Logo ENSP"></span>
+										alt="Logo ENSP" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/ENSP.svg"
-										alt="Logo ENSP"></span>
+										alt="Logo ENSP" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Shiva.svg"
-										alt="Logo Shiva"></span>
+										alt="Logo Shiva" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Shiva.svg"
-										alt="Logo Shiva"></span>
+										alt="Logo Shiva" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Kalyptus.svg"
-										alt="Logo Kalyptus"></span>
+										alt="Logo Kalyptus" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Kalyptus.svg"
-										alt="Logo Kalyptus"></span>
+										alt="Logo Kalyptus" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/EpiCURA.svg"
-										alt="Logo Epicura"></span>
+										alt="Logo Epicura" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/EpiCURA.svg"
-										alt="Logo Epicura"></span>
+										alt="Logo Epicura" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/One.svg"
-										alt="Logo One"></span>
+										alt="Logo One" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/One.svg"
-										alt="Logo One"></span>
+										alt="Logo One" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Satys.svg"
-										alt="Logo Satys"></span>
+										alt="Logo Satys" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Satys.svg"
-										alt="Logo Satys"></span>
+										alt="Logo Satys" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Open.svg"
-										alt="Logo Open"></span>
+										alt="Logo Open" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Open.svg"
-										alt="Logo Open"></span>
+										alt="Logo Open" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/CoopérativeWelcoop.svg"
-										alt="Logo Coopérative Welcoop"></span>
+										alt="Logo Coopérative Welcoop" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/CoopérativeWelcoop.svg"
-										alt="Logo Coopérative Welcoop"></span>
+										alt="Logo Coopérative Welcoop" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_sofip_primary.svg"
-										alt="Logo Sofip"></span>
+										alt="Logo Sofip" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_sofip_primary.svg"
-										alt="Logo Sofip"></span>
+										alt="Logo Sofip" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/WestAfricanResources.svg"
-										alt="Logo West African Resources"></span>
+										alt="Logo West African Resources" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/WestAfricanResources.svg"
-										alt="Logo West African Resources"></span>
+										alt="Logo West African Resources" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/FFB-NORMANDIE.svg"
-										alt="Logo FFB Normandie"></span>
+										alt="Logo FFB Normandie" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/FFB-NORMANDIE.svg"
-										alt="Logo FFB Normandie"></span>
+										alt="Logo FFB Normandie" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/christofle-vector-logo_V2.svg"
-										alt="Logo Christofle"></span>
+										alt="Logo Christofle" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/christofle-vector-logo_V2.svg"
-										alt="Logo Christofle"></span>
+										alt="Logo Christofle" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Regime_social_des_independants_France_Logo.svg"
-										alt="Logo Regime Social des indépendants France"></span>
+										alt="Logo Regime Social des indépendants France" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Regime_social_des_independants_France_Logo.svg"
-										alt="Logo Regime Social des indépendants France"></span>
+										alt="Logo Regime Social des indépendants France" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/rte-logo.svg"
-										alt="logo rte"></span>
+										alt="logo rte" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/rte-logo.svg"
-										alt="logo rte"></span>
+										alt="logo rte" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-kiloutou.svg"
-										alt="Logo Kiloutou"></span>
+										alt="Logo Kiloutou" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-kiloutou.svg"
-										alt="Logo Kiloutou"></span>
+										alt="Logo Kiloutou" /></span>
 							</a>
 						</div>
 
-
-
-
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/nuestros-exitos/como-identificar-a-los-mejores-talentos/index.html"
+							<a href="./pages/nuestros-exitos/como-identificar-a-los-mejores-talentos/index.php"
 								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Mobalpa.svg"
-										alt="Logo Mobalpa"></span>
+										alt="Logo Mobalpa" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Mobalpa.svg"
-										alt="Logo Mobalpa"></span>
+										alt="Logo Mobalpa" /></span>
 							</a>
 						</div>
 
-
-
-
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/nuestros-exitos/como-asesorar-a-los-empleados-en-un-contexto-de-reorganizacion/index.html"
+							<a href="./pages/nuestros-exitos/como-asesorar-a-los-empleados-en-un-contexto-de-reorganizacion/index.php"
 								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Groupe_ADP.svg"
-										alt="Logo Groupe ADP"></span>
+										alt="Logo Groupe ADP" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Groupe_ADP.svg"
-										alt="Logo Groupe ADP"></span>
+										alt="Logo Groupe ADP" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Transgourmet.svg"
-										alt="Logo transgourmet"></span>
+										alt="Logo transgourmet" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Transgourmet.svg"
-										alt="Logo transgourmet"></span>
+										alt="Logo transgourmet" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_foncia.svg"
-										alt="Logo Foncia"></span>
+										alt="Logo Foncia" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_foncia.svg"
-										alt="Logo Foncia"></span>
+										alt="Logo Foncia" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Academie_Service.svg"
-										alt="Logo Académie du Service"></span>
+										alt="Logo Académie du Service" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Academie_Service.svg"
-										alt="Logo Académie du Service"></span>
+										alt="Logo Académie du Service" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-centrale-marseille-mediterranee.svg"
-										alt="Logo Centrale Méditerranée"></span>
+										alt="Logo Centrale Méditerranée" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-centrale-marseille-mediterranee.svg"
-										alt="Logo Centrale Méditerranée"></span>
+										alt="Logo Centrale Méditerranée" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_credit_mutuel.svg"
-										alt="Logo Crédit Mutuel"></span>
+										alt="Logo Crédit Mutuel" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_credit_mutuel.svg"
-										alt="Logo Crédit Mutuel"></span>
+										alt="Logo Crédit Mutuel" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_ipag.svg"
-										alt="Logo Ipag"></span>
+										alt="Logo Ipag" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo_ipag.svg"
-										alt="Logo Ipag"></span>
+										alt="Logo Ipag" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Aperam_Logo.svg"
-										alt="Logo Aperam"></span>
+										alt="Logo Aperam" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Aperam_Logo.svg"
-										alt="Logo Aperam"></span>
+										alt="Logo Aperam" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Inetum.svg"
-										alt="Logo Inetum"></span>
+										alt="Logo Inetum" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Inetum.svg"
-										alt="Logo Inetum"></span>
+										alt="Logo Inetum" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/PierreMartinet.svg"
-										alt="Logo Pierre Martinet"></span>
+										alt="Logo Pierre Martinet" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/PierreMartinet.svg"
-										alt="Logo Pierre Martinet"></span>
+										alt="Logo Pierre Martinet" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/cpformation.svg"
-										alt="Logo CP Formation"></span>
+										alt="Logo CP Formation" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/cpformation.svg"
-										alt="Logo CP Formation"></span>
+										alt="Logo CP Formation" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-swcs.svg"
-										alt="Logo SWCS"></span>
+										alt="Logo SWCS" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-swcs.svg"
-										alt="Logo SWCS"></span>
+										alt="Logo SWCS" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Okami_Svg.svg"
-										alt="Logo Okami"></span>
+										alt="Logo Okami" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Okami_Svg.svg"
-										alt="Logo Okami"></span>
+										alt="Logo Okami" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Bricot-Depot-Logo.svg"
-										alt="Bricot Depot Logo"></span>
+										alt="Bricot Depot Logo" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Bricot-Depot-Logo.svg"
-										alt="Bricot Depot Logo"></span>
+										alt="Bricot Depot Logo" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Siep_Svg.svg"
-										alt="Logo Siep"></span>
+										alt="Logo Siep" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/Logo_Siep_Svg.svg"
-										alt="Logo Siep"></span>
+										alt="Logo Siep" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-audeo.svg"
-										alt="Logo Audeo"></span>
+										alt="Logo Audeo" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-audeo.svg"
-										alt="Logo Audeo"></span>
+										alt="Logo Audeo" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/FOREM-Logo.svg"
-										alt="Logo Forem"></span>
+										alt="Logo Forem" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/FOREM-Logo.svg"
-										alt="Logo Forem"></span>
+										alt="Logo Forem" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/CCI_IDF.svg"
-										alt="Logo CCI"></span>
+										alt="Logo CCI" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/CCI_IDF.svg"
-										alt="Logo CCI"></span>
+										alt="Logo CCI" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/val-d-oise-logo.svg"
-										alt="Val d&#039;oise logo"></span>
+										alt="Val d&#039;oise logo" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/val-d-oise-logo.svg"
-										alt="Val d&#039;oise logo"></span>
+										alt="Val d&#039;oise logo" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-solutions-institution-fr.svg"
-										alt="Logo client PerformanSe: Solutions&amp;co"></span>
+										alt="Logo client PerformanSe: Solutions&amp;co" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/logo-solutions-institution-fr.svg"
-										alt="Logo client PerformanSe: Solutions&amp;co"></span>
+										alt="Logo client PerformanSe: Solutions&amp;co" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/ateliers-bocage-logo.svg"
-										alt="Ateliers bocage logo"></span>
+										alt="Ateliers bocage logo" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/ateliers-bocage-logo.svg"
-										alt="Ateliers bocage logo"></span>
+										alt="Ateliers bocage logo" /></span>
 							</a>
 						</div>
-
-
-
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/DVA.svg"
-										alt="Logo DVA"></span>
+										alt="Logo DVA" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/DVA.svg"
-										alt="Logo DVA"></span>
+										alt="Logo DVA" /></span>
 							</a>
 						</div>
-
-
-
 					</div>
-
 				</section>
-
 				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--dark c-section--dark-2"
 					data-animate-section data-nav-section="dark">
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center">
-
-
-							<h2 class="ts-2" data-animate-title>Cuando la IA se encuentra con las soft skills</h2>
+							<h2 class="ts-2" data-animate-title>
+								Cuando la IA se encuentra con las soft skills
+							</h2>
 
 							<div class="ts-p" data-animate-paragraph data-animate-delay="400" data-split-articles>
-								<p>Basados en el modelo de los Big Five, la teoría de las necesidades y los patrones
-									cognitivos, nuestros algoritmos psicométricos analizan en profundidad la
-									singularidad de los individuos en el trabajo y te permiten ir más allá del
-									currículum.</p>
+								<p>
+									Basados en el modelo de los Big Five, la teoría de las
+									necesidades y los patrones cognitivos, nuestros algoritmos
+									psicométricos analizan en profundidad la singularidad de los
+									individuos en el trabajo y te permiten ir más allá del
+									currículum.
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
-
-
 				<section class="c-section c-section--dark c-section--dark-2 c-lock-scroll-1" data-nav-section="dark">
 					<div class="wrap wrap--max">
 						<div class="c-lock-scroll-cards-wrap">
@@ -3727,7 +4063,6 @@
 							</div>
 
 							<div class="c-lock-scroll-cards">
-
 								<div class="c-lock-scroll-card" data-animate-section>
 									<div class="c-grid items-center c-lock-scroll-card-inner">
 										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2"
@@ -3743,7 +4078,7 @@
 													fill="url(#paint0_linear_354_12269)" />
 												<path d="M279.088 125.988H181.096V181.984H279.088V125.988Z"
 													fill="#2F4A8F" />
-												<mask id="mask0_354_12269" style="mask-type:luminance"
+												<mask id="mask0_354_12269" style="mask-type: luminance"
 													maskUnits="userSpaceOnUse" x="181" y="125" width="99" height="57">
 													<path d="M279.088 125.989H181.096V181.984H279.088V125.989Z"
 														fill="white" />
@@ -3784,7 +4119,7 @@
 												<path fill-rule="evenodd" clip-rule="evenodd"
 													d="M155.453 0.0932617H126.677C91.9178 0.0930937 60.1423 19.7327 44.5995 50.8232C28.0782 83.8706 8.28756 123.458 1.00686 138.022C0.392367 139.251 0.45805 140.71 1.18056 141.879C1.9029 143.048 3.17909 143.759 4.55322 143.759C11.5416 143.759 21.7382 143.759 21.7382 143.759C21.7382 143.759 19.5435 169.517 17.7376 190.71C17.1374 197.755 19.5178 204.729 24.3 209.937C29.0824 215.145 35.8288 218.109 42.8993 218.11C56.4461 218.112 69.9136 218.114 69.9136 218.114L51.0734 251.982L96.896 251.978L155.453 0.0935975V0.0932617Z"
 													fill="url(#paint1_linear_354_12269)" />
-												<mask id="mask1_354_12269" style="mask-type:luminance"
+												<mask id="mask1_354_12269" style="mask-type: luminance"
 													maskUnits="userSpaceOnUse" x="0" y="0" width="156" height="252">
 													<path
 														d="M155.453 0.0942383H126.677C91.9178 0.0940703 60.1423 19.7337 44.5995 50.8241C28.0782 83.8716 8.28756 123.459 1.00686 138.023C0.392367 139.252 0.45805 140.711 1.18056 141.88C1.9029 143.049 3.17909 143.76 4.55322 143.76C11.5416 143.76 21.7382 143.76 21.7382 143.76C21.7382 143.76 19.5435 169.518 17.7376 190.711C17.1374 197.756 19.5178 204.73 24.3 209.938C29.0824 215.146 35.8288 218.11 42.8993 218.111C56.4461 218.113 69.9136 218.115 69.9136 218.115L51.0734 251.983L96.896 251.979L155.453 0.0945741V0.0942383Z"
@@ -3845,16 +4180,20 @@
 										</div>
 										<div class="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
 											<h3 class="ts-3" data-animate-title>
-												Un modelo de soft skills aplicable a todos los contextos profesionales
+												Un modelo de soft skills aplicable a todos los
+												contextos profesionales
 											</h3>
 											<div class="ts-p" data-split-articles data-animate-paragraph
 												data-animate-delay="200">
-												<p>Nuestro modelo <strong>IDEAC</strong> (Influencia, Decisión,
-													Eficacia, Agilidad y Cooperación) se creó basado en un referente de
-													35 soft skills que impactan en el desempeño actual y futuro de las
-													organizaciones. Con este modelo de aprendizaje, evalúa
-													verdaderamente las soft skills que marcan la diferencia en tu
-													contexto.</p>
+												<p>
+													Nuestro modelo <strong>IDEAC</strong> (Influencia,
+													Decisión, Eficacia, Agilidad y Cooperación) se creó
+													basado en un referente de 35 soft skills que
+													impactan en el desempeño actual y futuro de las
+													organizaciones. Con este modelo de aprendizaje,
+													evalúa verdaderamente las soft skills que marcan la
+													diferencia en tu contexto.
+												</p>
 											</div>
 										</div>
 									</div>
@@ -3866,10 +4205,11 @@
 											<span class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">EL
 												SER HUMANO EN EL CORAZÓN DE LA EVALUACIÓN</span>
 											<h3 class="ts-3" data-animate-title data-animate-delay="100">
-												Nuestra filosofía sitúa al individuo en el centro de toda nuestra
-												metodología. Del evaluado al evaluador, nuestras herramientas y
-												servicios favorecen un diálogo enriquecedor y una profunda comprensión
-												de las necesidades de cada uno.
+												Nuestra filosofía sitúa al individuo en el centro de
+												toda nuestra metodología. Del evaluado al evaluador,
+												nuestras herramientas y servicios favorecen un diálogo
+												enriquecedor y una profunda comprensión de las
+												necesidades de cada uno.
 											</h3>
 										</div>
 									</div>
@@ -3943,32 +4283,29 @@
 											</h3>
 											<div class="ts-p" data-split-articles data-animate-paragraph
 												data-animate-delay="200">
-												<p>PerformanSe combina una experiencia de 35 años, Machine Learning e
-													IRT para obtener herramientas de alta precisión. Nuestros datos,
-													anónimos y alojados en Francia, alimentan algoritmos constantemente
-													en evolución, ofreciendo las evaluaciones más predictivas del
-													mercado.</p>
+												<p>
+													PerformanSe combina una experiencia de 35 años,
+													Machine Learning e IRT para obtener herramientas de
+													alta precisión. Nuestros datos, anónimos y alojados
+													en Francia, alimentan algoritmos constantemente en
+													evolución, ofreciendo las evaluaciones más
+													predictivas del mercado.
+												</p>
 											</div>
 										</div>
 									</div>
 								</div>
-
-
 							</div>
 						</div>
 					</div>
 				</section>
-
-
 				<section class="c-section c-dropdown-1" data-animate-section>
 					<div class="wrap wrap--max">
 						<div class="c-grid">
 							<div class="col-span-8 col-start-2 md:col-span-6 lg:col-span-5 lg:col-start-2">
 								<div class="c-dropdown-1-text">
 									<span class="ts-eyebrow ts-indicator" data-animate>FAQ</span>
-									<h2 class="ts-3" data-animate-title data-animate-delay="100">
-
-									</h2>
+									<h2 class="ts-3" data-animate-title data-animate-delay="100"></h2>
 									<div class="c-dropdown-1-illustration" data-animate data-animate-delay="400"
 										data-animate-scale=".8">
 										<svg class="c-illustration-faq" width="404" height="304" viewBox="0 0 404 304"
@@ -4049,14 +4386,14 @@
 								</div>
 							</div>
 
-
 							<div class="col-span-10 md:col-span-8 md:col-start-7 lg:col-span-7 lg:col-start-8">
 								<ul class="c-dropdown-items" data-accordions data-animate-items
 									data-animate-stagger="70" data-animate-y="50" data-animate-delay="300">
 									<li class="c-dropdown-item" data-accordion>
 										<div class="c-dropdown-item-title" data-accordion-trigger>
 											<span class="c-dropdown-item-title-text">
-												¿En qué modelos científicos se basan las pruebas de PerformanSe?
+												¿En qué modelos científicos se basan las pruebas de
+												PerformanSe?
 											</span>
 											<span class="c-dropdown-item-title-icon">
 												<svg enable-background="new 0 0 24 24" viewBox="0 0 24 24"
@@ -4065,23 +4402,29 @@
 														<path d="m3.7 12h16.6" />
 														<path d="m12 3.7v16.6" />
 													</g>
-												</svg> </span>
+												</svg>
+											</span>
 										</div>
 										<div data-accordion-content>
 											<div class="c-dropdown-item-text">
 												<div>
-													<p>Las pruebas de PerformanSe se basan principalmente en la teoría
-														“Big Five”, el modelo de personalidad más reconocido por la
-														comunidad científica, que describe la personalidad según cinco
-														rasgos principales. Este modelo se complementa con otros
-														enfoques teóricos, como los principios sistémicos de la Escuela
-														de Palo Alto y la teoría de las necesidades de McClelland.</p>
+													<p>
+														Las pruebas de PerformanSe se basan principalmente
+														en la teoría “Big Five”, el modelo de personalidad
+														más reconocido por la comunidad científica, que
+														describe la personalidad según cinco rasgos
+														principales. Este modelo se complementa con otros
+														enfoques teóricos, como los principios sistémicos
+														de la Escuela de Palo Alto y la teoría de las
+														necesidades de McClelland.
+													</p>
 												</div>
 												<div class="c-dropdown-item-text--sm">
-													<p>Aquí puedes obtener más información sobre <a
-															href="./pages/ciencia-e-innovacion/index.html">nuestro
-															enfoque
-															científico</a>.</p>
+													<p>
+														Aquí puedes obtener más información sobre
+														<a href="./pages/ciencia-e-innovacion/index.php">nuestro
+															enfoque científico</a>.
+													</p>
 												</div>
 											</div>
 										</div>
@@ -4098,26 +4441,35 @@
 														<path d="m3.7 12h16.6" />
 														<path d="m12 3.7v16.6" />
 													</g>
-												</svg> </span>
+												</svg>
+											</span>
 										</div>
 										<div data-accordion-content>
 											<div class="c-dropdown-item-text">
 												<div>
-													<p>Conocidos como balance de personalidad, prueba o, incluso,
-														evaluación (comportamental o cognitiva), se trata de los tests
-														más utilizados por los profesionales de RR. HH. Se basan en
-														cuestionarios de autoevaluación y no requieren ningún tipo de
+													<p>
+														Conocidos como balance de personalidad, prueba o,
+														incluso, evaluación (comportamental o cognitiva),
+														se trata de los tests más utilizados por los
+														profesionales de RR. HH. Se basan en cuestionarios
+														de autoevaluación y no requieren ningún tipo de
 														aptitud ni conocimiento. Nos permiten entender el
-														comportamiento, el potencial cognitivo y las motivaciones (soft
-														skills) de un individuo en el trabajo.</p>
+														comportamiento, el potencial cognitivo y las
+														motivaciones (soft skills) de un individuo en el
+														trabajo.
+													</p>
 												</div>
 												<div class="c-dropdown-item-text--sm">
-													<p>Si quieres obtener más información sobre los tests psicométricos,
-														visita <a href="./pages/blog/index.html">nuestro blog</a> y
-														nuestra <a
-															href="./pages/blog/e-book/el-poder-predictivo-de-los-metodos-de-evaluacion/index.html"
+													<p>
+														Si quieres obtener más información sobre los tests
+														psicométricos, visita
+														<a href="./pages/blog/index.php">nuestro blog</a>
+														y nuestra
+														<a href="./pages/blog/e-book/el-poder-predictivo-de-los-metodos-de-evaluacion/index.php"
 															target="_blank" rel="noreferrer noopener">guía práctica
-															sobre los métodos de evaluación</a>.</p>
+															sobre los métodos de
+															evaluación</a>.
+													</p>
 												</div>
 											</div>
 										</div>
@@ -4134,20 +4486,26 @@
 														<path d="m3.7 12h16.6" />
 														<path d="m12 3.7v16.6" />
 													</g>
-												</svg> </span>
+												</svg>
+											</span>
 										</div>
 										<div data-accordion-content>
 											<div class="c-dropdown-item-text">
 												<div>
-													<p>Nuestras tarifas se adaptan a tus necesidades, a tu contexto y a
-														las especificidades de tu organización. Si deseas equiparte con
-														nuestras herramientas y conocer más sobre nuestros precios,
-														ponte en contacto con nuestro equipo.</p>
+													<p>
+														Nuestras tarifas se adaptan a tus necesidades, a
+														tu contexto y a las especificidades de tu
+														organización. Si deseas equiparte con nuestras
+														herramientas y conocer más sobre nuestros precios,
+														ponte en contacto con nuestro equipo.
+													</p>
 												</div>
 												<div class="c-dropdown-item-text--sm">
-													<p>Puedes contactarnos rellenando el formulario de solicitud de
-														demostración al final de la página o llamándonos al +682 15 05
-														54.</p>
+													<p>
+														Puedes contactarnos rellenando el formulario de
+														solicitud de demostración al final de la página o
+														llamándonos al +682 15 05 54.
+													</p>
 												</div>
 											</div>
 										</div>
@@ -4155,8 +4513,8 @@
 									<li class="c-dropdown-item" data-accordion>
 										<div class="c-dropdown-item-title" data-accordion-trigger>
 											<span class="c-dropdown-item-title-text">
-												¿Cuál es la diferencia entre las pruebas de PerformanSe y las del
-												mercado?
+												¿Cuál es la diferencia entre las pruebas de
+												PerformanSe y las del mercado?
 											</span>
 											<span class="c-dropdown-item-title-icon">
 												<svg enable-background="new 0 0 24 24" viewBox="0 0 24 24"
@@ -4165,26 +4523,31 @@
 														<path d="m3.7 12h16.6" />
 														<path d="m12 3.7v16.6" />
 													</g>
-												</svg> </span>
+												</svg>
+											</span>
 										</div>
 										<div data-accordion-content>
 											<div class="c-dropdown-item-text">
 												<div>
-													<p>Con más de 35 años de experiencia en el conocimiento del
-														individuo y evaluación del talento laboral, PerformanSe
-														transcribe con precisión la singularidad de los individuos.
-														Nuestros diferenciadores:</p><br />
+													<p>
+														Con más de 35 años de experiencia en el
+														conocimiento del individuo y evaluación del
+														talento laboral, PerformanSe transcribe con
+														precisión la singularidad de los individuos.
+														Nuestros diferenciadores:
+													</p>
+													<br />
 													<ol>
-														<li>Experiencia psicométrica </li>
+														<li>Experiencia psicométrica</li>
 														<li>Validez científica internacional</li>
-														<li>Herramientas éticas de evaluación que promueven la
-															colaboración, diálogo, transparencia y confidencialidad.
+														<li>
+															Herramientas éticas de evaluación que promueven
+															la colaboración, diálogo, transparencia y
+															confidencialidad.
 														</li>
 													</ol>
 												</div>
-												<div class="c-dropdown-item-text--sm">
-
-												</div>
+												<div class="c-dropdown-item-text--sm"></div>
 											</div>
 										</div>
 									</li>
@@ -4200,41 +4563,43 @@
 														<path d="m3.7 12h16.6" />
 														<path d="m12 3.7v16.6" />
 													</g>
-												</svg> </span>
+												</svg>
+											</span>
 										</div>
 										<div data-accordion-content>
 											<div class="c-dropdown-item-text">
 												<div>
-													<p>PerformanSe está certificado bajo la norma ISO 27001,
-														evidenciando nuestro compromiso con la seguridad y protección de
-														datos e información.<br /></p>
+													<p>
+														PerformanSe está certificado bajo la norma ISO
+														27001, evidenciando nuestro compromiso con la
+														seguridad y protección de datos e información.<br />
+													</p>
 												</div>
 												<div class="c-dropdown-item-text--sm">
-													<p>¿Quieres saber más? <a
-															href="https://www.iso.org/es/contents/data/standard/08/28/82875.html"
+													<p>
+														¿Quieres saber más?
+														<a href="https://www.iso.org/es/contents/data/standard/08/28/82875.html"
 															target="_blank"
-															rel="noreferrer noopener"><br />ISO-27001</a> </p>
+															rel="noreferrer noopener"><br />ISO-27001</a>
+													</p>
 												</div>
 											</div>
 										</div>
 									</li>
 								</ul>
 							</div>
-
 						</div>
 					</div>
 				</section>
-
-
-
 				<section class="c-section c-section--light c-section--related" data-nav-section="light"
 					data-animate-section>
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center text-center">
 							<span class="c-title c-title--3">
-								<h2 class="ts-2" data-animate-title>¿Solo tienes <span>curiosidad</span>? Consulta
-									nuestro blog</h2>
-								<a href="./pages/blog/index.html" class="c-link" data-animate data-animate-y="50"
+								<h2 class="ts-2" data-animate-title>
+									¿Solo tienes <span>curiosidad</span>? Consulta nuestro blog
+								</h2>
+								<a href="./pages/blog/index.php" class="c-link" data-animate data-animate-y="50"
 									data-animate-delay="200">
 									<span class="c-link-text">Ver todo</span>
 									<span class="c-link-icon">
@@ -4250,11 +4615,11 @@
 						</div>
 
 						<div class="c-grid c-grid--1" data-animate-items data-animate-delay="300">
-							<a href="./pages/blog/art%c3%adculo/como-detectar-un-potencial-alto/index.html"
+							<a href="./pages/blog/art%c3%adculo/como-detectar-un-potencial-alto/index.php"
 								class="c-card-item c-card-item--4">
 								<picture class="c-card-item-picture -is-svg -color-yellow-sunflower">
 									<img src="https://www.performanse.com/assets/general/Blog_Svg/Eye_Zoom_Grid_Dots.svg"
-										alt="¿Cómo detectar un potencial &quot;alto&quot;?" />
+										alt='¿Cómo detectar un potencial "alto"?' />
 								</picture>
 
 								<span class="c-card-item-content">
@@ -4265,12 +4630,17 @@
 											<span class="ts-detail">7 minutos</span>
 										</span>
 									</span>
-									<h3 class="ts-4">¿Cómo detectar un potencial &quot;alto&quot;?</h3>
+									<h3 class="ts-4">
+										¿Cómo detectar un potencial &quot;alto&quot;?
+									</h3>
 
 									<span class="ts-p">
-										<p>Los perfiles considerados como "alto potencial" tienen un impacto
-											considerable en las organizaciones. ¿Cómo identificarlos para reclutarlos y
-											desarrollarlos mejor?<br /></p>
+										<p>
+											Los perfiles considerados como "alto potencial" tienen
+											un impacto considerable en las organizaciones. ¿Cómo
+											identificarlos para reclutarlos y desarrollarlos
+											mejor?<br />
+										</p>
 									</span>
 
 									<span
@@ -4296,7 +4666,7 @@
 									</span>
 								</span>
 							</a>
-							<a href="./pages/blog/e-book/management-los-jovenes-ya-estan-aqui/index.html"
+							<a href="./pages/blog/e-book/management-los-jovenes-ya-estan-aqui/index.php"
 								class="c-card-item c-card-item--4">
 								<picture class="c-card-item-picture -is-svg -color-cyan">
 									<img src="https://www.performanse.com/assets/general/Blog_Svg/Man_Woman_Check_Square.svg"
@@ -4311,11 +4681,16 @@
 											<span class="ts-detail">1 minuto</span>
 										</span>
 									</span>
-									<h3 class="ts-4">Management: ¡Los jóvenes ya están aquí!</h3>
+									<h3 class="ts-4">
+										Management: ¡Los jóvenes ya están aquí!
+									</h3>
 
 									<span class="ts-p">
-										<p>Descubra por qué los jóvenes aspiran a la gestión y cómo esta aspiración
-											evoluciona con la edad en el estudio exclusivo de PerformanSe.</p>
+										<p>
+											Descubra por qué los jóvenes aspiran a la gestión y cómo
+											esta aspiración evoluciona con la edad en el estudio
+											exclusivo de PerformanSe.
+										</p>
 									</span>
 
 									<span
@@ -4341,7 +4716,7 @@
 									</span>
 								</span>
 							</a>
-							<a href="./pages/blog/evento/management-estan-preparados-los-menores-de-30-anos/index.html"
+							<a href="./pages/blog/evento/management-estan-preparados-los-menores-de-30-anos/index.php"
 								class="c-card-item c-card-item--4">
 								<picture class="c-card-item-picture -is-svg -color-purple-lavender">
 									<img src="https://www.performanse.com/assets/general/Blog_Svg/Man_Paper_Screen_Check.svg"
@@ -4356,12 +4731,16 @@
 											<span class="ts-detail">1 minuto</span>
 										</span>
 									</span>
-									<h3 class="ts-4">Management: ¿están preparados los menores de 30 años?</h3>
+									<h3 class="ts-4">
+										Management: ¿están preparados los menores de 30 años?
+									</h3>
 
 									<span class="ts-p">
-										<p>¡Participe en nuestro webinar para debatir sobre las competencias de gestión
-											de los jóvenes y descubra cómo apoyarlos para construir el liderazgo del
-											mañana!</p>
+										<p>
+											¡Participe en nuestro webinar para debatir sobre las
+											competencias de gestión de los jóvenes y descubra cómo
+											apoyarlos para construir el liderazgo del mañana!
+										</p>
 									</span>
 
 									<span
@@ -4388,16 +4767,15 @@
 								</span>
 							</a>
 						</div>
-
 					</div>
 				</section>
-
-
 				<section id="contact-form" class="c-section c-section--dark c-section--form c-section--form-1"
 					data-nav-section="dark" data-animate-section>
 					<div class="wrap wrap--max">
 						<div class="text-center">
-							<h2 class="ts-2--sm" data-animate-title>¿Listos para descubrir sus próximos talentos?</h2>
+							<h2 class="ts-2--sm" data-animate-title>
+								¿Listos para descubrir sus próximos talentos?
+							</h2>
 							<div class="ts-eyebrow" data-animate data-animate-y="50" data-animate-delay="200">
 								<p>RELLENE EL FORMULARIO PARA OBTENER UNA DEMO.</p>
 							</div>
@@ -4408,22 +4786,16 @@
 							data-form-id="b3dd7f81-0ad3-4318-9e5c-6203a49075e6" data-portal-id="139756868">
 							<div class="hbspt-form" data-hs-forms-root="true"></div>
 						</div>
-
 					</div>
 				</section>
-
-
-
-				<div class="c-modal c-modal--form c-modal--light" style="opacity: 0; pointer-events: none;"
+				<div class="c-modal c-modal--form c-modal--light" style="opacity: 0; pointer-events: none"
 					data-modal="form-1-success" data-modal-form-id="Solicitud de Demo ES">
 					<div class="c-modal-outer">
 						<div class="c-modal-inner">
 							<div class="wrap wrap--max">
-
 								<div class="text-center c-modal-title">
 									<h2 class="ts-3">Footer form</h2>
 								</div>
-
 
 								<div class="c-grid">
 									<div class="col-span-8 col-start-2 md:col-span-12 md:col-start-2">
@@ -4433,7 +4805,6 @@
 											data-modal-id="form-1-success">
 											<div class="hbspt-form" data-hs-forms-root="true"></div>
 										</div>
-
 									</div>
 								</div>
 
@@ -4441,20 +4812,18 @@
 									<div class="c-grid md:items-center">
 										<div
 											class="col-span-8 col-start-2 md:col-span-7 md:col-start-0 lg:col-span-7 lg:col-start-0">
-											<h2 class="ts-2--sm">¡Gracias por haber enviado el <span>formulario!</span>
+											<h2 class="ts-2--sm">
+												¡Gracias por haber enviado el <span>formulario!</span>
 											</h2>
 
 											<div class="ts-p">
-												<p>Nuestros equipos se pondrán en contacto contigo lo antes posible. Que
-													tengas un buen día :)</p>
+												<p>
+													Nuestros equipos se pondrán en contacto contigo lo
+													antes posible. Que tengas un buen día :)
+												</p>
 											</div>
 
-
-											<ul class="c-card-items c-card-items--info">
-
-
-
-											</ul>
+											<ul class="c-card-items c-card-items--info"></ul>
 										</div>
 
 										<div
@@ -4485,7 +4854,7 @@
 												<path
 													d="M357.079 318.017C375.435 299.661 375.435 269.901 357.079 251.546C338.724 233.19 308.963 233.19 290.608 251.546C272.252 269.901 272.252 299.661 290.608 318.017C308.963 336.373 338.724 336.373 357.079 318.017Z"
 													fill="white" />
-												<mask id="mask0_335_14991" style="mask-type:luminance"
+												<mask id="mask0_335_14991" style="mask-type: luminance"
 													maskUnits="userSpaceOnUse" x="276" y="237" width="95" height="95">
 													<path
 														d="M357.084 318.014C375.443 299.655 375.443 269.888 357.084 251.529C338.724 233.17 308.958 233.17 290.599 251.529C272.24 269.888 272.24 299.655 290.599 318.014C308.958 336.373 338.724 336.373 357.084 318.014Z"
@@ -4507,7 +4876,7 @@
 													fill="url(#paint0_linear_335_14991)" />
 												<path d="M253.427 71.1152H128.073V196.512H253.427V71.1152Z"
 													fill="url(#paint1_linear_335_14991)" />
-												<mask id="mask1_335_14991" style="mask-type:luminance"
+												<mask id="mask1_335_14991" style="mask-type: luminance"
 													maskUnits="userSpaceOnUse" x="128" y="63" width="134" height="134">
 													<path d="M128.134 63.3555H261.332V196.554H128.134V63.3555Z"
 														fill="white" />
@@ -4571,7 +4940,6 @@
 						</div>
 					</div>
 				</div>
-
 				<footer class="c-footer" data-animate-section>
 					<div class="c-footer-inner">
 						<div class="c-footer-illustration" data-animate data-animate-scale=".9"
@@ -4584,41 +4952,41 @@
 								<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="569.5454" y1="592.0859"
 									x2="572.4854" y2="626.9062"
 									gradientTransform="matrix(6.123234e-17 1 1 -6.123234e-17 -241.8918 -520.002)">
-									<stop offset="0" style="stop-color:#2F4A8F;stop-opacity:0.54" />
-									<stop offset="1" style="stop-color:#2F4A8F;stop-opacity:0" />
+									<stop offset="0" style="stop-color: #2f4a8f; stop-opacity: 0.54" />
+									<stop offset="1" style="stop-color: #2f4a8f; stop-opacity: 0" />
 								</linearGradient>
 								<path class="c-illustration-part box-2" fill="url(#SVGID_1_)"
 									d="M372,45v11c0,2.8-2.2,5-5,5h-11c-2.8,0-5-2.2-5-5V45c0-2.8,2.2-5,5-5h11C369.8,40,372,42.2,372,45z" />
 								<linearGradient id="SVGID_00000034065878743444448360000015014663122726420108_"
 									gradientUnits="userSpaceOnUse" x1="1.6617" y1="2.5517" x2="160.8451" y2="161.7348"
 									gradientTransform="matrix(1 0 0 -1 0 243.8898)">
-									<stop offset="0" style="stop-color:#102458;stop-opacity:0" />
-									<stop offset="0.1286" style="stop-color:#102458;stop-opacity:1.531000e-02" />
-									<stop offset="0.2546" style="stop-color:#102458;stop-opacity:6.155000e-02" />
-									<stop offset="0.3795" style="stop-color:#102458;stop-opacity:0.1388" />
-									<stop offset="0.5038" style="stop-color:#102458;stop-opacity:0.2474" />
-									<stop offset="0.6278" style="stop-color:#102458;stop-opacity:0.3873" />
-									<stop offset="0.7515" style="stop-color:#102458;stop-opacity:0.5587" />
-									<stop offset="0.875" style="stop-color:#102458;stop-opacity:0.7618" />
-									<stop offset="0.9955" style="stop-color:#102458;stop-opacity:0.9909" />
-									<stop offset="1" style="stop-color:#102458" />
+									<stop offset="0" style="stop-color: #102458; stop-opacity: 0" />
+									<stop offset="0.1286" style="stop-color: #102458; stop-opacity: 1.531e-2" />
+									<stop offset="0.2546" style="stop-color: #102458; stop-opacity: 6.155e-2" />
+									<stop offset="0.3795" style="stop-color: #102458; stop-opacity: 0.1388" />
+									<stop offset="0.5038" style="stop-color: #102458; stop-opacity: 0.2474" />
+									<stop offset="0.6278" style="stop-color: #102458; stop-opacity: 0.3873" />
+									<stop offset="0.7515" style="stop-color: #102458; stop-opacity: 0.5587" />
+									<stop offset="0.875" style="stop-color: #102458; stop-opacity: 0.7618" />
+									<stop offset="0.9955" style="stop-color: #102458; stop-opacity: 0.9909" />
+									<stop offset="1" style="stop-color: #102458" />
 								</linearGradient>
 								<path fill="url(#SVGID_00000034065878743444448360000015014663122726420108_)"
 									d="M162,81H0v162h162V81z" />
 								<linearGradient id="SVGID_00000167366386416280388490000001804821993167079325_"
 									gradientUnits="userSpaceOnUse" x1="93.8737" y1="94.7638" x2="237.165" y2="238.0544"
 									gradientTransform="matrix(1 0 0 -1 0 243.8898)">
-									<stop offset="0" style="stop-color:#102458;stop-opacity:0" />
-									<stop offset="0.2062" style="stop-color:#102458;stop-opacity:1.054000e-02" />
-									<stop offset="0.3411" style="stop-color:#102458;stop-opacity:4.498000e-02" />
-									<stop offset="0.4555" style="stop-color:#102458;stop-opacity:0.1036" />
-									<stop offset="0.5586" style="stop-color:#102458;stop-opacity:0.1866" />
-									<stop offset="0.654" style="stop-color:#102458;stop-opacity:0.294" />
-									<stop offset="0.7439" style="stop-color:#102458;stop-opacity:0.4261" />
-									<stop offset="0.8293" style="stop-color:#102458;stop-opacity:0.583" />
-									<stop offset="0.9112" style="stop-color:#102458;stop-opacity:0.7648" />
-									<stop offset="0.9877" style="stop-color:#102458;stop-opacity:0.9649" />
-									<stop offset="1" style="stop-color:#102458" />
+									<stop offset="0" style="stop-color: #102458; stop-opacity: 0" />
+									<stop offset="0.2062" style="stop-color: #102458; stop-opacity: 1.054e-2" />
+									<stop offset="0.3411" style="stop-color: #102458; stop-opacity: 4.498e-2" />
+									<stop offset="0.4555" style="stop-color: #102458; stop-opacity: 0.1036" />
+									<stop offset="0.5586" style="stop-color: #102458; stop-opacity: 0.1866" />
+									<stop offset="0.654" style="stop-color: #102458; stop-opacity: 0.294" />
+									<stop offset="0.7439" style="stop-color: #102458; stop-opacity: 0.4261" />
+									<stop offset="0.8293" style="stop-color: #102458; stop-opacity: 0.583" />
+									<stop offset="0.9112" style="stop-color: #102458; stop-opacity: 0.7648" />
+									<stop offset="0.9877" style="stop-color: #102458; stop-opacity: 0.9649" />
+									<stop offset="1" style="stop-color: #102458" />
 								</linearGradient>
 								<path class="c-illustration-part box-3"
 									fill="url(#SVGID_00000167366386416280388490000001804821993167079325_)" d="M223,0H101C90,0,81,9,81,20v122c0,11,9,20,20,20
@@ -4626,8 +4994,8 @@
 								<linearGradient id="SVGID_00000148659727029170880490000010806203844206805930_"
 									gradientUnits="userSpaceOnUse" x1="92.3618" y1="169.2191" x2="172.496" y2="40.4319"
 									gradientTransform="matrix(1 0 0 -1 0 243.8898)">
-									<stop offset="0" style="stop-color:#102458;stop-opacity:0" />
-									<stop offset="1" style="stop-color:#102458" />
+									<stop offset="0" style="stop-color: #102458; stop-opacity: 0" />
+									<stop offset="1" style="stop-color: #102458" />
 								</linearGradient>
 								<path fill="url(#SVGID_00000148659727029170880490000010806203844206805930_)"
 									d="M162,81H81v81h81V81z" />
@@ -4656,7 +5024,6 @@
 						<div class="c-footer-menus">
 							<div class="wrap">
 								<div class="c-grid">
-
 									<div class="col-span-8 col-start-2 md:col-span-5 lg:col-span-5 lg:col-start-2">
 										<ul class="c-footer-ul c-footer-ul--main" data-animate-items data-animate-y="85"
 											data-animate-stagger="50">
@@ -4678,33 +5045,33 @@
 										</ul>
 									</div>
 
-
 									<div
 										class="col-span-4 col-start-2 md:col-span-3 lg:col-span-2 md:col-start-6 lg:col-start-7">
-
-										<h3 data-animate data-animate-y="75" data-animate-delay="100">Blog</h3>
+										<h3 data-animate data-animate-y="75" data-animate-delay="100">
+											Blog
+										</h3>
 										<ul class="c-footer-ul c-footer-ul--sub" data-animate-items data-animate-y="75"
 											data-animate-delay="160" data-animate-stagger="30">
 											<li>
-												<a href="./pages/blog/index.html">Blog</a>
+												<a href="./pages/blog/index.php">Blog</a>
 											</li>
 
 											<li>
-												<a href="./pages/nuestros-exitos/index.html">Nuestros éxitos</a>
+												<a href="./pages/nuestros-exitos/index.php">Nuestros éxitos</a>
 											</li>
 
 											<li>
-												<a href="./pages/ciencia-e-innovacion/index.html">Ciencia e
+												<a href="./pages/ciencia-e-innovacion/index.php">Ciencia e
 													Innovación</a>
 											</li>
-
 										</ul>
 									</div>
 
 									<div
 										class="col-span-4 col-start-6 md:col-start-9 md:col-span-3 lg:col-span-2 lg:col-start-10">
-
-										<h3 data-animate data-animate-y="75" data-animate-delay="100">Support</h3>
+										<h3 data-animate data-animate-y="75" data-animate-delay="100">
+											Support
+										</h3>
 										<ul class="c-footer-ul c-footer-ul--sub" data-animate-items data-animate-y="75"
 											data-animate-delay="160" data-animate-stagger="30">
 											<li>
@@ -4713,21 +5080,21 @@
 											</li>
 
 											<li>
-												<a href="./pages/aviso-legal/index.html">Aviso Legal</a>
+												<a href="./pages/aviso-legal/index.php">Aviso Legal</a>
 											</li>
 
 											<li>
-												<a href="./pages/politica-de-privacidad/index.html">Política de
+												<a href="./pages/politica-de-privacidad/index.php">Política de
 													privacidad</a>
 											</li>
-
 										</ul>
 									</div>
 
 									<div
 										class="col-span-4 col-start-2 md:col-span-3 lg:col-span-2 md:col-start-12 lg:col-start-13">
-
-										<h3 data-animate data-animate-y="75" data-animate-delay="100">Socials</h3>
+										<h3 data-animate data-animate-y="75" data-animate-delay="100">
+											Socials
+										</h3>
 										<ul class="c-footer-ul c-footer-ul--sub" data-animate-items data-animate-y="75"
 											data-animate-delay="160" data-animate-stagger="30">
 											<li>
@@ -4748,7 +5115,6 @@
 												<a href="https://www.facebook.com/performanse.test"
 													target="_blank">Facebook</a>
 											</li>
-
 										</ul>
 									</div>
 								</div>
@@ -4829,7 +5195,7 @@
 												<p>
 													<span data-obfuscated-link
 														data-olink="bWFpbHRvOmVzcGFuYUBwZXJmb3JtYW5zZS5jb20=">espana@performanse.com</span>
-													<br>
+													<br />
 													<span data-obfuscated-link
 														data-olink="dGVsOiszMygwKTIgNDAgOTU4IDk1OA==">+33(0)2 40 958
 														958</span>
@@ -4841,12 +5207,13 @@
 										class="col-span-8 col-start-2 md:col-span-3 lg:col-span-3 md:col-start-6 lg:col-start-7">
 										<div class="c-footer-bottom-credits">
 											<p class="text-white" data-animate data-animate-y="50"
-												data-animate-delay="400">¡Todos nuestros equipos les desean una buena
-												evaluación!</p>
+												data-animate-delay="400">
+												¡Todos nuestros equipos les desean una buena
+												evaluación!
+											</p>
 											<p data-animate data-animate-y="50" data-animate-delay="500">
-												© PerformanSe
-												2025
-												<br>
+												© PerformanSe 2025
+												<br />
 												Creado por
 												<span data-obfuscated-link data-olink="aHR0cHM6Ly9wb3Bwci5iZS8="
 													target="_blank">Poppr</span>
@@ -4884,6 +5251,7 @@
 						</div>
 					</div>
 				</footer>
+
 			</div>
 			<div class="scrollbar">
 				<div class="scrollbar-inner">
@@ -4895,506 +5263,9 @@
 		</div>
 	</main>
 
-	<nav class="c-nav is-dark">
-		<h2 class="hidden">Navigation</h2>
-		<div class="c-nav-bar">
-			<div class="c-nav-bar-outer">
-				<div class="c-nav-bar-inner">
-					<div class="c-nav-bar-bg"></div>
-					<div class="c-nav-bar-part c-nav-bar-part--left">
-						<div class="c-nav-bar-logo">
-							<a href="./index.html">
-								<svg class="site-logo" width="147" height="24" viewBox="0 0 147 24" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<g class="site-logo-type">
-										<path
-											d="M28.8526 10.9772C29.088 9.82025 29.6222 8.87847 30.5007 8.17214C31.3792 7.46582 32.407 7.10126 33.5842 7.12404C34.7615 7.1443 35.7691 7.50885 36.6045 8.21518C37.4399 8.92151 37.9741 9.84303 38.2096 10.9772H28.8526ZM33.8399 5.47594C32.0197 5.36961 30.4577 5.98987 29.1083 7.31645C27.7817 8.62278 27.1387 10.2076 27.1817 12.0278C27.202 13.762 27.8678 15.2405 29.1513 16.5038C30.4349 17.7443 31.9134 18.3443 33.5842 18.324C34.9108 18.3038 36.1108 17.9164 37.202 17.1468C38.2931 16.3772 39.0653 15.3266 39.5134 14.0202H37.7792C36.9437 15.7747 35.5741 16.6759 33.6475 16.6962C32.407 16.719 31.3361 16.3114 30.4146 15.519C29.4931 14.7266 28.9792 13.6987 28.8526 12.4785H39.8146V11.6C39.8146 10.081 39.2374 8.70885 38.0804 7.4886C36.8804 6.24556 35.4678 5.58227 33.8399 5.47594Z"
-											fill="currentColor" />
-										<path
-											d="M43.7097 7.19999V5.4886H42.2109V17.5266H42.216C42.2413 17.9696 42.6059 18.324 43.0565 18.324C43.5071 18.324 43.8717 17.9721 43.897 17.5266H43.9021V10.324C43.9021 9.54176 44.0287 8.9291 44.3021 8.46581C44.4717 8.19239 44.7882 7.85315 45.2514 7.47341C45.7173 7.09366 46.3299 6.881 47.0666 6.86075V5.25569C46.4337 5.23543 45.8211 5.38227 45.2084 5.69872C44.5552 6.05822 44.0489 6.54429 43.7097 7.19999Z"
-											fill="currentColor" />
-										<path
-											d="M49.4688 5.25063V17.5266H49.4713C49.4814 17.9671 49.8384 18.3241 50.2839 18.3241C50.727 18.3241 51.0865 17.9696 51.0966 17.5266H51.0991V6.96203H54.1194V5.48354H51.0991V4.97722C51.0991 4.40759 51.3725 3.85823 51.9017 3.28608C52.2612 2.92658 52.8536 2.73671 53.6966 2.69367L54.1194 2.67342V1.23544H53.6966C51.2232 1.23544 49.4688 2.69367 49.4688 5.25063Z"
-											fill="currentColor" />
-										<path
-											d="M64.4744 15.319C63.5327 16.3266 62.3985 16.7747 61.0491 16.7114C59.7858 16.6684 58.7377 16.1772 57.8592 15.2127C56.9808 14.2481 56.5757 13.1139 56.5959 11.8304C56.6187 10.5241 57.0668 9.43292 57.9884 8.5114C58.9099 7.58988 60.001 7.11899 61.3073 7.14178C62.5478 7.14178 63.5985 7.59241 64.477 8.5114C65.3554 9.43292 65.8263 10.5241 65.8694 11.8076C65.8896 13.157 65.439 14.3139 64.4744 15.319ZM61.3909 5.53418C59.6339 5.47089 58.1149 6.09114 56.8516 7.37469C55.5884 8.63798 54.9453 10.1798 54.9453 11.957C54.9453 13.6709 55.5225 15.1468 56.6997 16.3899C57.877 17.6304 59.3327 18.2734 61.0238 18.3165C62.7782 18.3798 64.2997 17.7595 65.563 16.4962C66.8491 15.2127 67.4896 13.6911 67.4896 11.9367C67.4896 10.2228 66.8896 8.74684 65.7124 7.5038C64.5402 6.24304 63.0846 5.60001 61.3909 5.53418Z"
-											fill="currentColor" />
-										<path
-											d="M71.3944 7.20252V5.4886H69.8906V17.5544H69.8957C69.921 18 70.2856 18.3519 70.7387 18.3519C71.1919 18.3519 71.5564 17.9975 71.5818 17.5544H71.5868V10.3367C71.5868 9.55442 71.7134 8.93923 71.9894 8.47341C72.159 8.19746 72.4754 7.86075 72.9413 7.47847C73.4071 7.09872 74.0197 6.88607 74.7615 6.86581V5.25822C74.1261 5.23797 73.5134 5.3848 72.8982 5.70379C72.24 6.06075 71.7311 6.54683 71.3944 7.20252Z"
-											fill="currentColor" />
-										<path
-											d="M89.3386 5.54937C87.6247 5.40506 86.2602 6.14937 85.2475 7.73924C84.2349 6.14937 82.8703 5.40506 81.1564 5.54937C79.8754 5.65316 78.8424 6.12911 78.0576 6.97468C77.2095 7.86329 76.7969 9.06076 76.7969 10.5291V17.5747H76.7994C76.8146 18.0076 77.169 18.3544 77.6045 18.3544C78.0399 18.3544 78.3943 18.0076 78.4095 17.5747H78.4273V10.3418C78.4273 9.41266 78.6754 8.6481 79.1918 8.0076C79.7083 7.36709 80.3893 7.03544 81.2374 7.03544C82.1057 7.03544 82.85 7.32405 83.4678 7.88354C84.1083 8.44051 84.4171 9.1443 84.4171 9.99241V17.5266H84.4146L84.4171 17.5392V17.5747H84.4197C84.445 18.0076 84.8019 18.3544 85.2424 18.3544C85.683 18.3544 86.0399 18.0101 86.0652 17.5747H86.0703V9.98987C86.0703 9.14177 86.3817 8.44051 86.9994 7.88101C87.6399 7.32405 88.3842 7.03291 89.2526 7.03291C90.1007 7.03291 90.8019 7.36456 91.3184 8.00506C91.8349 8.64557 92.1032 9.43038 92.1032 10.3392V17.5722H92.1083C92.1285 18.0051 92.483 18.3519 92.9209 18.3519C93.3589 18.3519 93.7133 18.0051 93.7336 17.5722H93.7361V10.5291C93.7361 9.06076 93.3032 7.86329 92.4551 6.97468C91.6526 6.12658 90.6197 5.65063 89.3386 5.54937Z"
-											fill="currentColor" />
-										<path
-											d="M105.353 14.9468C104.439 15.9013 103.34 16.357 102.031 16.2962C100.829 16.2329 99.7906 15.757 98.94 14.8228C98.0893 13.8886 97.6944 12.7899 97.7147 11.5443C97.7349 10.2785 98.1704 9.22026 99.064 8.32659C99.9577 7.43292 101.016 6.99748 102.282 6.99748C103.487 6.99748 104.522 7.43292 105.375 8.32659C106.226 9.21773 106.682 10.2785 106.705 11.5215C106.722 12.8304 106.287 13.9722 105.353 14.9468ZM108.279 11.7317V11.6481C108.343 10.0076 107.78 8.57722 106.618 7.37216C105.456 6.14684 104.046 5.52406 102.386 5.4633C100.664 5.40001 99.1906 5.98229 97.9653 7.22786C96.74 8.45317 96.1172 9.94684 96.1172 11.6684C96.1172 13.3291 96.6969 14.7595 97.8387 15.9646C98.9805 17.1671 100.37 17.7899 102.011 17.8532C103.879 17.9165 105.456 17.2101 106.743 15.7367V17.5848C106.748 18.0051 107.089 18.3468 107.512 18.3468C107.937 18.3468 108.282 18.0025 108.282 17.5772H108.277V11.7317H108.279Z"
-											fill="currentColor" />
-										<path
-											d="M115.946 5.43292C114.427 5.43292 113.176 5.95444 112.178 6.97469C111.178 7.99495 110.68 9.2633 110.68 10.8051V17.5696H110.682C110.692 18.0051 111.044 18.3544 111.482 18.3544C111.92 18.3544 112.272 18.0051 112.282 17.5696H112.285V10.638C112.285 9.63799 112.639 8.78482 113.368 8.05571C114.097 7.32659 114.971 6.97216 115.951 6.97216C116.928 6.97216 117.761 7.32659 118.49 8.05571C119.219 8.78482 119.594 9.63799 119.594 10.638V17.5696H119.596C119.604 18.0051 119.958 18.3544 120.396 18.3544C120.834 18.3544 121.186 18.0051 121.196 17.5696H121.199V10.8025C121.199 9.2633 120.7 7.99242 119.7 6.97216C118.692 5.95444 117.444 5.43292 115.946 5.43292Z"
-											fill="currentColor" />
-										<path
-											d="M135.647 11.0101C135.882 9.85317 136.417 8.9114 137.295 8.20507C138.174 7.49874 139.201 7.13419 140.379 7.15444C141.556 7.17722 142.563 7.53925 143.396 8.24558C144.232 8.95191 144.766 9.87343 145.001 11.0076H135.647V11.0101ZM146.609 11.6304C146.609 10.1114 146.032 8.73925 144.875 7.519C143.675 6.27596 142.262 5.61267 140.637 5.50634C138.817 5.40001 137.255 6.02026 135.905 7.34684C134.579 8.65317 133.936 10.238 133.979 12.0557C133.999 13.7899 134.665 15.2684 135.948 16.5317C137.234 17.7722 138.71 18.3722 140.381 18.3519C141.708 18.3317 142.908 17.9443 143.999 17.1747C145.09 16.4051 145.862 15.3544 146.31 14.0481H144.576C143.741 15.8025 142.371 16.7038 140.444 16.7241C139.201 16.7443 138.133 16.3392 137.212 15.5468C136.29 14.7544 135.776 13.7266 135.649 12.5063H146.612V11.6304H146.609Z"
-											fill="currentColor" />
-										<path
-											d="M131.681 14.4152C131.57 12.8253 130.659 11.7443 128.967 11.1924L127.499 10.7266C126.365 10.3671 125.808 9.75189 125.876 8.88354C125.899 7.95189 126.694 7.22531 127.651 7.20506C128.631 7.20506 129.332 7.71139 129.633 8.58734C129.659 8.65822 129.724 8.97468 129.735 9.02278L129.737 9.03038V9.03291C129.823 9.37974 130.135 9.63544 130.507 9.63544C130.932 9.63544 131.276 9.30126 131.299 8.88101H131.302C131.302 8.88101 131.317 8.76455 131.302 8.55696C131.243 7.70886 130.813 7.02025 130.056 6.4481C129.322 5.87594 128.522 5.6 127.654 5.64303C126.654 5.68607 125.808 6.04557 125.094 6.70379C124.405 7.36202 124.071 8.16708 124.114 9.09873C124.18 10.6456 125.005 11.6633 126.562 12.1291L128.053 12.5747C129.299 12.957 129.922 13.6557 129.899 14.6937C129.876 15.2886 129.699 15.7747 129.322 16.1342C128.899 16.5367 128.421 16.7367 127.631 16.7494C127.097 16.757 126.55 16.5696 126.043 16.1342C125.545 15.7063 125.39 15.3873 125.291 14.9038C125.251 14.7038 125.238 14.4405 125.238 14.4405C125.218 14.0177 124.871 13.6785 124.443 13.6785C124.016 13.6785 123.669 14.0152 123.648 14.438V14.4405C123.648 15.4785 124.005 16.3671 124.717 17.1089C125.451 17.8506 126.342 18.2734 127.408 18.3392C128.565 18.4025 129.588 18.043 130.479 17.2582C131.37 16.4506 131.77 15.4987 131.681 14.4152Z"
-											fill="currentColor" />
-									</g>
-									<path class="site-logo-symbol"
-										d="M6.61896 20.7114C5.77845 20.7317 5.07972 20.0962 5.05947 19.2937C5.03921 18.4886 5.70504 17.8203 6.54807 17.8C7.38858 17.7798 8.08732 18.4152 8.10757 19.2177C8.12529 20.0203 7.45947 20.6886 6.61896 20.7114ZM14.0392 0.0810242C7.45947 0.0810242 2.12529 5.4152 2.12529 11.9975C2.12529 13.2532 2.262 14.2684 2.62149 15.4025C1.93035 15.2582 -0.289899 14.3798 0.0316199 15.9949C0.451873 18.0911 4.36327 22.7595 9.68732 23.638C9.98858 23.6886 10.2721 23.4608 10.2696 23.0279V22.7266L10.3101 11.9317C10.3101 11.9317 10.3101 11.8633 10.3101 11.8405C10.3177 9.95444 11.0139 8.32406 12.3759 6.97216C13.7607 5.59748 15.3962 4.93672 17.2823 5.01267C19.1 5.06583 20.6392 5.7595 21.8974 7.09875C23.1582 8.43799 23.7962 10.0279 23.7886 11.8658C23.781 13.7747 23.0848 15.4279 21.7228 16.8051C20.3607 18.157 18.7253 18.8177 16.8392 18.7418C15.9455 18.7063 15.1253 18.5089 14.3683 18.1696C14.3025 18.1443 14.2316 18.1139 14.1607 18.0785C14.1379 18.0684 14.1126 18.0582 14.0898 18.0481V18.043C13.6088 17.7949 13.0772 17.362 13.0417 16.7975C12.9962 16.0785 13.6721 15.7823 14.0974 16.0532C14.9177 16.6911 15.8721 17.0127 16.9607 17.0152C18.3405 17.0203 19.5152 16.5418 20.5076 15.557C21.5 14.5722 22.0114 13.4 22.0392 11.9975C22.0671 10.6177 21.6114 9.42026 20.6721 8.38229C19.7329 7.34431 18.6088 6.78735 17.2493 6.73672C15.8012 6.6633 14.581 7.14178 13.5405 8.21773C12.5455 9.27343 12.0291 10.4836 12.0266 11.8937L12.0088 16.4203L11.9734 21.1114C11.9734 21.1114 11.9633 22.0658 11.9683 22.5798C11.9683 22.5798 11.9734 22.838 11.9734 23.2582C11.9734 23.5924 12.2544 23.8608 12.8063 23.9063C13.2747 23.9443 13.7379 23.9266 14.2139 23.9114C20.8645 23.6734 25.9506 18.5798 25.9506 12C25.9531 5.4152 20.619 0.0810242 14.0392 0.0810242Z"
-										fill="currentColor" />
-								</svg>
-							</a>
-						</div>
-
-						<div class="c-nav-bar-lang">
-							<div class="c-nav-bar-lang-inner">
-								<div class="c-nav-bar-lang-menu">
-									<span class="c-nav-bar-lang-active" aria-haspopup="true">ES</span>
-									<ul class="c-nav-bar-lang-ul">
-										<li class="c-nav-bar-lang-li">
-											<span data-site-handle="en" class="c-nav-bar-lang-a">EN</span>
-										</li>
-										<li class="c-nav-bar-lang-li">
-											<span data-site-handle="nl" class="c-nav-bar-lang-a">NL</span>
-										</li>
-										<li class="c-nav-bar-lang-li">
-											<span data-site-handle="fr" class="c-nav-bar-lang-a">FR</span>
-										</li>
-										<li class="c-nav-bar-lang-li">
-											<span data-site-handle="it" class="c-nav-bar-lang-a">IT</span>
-										</li>
-									</ul>
-								</div>
-								<div class="c-nav-bar-lang-icon">
-									<svg class="icon-r-sm" width="8" height="5" viewBox="0 0 8 5" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path fill-rule="evenodd" clip-rule="evenodd"
-											d="M7.21025 0.356159C7.42992 0.575829 7.42992 0.931984 7.21025 1.15165L4.21025 4.15165C3.99058 4.37132 3.63442 4.37132 3.41475 4.15165L0.414752 1.15165C0.195082 0.931984 0.195082 0.575829 0.414752 0.356159C0.634422 0.136489 0.990577 0.136489 1.21025 0.356159L3.8125 2.95841L6.41475 0.356159C6.63442 0.136489 6.99058 0.136489 7.21025 0.356159Z"
-											fill="currentColor" />
-									</svg>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="c-nav-bar-part c-nav-bar-part--right">
-						<button class="c-nav-bar-search">
-							<div class="c-nav-bar-search-icon">
-								<svg class="c-icon-search" width="19" height="18" viewBox="0 0 19 18" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M18.1953 17.25L14.0718 13.1265M14.0718 13.1265C15.3838 11.8145 16.1953 10.002 16.1953 8C16.1953 3.99594 12.9494 0.75 8.94531 0.75C4.94125 0.75 1.69531 3.99594 1.69531 8C1.69531 12.0041 4.94125 15.25 8.94531 15.25C10.9473 15.25 12.7598 14.4385 14.0718 13.1265Z"
-										stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-										stroke-linejoin="round" />
-								</svg>
-							</div>
-						</button>
-						<div class="c-nav-bar-menu">
-
-							<ul class="c-nav-bar-menu-ul">
-								<li class="c-nav-bar-menu-li">
-
-									<a href="./pages/tus-necesidades/index.html" class="c-nav-bar-menu-a">
-										<span class="c-nav-bar-menu-a-text">Necesidades</span>
-									</a>
-
-									<div class="c-nav-bar-menu--sub">
-										<ul class="c-nav-bar-menu-ul--sub">
-											<li class="c-nav-bar-menu-li--sub">
-												<a href="./pages/tus-necesidades/seleccion/index.html"
-													class="c-nav-bar-menu-a">
-													<span class="c-nav-bar-menu-a-text">Selección</span>
-												</a>
-											</li>
-											<li class="c-nav-bar-menu-li--sub">
-												<a href="./pages/tus-necesidades/desarrollo-del-talento/index.html"
-													class="c-nav-bar-menu-a">
-													<span class="c-nav-bar-menu-a-text">Desarrollo del talento</span>
-												</a>
-											</li>
-											<li class="c-nav-bar-menu-li--sub">
-												<a href="./pages/tus-necesidades/gestion-de-equipos/index.html"
-													class="c-nav-bar-menu-a">
-													<span class="c-nav-bar-menu-a-text">Gestión de equipos</span>
-												</a>
-											</li>
-										</ul>
-									</div>
-
-								</li>
-								<li class="c-nav-bar-menu-li">
-
-									<a href="./pages/nuestros-productos/index.html" class="c-nav-bar-menu-a">
-										<span class="c-nav-bar-menu-a-text">Productos</span>
-									</a>
-
-
-								</li>
-								<li class="c-nav-bar-menu-li">
-
-									<a href="./pages/nuestros-servicios/index.html" class="c-nav-bar-menu-a">
-										<span class="c-nav-bar-menu-a-text">Servicios</span>
-									</a>
-
-
-								</li>
-							</ul>
-							<button class="c-nav-bar-menu-toggle">
-								<div class="c-nav-bar-menu-toggle-icon">
-									<svg class="c-icon-menu" width="20" height="8" viewBox="0 0 20 8" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<line x1="0.75" y1="1.25" x2="19.25" y2="1.25" stroke="currentColor"
-											stroke-width="1.5" stroke-linecap="round" />
-										<line x1="0.75" y1="7.25" x2="19.25" y2="7.25" stroke="currentColor"
-											stroke-width="1.5" stroke-linecap="round" />
-									</svg>
-								</div>
-							</button>
-						</div>
-						<div class="c-nav-bar-cta">
-							<span data-obfuscated-link data-olink="aHR0cHM6Ly9hcHAucGVyZm9ybWFuc2UuY29tLz9sPWVzX0VT"
-								target="_blank" rel="noopener noreferrer" class="c-nav-bar-cta-icon">
-								<svg class="c-icon-user" width="18" height="19" viewBox="0 0 18 19" fill="none"
-									xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M12.6953 4.5C12.6953 6.57107 11.0164 8.25 8.94532 8.25C6.87425 8.25 5.19532 6.57107 5.19532 4.5C5.19532 2.42893 6.87425 0.75 8.94532 0.75C11.0164 0.75 12.6953 2.42893 12.6953 4.5Z"
-										stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-									<path
-										d="M8.94532 11.25C5.14971 11.25 2.37923 13.7735 1.61687 17.1657C1.48766 17.7406 1.95448 18.25 2.54373 18.25H15.3469C15.9362 18.25 16.403 17.7406 16.2738 17.1657C15.5114 13.7735 12.7409 11.25 8.94532 11.25Z"
-										stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-								</svg>
-							</span>
-							<div class="c-nav-bar-cta-a">
-								<span target="_blank" rel="noopener noreferrer" data-obfuscated-link
-									data-olink="aHR0cHM6Ly90ZXN0LnBlcmZvcm1hbnNlLmNvbS8/bG9jYWxlPWVzLUVT"
-									class="c-button c-button--ts-2">
-									<span class="c-button-bg">
-										<span class="c-button-bg-hover"></span>
-									</span>
-									<span class="c-button-text">
-										<span class="c-button-text-inner">
-											<span class="c-button-text-hover">Pruebe gratis</span>
-											<span class="c-button-text-static">Pruebe gratis</span>
-										</span>
-									</span>
-									<span class="c-button-icon">
-										<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
-											fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-												stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-										</svg>
-									</span>
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="c-nav-menu">
-			<div class="c-nav-menu-bg"></div>
-			<div class="c-nav-menu-top">
-				<div class="c-nav-menu-logo">
-					<a href="./index.html">
-						<svg class="site-logo" width="147" height="24" viewBox="0 0 147 24" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-							<g class="site-logo-type">
-								<path
-									d="M28.8526 10.9772C29.088 9.82025 29.6222 8.87847 30.5007 8.17214C31.3792 7.46582 32.407 7.10126 33.5842 7.12404C34.7615 7.1443 35.7691 7.50885 36.6045 8.21518C37.4399 8.92151 37.9741 9.84303 38.2096 10.9772H28.8526ZM33.8399 5.47594C32.0197 5.36961 30.4577 5.98987 29.1083 7.31645C27.7817 8.62278 27.1387 10.2076 27.1817 12.0278C27.202 13.762 27.8678 15.2405 29.1513 16.5038C30.4349 17.7443 31.9134 18.3443 33.5842 18.324C34.9108 18.3038 36.1108 17.9164 37.202 17.1468C38.2931 16.3772 39.0653 15.3266 39.5134 14.0202H37.7792C36.9437 15.7747 35.5741 16.6759 33.6475 16.6962C32.407 16.719 31.3361 16.3114 30.4146 15.519C29.4931 14.7266 28.9792 13.6987 28.8526 12.4785H39.8146V11.6C39.8146 10.081 39.2374 8.70885 38.0804 7.4886C36.8804 6.24556 35.4678 5.58227 33.8399 5.47594Z"
-									fill="currentColor" />
-								<path
-									d="M43.7097 7.19999V5.4886H42.2109V17.5266H42.216C42.2413 17.9696 42.6059 18.324 43.0565 18.324C43.5071 18.324 43.8717 17.9721 43.897 17.5266H43.9021V10.324C43.9021 9.54176 44.0287 8.9291 44.3021 8.46581C44.4717 8.19239 44.7882 7.85315 45.2514 7.47341C45.7173 7.09366 46.3299 6.881 47.0666 6.86075V5.25569C46.4337 5.23543 45.8211 5.38227 45.2084 5.69872C44.5552 6.05822 44.0489 6.54429 43.7097 7.19999Z"
-									fill="currentColor" />
-								<path
-									d="M49.4688 5.25063V17.5266H49.4713C49.4814 17.9671 49.8384 18.3241 50.2839 18.3241C50.727 18.3241 51.0865 17.9696 51.0966 17.5266H51.0991V6.96203H54.1194V5.48354H51.0991V4.97722C51.0991 4.40759 51.3725 3.85823 51.9017 3.28608C52.2612 2.92658 52.8536 2.73671 53.6966 2.69367L54.1194 2.67342V1.23544H53.6966C51.2232 1.23544 49.4688 2.69367 49.4688 5.25063Z"
-									fill="currentColor" />
-								<path
-									d="M64.4744 15.319C63.5327 16.3266 62.3985 16.7747 61.0491 16.7114C59.7858 16.6684 58.7377 16.1772 57.8592 15.2127C56.9808 14.2481 56.5757 13.1139 56.5959 11.8304C56.6187 10.5241 57.0668 9.43292 57.9884 8.5114C58.9099 7.58988 60.001 7.11899 61.3073 7.14178C62.5478 7.14178 63.5985 7.59241 64.477 8.5114C65.3554 9.43292 65.8263 10.5241 65.8694 11.8076C65.8896 13.157 65.439 14.3139 64.4744 15.319ZM61.3909 5.53418C59.6339 5.47089 58.1149 6.09114 56.8516 7.37469C55.5884 8.63798 54.9453 10.1798 54.9453 11.957C54.9453 13.6709 55.5225 15.1468 56.6997 16.3899C57.877 17.6304 59.3327 18.2734 61.0238 18.3165C62.7782 18.3798 64.2997 17.7595 65.563 16.4962C66.8491 15.2127 67.4896 13.6911 67.4896 11.9367C67.4896 10.2228 66.8896 8.74684 65.7124 7.5038C64.5402 6.24304 63.0846 5.60001 61.3909 5.53418Z"
-									fill="currentColor" />
-								<path
-									d="M71.3944 7.20252V5.4886H69.8906V17.5544H69.8957C69.921 18 70.2856 18.3519 70.7387 18.3519C71.1919 18.3519 71.5564 17.9975 71.5818 17.5544H71.5868V10.3367C71.5868 9.55442 71.7134 8.93923 71.9894 8.47341C72.159 8.19746 72.4754 7.86075 72.9413 7.47847C73.4071 7.09872 74.0197 6.88607 74.7615 6.86581V5.25822C74.1261 5.23797 73.5134 5.3848 72.8982 5.70379C72.24 6.06075 71.7311 6.54683 71.3944 7.20252Z"
-									fill="currentColor" />
-								<path
-									d="M89.3386 5.54937C87.6247 5.40506 86.2602 6.14937 85.2475 7.73924C84.2349 6.14937 82.8703 5.40506 81.1564 5.54937C79.8754 5.65316 78.8424 6.12911 78.0576 6.97468C77.2095 7.86329 76.7969 9.06076 76.7969 10.5291V17.5747H76.7994C76.8146 18.0076 77.169 18.3544 77.6045 18.3544C78.0399 18.3544 78.3943 18.0076 78.4095 17.5747H78.4273V10.3418C78.4273 9.41266 78.6754 8.6481 79.1918 8.0076C79.7083 7.36709 80.3893 7.03544 81.2374 7.03544C82.1057 7.03544 82.85 7.32405 83.4678 7.88354C84.1083 8.44051 84.4171 9.1443 84.4171 9.99241V17.5266H84.4146L84.4171 17.5392V17.5747H84.4197C84.445 18.0076 84.8019 18.3544 85.2424 18.3544C85.683 18.3544 86.0399 18.0101 86.0652 17.5747H86.0703V9.98987C86.0703 9.14177 86.3817 8.44051 86.9994 7.88101C87.6399 7.32405 88.3842 7.03291 89.2526 7.03291C90.1007 7.03291 90.8019 7.36456 91.3184 8.00506C91.8349 8.64557 92.1032 9.43038 92.1032 10.3392V17.5722H92.1083C92.1285 18.0051 92.483 18.3519 92.9209 18.3519C93.3589 18.3519 93.7133 18.0051 93.7336 17.5722H93.7361V10.5291C93.7361 9.06076 93.3032 7.86329 92.4551 6.97468C91.6526 6.12658 90.6197 5.65063 89.3386 5.54937Z"
-									fill="currentColor" />
-								<path
-									d="M105.353 14.9468C104.439 15.9013 103.34 16.357 102.031 16.2962C100.829 16.2329 99.7906 15.757 98.94 14.8228C98.0893 13.8886 97.6944 12.7899 97.7147 11.5443C97.7349 10.2785 98.1704 9.22026 99.064 8.32659C99.9577 7.43292 101.016 6.99748 102.282 6.99748C103.487 6.99748 104.522 7.43292 105.375 8.32659C106.226 9.21773 106.682 10.2785 106.705 11.5215C106.722 12.8304 106.287 13.9722 105.353 14.9468ZM108.279 11.7317V11.6481C108.343 10.0076 107.78 8.57722 106.618 7.37216C105.456 6.14684 104.046 5.52406 102.386 5.4633C100.664 5.40001 99.1906 5.98229 97.9653 7.22786C96.74 8.45317 96.1172 9.94684 96.1172 11.6684C96.1172 13.3291 96.6969 14.7595 97.8387 15.9646C98.9805 17.1671 100.37 17.7899 102.011 17.8532C103.879 17.9165 105.456 17.2101 106.743 15.7367V17.5848C106.748 18.0051 107.089 18.3468 107.512 18.3468C107.937 18.3468 108.282 18.0025 108.282 17.5772H108.277V11.7317H108.279Z"
-									fill="currentColor" />
-								<path
-									d="M115.946 5.43292C114.427 5.43292 113.176 5.95444 112.178 6.97469C111.178 7.99495 110.68 9.2633 110.68 10.8051V17.5696H110.682C110.692 18.0051 111.044 18.3544 111.482 18.3544C111.92 18.3544 112.272 18.0051 112.282 17.5696H112.285V10.638C112.285 9.63799 112.639 8.78482 113.368 8.05571C114.097 7.32659 114.971 6.97216 115.951 6.97216C116.928 6.97216 117.761 7.32659 118.49 8.05571C119.219 8.78482 119.594 9.63799 119.594 10.638V17.5696H119.596C119.604 18.0051 119.958 18.3544 120.396 18.3544C120.834 18.3544 121.186 18.0051 121.196 17.5696H121.199V10.8025C121.199 9.2633 120.7 7.99242 119.7 6.97216C118.692 5.95444 117.444 5.43292 115.946 5.43292Z"
-									fill="currentColor" />
-								<path
-									d="M135.647 11.0101C135.882 9.85317 136.417 8.9114 137.295 8.20507C138.174 7.49874 139.201 7.13419 140.379 7.15444C141.556 7.17722 142.563 7.53925 143.396 8.24558C144.232 8.95191 144.766 9.87343 145.001 11.0076H135.647V11.0101ZM146.609 11.6304C146.609 10.1114 146.032 8.73925 144.875 7.519C143.675 6.27596 142.262 5.61267 140.637 5.50634C138.817 5.40001 137.255 6.02026 135.905 7.34684C134.579 8.65317 133.936 10.238 133.979 12.0557C133.999 13.7899 134.665 15.2684 135.948 16.5317C137.234 17.7722 138.71 18.3722 140.381 18.3519C141.708 18.3317 142.908 17.9443 143.999 17.1747C145.09 16.4051 145.862 15.3544 146.31 14.0481H144.576C143.741 15.8025 142.371 16.7038 140.444 16.7241C139.201 16.7443 138.133 16.3392 137.212 15.5468C136.29 14.7544 135.776 13.7266 135.649 12.5063H146.612V11.6304H146.609Z"
-									fill="currentColor" />
-								<path
-									d="M131.681 14.4152C131.57 12.8253 130.659 11.7443 128.967 11.1924L127.499 10.7266C126.365 10.3671 125.808 9.75189 125.876 8.88354C125.899 7.95189 126.694 7.22531 127.651 7.20506C128.631 7.20506 129.332 7.71139 129.633 8.58734C129.659 8.65822 129.724 8.97468 129.735 9.02278L129.737 9.03038V9.03291C129.823 9.37974 130.135 9.63544 130.507 9.63544C130.932 9.63544 131.276 9.30126 131.299 8.88101H131.302C131.302 8.88101 131.317 8.76455 131.302 8.55696C131.243 7.70886 130.813 7.02025 130.056 6.4481C129.322 5.87594 128.522 5.6 127.654 5.64303C126.654 5.68607 125.808 6.04557 125.094 6.70379C124.405 7.36202 124.071 8.16708 124.114 9.09873C124.18 10.6456 125.005 11.6633 126.562 12.1291L128.053 12.5747C129.299 12.957 129.922 13.6557 129.899 14.6937C129.876 15.2886 129.699 15.7747 129.322 16.1342C128.899 16.5367 128.421 16.7367 127.631 16.7494C127.097 16.757 126.55 16.5696 126.043 16.1342C125.545 15.7063 125.39 15.3873 125.291 14.9038C125.251 14.7038 125.238 14.4405 125.238 14.4405C125.218 14.0177 124.871 13.6785 124.443 13.6785C124.016 13.6785 123.669 14.0152 123.648 14.438V14.4405C123.648 15.4785 124.005 16.3671 124.717 17.1089C125.451 17.8506 126.342 18.2734 127.408 18.3392C128.565 18.4025 129.588 18.043 130.479 17.2582C131.37 16.4506 131.77 15.4987 131.681 14.4152Z"
-									fill="currentColor" />
-							</g>
-							<path class="site-logo-symbol"
-								d="M6.61896 20.7114C5.77845 20.7317 5.07972 20.0962 5.05947 19.2937C5.03921 18.4886 5.70504 17.8203 6.54807 17.8C7.38858 17.7798 8.08732 18.4152 8.10757 19.2177C8.12529 20.0203 7.45947 20.6886 6.61896 20.7114ZM14.0392 0.0810242C7.45947 0.0810242 2.12529 5.4152 2.12529 11.9975C2.12529 13.2532 2.262 14.2684 2.62149 15.4025C1.93035 15.2582 -0.289899 14.3798 0.0316199 15.9949C0.451873 18.0911 4.36327 22.7595 9.68732 23.638C9.98858 23.6886 10.2721 23.4608 10.2696 23.0279V22.7266L10.3101 11.9317C10.3101 11.9317 10.3101 11.8633 10.3101 11.8405C10.3177 9.95444 11.0139 8.32406 12.3759 6.97216C13.7607 5.59748 15.3962 4.93672 17.2823 5.01267C19.1 5.06583 20.6392 5.7595 21.8974 7.09875C23.1582 8.43799 23.7962 10.0279 23.7886 11.8658C23.781 13.7747 23.0848 15.4279 21.7228 16.8051C20.3607 18.157 18.7253 18.8177 16.8392 18.7418C15.9455 18.7063 15.1253 18.5089 14.3683 18.1696C14.3025 18.1443 14.2316 18.1139 14.1607 18.0785C14.1379 18.0684 14.1126 18.0582 14.0898 18.0481V18.043C13.6088 17.7949 13.0772 17.362 13.0417 16.7975C12.9962 16.0785 13.6721 15.7823 14.0974 16.0532C14.9177 16.6911 15.8721 17.0127 16.9607 17.0152C18.3405 17.0203 19.5152 16.5418 20.5076 15.557C21.5 14.5722 22.0114 13.4 22.0392 11.9975C22.0671 10.6177 21.6114 9.42026 20.6721 8.38229C19.7329 7.34431 18.6088 6.78735 17.2493 6.73672C15.8012 6.6633 14.581 7.14178 13.5405 8.21773C12.5455 9.27343 12.0291 10.4836 12.0266 11.8937L12.0088 16.4203L11.9734 21.1114C11.9734 21.1114 11.9633 22.0658 11.9683 22.5798C11.9683 22.5798 11.9734 22.838 11.9734 23.2582C11.9734 23.5924 12.2544 23.8608 12.8063 23.9063C13.2747 23.9443 13.7379 23.9266 14.2139 23.9114C20.8645 23.6734 25.9506 18.5798 25.9506 12C25.9531 5.4152 20.619 0.0810242 14.0392 0.0810242Z"
-								fill="currentColor" />
-						</svg>
-					</a>
-				</div>
-			</div>
-			<div class="c-nav-menu-content">
-				<div class="c-nav-menu-content-inner">
-					<div class="wrap wrap--max">
-						<div class="grid grid-cols-10 md:grid-cols-14 lg:gap-x-60">
-							<div class="c-nav-menu-content-dark col-span-10 md:col-span-14 lg:col-span-6">
-								<div class="c-nav-menu-content-illustration">
-									<svg class="c-illustration-menu-dark" width="470" height="350" viewBox="0 0 470 350"
-										fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path class="c-illustration-part box-5" fill="#000014"
-											d="M80,39c5.5,0,10,4.5,10,10v39c0,5.5-4.5,10-10,10H41c-5.5,0-10-4.5-10-10V49c0-5.5,4.5-10,10-10 H80z" />
-										<path class="c-illustration-part box-4" fill="#1B3372"
-											d="M16,98H5c-2.8,0-5,2.2-5,5v11c0,2.8,2.2,5,5,5h11c2.8,0,5-2.2,5-5v-11C21,100.2,18.8,98,16,98z" />
-										<linearGradient id="box-3_00000043432431702465588030000014618737457836606641_"
-											gradientUnits="userSpaceOnUse" x1="252.6743" y1="241.683" x2="367.7853"
-											y2="56.684" gradientTransform="matrix(1 0 0 -1 0 349.8898)">
-											<stop offset="0" style="stop-color:#102458;stop-opacity:0" />
-											<stop offset="1" style="stop-color:#102458" />
-										</linearGradient>
-										<path class="c-illustration-part box-3"
-											fill="url(#box-3_00000043432431702465588030000014618737457836606641_)" d="M352.7,117.3H236.4v116.4h116.4V117.3z
-	" />
-										<linearGradient id="box-1_00000145746085537635137840000011506026458380074391_"
-											gradientUnits="userSpaceOnUse" x1="122.387" y1="2.2708" x2="351.048"
-											y2="230.9318" gradientTransform="matrix(1 0 0 -1 0 349.8898)">
-											<stop offset="0" style="stop-color:#102458;stop-opacity:0" />
-											<stop offset="0.1286"
-												style="stop-color:#102458;stop-opacity:1.531000e-02" />
-											<stop offset="0.2546"
-												style="stop-color:#102458;stop-opacity:6.155000e-02" />
-											<stop offset="0.3795" style="stop-color:#102458;stop-opacity:0.1388" />
-											<stop offset="0.5038" style="stop-color:#102458;stop-opacity:0.2474" />
-											<stop offset="0.6278" style="stop-color:#102458;stop-opacity:0.3873" />
-											<stop offset="0.7515" style="stop-color:#102458;stop-opacity:0.5587" />
-											<stop offset="0.875" style="stop-color:#102458;stop-opacity:0.7618" />
-											<stop offset="0.9955" style="stop-color:#102458;stop-opacity:0.9909" />
-											<stop offset="1" style="stop-color:#102458" />
-										</linearGradient>
-										<path class="c-illustration-part box-1"
-											fill="url(#box-1_00000145746085537635137840000011506026458380074391_)"
-											d="M352.7,117.3H120V350h232.7V117.3z" />
-										<linearGradient id="box-2_00000152952259493852938340000015463531670965894078_"
-											gradientUnits="userSpaceOnUse" x1="254.8461" y1="134.7297" x2="460.6781"
-											y2="340.5621" gradientTransform="matrix(1 0 0 -1 0 349.8898)">
-											<stop offset="0" style="stop-color:#102458;stop-opacity:0" />
-											<stop offset="0.2062"
-												style="stop-color:#102458;stop-opacity:1.054000e-02" />
-											<stop offset="0.3411"
-												style="stop-color:#102458;stop-opacity:4.498000e-02" />
-											<stop offset="0.4555" style="stop-color:#102458;stop-opacity:0.1036" />
-											<stop offset="0.5586" style="stop-color:#102458;stop-opacity:0.1866" />
-											<stop offset="0.654" style="stop-color:#102458;stop-opacity:0.294" />
-											<stop offset="0.7439" style="stop-color:#102458;stop-opacity:0.4261" />
-											<stop offset="0.8293" style="stop-color:#102458;stop-opacity:0.583" />
-											<stop offset="0.9112" style="stop-color:#102458;stop-opacity:0.7648" />
-											<stop offset="0.9877" style="stop-color:#102458;stop-opacity:0.9649" />
-											<stop offset="1" style="stop-color:#102458" />
-										</linearGradient>
-										<path class="c-illustration-part box-2"
-											fill="url(#box-2_00000152952259493852938340000015463531670965894078_)" d="M449.1,0.9H256.4c-11,0-20,9-20,20
-	v192.7c0,11,9,20,20,20h192.7c11,0,20-9,20-20V20.9C469.1,9.9,460.1,0.9,449.1,0.9z" />
-										<g>
-											<defs>
-												<path class="c-illustration-part eye" id="SVGID_1_" d="M295.5,193c17.9,0,34.2-6.8,46.6-18c-12.4-11.2-28.8-18-46.6-18c-17.9,0-34.1,6.8-46.6,18
-			C261.4,186.2,277.6,193,295.5,193z" />
-											</defs>
-											<clipPath id="SVGID_00000115508294369876013940000015555830408347978916_">
-												<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#SVGID_1_"
-													overflow="visible" />
-											</clipPath>
-											<g
-												clip-path="url(#SVGID_00000115508294369876013940000015555830408347978916_)">
-												<rect x="247.2" y="157" fill="#2F4A8F" width="94.9" height="37" />
-												<path fill="#050B28"
-													d="M294.7,193c9.9,0,18-8.1,18-18s-8.1-18-18-18c-9.9,0-18,8.1-18,18S284.7,193,294.7,193z" />
-												<path fill="#9CAEDD"
-													d="M294.7,181.5c3.6,0,6.5-2.9,6.5-6.5s-2.9-6.5-6.5-6.5c-3.6,0-6.5,2.9-6.5,6.5S291.1,181.5,294.7,181.5z" />
-											</g>
-										</g>
-									</svg>
-								</div>
-
-
-								<ul class="c-nav-menu-content-ul">
-									<li class="c-nav-menu-content-li">
-										<span data-obfuscated-link
-											data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VzL3R1cy1uZWNlc2lkYWRlcy8="
-											class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													Tus necesidades
-												</span>
-											</span>
-										</span>
-									</li>
-
-									<li class="c-nav-menu-content-li">
-										<span data-obfuscated-link
-											data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VzL251ZXN0cm9zLXByb2R1Y3Rvcy8="
-											class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													Nuestros Productos
-												</span>
-											</span>
-										</span>
-									</li>
-
-									<li class="c-nav-menu-content-li">
-										<span data-obfuscated-link
-											data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VzL251ZXN0cm9zLXNlcnZpY2lvcy8="
-											class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													Nuestros Servicios
-												</span>
-											</span>
-										</span>
-									</li>
-
-								</ul>
-							</div>
-							<div
-								class="c-nav-menu-content-light col-span-10 md:col-span-14 lg:col-span-5 lg:col-start-10">
-								<div class="c-nav-menu-content-illustration">
-									<svg class="c-illustration-menu-light" width="89" height="78" viewBox="0 0 89 78"
-										xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 89 78"
-										xml:space="preserve">
-										<path class="c-illustration-part box-1" fill="#F7FAF9"
-											d="M1,67.6v-29c0-5.5,4.5-10,10-10h28c5.5,0,10,4.5,10,10v29c0,5.5-4.5,10-10,10H11C5.5,77.6,1,73.1,1,67.6z" />
-										<path class="c-illustration-part box-2" fill="#69DFCA"
-											d="M89,5v20.2c0,2.8-2.2,5-5,5H63.8c-2.8,0-5-2.2-5-5V5c0-2.8,2.2-5,5-5H84C86.8,0,89,2.2,89,5z" />
-									</svg>
-								</div>
-
-
-								<ul class="c-nav-menu-content-ul c-nav-menu-content-ul--main">
-									<li class="c-nav-menu-content-li">
-										<a href="./pages/blog/index.html" class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													Blog
-												</span>
-											</span>
-										</a>
-									</li>
-
-									<li class="c-nav-menu-content-li">
-										<a href="./pages/nuestros-exitos/index.html" class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													Nuestros éxitos
-												</span>
-											</span>
-										</a>
-									</li>
-
-									<li class="c-nav-menu-content-li">
-										<a href="./pages/acerca-de/index.html" class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													Acerca de
-												</span>
-											</span>
-										</a>
-									</li>
-
-									<li class="c-nav-menu-content-li">
-										<a href="./pages/ciencia-e-innovacion/index.html" class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													Ciencia e Innovación
-												</span>
-											</span>
-										</a>
-									</li>
-
-								</ul>
-
-								<ul class="c-nav-menu-content-ul c-nav-menu-content-ul--sub">
-									<li class="c-nav-menu-content-li">
-										<a href="https://app.performanse.com/?l=es_ES/" target="_blank"
-											class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													Espacio personal
-												</span>
-											</span>
-										</a>
-									</li>
-
-									<li class="c-nav-menu-content-li">
-										<a href="./pages/blog/articulos/index.html" class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													Articulos
-												</span>
-											</span>
-										</a>
-									</li>
-
-									<li class="c-nav-menu-content-li">
-										<a href="./pages/blog/e-books/index.html" class="c-nav-menu-content-a">
-											<span class="c-nav-menu-content-a-text">
-												<span class="c-nav-menu-content-a-text-static">
-													E-books
-												</span>
-											</span>
-										</a>
-									</li>
-
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<button class="c-button--round c-nav-menu-close">
-				<svg class="c-icon-close" width="10" height="10" viewBox="0 0 10 10" fill="none"
-					xmlns="http://www.w3.org/2000/svg">
-					<path fill-rule="evenodd" clip-rule="evenodd"
-						d="M0.21967 0.21967C0.512563 -0.0732233 0.987437 -0.0732233 1.28033 0.21967L5 3.93934L8.71967 0.21967C9.01256 -0.0732233 9.48744 -0.0732233 9.78033 0.21967C10.0732 0.512563 10.0732 0.987437 9.78033 1.28033L6.06066 5L9.78033 8.71967C10.0732 9.01256 10.0732 9.48744 9.78033 9.78033C9.48744 10.0732 9.01256 10.0732 8.71967 9.78033L5 6.06066L1.28033 9.78033C0.987437 10.0732 0.512563 10.0732 0.21967 9.78033C-0.0732233 9.48744 -0.0732233 9.01256 0.21967 8.71967L3.93934 5L0.21967 1.28033C-0.0732233 0.987437 -0.0732233 0.512563 0.21967 0.21967Z"
-						fill="#102458" />
-				</svg>
-			</button>
-		</div>
-
-		<div class="c-nav-search" data-search-endpoint="/es/api/search/"
-			data-translations-endpoint="/es/api/translations/">
-			<div class="c-nav-search-bg"></div>
-			<div class="c-nav-search-top">
-				<div class="wrap wrap--max">
-					<div class="c-grid">
-						<div class="col-span-12 md:col-span-14 lg:col-span-12 lg:col-start-2">
-							<input type="text" id="c-nav-search-input" placeholder="Buscar...">
-						</div>
-					</div>
-					<div class="c-button--round c-modal-close c-nav-search-close">
-						<svg class="c-icon-close" width="10" height="10" viewBox="0 0 10 10" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-							<path fill-rule="evenodd" clip-rule="evenodd"
-								d="M0.21967 0.21967C0.512563 -0.0732233 0.987437 -0.0732233 1.28033 0.21967L5 3.93934L8.71967 0.21967C9.01256 -0.0732233 9.48744 -0.0732233 9.78033 0.21967C10.0732 0.512563 10.0732 0.987437 9.78033 1.28033L6.06066 5L9.78033 8.71967C10.0732 9.01256 10.0732 9.48744 9.78033 9.78033C9.48744 10.0732 9.01256 10.0732 8.71967 9.78033L5 6.06066L1.28033 9.78033C0.987437 10.0732 0.512563 10.0732 0.21967 9.78033C-0.0732233 9.48744 -0.0732233 9.01256 0.21967 8.71967L3.93934 5L0.21967 1.28033C-0.0732233 0.987437 -0.0732233 0.512563 0.21967 0.21967Z"
-								fill="#102458" />
-						</svg>
-					</div>
-				</div>
-			</div>
-			<div class="c-nav-search-content">
-				<div class="wrap wrap--max">
-					<div class="c-grid">
-						<ul class="c-nav-search-content-ul col-span-12 md:col-span-14 lg:col-span-12 lg:col-start-2">
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
 	<div class="c-landscape-notice">
 		<div class="c-grid items-center">
+
 			<div class="col-start-2 col-span-8 md:col-start-2 md:col-span-12 text-center">
 				<h4 class="ts-eyebrow ts-indicator">Atención</h4>
 			</div>
@@ -5410,6 +5281,7 @@
 					</svg>
 				</div>
 			</div>
+
 		</div>
 	</div>
 	<div class="c-page-overlay">
@@ -5476,11 +5348,13 @@
 			</div>
 		</div>
 	</div>
-	<script
-		type="application/ld+json">{"@context":"http://schema.org","@graph":[{"@type":"WebPage","author":{"@id":"#identity"},"copyrightHolder":{"@id":"#identity"},"copyrightYear":"2023","creator":{"@id":"#creator"},"dateCreated":"2023-09-15T11:27:24+02:00","dateModified":"2025-02-05T17:16:26+01:00","datePublished":"2023-09-15T11:27:00+02:00","description":"Evalúa las soft skills de tus candidatos y colaboradores con nuestros tests psicométricos y servicios. Dedica tiempo a conocer a tus talentos.","headline":"Evalúa las soft skills de tus talentos - PerformanSe","image":{"@type":"ImageObject","url":"https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png"},"inLanguage":"es","mainEntityOfPage":"https://www.performanse.com/es/","name":"English","publisher":{"@id":"#creator"},"url":"https://www.performanse.com/es/"},{"@id":"#identity","@type":"Organization"},{"@id":"#creator","@type":"Organization"},{"@type":"BreadcrumbList","description":"Breadcrumbs list","itemListElement":[{"@type":"ListItem","item":"https://www.performanse.com/es/","name":"Inicio","position":1}],"name":"Breadcrumbs"}]}</script>
+
 </body>
 
-<!-- Mirrored from www.performanse.com/es/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Feb 2025 16:53:24 GMT -->
+<!-- Scripts -->
+<script type="module" src="/assets/js/main.c3dfb829.js" crossorigin="anonymous"
+	onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
+</script>
+<script src="./assets/js/universal.js"></script>
 
 </html>
-<!-- Cached by Blitz on 2025-02-07T10:29:57+01:00 --><!-- Served by Blitz on 2025-02-07T17:52:59+01:00 -->
