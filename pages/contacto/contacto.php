@@ -9,25 +9,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="generator" content="SEOmatic">
-	<meta name="description" content="Descubre las ventajas de evaluar las soft skills en tus procesos de selección, desarrollo del talento y gestión de equipos.">
 	<meta name="referrer" content="no-referrer-when-downgrade">
 	<meta name="robots" content="all">
 	<meta content="es" property="og:locale">
-	<meta content="it" property="og:locale:alternate">
-	<meta content="fr" property="og:locale:alternate">
-	<meta content="nl" property="og:locale:alternate">
-	<meta content="en" property="og:locale:alternate">
-	<meta content="English" property="og:site_name">
 	<meta content="website" property="og:type">
-	<meta content="https://www.performanse.com/es/contacto/" property="og:url">
-	<meta content="Mejora tu gestión de RR. HH. - PerformanSe" property="og:title">
-	<meta content="Descubre las ventajas de evaluar las soft skills en tus procesos de selección, desarrollo del talento y gestión de equipos." property="og:description">
-	<meta content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png" property="og:image">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:creator" content="@">
-	<meta name="twitter:title" content="Mejora tu gestión de RR. HH. - PerformanSe">
-	<meta name="twitter:description" content="Descubre las ventajas de evaluar las soft skills en tus procesos de selección, desarrollo del talento y gestión de equipos.">
-	<meta name="twitter:image" content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png">
+	<meta content="https://www.Teysa.com/contacto/" property="og:url">
+	<meta name="description" content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.">
+	<meta content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más." property="og:description">
+	<meta content="Teysa | Contacto" property="og:title">
+	<meta content="" property="og:image">
 
 	<!-- Link -->
 	<link href="/index.php" rel="alternate" hreflang="x-default">
@@ -42,7 +32,7 @@
 	<link href="https://www.performanse.com/en/your-needs/" rel="alternate" hreflang="en">
 
 	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
-	<title>Mejora tu gestión de RR. HH. - PerformanSe</title>
+	<title>Teysa | Contacto</title>
 </head>
 
 <body style="opacity: 0;">
@@ -107,10 +97,48 @@
 								<p style="color: #fff;">Ponte en contacto con nosotros y descubre cómo podemos impulsar tu producción</p>
 							</div>
 						</div>
-						<div class="c-hubspot-form" data-animate-form
-							id="hbspt_form_b3dd7f81-0ad3-4318-9e5c-6203a49075e6"
-							data-form-id="b3dd7f81-0ad3-4318-9e5c-6203a49075e6" data-portal-id="139756868">
-							<div class="hbspt-form" data-hs-forms-root="true"></div>
+						<div class="custom-form-container">
+							<h2>Solicitar Cotización</h2>
+							<form>
+								<div class="custom-form-group">
+									<label class="custom-form-label">Nombre Completo *</label>
+									<input type="text" class="custom-form-input" required>
+								</div>
+
+								<div class="custom-form-group">
+									<label class="custom-form-label">Correo Electrónico *</label>
+									<input type="email" class="custom-form-input" required>
+								</div>
+
+								<div class="custom-form-group">
+									<label class="custom-form-label">Teléfono de Contacto *</label>
+									<input type="tel" class="custom-form-input" required>
+								</div>
+
+								<div class="custom-form-group">
+									<label class="custom-form-label">Nombre de la Empresa *</label>
+									<input type="text" class="custom-form-input" required>
+								</div>
+
+								<div class="custom-form-group">
+									<label class="custom-form-label">Tipo de Servicio Requerido *</label>
+									<select class="custom-form-select" required>
+										<option value="corte-materiales">Corte de materiales</option>
+										<option value="doblado-metales">Doblado de metales</option>
+										<option value="corte-guillotina">Corte con guillotina hidráulica</option>
+										<option value="doblado-tubos">Doblado de tubos CNC</option>
+										<option value="maquinado">Maquinado CNC o convencional</option>
+										<option value="otro">Otro (especificar en el mensaje)</option>
+									</select>
+								</div>
+
+								<div class="custom-form-group">
+									<label class="custom-form-label">Incluir información sobre el costo de envío</label>
+									<textarea class="custom-form-textarea" placeholder="Ejemplo: 'Por favor, incluir información sobre el costo de envío.'"></textarea>
+								</div>
+
+								<button type="submit" class="custom-form-button">Solicitar Cotización</button>
+							</form>
 						</div>
 
 					</div>

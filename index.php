@@ -4,35 +4,19 @@
 <head>
 	<!-- Meta -->
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="generator" content="SEOmatic" />
-	<meta name="description"
-		content="Evalúa las soft skills de tus candidatos y colaboradores con nuestros tests psicométricos y servicios. Dedica tiempo a conocer a tus talentos." />
-	<meta name="referrer" content="no-referrer-when-downgrade" />
-	<meta name="robots" content="all" />
-	<meta content="es" property="og:locale" />
-	<meta content="it" property="og:locale:alternate" />
-	<meta content="fr" property="og:locale:alternate" />
-	<meta content="nl" property="og:locale:alternate" />
-	<meta content="en" property="og:locale:alternate" />
-	<meta content="English" property="og:site_name" />
-	<meta content="website" property="og:type" />
-	<meta content="https://www.performanse.com/es/" property="og:url" />
-	<meta content="Evalúa las soft skills de tus talentos - PerformanSe" property="og:title" />
-	<meta
-		content="Evalúa las soft skills de tus candidatos y colaboradores con nuestros tests psicométricos y servicios. Dedica tiempo a conocer a tus talentos."
-		property="og:description" />
-	<meta content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png"
-		property="og:image" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:creator" content="@" />
-	<meta name="twitter:title" content="Evalúa las soft skills de tus talentos - PerformanSe" />
-	<meta name="twitter:description"
-		content="Evalúa las soft skills de tus candidatos y colaboradores con nuestros tests psicométricos y servicios. Dedica tiempo a conocer a tus talentos." />
-	<meta name="twitter:image"
-		content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="generator" content="SEOmatic">
+	<meta name="referrer" content="no-referrer-when-downgrade">
+	<meta name="robots" content="all">
+	<meta content="es" property="og:locale">
+	<meta content="website" property="og:type">
+	<meta content="https://www.Teysa.com/contacto/" property="og:url">
+	<meta name="description" content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.">
+	<meta content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más." property="og:description">
+	<meta content="Teysa | Innovación en Maquinados" property="og:title">
+	<meta content="" property="og:image">
 
 	<!-- Link -->
 	<link href="./index.php" rel="alternate" hreflang="x-default" />
@@ -47,7 +31,7 @@
 	<link href="https://www.performanse.com/en/" rel="alternate" hreflang="en" />
 
 	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
-	<title>Evalúa las soft skills de tus talentos - PerformanSe</title>
+	<title>Teysa | Innovación en Maquinados</title>
 </head>
 
 <body style="opacity: 0">

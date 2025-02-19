@@ -7,33 +7,17 @@
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="generator" content="SEOmatic">
-	<meta name="description"
-		content="Descubre la historia y la filosofía de PerformanSe, con 35  años de experiencia en la evaluación de soft skills y las ciencias del comportamiento humano.">
 	<meta name="referrer" content="no-referrer-when-downgrade">
 	<meta name="robots" content="all">
 	<meta content="es" property="og:locale">
-	<meta content="it" property="og:locale:alternate">
-	<meta content="fr" property="og:locale:alternate">
-	<meta content="nl" property="og:locale:alternate">
-	<meta content="en" property="og:locale:alternate">
-	<meta content="English" property="og:site_name">
 	<meta content="website" property="og:type">
-	<meta content="https://www.performanse.com/es/acerca-de/" property="og:url">
-	<meta content="Acerca de - PerformanSe" property="og:title">
-	<meta
-		content="Descubre la historia y la filosofía de PerformanSe, con 35  años de experiencia en la evaluación de soft skills y las ciencias del comportamiento humano."
-		property="og:description">
-	<meta content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png"
-		property="og:image">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:creator" content="@">
-	<meta name="twitter:title" content="Acerca de - PerformanSe">
-	<meta name="twitter:description"
-		content="Descubre la historia y la filosofía de PerformanSe, con 35  años de experiencia en la evaluación de soft skills y las ciencias del comportamiento humano.">
-	<meta name="twitter:image"
-		content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png">
+	<meta content="https://www.Teysa.com/contacto/" property="og:url">
+	<meta name="description" content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.">
+	<meta content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más." property="og:description">
+	<meta content="Teysa | Acerca de" property="og:title">
+	<meta content="" property="og:image">
 
 	<!-- Link -->
 	<link href="/index.php" rel="alternate" hreflang="x-default">
@@ -48,7 +32,7 @@
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet">
 
 	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
-	<title>Acerca de - PerformanSe</title>
+	<title>Teysa | Acerca de</title>
 </head>
 
 <body style="opacity: 0;">

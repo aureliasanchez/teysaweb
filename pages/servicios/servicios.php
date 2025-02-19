@@ -8,25 +8,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="generator" content="SEOmatic">
-	<meta name="description" content="Descubre nuestro asesoramiento personalizado para identificar y liberar el potencial de tu talento e implantar una gestión de RR. HH. eficaz.">
 	<meta name="referrer" content="no-referrer-when-downgrade">
 	<meta name="robots" content="all">
 	<meta content="es" property="og:locale">
-	<meta content="it" property="og:locale:alternate">
-	<meta content="fr" property="og:locale:alternate">
-	<meta content="nl" property="og:locale:alternate">
-	<meta content="en" property="og:locale:alternate">
-	<meta content="English" property="og:site_name">
 	<meta content="website" property="og:type">
-	<meta content="https://www.performanse.com/es/servicios/" property="og:url">
-	<meta content="Mejora tu gestión de RR. HH. con nuestros servicios - PerformanSe" property="og:title">
-	<meta content="Descubre nuestro asesoramiento personalizado para identificar y liberar el potencial de tu talento e implantar una gestión de RR. HH. eficaz." property="og:description">
-	<meta content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png" property="og:image">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:creator" content="@">
-	<meta name="twitter:title" content="Mejora tu gestión de RR. HH. con nuestros servicios - PerformanSe">
-	<meta name="twitter:description" content="Descubre nuestro asesoramiento personalizado para identificar y liberar el potencial de tu talento e implantar una gestión de RR. HH. eficaz.">
-	<meta name="twitter:image" content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png">
+	<meta content="https://www.Teysa.com/contacto/" property="og:url">
+	<meta name="description" content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.">
+	<meta content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más." property="og:description">
+	<meta content="Teysa | Servicio" property="og:title">
+	<meta content="" property="og:image">
 
 	<!-- Link -->
 	<link href="/index.php" rel="alternate" hreflang="x-default">
@@ -41,7 +31,7 @@
 	<link href="https://www.performanse.com/en/our-services/" rel="alternate" hreflang="en">
 
 	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
-	<title>Mejora tu gestión de RR. HH. con nuestros servicios - PerformanSe</title>
+	<title>Teysa | Servicio</title>
 </head>
 
 <body style="opacity: 0;">
