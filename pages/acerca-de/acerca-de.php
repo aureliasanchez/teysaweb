@@ -45,6 +45,7 @@
 	<link href="https://www.performanse.com/nl/over-ons/" rel="alternate" hreflang="nl">
 	<link href="https://www.performanse.com/en/about-us/" rel="alternate" hreflang="en">
 	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet">
+	<link href="/assets/css/sobreEscribe.css" rel="stylesheet">
 
 	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
 	<title>Acerca de - PerformanSe</title>

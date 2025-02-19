@@ -1,0 +1,9 @@
+.buttonColorBlue{
+    background-color: #25a4ff !important;
+    color: #fff !important;
+}
+
+.buttonColorBlue:hover{
+    background-color: #69DFCA !important;
+    color: black !important;
+}
