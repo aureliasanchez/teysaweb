@@ -30,11 +30,11 @@
 	<meta name="twitter:image" content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png">
 
 	<!-- Link -->
-	<link href="../index.php" rel="alternate" hreflang="x-default">
+	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet">
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet">
 	<link href="index.php" rel="canonical">
-	<link href="../index.php" rel="home">
+	<link href="/index.php" rel="home">
 	<link href="https://www.performanse.com/it/i-tuoi-bisogni/" rel="alternate" hreflang="it">
 	<link href="index.php" rel="alternate" hreflang="es">
 	<link href="https://www.performanse.com/fr/vos-besoins/" rel="alternate" hreflang="fr">
@@ -50,7 +50,7 @@
 	<?php include '../../assets/html/header.html'; ?>
 
 	<main>
-		<div data-view="about-us">
+		<div data-view="contacto">
 
 			<div data-page data-entry-id="44">
 

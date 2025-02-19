@@ -30,11 +30,11 @@
 	<meta name="twitter:image" content="https://www.performanse.com/assets/general/_1200x630_crop_center-center_82_none/Share.png">
 
 	<!-- Link -->
-	<link href="../index.php" rel="alternate" hreflang="x-default">
+	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet">
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet">
 	<link href="index.php" rel="canonical">
-	<link href="../index.php" rel="home">
+	<link href="/index.php" rel="home">
 	<link href="https://www.performanse.com/it/i-nostri-prodotti/" rel="alternate" hreflang="it">
 	<link href="index.php" rel="alternate" hreflang="es">
 	<link href="https://www.performanse.com/fr/nos-produits/" rel="alternate" hreflang="fr">
@@ -61,7 +61,7 @@
 							<div class="c-breadcrumb" aria-label="breadcrumb" data-animate data-animate-y="75">
 								<ul class="c-breadcrumb-ul">
 									<li class="c-breadcrumb-li">
-										<a href="../index.php">Inicio</a>
+										<a href="/index.php">Inicio</a>
 									</li>
 									<li class="c-breadcrumb-li active" aria-current="page">
 										Nuestros Productos
