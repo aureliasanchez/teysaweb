@@ -64,8 +64,7 @@
 						</div>
 					</div>
 				</div>
-				<section class="c-section c-section--dark c-section--form c-section--form-1" data-nav-section="dark"
-					data-animate-section>
+				<section class="c-section c-section--dark c-section--form c-section--form-1" data-nav-section="dark" data-animate-delay="400">
 					<div class="wrap wrap--max">
 						<div class="text-center">
 							<h2 class="ts-2--sm" data-animate-title>¿Listos para descubrir sus próximos talentos?</h2>

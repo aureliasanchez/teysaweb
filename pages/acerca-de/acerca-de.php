@@ -57,6 +57,7 @@
 
 	<main>
 		<div data-view="about-us">
+
 			<div data-page data-entry-id="44">
 
 				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--dark c-section--dark-2"
@@ -74,8 +75,11 @@
 									</li>
 								</ul>
 							</div>
-
-							<h1 class="ts-2" data-animate-title>El arte de evaluar las soft skills</h1>
+							<h1 class="ts-2" data-animate-title>
+								Maquinados Teysa:
+								<br>
+								Compromiso, Innovación y Liderazgo Industrial
+							</h1>
 
 						</div>
 					</div>
@@ -83,16 +87,17 @@
 				<section class="c-section c-section--dark c-section--dark-2 c-lock-scroll-1" data-nav-section="dark">
 					<div class="wrap wrap--max">
 						<div class="c-lock-scroll-cards-wrap">
+
 							<div class="c-lock-scroll-cards-scrollbar-wrap">
 								<div class="c-lock-scroll-cards-scrollbar">
 									<div class="c-lock-scroll-cards-scrollbar-inner"></div>
 								</div>
 							</div>
-
 							<div class="c-lock-scroll-cards">
 
 								<div class="c-lock-scroll-card" data-animate-section>
 									<div class="c-grid items-center c-lock-scroll-card-inner">
+
 										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2"
 											data-animate data-animate-scale="0.8">
 											<svg class="c-illustration-specialist-soft-skills" width="413" height="277"
@@ -126,7 +131,7 @@
 													<path fill-rule="evenodd" clip-rule="evenodd"
 														fill="url(#SVGID_00000181793921979892339140000002532425369639637891_)"
 														d="
-		M231.7,70.2H89.9v161.6l41,41.1h100.8V70.2L231.7,70.2z" />
+M231.7,70.2H89.9v161.6l41,41.1h100.8V70.2L231.7,70.2z" />
 													<defs>
 														<filter id="Adobe_OpacityMaskFilter"
 															filterUnits="userSpaceOnUse" x="89.9" y="70.2" width="141.8"
@@ -191,11 +196,11 @@
 															d="M89.9,212h141.8" />
 													</g>
 													<path class="c-illustration-part dot-1" fill="#FFFFFF" d="M191.2,154.7c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
-		C187.8,153.2,189.3,154.7,191.2,154.7z" />
+C187.8,153.2,189.3,154.7,191.2,154.7z" />
 													<path class="c-illustration-part dot-2" fill="#25A4FF" d="M150.7,195.2c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
-		C147.3,193.7,148.8,195.2,150.7,195.2z" />
+C147.3,193.7,148.8,195.2,150.7,195.2z" />
 													<path class="c-illustration-part dot-3" fill="#25A4FF" d="M170.9,235.7c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
-		C167.6,234.2,169.1,235.7,170.9,235.7z" />
+C167.6,234.2,169.1,235.7,170.9,235.7z" />
 													<path fill-rule="evenodd" clip-rule="evenodd" fill="#2F4A8F"
 														d="M130.9,272.8v-41h-41L130.9,272.8z" />
 												</g>
@@ -204,19 +209,18 @@
 														d="M211.4,2.7h128.3l33.8,33.8v182.3H211.4V2.7L211.4,2.7z" />
 													<path fill="none" stroke="#23A4FF" stroke-width="1.3501"
 														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,70.2h-94.5v81
-		h94.5V70.2z" />
+h94.5V70.2z" />
 													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
 														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,70.2h-94.5v81
-		h94.5V70.2z" />
+h94.5V70.2z" />
 													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
 														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,83.7h-94.5
-		v67.5h94.5V83.7z" />
+v67.5h94.5V83.7z" />
 													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
 														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,97.2h-94.5v54
-		h94.5V97.2z" />
+h94.5V97.2z" />
 													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,110.7h-94.5
-		v40.5h94.5V110.7z" />
+														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,110.7h-94.5 v40.5h94.5V110.7z" />
 													<path class="c-illustration-part bar-1" fill="#07296F"
 														d="M278.9,124.2h-33.1v26.4h33.1V124.2z" />
 													<path class="c-illustration-part bar-2" fill="#25A4FF"
@@ -239,161 +243,203 @@
 													</linearGradient>
 													<path
 														fill="url(#SVGID_00000168092625491253223100000001649462572247085755_)"
-														d="M61.6,110.7H99c6.7,0,12.2,5.4,12.2,12.2v37.3
-		c0,6.7-5.4,12.2-12.2,12.2H61.6c-6.7,0-12.2-5.4-12.2-12.2v-37.3C49.4,116.1,54.9,110.7,61.6,110.7z" />
+														d="M61.6,110.7H99c6.7,0,12.2,5.4,12.2,12.2v37.3 c0,6.7-5.4,12.2-12.2,12.2H61.6c-6.7,0-12.2-5.4-12.2-12.2v-37.3C49.4,116.1,54.9,110.7,61.6,110.7z" />
 													<path fill="none" stroke="#2F4A8F" stroke-width="2.5933"
-														stroke-linejoin="round" stroke-miterlimit="1.5" d="M59.1,146.4
-		l13.4,10.2l30.6-31.8" />
+														stroke-linejoin="round" stroke-miterlimit="1.5" d="M59.1,146.4 l13.4,10.2l30.6-31.8" />
 												</g>
-												<path class="c-illustration-part green-box" fill="#69DFCA" d="M400.6,218.8h-10.8c-4.5,0-8.1,3.6-8.1,8.1v10.8c0,4.5,3.6,8.1,8.1,8.1h10.8
-	c4.5,0,8.1-3.6,8.1-8.1v-10.8C408.7,222.4,405.1,218.8,400.6,218.8z" />
+												<path class="c-illustration-part green-box" fill="#69DFCA" d="M400.6,218.8h-10.8c-4.5,0-8.1,3.6-8.1,8.1v10.8c0,4.5,3.6,8.1,8.1,8.1h10.8 c4.5,0,8.1-3.6,8.1-8.1v-10.8C408.7,222.4,405.1,218.8,400.6,218.8z" />
 											</svg>
 										</div>
 										<div class="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
+
 											<h3 class="ts-3" data-animate-title>
-												Especialista en soft skills
+												Acerca de
 											</h3>
 											<div class="ts-p" data-split-articles data-animate-paragraph
 												data-animate-delay="200">
-												<p>A la vanguardia de la innovación en ciencias de la evaluación,
-													PerformanSe combina sus 35 años de experiencia con los últimos
-													avances en IA y análisis de datos para entender al individuo en su
-													entorno laboral. Transformamos la evaluación de las soft skills en
-													información estratégica para mejorar tus procesos de RR. HH. y el
-													rendimiento de las empresas en general.</p>
+												<p>
+													En Maquinados Teysa creemos en la integridad, la innovación y la calidad como pilares fundamentales de nuestra filosofía. Nuestra personalidad profesional y comprometida se refleja en cada proyecto, ofreciendo flexibilidad en procesos y soluciones personalizadas. Nos diferenciamos por contar con tecnología de vanguardia, más de 40 máquinas CNC y una certificación ISO 9001:2015, lo que nos posiciona como líderes en el sector metalmecánico.
+												</p>
 											</div>
+
 										</div>
+
 									</div>
 								</div>
-
-								<div class="c-lock-scroll-card c-lock-scroll-card--title" data-animate-section>
-									<div class="flex items-center w-full c-lock-scroll-card-inner">
-										<div class="c-lock-scroll-card-title w-full">
-											<span class="ts-eyebrow ts-indicator" data-animate
-												data-animate-y="50">SOLUCIONES</span>
-											<h3 class="ts-3" data-animate-title data-animate-delay="100">
-												Evaluaciones comportamentales y cognitivas, 360°, valoraciones,
-												eficiencia colectiva, cartografías y mucho más: Nuestras soluciones,
-												100% online, te proporcionarán un conocimiento único de tus empleados,
-												de sus disposiciones, motivaciones y de sus creencias.
-											</h3>
-										</div>
-									</div>
-								</div>
-
 								<div class="c-lock-scroll-card" data-animate-section>
 									<div class="c-grid items-center c-lock-scroll-card-inner">
+
 										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2"
 											data-animate data-animate-scale="0.8">
-											<svg class="c-illustration-future-recruiting" version="1.1" id="Layer_1"
-												xmlns="http://www.w3.org/2000/svg"
+											<svg class="c-illustration-specialist-soft-skills" width="413" height="277"
+												version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 												xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												viewBox="0 0 490 278.7" enable-background="new 0 0 490 278.7"
+												viewBox="0 0 413 277" enable-background="new 0 0 413 277"
 												xml:space="preserve">
-												<g class="c-illustration-part chatbox">
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#2D62E8"
-														d="M211.8,75.1V223l-27.7-37H45.5V75.1L211.8,75.1L211.8,75.1z" />
-													<path class="c-illustration-part dot-1" fill="#17274F"
-														d="M113.9,134.3c2,0,3.7-1.7,3.7-3.7c0-2-1.7-3.7-3.7-3.7s-3.7,1.7-3.7,3.7 C110.2,132.6,111.8,134.3,113.9,134.3z" />
-													<path class="c-illustration-part dot-2" fill="#17274F"
-														d="M128.6,134.3c2,0,3.7-1.7,3.7-3.7c0-2-1.7-3.7-3.7-3.7c-2,0-3.7,1.7-3.7,3.7 C125,132.6,126.6,134.3,128.6,134.3z" />
-													<path class="c-illustration-part dot-3" fill="#17274F"
-														d="M143.4,134.3c2,0,3.7-1.7,3.7-3.7c0-2-1.7-3.7-3.7-3.7c-2,0-3.7,1.7-3.7,3.7 C139.7,132.6,141.4,134.3,143.4,134.3z" />
-													<path fill="#25A4FF" d="M82.5,158.2h-37v28h37V158.2z" />
-													<path fill="#17274F" d="M114.7,186.1H82.5v32.2h32.2V186.1z" />
+												<g class="c-illustration-part darkblue-paper">
+													<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse"
+														x1="165.9722" y1="70.806" x2="-92.473" y2="329.2508"
+														gradientTransform="matrix(1 0 0 -1 0 277.8898)">
+														<stop offset="0" style="stop-color:#07296F" />
+														<stop offset="1" style="stop-color:#0B1841" />
+													</linearGradient>
+													<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)"
+														d="M143.9,29.7H49.4L8.8,70.2v135.1h135.1V29.7L143.9,29.7z" />
+													<path fill-rule="evenodd" clip-rule="evenodd" fill="#07296F"
+														d="M49.4,29.7v40.5H8.8L49.4,29.7z" />
 												</g>
-												<g class="c-illustration-part graph">
-													<g>
-														<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse"
-															x1="263.283" y1="57.8062" x2="261.914" y2="196.6479"
-															gradientTransform="matrix(1 0 0 -1 0 227.2065)">
-															<stop offset="0" style="stop-color:#17274F" />
-															<stop offset="1" style="stop-color:#071744" />
-														</linearGradient>
-														<path fill-rule="evenodd" clip-rule="evenodd"
-															fill="url(#SVGID_1_)"
-															d="M198,273.8l61.6-204.1l69.1,1.7L198,273.8z" />
-														<path fill-rule="evenodd" clip-rule="evenodd" fill="#2F4A8F"
-															d="M198,273.8l62.7-205.3l-3.3-35L198,273.8L198,273.8z" />
-														<path fill="#BDEBE0" d="M316,23.3h-44.7c-8,0-14.5,6.5-14.5,14.5v26.8c0,8,6.5,14.5,14.5,14.5H316c8,0,14.5-6.5,14.5-14.5V37.7
-        C330.5,29.7,324,23.3,316,23.3z" />
-														<path class="c-illustration-part green-box" fill="#69DFCA" d="M302.4,44.1h-17.9c-3.2,0-5.8,2.6-5.8,5.8v2.5c0,3.2,2.6,5.8,5.8,5.8h17.9
-        c3.2,0,5.8-2.6,5.8-5.8v-2.5C308.2,46.7,305.6,44.1,302.4,44.1z" />
-													</g>
+												<g class="c-illustration-part blue-paper">
 													<linearGradient
-														id="SVGID_00000000191611941423235340000015026094047617043093_"
-														gradientUnits="userSpaceOnUse" x1="352.4575" y1="126.5281"
-														x2="352.4575" y2="-42.7738"
-														gradientTransform="matrix(1 0 0 -1 0 227.2065)">
+														id="SVGID_00000181793921979892339140000002532425369639637891_"
+														gradientUnits="userSpaceOnUse" x1="188.626" y1="143.3244"
+														x2="71.2137" y2="-12.7385"
+														gradientTransform="matrix(1 0 0 -1 0 277.8898)">
+														<stop offset="0" style="stop-color:#2F4A8F" />
+														<stop offset="0.59" style="stop-color:#284285" />
+														<stop offset="0.8" style="stop-color:#18316F" />
+														<stop offset="1" style="stop-color:#09215A" />
+													</linearGradient>
+													<path fill-rule="evenodd" clip-rule="evenodd"
+														fill="url(#SVGID_00000181793921979892339140000002532425369639637891_)"
+														d="
+M231.7,70.2H89.9v161.6l41,41.1h100.8V70.2L231.7,70.2z" />
+													<defs>
+														<filter id="Adobe_OpacityMaskFilter"
+															filterUnits="userSpaceOnUse" x="89.9" y="70.2" width="141.8"
+															height="202.7">
+															<feColorMatrix type="matrix"
+																values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" />
+														</filter>
+													</defs>
+
+													<mask maskUnits="userSpaceOnUse" x="89.9" y="70.2" width="141.8"
+														height="202.7"
+														id="mask0_335_15564_00000031899691033866059700000010629392863370817200_">
+														<path fill="#FFFFFF" filter="url(#Adobe_OpacityMaskFilter)"
+															d="M231.7,70.2H89.9v161.6l41,41.1h100.8V70.2L231.7,70.2z" />
+													</mask>
+													<g
+														mask="url(#mask0_335_15564_00000031899691033866059700000010629392863370817200_)">
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M110.1,70.2v170.1" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M130.4,70.2v202.7" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M150.7,70.2v202.7" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M170.9,70.2v202.7" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M191.2,70.2v202.7" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M211.4,218.8v54.1" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M89.9,232.4h141.8" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M89.9,171.6h141.8" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M89.9,191.8h141.8" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M89.9,151.3h141.8" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M109.2,252.6h122.5" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M89.9,131h141.8" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M89.9,110.8h141.8" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M89.9,90.5h141.8" />
+														<path fill="none" stroke="#143378" stroke-width="1.3501"
+															stroke-linejoin="round" stroke-miterlimit="2"
+															d="M89.9,212h141.8" />
+													</g>
+													<path class="c-illustration-part dot-1" fill="#FFFFFF" d="M191.2,154.7c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
+C187.8,153.2,189.3,154.7,191.2,154.7z" />
+													<path class="c-illustration-part dot-2" fill="#25A4FF" d="M150.7,195.2c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
+C147.3,193.7,148.8,195.2,150.7,195.2z" />
+													<path class="c-illustration-part dot-3" fill="#25A4FF" d="M170.9,235.7c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
+C167.6,234.2,169.1,235.7,170.9,235.7z" />
+													<path fill-rule="evenodd" clip-rule="evenodd" fill="#2F4A8F"
+														d="M130.9,272.8v-41h-41L130.9,272.8z" />
+												</g>
+												<g class="c-illustration-part green-paper">
+													<path fill-rule="evenodd" clip-rule="evenodd" fill="#BDEBE0"
+														d="M211.4,2.7h128.3l33.8,33.8v182.3H211.4V2.7L211.4,2.7z" />
+													<path fill="none" stroke="#23A4FF" stroke-width="1.3501"
+														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,70.2h-94.5v81
+h94.5V70.2z" />
+													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
+														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,70.2h-94.5v81
+h94.5V70.2z" />
+													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
+														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,83.7h-94.5
+v67.5h94.5V83.7z" />
+													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
+														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,97.2h-94.5v54
+h94.5V97.2z" />
+													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
+														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,110.7h-94.5 v40.5h94.5V110.7z" />
+													<path class="c-illustration-part bar-1" fill="#07296F"
+														d="M278.9,124.2h-33.1v26.4h33.1V124.2z" />
+													<path class="c-illustration-part bar-2" fill="#25A4FF"
+														d="M308.3,70.8h-31.9v79.7h31.9V70.8z" />
+													<path class="c-illustration-part bar-3" fill="#0040B4"
+														d="M339.1,110.1h-30.8v40.5h30.8V110.1z" />
+													<path fill-rule="evenodd" clip-rule="evenodd" fill="#69DFCA"
+														d="M339.8,2.7v33.8h33.8L339.8,2.7z" />
+												</g>
+												<g class="c-illustration-part checkbox">
+													<linearGradient
+														id="SVGID_00000168092625491253223100000001649462572247085755_"
+														gradientUnits="userSpaceOnUse" x1="80.3143" y1="173.8488"
+														x2="80.3143" y2="-12.6892"
+														gradientTransform="matrix(1 0 0 -1 0 277.8898)">
 														<stop offset="0" style="stop-color:#9CB8FF" />
 														<stop offset="0.2" style="stop-color:#ACCAFF" />
 														<stop offset="0.42" style="stop-color:#BCDDFF" />
 														<stop offset="1" style="stop-color:#C3E6FF" />
 													</linearGradient>
 													<path
-														fill="url(#SVGID_00000000191611941423235340000015026094047617043093_)"
-														d="M418.6,106.7H286.3v55.9h132.3V106.7z" />
-													<defs>
-														<filter id="Adobe_OpacityMaskFilter"
-															filterUnits="userSpaceOnUse" x="285.5" y="111.5"
-															width="139.2" height="51.8">
-															<feColorMatrix type="matrix"
-																values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" />
-														</filter>
-													</defs>
-
-													<mask maskUnits="userSpaceOnUse" x="285.5" y="111.5" width="139.2"
-														height="51.8"
-														id="mask0_335_15605_00000028324398173939623420000016007768787537581186_">
-														<path fill="#FFFFFF" filter="url(#Adobe_OpacityMaskFilter)"
-															d="M418.7,106.8H286.3v55.7h132.4V106.8z" />
-													</mask>
-													<g
-														mask="url(#mask0_335_15605_00000028324398173939623420000016007768787537581186_)">
-														<path fill="none" stroke="#2F4A8F" stroke-width="1.6057"
-															stroke-linecap="round" stroke-linejoin="round"
-															stroke-dasharray="168.1502"
-															d="
-				M423.8,116.6c0,0-20.8-13.9-34.9,8.1c-10.7,16.7-19.4,28.1-35.2,26.3c-14.1-1.7-20-13.4-36-13.4c-20.2,0-31.5,24.9-31.5,24.9" />
-													</g>
-
-													<linearGradient
-														id="SVGID_00000152959225811784873580000006864034637869452193_"
-														gradientUnits="userSpaceOnUse" x1="308.2955" y1="138.6031"
-														x2="308.2955" y2="-51.4248"
-														gradientTransform="matrix(1 0 0 -1 0 227.2065)">
-														<stop offset="0" style="stop-color:#2F4A8F" />
-														<stop offset="1" style="stop-color:#071744" />
-													</linearGradient>
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														fill="url(#SVGID_00000152959225811784873580000006864034637869452193_)"
-														d="
-		M198,273.8l220.7-111.2H286.2L198,273.8z" />
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#2D62E8"
-														d="M286.3,106.7L198,273.8l88.3-111.4V106.7z" />
+														fill="url(#SVGID_00000168092625491253223100000001649462572247085755_)"
+														d="M61.6,110.7H99c6.7,0,12.2,5.4,12.2,12.2v37.3 c0,6.7-5.4,12.2-12.2,12.2H61.6c-6.7,0-12.2-5.4-12.2-12.2v-37.3C49.4,116.1,54.9,110.7,61.6,110.7z" />
+													<path fill="none" stroke="#2F4A8F" stroke-width="2.5933"
+														stroke-linejoin="round" stroke-miterlimit="1.5" d="M59.1,146.4 l13.4,10.2l30.6-31.8" />
 												</g>
-												<path class="c-illustration-part darkblue-box" fill="#2F4A8F" d="M468.4,81.9H438c-5.3,0-9.6,4.3-9.6,9.6v5.6c0,5.3,4.3,9.6,9.6,9.6h30.5c5.3,0,9.6-4.3,9.6-9.6v-5.6
-	C478.1,86.2,473.7,81.9,468.4,81.9z" />
+												<path class="c-illustration-part green-box" fill="#69DFCA" d="M400.6,218.8h-10.8c-4.5,0-8.1,3.6-8.1,8.1v10.8c0,4.5,3.6,8.1,8.1,8.1h10.8 c4.5,0,8.1-3.6,8.1-8.1v-10.8C408.7,222.4,405.1,218.8,400.6,218.8z" />
 											</svg>
 										</div>
 										<div class="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
+
 											<h3 class="ts-3" data-animate-title>
-												La clave de un rendimiento duradero
+												Nuestros fundamentos
 											</h3>
 											<div class="ts-p" data-split-articles data-animate-paragraph
 												data-animate-delay="200">
-												<p>Este conocimiento, clave para el rendimiento individual y grupal, te
-													permite seleccionar con criterio, contratar, comprometer y fidelizar
-													a tus talentos. Alinea a cada uno acorde con sus objetivos. ¡Prepara
-													a tus talentos para los retos del futuro con el poder de las soft
-													skills!</p>
+												<p>
+													Desde 2004, Maquinados Teysa diseña y fabrica soluciones de alta precisión para las industrias ferroviaria, automotriz y aeronáutica. Con tecnología de vanguardia y certificación ISO 9001:2015, somos sinónimo de calidad e innovación a nivel nacional e internacional.
+												</p>
 											</div>
+
 										</div>
+
 									</div>
 								</div>
 
-
 							</div>
+
 						</div>
 					</div>
 				</section>
@@ -401,28 +447,32 @@
 					data-animate-section data-nav-section="light">
 					<div class="wrap wrap--max">
 						<div class="c-grid">
-							<div
-								class="col-span-10 md:col-span-12 md:col-start-2 lg:col-span-8 lg:col-start-4 text-center">
+
+							<div class="col-span-10 md:col-span-12 md:col-start-2 lg:col-span-8 lg:col-start-4 text-center">
+
 								<h2 class="ts-2" data-animate-title>
-									Nuestros <span>fundamentos</span>
+									Nuestros Valores,
+									<br>
+									<span>Nuestra Esencia</span>
 								</h2>
 								<div class="ts-p" data-split-articles data-animate-paragraph data-animate-delay="200">
-									<p>En PerformanSe, «la confianza personal» es un valor que se refleja en la práctica
-										de nuestras herramientas. La evaluación objetiva de cada individuo se combina
-										con el aspecto humano de los enfoques de evaluación.</p>
+									<p>
+										En Maquinados Teysa nos guiamos por principios sólidos que fortalecen cada aspecto de nuestro trabajo
+									</p>
 								</div>
+
 							</div>
-							<div class="col-span-8 col-start-2 md:col-span-14 c-card-items" data-animate-items
-								data-animate-delay="400">
+							<div class="col-span-8 col-start-2 md:col-span-14 c-card-items" data-animate-items data-animate-delay="400">
+
 								<div class="c-card-item c-card-item--8">
+
 									<div class="c-card-item-title">
-										<h3>Enfoque científico</h3>
+										<h3>Integridad</h3>
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p>Gracias a modelos científicos de referencia, al cumplimiento de normas
-											internacionales y a la validación llevada a cabo por laboratorios
-											universitarios y proyectos de I+D, los tests de PerformanSe son los más
-											precisos del mercado.</p>
+										<p>
+											Compromiso con la transparencia y honestidad en todo lo que hacemos
+										</p>
 									</div>
 									<div class="c-card-item-icon">
 										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
@@ -432,77 +482,115 @@
 												fill="#102458" />
 										</svg>
 									</div>
+
 								</div>
 								<div class="c-card-item c-card-item--8">
+
 									<div class="c-card-item-title">
-										<h3>Enfoque relacional</h3>
+										<h3>Calidad</h3>
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p>Nuestros tests fomentan el respeto y la consideración del entorno de acción
-											del evaluado/evaluador, para favorecer la puesta en común, la transparencia
-											y la integridad de las personas implicadas en el proceso de toma de
-											decisiones.</p>
+										<p>
+											Excelencia en cada proceso, garantizando resultados confiables
+										</p>
 									</div>
 									<div class="c-card-item-icon">
 										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
 											xmlns="http://www.w3.org/2000/svg">
 											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M5 10.1642C5 7.86436 6.86437 6 9.16418 6H25.3582C27.658 6 29.5224 7.86436 29.5224 10.1642V12.4776H31.8358C34.1356 12.4776 36 14.342 36 16.6418V32.8358C36 35.1356 34.1356 36.9999 31.8358 36.9999H30.9926C30.9844 37 30.9762 37 30.968 36.9999H16.5092C16.501 37 16.4928 37 16.4846 36.9999H15.6418C13.342 36.9999 11.4776 35.1356 11.4776 32.8358V30.5223H9.16418C6.86437 30.5223 5 28.658 5 26.3582V10.1642ZM13.3284 32.8358C13.3284 34.1134 14.3641 35.1492 15.6418 35.1492H15.7097C16.5064 31.4464 19.7979 28.6716 23.7386 28.6716C27.6793 28.6716 30.9708 31.4464 31.7675 35.1492H31.8358C33.1135 35.1492 34.1493 34.1134 34.1493 32.8358V16.6418C34.1493 15.3641 33.1135 14.3283 31.8358 14.3283H15.6418C14.3641 14.3283 13.3284 15.3641 13.3284 16.6418V32.8358ZM27.6716 12.4776H15.6418C13.342 12.4776 11.4776 14.342 11.4776 16.6418V28.6716H9.16418C7.88651 28.6716 6.85075 27.6358 6.85075 26.3582V10.1642C6.85075 8.8865 7.88651 7.85074 9.16418 7.85074H25.3582C26.6359 7.85074 27.6716 8.8865 27.6716 10.1642V12.4776ZM29.8613 35.1492C29.1063 32.4792 26.6505 30.5223 23.7386 30.5223C20.8268 30.5223 18.371 32.4792 17.6159 35.1492H29.8613ZM23.7388 19.9962C22.4611 19.9962 21.4254 21.032 21.4254 22.3097C21.4254 23.5873 22.4611 24.6231 23.7388 24.6231C25.0165 24.6231 26.0522 23.5873 26.0522 22.3097C26.0522 21.032 25.0165 19.9962 23.7388 19.9962ZM19.5746 22.3097C19.5746 20.0099 21.439 18.1455 23.7388 18.1455C26.0386 18.1455 27.903 20.0099 27.903 22.3097C27.903 24.6095 26.0386 26.4738 23.7388 26.4738C21.439 26.4738 19.5746 24.6095 19.5746 22.3097Z"
+												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
 												fill="#102458" />
 										</svg>
 									</div>
+
 								</div>
 								<div class="c-card-item c-card-item--8">
+
 									<div class="c-card-item-title">
-										<h3>Enfoque tecnológico</h3>
+										<h3>Responsabilidad</h3>
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p>Nuestras soluciones, Web y responsive, utilizan algoritmos para analizar
-											rápidamente la complejidad humana. PerformanSe cuenta con certificaciones
-											ISO 27001, que garantizan la seguridad tecnológica y la calidad
-											psicométrica.</p>
+										<p>
+											Cumplimos con los más altos estándares en cada proyecto
+										</p>
 									</div>
 									<div class="c-card-item-icon">
 										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
 											xmlns="http://www.w3.org/2000/svg">
 											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M4 9C4 7.34315 5.34315 6 7 6H34.5C36.1569 6 37.5 7.34315 37.5 9V19.6875C37.5 20.2398 37.0523 20.6875 36.5 20.6875C35.9477 20.6875 35.5 20.2398 35.5 19.6875V9C35.5 8.44771 35.0523 8 34.5 8H7C6.44771 8 6 8.44771 6 9V31.25C6 31.8023 6.44771 32.25 7 32.25H20.75C21.3023 32.25 21.75 32.6977 21.75 33.25C21.75 33.8023 21.3023 34.25 20.75 34.25H7C5.34315 34.25 4 32.9069 4 31.25V9Z"
-												fill="#102458" />
-											<path
-												d="M10.3125 13.5625C10.3125 14.2529 10.8721 14.8125 11.5625 14.8125C12.2529 14.8125 12.8125 14.2529 12.8125 13.5625C12.8125 12.8721 12.2529 12.3125 11.5625 12.3125C10.8721 12.3125 10.3125 12.8721 10.3125 13.5625ZM16.4375 13.5625C16.4375 14.2529 16.9971 14.8125 17.6875 14.8125C18.3779 14.8125 18.9375 14.2529 18.9375 13.5625C18.9375 12.8721 18.3779 12.3125 17.6875 12.3125C16.9971 12.3125 16.4375 12.8721 16.4375 13.5625ZM22.5625 13.5625C22.5625 14.2529 23.1221 14.8125 23.8125 14.8125C24.5029 14.8125 25.0625 14.2529 25.0625 13.5625C25.0625 12.8721 24.5029 12.3125 23.8125 12.3125C23.1221 12.3125 22.5625 12.8721 22.5625 13.5625Z"
-												fill="#102458" />
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M9.9375 13.5625C9.9375 12.665 10.665 11.9375 11.5625 11.9375C12.46 11.9375 13.1875 12.665 13.1875 13.5625C13.1875 14.46 12.46 15.1875 11.5625 15.1875C10.665 15.1875 9.9375 14.46 9.9375 13.5625ZM11.5625 12.6875C11.0792 12.6875 10.6875 13.0792 10.6875 13.5625C10.6875 14.0458 11.0792 14.4375 11.5625 14.4375C12.0458 14.4375 12.4375 14.0458 12.4375 13.5625C12.4375 13.0792 12.0458 12.6875 11.5625 12.6875ZM16.0625 13.5625C16.0625 12.665 16.79 11.9375 17.6875 11.9375C18.585 11.9375 19.3125 12.665 19.3125 13.5625C19.3125 14.46 18.585 15.1875 17.6875 15.1875C16.79 15.1875 16.0625 14.46 16.0625 13.5625ZM17.6875 12.6875C17.2042 12.6875 16.8125 13.0792 16.8125 13.5625C16.8125 14.0458 17.2042 14.4375 17.6875 14.4375C18.1708 14.4375 18.5625 14.0458 18.5625 13.5625C18.5625 13.0792 18.1708 12.6875 17.6875 12.6875ZM22.1875 13.5625C22.1875 12.665 22.915 11.9375 23.8125 11.9375C24.71 11.9375 25.4375 12.665 25.4375 13.5625C25.4375 14.46 24.71 15.1875 23.8125 15.1875C22.915 15.1875 22.1875 14.46 22.1875 13.5625ZM23.8125 12.6875C23.3292 12.6875 22.9375 13.0792 22.9375 13.5625C22.9375 14.0458 23.3292 14.4375 23.8125 14.4375C24.2958 14.4375 24.6875 14.0458 24.6875 13.5625C24.6875 13.0792 24.2958 12.6875 23.8125 12.6875Z"
-												fill="#102458" />
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M24.4179 22.9179C24.6798 22.656 25.0651 22.5603 25.4191 22.6692L36.7941 26.1692C37.1847 26.2894 37.4629 26.6352 37.4966 27.0425C37.5303 27.4498 37.3128 27.8367 36.9472 28.0194L31.9954 30.4954L29.5194 35.4472C29.3367 35.8128 28.9498 36.0303 28.5425 35.9966C28.1352 35.9629 27.7894 35.6847 27.6692 35.2941L24.1692 23.9191C24.0603 23.5651 24.156 23.1798 24.4179 22.9179ZM26.6363 25.1363L28.8468 32.3204L30.3556 29.3028C30.4523 29.1093 30.6093 28.9523 30.8028 28.8556L33.8204 27.3468L26.6363 25.1363Z"
+												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
 												fill="#102458" />
 										</svg>
 									</div>
+
 								</div>
-								<div class="c-card-item c-card-item--8">
-									<div class="c-card-item-title">
-										<h3>Enfoque contextual</h3>
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Nuestros tests y servicios pueden extrapolarse a todas tus necesidades y
-											contextos. La adaptabilidad es parte del ADN de nuestros empleados. Nuestras
-											herramientas están disponibles en 28 idiomas y pueden traducirse bajo
-											demanda.</p>
-									</div>
-									<div class="c-card-item-icon">
-										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M6.5 15C5.11928 15 4 16.1193 4 17.5V31.5C4 32.8807 5.11928 34 6.5 34H27.5C28.8807 34 30 32.8807 30 31.5V21C30 19.6193 28.8807 18.5 27.5 18.5H17.7249C16.9955 18.5 16.296 18.2102 15.7803 17.6945L13.818 15.7322C13.3491 15.2634 12.7133 15 12.0503 15H6.5ZM2 17.5C2 15.0147 4.01472 13 6.5 13H12.0503C13.2437 13 14.3883 13.474 15.2322 14.318L17.1945 16.2803C17.3352 16.421 17.5259 16.5 17.7249 16.5H27.5C29.9853 16.5 32 18.5147 32 21V31.5C32 33.9853 29.9853 36 27.5 36H6.5C4.01472 36 2 33.9853 2 31.5V17.5Z"
-												fill="#102458" />
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M13.5 8C12.1193 8 11 9.11928 11 10.5V12.25C11 12.8023 10.5523 13.25 10 13.25C9.44772 13.25 9 12.8023 9 12.25V10.5C9 8.01472 11.0147 6 13.5 6H19.0503C20.2437 6 21.3883 6.47408 22.2322 7.31803M22.2322 7.31803L24.1945 9.28029C24.1945 9.28031 24.1944 9.28028 24.1945 9.28029C24.3352 9.42095 24.526 9.5 24.7249 9.5H34.5C36.9853 9.5 39 11.5147 39 14V24.5C39 26.9853 36.9853 29 34.5 29H31C30.4477 29 30 28.5523 30 28C30 27.4477 30.4477 27 31 27H34.5C35.8807 27 37 25.8807 37 24.5V14C37 12.6193 35.8807 11.5 34.5 11.5H24.7249C23.9955 11.5 23.296 11.2102 22.7803 10.6946L20.818 8.73224C20.3493 8.26345 19.7133 8 19.0503 8H13.5"
-												fill="#102458" />
-										</svg>
-									</div>
-								</div>
+
 							</div>
+							<div class="col-span-8 col-start-2 md:col-span-14 c-card-items" data-animate-items data-animate-delay="400">
+
+								<div class="c-card-item c-card-item--8">
+
+									<div class="c-card-item-title">
+										<h3>Liderazgo</h3>
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>
+											Innovamos continuamente para mantenernos a la vanguardia
+										</p>
+									</div>
+									<div class="c-card-item-icon">
+										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
+												fill="#102458" />
+										</svg>
+									</div>
+
+								</div>
+								<div class="c-card-item c-card-item--8">
+
+									<div class="c-card-item-title">
+										<h3>Colaboración</h3>
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>
+											Trabajamos en equipo con nuestros clientes y colaboradores para alcanzar objetivos comunes
+										</p>
+									</div>
+									<div class="c-card-item-icon">
+										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
+												fill="#102458" />
+										</svg>
+									</div>
+
+								</div>
+								<div class="c-card-item c-card-item--8">
+
+									<div class="c-card-item-title">
+										<h3>Pasión</h3>
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>
+											La motivación que impulsa nuestro desempeño diario
+										</p>
+									</div>
+									<div class="c-card-item-icon">
+										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
+												fill="#102458" />
+										</svg>
+									</div>
+
+								</div>
+
+							</div>
+
 						</div>
 					</div>
 				</section>
@@ -511,6 +599,7 @@
 					<div class="wrap wrap--max">
 
 						<div class="c-carousel-header text-center">
+
 							<div class="c-carousel-year">
 								<div class="c-carousel-year-inner" data-animate data-animate-scale=".8">
 									<div class="c-carousel-year-item">
@@ -519,31 +608,36 @@
 								</div>
 							</div>
 							<h2 class="ts-2" data-animate-title data-animate-delay="100">Nuestra historia</h2>
+
 						</div>
 						<div class="c-carousel-inner" data-animate data-animate-y="100" data-animate-delay="200">
+
 							<div class="c-carousel-items">
-								<div class="c-carousel-item" data-year=1988>
+
+								<div class="c-carousel-item" data-year=2004>
 									<div class="c-grid">
+
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+
 											<h2 class="ts-3">
-												Creación de la sociedad PerformanSe en Nantes
+												El Inicio de una Trayectoria de Precisión e Innovación
 											</h2>
-											<span class="ts-eyebrow">Proporcionar apoyo en la toma de decisiones, para
-												la gestión de competencias</span>
+											<span class="ts-eyebrow">
+												Más de 20 años liderando la industria con calidad y tecnología avanzada
+											</span>
+
+										</div>
+										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+											<p>
+												Fundada en 2004 en Cd. Sahagún, Hidalgo, Maquinados Teysa nació para satisfacer las necesidades de manufactura en la industria metalmecánica. Iniciamos con un enfoque en la fabricación de piezas de alta precisión para sectores clave como el ferroviario, aeronáutico y automotriz.
+												<br><br>
+												Con el tiempo, nos consolidamos como líderes del sector, integrando tecnología de vanguardia y logrando la certificación ISO 9001:2015. Hoy, exportamos a México, EE.UU., Canadá y España, ampliando nuestra presencia y compromiso con la calidad en el mercado global.
+											</p>
 										</div>
 
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>Los tres fundadores (consultor de Gestión de Recursos Humanos, experto en
-												psicología e investigador en el campo de la gestión del conocimiento)
-												descubren los primeros sistemas especializados en la evaluación del
-												comportamiento en Estados Unidos. Firman una asociación con una empresa
-												de Silicon Valley y crean la sociedad PerformanSE en Nantes, S de
-												Sistema y E de Experto.</p>
-										</div>
 									</div>
 								</div>
-
-								<div class="c-carousel-item" data-year=1989>
+								<!-- <div class="c-carousel-item" data-year=1989>
 									<div class="c-grid">
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
 											<h2 class="ts-3">
@@ -563,7 +657,6 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="c-carousel-item" data-year=1990>
 									<div class="c-grid">
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
@@ -586,7 +679,6 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="c-carousel-item" data-year=2000>
 									<div class="c-grid">
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
@@ -608,7 +700,6 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="c-carousel-item" data-year=2008>
 									<div class="c-grid">
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
@@ -631,7 +722,6 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="c-carousel-item" data-year=2011>
 									<div class="c-grid">
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
@@ -651,7 +741,6 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="c-carousel-item" data-year=2012>
 									<div class="c-grid">
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
@@ -671,7 +760,6 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="c-carousel-item" data-year=2013>
 									<div class="c-grid">
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
@@ -691,7 +779,6 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="c-carousel-item" data-year=2015>
 									<div class="c-grid">
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
@@ -710,7 +797,6 @@
 										</div>
 									</div>
 								</div>
-
 								<div class="c-carousel-item" data-year=2019>
 									<div class="c-grid">
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
@@ -730,10 +816,9 @@
 												ayuda a la compañía a seleccionar a los mejores!</p>
 										</div>
 									</div>
-								</div>
+								</div> -->
 
 							</div>
-
 							<div class="c-carousel-controls" data-animate data-animate-x="200" data-animate-delay="600">
 								<button class="c-carousel-control-prev">
 									<svg class="c-icon-arrow-top" width="17" height="16" viewBox="0 0 17 16" fill="none"
@@ -760,7 +845,6 @@
 									</div>
 								</button>
 							</div>
-
 							<div class="c-section-progress">
 								<div class="c-section-progress-inner">
 									<div class="c-section-progress-dots">
@@ -791,305 +875,13 @@
 									</div>
 								</div>
 							</div>
+
 						</div>
 
-					</div>
-				</section>
-				<section class="c-section c-section--light c-carousel c-carousel--2" data-animate-section>
-					<div class="wrap wrap--max">
-						<div class="c-carousel-inner c-grid">
-							<div
-								class="col-span-10 md:col-span-12 md:col-start-2 lg:col-span-8 lg:col-start-4 text-center">
-								<h2 class="ts-2" data-animate-title>Nuestros <span>socios</span></h2>
-								<div class="ts-p" data-split-articles data-animate-paragraph data-animate-delay="200">
-									<p>A nuestros equipos les gusta estar a la vanguardia de la innovación en la
-										evaluación de las soft skills. Y en un mundo en constante cambio, estar a la
-										vanguardia de la tecnología también significa saber rodearse de las personas
-										adecuadas. En PerformanSe, nuestros socios son mucho más que simples logotipos
-										en la web. Son nuestros amigos, a veces, colaboradores de negocios. Aunque se lo
-										decimos a menudo, nunca es suficiente... GRACIAS.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-
-
-					<div class="c-carousel-slides" data-carousel data-animate data-animate-y="100"
-						data-animate-delay="400">
-
-
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="https://lafrenchtech.gouv.fr/fr/" class="c-carousel-slide-inner c-client-logo"
-								target="_blank" rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_French_Tech.svg"
-										alt="Logo French Tech"></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_French_Tech.svg"
-										alt="Logo French Tech"></span>
-							</a>
-						</div>
-
-
-
-
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="https://www.bpifrance.fr/" class="c-carousel-slide-inner c-client-logo"
-								target="_blank" rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_bpi_fr.svg"
-										alt="Logo BPI"></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_bpi_fr.svg"
-										alt="Logo BPI"></span>
-							</a>
-						</div>
-
-
-
-
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="https://lab-rh.com/" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-lab-rh.svg"
-										alt="Logo Lab RH"></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-lab-rh.svg"
-										alt="Logo Lab RH"></span>
-							</a>
-						</div>
-
-
-
-
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="https://acompetenceegale.com/" class="c-carousel-slide-inner c-client-logo"
-								target="_blank" rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-a-competences-egales.svg"
-										alt="Logo A compétence égale"></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-a-competences-egales.svg"
-										alt="Logo A compétence égale"></span>
-							</a>
-						</div>
-
-
-					</div>
-
-				</section>
-				<section class="c-section--dark-1 c-cards c-cards--5" data-animate-section>
-					<div class="c-cards-inner">
-						<div class="c-cards-title wrap wrap--max">
-							<div class="c-grid">
-								<div class="col-span-8 md:col-span-6">
-									<p class="ts-2" data-animate-title data-animate-delay="100">
-										Equipo directivo
-									</p>
-									<div class="ts-p" data-animate data-animate-y="50" data-animate-delay="200">
-										<p>¡Descubre el Comité de Dirección de PerformanSe, que se reúne cada semana
-											para discutir las estrategias que hay que seguir para cubrir de cerca tus
-											necesidades!</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="c-cards-content">
-							<div class="c-cards-content-inner no-scrollbar">
-								<a href="https://www.linkedin.com/in/dominique-duquesnoy" target="_blank"
-									rel="noopener noreferrer" class="c-card-item c-card-item--7 -has-social">
-									<div class="c-card-item-label">
-										<span class="ts-eyebrow">CEO</span>
-									</div>
-
-									<div class="c-card-item-title">
-										<h3>Dominique Duquesnoy</h3>
-									</div>
-
-									<div class="c-card-item-text ts-p">
-
-									</div>
-
-									<div class="c-card-item-cta">
-										<div class="c-card-item-img">
-											<img
-												src="https://www.performanse.com/assets/general/Employees_people/_avatarImageTransform/8309/Dominique_Duquesnoy.webp">
-										</div>
-
-										<div class="c-card-item-socials">
-											<div class="c-card-item-social">
-												<svg class="c-icon-linkedin" width="14" height="14" viewBox="0 0 14 14"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M3.06703 4.23828H0.078125V14.0002H3.06703V4.23828Z"
-														fill="currentColor" />
-													<path
-														d="M1.5915 0C0.634011 0 0 0.656045 0 1.52202C0 2.36176 0.608133 3.03093 1.55268 3.03093C2.56192 3.03093 3.17006 2.34864 3.17006 1.5089C3.14418 0.656045 2.56192 0 1.5915 0Z"
-														fill="currentColor" />
-													<path
-														d="M10.5579 4.01514C8.94053 4.01514 7.98304 4.95984 7.58193 5.58964H7.51724L7.37491 4.23819H4.78711C4.82593 5.11729 4.86474 6.14072 4.86474 7.34785V14.0001H7.85365V8.37127C7.85365 8.09574 7.87953 7.80708 7.95716 7.61026C8.17713 7.04606 8.66881 6.46874 9.49691 6.46874C10.5838 6.46874 11.0108 7.3216 11.0108 8.58121V13.987H13.9997V8.21382C13.9997 5.35347 12.5246 4.01514 10.5579 4.01514Z"
-														fill="currentColor" />
-												</svg>
-											</div>
-										</div>
-									</div>
-								</a>
-								<a href="https://www.linkedin.com/in/melany-payoux-49279995/" target="_blank"
-									rel="noopener noreferrer" class="c-card-item c-card-item--7 -has-social">
-									<div class="c-card-item-label">
-										<span class="ts-eyebrow">PhD, Gerente de Innovación</span>
-									</div>
-
-									<div class="c-card-item-title">
-										<h3>Melany Payoux</h3>
-									</div>
-
-									<div class="c-card-item-text ts-p">
-
-									</div>
-
-									<div class="c-card-item-cta">
-										<div class="c-card-item-img">
-											<img
-												src="https://www.performanse.com/assets/general/Employees_people/_avatarImageTransform/206857/MELANY-1.webp">
-										</div>
-
-										<div class="c-card-item-socials">
-											<div class="c-card-item-social">
-												<svg class="c-icon-linkedin" width="14" height="14" viewBox="0 0 14 14"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M3.06703 4.23828H0.078125V14.0002H3.06703V4.23828Z"
-														fill="currentColor" />
-													<path
-														d="M1.5915 0C0.634011 0 0 0.656045 0 1.52202C0 2.36176 0.608133 3.03093 1.55268 3.03093C2.56192 3.03093 3.17006 2.34864 3.17006 1.5089C3.14418 0.656045 2.56192 0 1.5915 0Z"
-														fill="currentColor" />
-													<path
-														d="M10.5579 4.01514C8.94053 4.01514 7.98304 4.95984 7.58193 5.58964H7.51724L7.37491 4.23819H4.78711C4.82593 5.11729 4.86474 6.14072 4.86474 7.34785V14.0001H7.85365V8.37127C7.85365 8.09574 7.87953 7.80708 7.95716 7.61026C8.17713 7.04606 8.66881 6.46874 9.49691 6.46874C10.5838 6.46874 11.0108 7.3216 11.0108 8.58121V13.987H13.9997V8.21382C13.9997 5.35347 12.5246 4.01514 10.5579 4.01514Z"
-														fill="currentColor" />
-												</svg>
-											</div>
-										</div>
-									</div>
-								</a>
-								<a href="https://www.linkedin.com/in/grégory-lorgeray-84916812/" target="_blank"
-									rel="noopener noreferrer" class="c-card-item c-card-item--7 -has-social">
-									<div class="c-card-item-label">
-										<span class="ts-eyebrow">Director Administrativo</span>
-									</div>
-
-									<div class="c-card-item-title">
-										<h3>Gregory Lorgeray</h3>
-									</div>
-
-									<div class="c-card-item-text ts-p">
-
-									</div>
-
-									<div class="c-card-item-cta">
-										<div class="c-card-item-img">
-											<img
-												src="https://www.performanse.com/assets/general/Employees_people/_avatarImageTransform/8332/gregory-lorgeray.webp">
-										</div>
-
-										<div class="c-card-item-socials">
-											<div class="c-card-item-social">
-												<svg class="c-icon-linkedin" width="14" height="14" viewBox="0 0 14 14"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M3.06703 4.23828H0.078125V14.0002H3.06703V4.23828Z"
-														fill="currentColor" />
-													<path
-														d="M1.5915 0C0.634011 0 0 0.656045 0 1.52202C0 2.36176 0.608133 3.03093 1.55268 3.03093C2.56192 3.03093 3.17006 2.34864 3.17006 1.5089C3.14418 0.656045 2.56192 0 1.5915 0Z"
-														fill="currentColor" />
-													<path
-														d="M10.5579 4.01514C8.94053 4.01514 7.98304 4.95984 7.58193 5.58964H7.51724L7.37491 4.23819H4.78711C4.82593 5.11729 4.86474 6.14072 4.86474 7.34785V14.0001H7.85365V8.37127C7.85365 8.09574 7.87953 7.80708 7.95716 7.61026C8.17713 7.04606 8.66881 6.46874 9.49691 6.46874C10.5838 6.46874 11.0108 7.3216 11.0108 8.58121V13.987H13.9997V8.21382C13.9997 5.35347 12.5246 4.01514 10.5579 4.01514Z"
-														fill="currentColor" />
-												</svg>
-											</div>
-										</div>
-									</div>
-								</a>
-								<a href="https://www.linkedin.com/in/samuel-heron/" target="_blank"
-									rel="noopener noreferrer" class="c-card-item c-card-item--7 -has-social">
-									<div class="c-card-item-label">
-										<span class="ts-eyebrow">Director de Consultoría y Formación</span>
-									</div>
-
-									<div class="c-card-item-title">
-										<h3>Samuel Heron</h3>
-									</div>
-
-									<div class="c-card-item-text ts-p">
-
-									</div>
-
-									<div class="c-card-item-cta">
-										<div class="c-card-item-img">
-											<img
-												src="https://www.performanse.com/assets/general/Employees_people/_avatarImageTransform/8353/heron-samuel.webp">
-										</div>
-
-										<div class="c-card-item-socials">
-											<div class="c-card-item-social">
-												<svg class="c-icon-linkedin" width="14" height="14" viewBox="0 0 14 14"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M3.06703 4.23828H0.078125V14.0002H3.06703V4.23828Z"
-														fill="currentColor" />
-													<path
-														d="M1.5915 0C0.634011 0 0 0.656045 0 1.52202C0 2.36176 0.608133 3.03093 1.55268 3.03093C2.56192 3.03093 3.17006 2.34864 3.17006 1.5089C3.14418 0.656045 2.56192 0 1.5915 0Z"
-														fill="currentColor" />
-													<path
-														d="M10.5579 4.01514C8.94053 4.01514 7.98304 4.95984 7.58193 5.58964H7.51724L7.37491 4.23819H4.78711C4.82593 5.11729 4.86474 6.14072 4.86474 7.34785V14.0001H7.85365V8.37127C7.85365 8.09574 7.87953 7.80708 7.95716 7.61026C8.17713 7.04606 8.66881 6.46874 9.49691 6.46874C10.5838 6.46874 11.0108 7.3216 11.0108 8.58121V13.987H13.9997V8.21382C13.9997 5.35347 12.5246 4.01514 10.5579 4.01514Z"
-														fill="currentColor" />
-												</svg>
-											</div>
-										</div>
-									</div>
-								</a>
-								<a href="https://www.linkedin.com/in/francis-rantiere-44050012/" target="_blank"
-									rel="noopener noreferrer" class="c-card-item c-card-item--7 -has-social">
-									<div class="c-card-item-label">
-										<span class="ts-eyebrow">CTO</span>
-									</div>
-
-									<div class="c-card-item-title">
-										<h3>Francis Rantière</h3>
-									</div>
-
-									<div class="c-card-item-text ts-p">
-
-									</div>
-
-									<div class="c-card-item-cta">
-										<div class="c-card-item-img">
-											<img
-												src="https://www.performanse.com/assets/general/Employees_people/_avatarImageTransform/8335/francis-rantiere.webp">
-										</div>
-
-										<div class="c-card-item-socials">
-											<div class="c-card-item-social">
-												<svg class="c-icon-linkedin" width="14" height="14" viewBox="0 0 14 14"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path d="M3.06703 4.23828H0.078125V14.0002H3.06703V4.23828Z"
-														fill="currentColor" />
-													<path
-														d="M1.5915 0C0.634011 0 0 0.656045 0 1.52202C0 2.36176 0.608133 3.03093 1.55268 3.03093C2.56192 3.03093 3.17006 2.34864 3.17006 1.5089C3.14418 0.656045 2.56192 0 1.5915 0Z"
-														fill="currentColor" />
-													<path
-														d="M10.5579 4.01514C8.94053 4.01514 7.98304 4.95984 7.58193 5.58964H7.51724L7.37491 4.23819H4.78711C4.82593 5.11729 4.86474 6.14072 4.86474 7.34785V14.0001H7.85365V8.37127C7.85365 8.09574 7.87953 7.80708 7.95716 7.61026C8.17713 7.04606 8.66881 6.46874 9.49691 6.46874C10.5838 6.46874 11.0108 7.3216 11.0108 8.58121V13.987H13.9997V8.21382C13.9997 5.35347 12.5246 4.01514 10.5579 4.01514Z"
-														fill="currentColor" />
-												</svg>
-											</div>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
 					</div>
 				</section>
 				<section class="c-map" data-animate-section>
+
 					<div class="c-map-title">
 						<div class="wrap wrap--max">
 							<div class="c-grid">
@@ -1099,7 +891,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="c-map-svg-outer">
 						<div class="c-map-svg-wrap" data-animate>
 							<div class="c-map-svg">
@@ -1429,30 +1220,12 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="c-map-progress-outer">
 						<div class="c-map-progress">
 							<div class="c-map-progress-inner"></div>
 						</div>
 					</div>
-				</section>
-				<section class="c-section c-section--dark c-section--form c-section--form-1" data-nav-section="dark"
-					data-animate-section>
-					<div class="wrap wrap--max">
-						<div class="text-center">
-							<h2 class="ts-2--sm" data-animate-title>¿Listos para descubrir sus próximos talentos?</h2>
-							<div class="ts-eyebrow" data-animate data-animate-y="50" data-animate-delay="200">
-								<p>RELLENE EL FORMULARIO PARA OBTENER UNA DEMO.</p>
-							</div>
-						</div>
 
-						<div class="c-hubspot-form" data-animate-form
-							id="hbspt_form_b3dd7f81-0ad3-4318-9e5c-6203a49075e6"
-							data-form-id="b3dd7f81-0ad3-4318-9e5c-6203a49075e6" data-portal-id="139756868">
-							<div class="hbspt-form" data-hs-forms-root="true"></div>
-						</div>
-
-					</div>
 				</section>
 				<div class="c-modal c-modal--form c-modal--light" style="opacity: 0; pointer-events: none;"
 					data-modal="form-1-success" data-modal-form-id="Solicitud de Demo ES">
@@ -1620,6 +1393,7 @@
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</main>
 
