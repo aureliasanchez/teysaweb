@@ -77,28 +77,41 @@
 }
 
 function scrollToTop() {
-    const scrollDuration = 2000; // Duración en milisegundos
-    const start = window.scrollY;
-    const startTime = 'now' in window.performance ? performance.now() : new Date().getTime();
+  const scrollDuration = 2000; // Duración en milisegundos
+  const start = window.scrollY;
+  const startTime =
+    "now" in window.performance ? performance.now() : new Date().getTime();
 
-    const easeInOutQuad = (t, b, c, d) => {
-        t /= d / 2;
-        if (t < 1) return c / 2 * t * t + b;
-        t--;
-        return -c / 2 * (t * (t - 2) - 1) + b;
-    };
+  const easeInOutQuad = (t, b, c, d) => {
+    t /= d / 2;
+    if (t < 1) return (c / 2) * t * t + b;
+    t--;
+    return (-c / 2) * (t * (t - 2) - 1) + b;
+  };
 
-    const scroll = () => {
-        const currentTime = 'now' in window.performance ? performance.now() : new Date().getTime();
-        const timeElapsed = currentTime - startTime;
-        const nextScroll = easeInOutQuad(timeElapsed, start, -start, scrollDuration);
+  const scroll = () => {
+    const currentTime =
+      "now" in window.performance ? performance.now() : new Date().getTime();
+    const timeElapsed = currentTime - startTime;
+    const nextScroll = easeInOutQuad(
+      timeElapsed,
+      start,
+      -start,
+      scrollDuration
+    );
 
-        window.scrollTo(0, nextScroll);
+    window.scrollTo(0, nextScroll);
 
-        if (timeElapsed < scrollDuration) {
-            requestAnimationFrame(scroll);
-        }
-    };
+    if (timeElapsed < scrollDuration) {
+      requestAnimationFrame(scroll);
+    }
+  };
 
-    scroll();
+  scroll();
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    document.body.style.opacity = 1;
+  }, 2000); // 2000 milisegundos = 2 segundos
+});

@@ -2809,7 +2809,7 @@
 							<div class="c-cards-content" style="padding-top: 5%;">
 								<div class="c-cards-content-cta">
 									<div data-animate data-animate-delay="400">
-										<a href="./pages/productos/productos.php" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue" >
+										<a href="#" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue" >
 		
 											<span class="c-button-bg">
 												<span class="c-button-bg-hover"></span>
@@ -2817,8 +2817,8 @@
 											<span class="c-button-text">
 												<span class="c-button-text-inner">
 		
-													<span class="c-button-text-hover">Explora todos nuestros servicios</span>
-													<span class="c-button-text-static">Explora todos nuestros servicios</span>
+													<span class="c-button-text-hover">Transforma tu producción</span>
+													<span class="c-button-text-static">Transforma tu producción</span>
 		
 												</span>
 											</span>

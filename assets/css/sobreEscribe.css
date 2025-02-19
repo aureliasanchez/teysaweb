@@ -7,3 +7,8 @@
     background-color: #69DFCA !important;
     color: black !important;
 }
+
+.footerBlaco li,
+.footerBlaco a{
+    color: #fff;
+}
