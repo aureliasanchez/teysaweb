@@ -54,25 +54,60 @@
 
 			<div data-page data-entry-id="44">
 
-				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--dark c-section--dark-2"
-					data-animate-section data-nav-section="dark">
-					<div class="wrap wrap--max">
-						<div class="flex flex-col items-center">
-							<h1 class="ts-2" data-animate-title>¡Queremos conocerte mejor!</h1>
-							<br>
-							<p class="mt-4">Completa nuestro formulario y descubre cómo podemos ayudarte.</p>
+				
+				<section class="c-section c-section--light c-section--title-illustration" data-animate-section data-nav-section="light">
+					<div class="wrap">
+						<div class="c-grid">
+
+							<div class="col-span-10 md:col-span-12 md:col-start-2 text-center c-section-title">
+								<h2 class="ts-2" data-animate-title>Información de <span>Contacto</span></h2>
+							</div>
+							<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
+								<p>
+									<strong>Télefono:</strong>
+									<span>
+										<a href="https://wa.me/527919153714" target="_blank">
+											+52 791 915 3714
+										</a>
+									</span>
+								</p>
+								<p>
+									<strong>Correo Electrónico:</strong>
+									<span>
+										<a href="https://mail.google.com/mail/?view=cm&fs=1&to=contacto@mteysa.com" target="_blank">
+											contacto@mteysa.com
+										</a>
+									</span>
+								</p>
+								<p>
+									<strong>Dirección:</strong>
+									<span>
+										<a href="https://www.google.com/maps/search/?api=1&query=Corredor+Industrial+Ex-Dina,+Fracción+13,+Cd.+Sahagún,+Hidalgo,+México" target="_blank">
+											Corredor Industrial Ex-Dina, Fracción 13, Cd. Sahagún, Hidalgo, México
+										</a>
+									</span>
+								</p>
+								<p>
+									<strong>Horario de Atención:</strong>
+									<span>
+										Lunes a Viernes, 9:00 am - 6:00 pm
+									</span>
+								</p>
+							</div>
+
 						</div>
 					</div>
-				</div>
+				</section>
 				<section class="c-section c-section--dark c-section--form c-section--form-1" data-nav-section="dark" data-animate-delay="400">
 					<div class="wrap wrap--max">
+
 						<div class="text-center">
-							<h2 class="ts-2--sm" data-animate-title>¿Listos para descubrir sus próximos talentos?</h2>
+							<h2 class="ts-2--sm" data-animate-title>Contáctanos y Lleva tu
+								Proyecto al Siguiente Nivel</h2>
 							<div class="ts-eyebrow" data-animate data-animate-y="50" data-animate-delay="200">
-								<p>RELLENE EL FORMULARIO PARA OBTENER UNA DEMO.</p>
+								<p style="color: #fff;">Ponte en contacto con nosotros y descubre cómo podemos impulsar tu producción</p>
 							</div>
 						</div>
-
 						<div class="c-hubspot-form" data-animate-form
 							id="hbspt_form_b3dd7f81-0ad3-4318-9e5c-6203a49075e6"
 							data-form-id="b3dd7f81-0ad3-4318-9e5c-6203a49075e6" data-portal-id="139756868">
