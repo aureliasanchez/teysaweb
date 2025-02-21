@@ -30,6 +30,8 @@
 	<link href="https://www.performanse.com/en/about-us/" rel="alternate" hreflang="en">
 	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet">
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet">
+	<link href="/assets/css/acomodo.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
 	<title>Teysa | Acerca de</title>
@@ -82,157 +84,8 @@
 								<div class="c-lock-scroll-card" data-animate-section>
 									<div class="c-grid items-center c-lock-scroll-card-inner">
 
-										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2"
-											data-animate data-animate-scale="0.8">
-											<svg class="c-illustration-specialist-soft-skills" width="413" height="277"
-												version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-												xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												viewBox="0 0 413 277" enable-background="new 0 0 413 277"
-												xml:space="preserve">
-												<g class="c-illustration-part darkblue-paper">
-													<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse"
-														x1="165.9722" y1="70.806" x2="-92.473" y2="329.2508"
-														gradientTransform="matrix(1 0 0 -1 0 277.8898)">
-														<stop offset="0" style="stop-color:#07296F" />
-														<stop offset="1" style="stop-color:#0B1841" />
-													</linearGradient>
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)"
-														d="M143.9,29.7H49.4L8.8,70.2v135.1h135.1V29.7L143.9,29.7z" />
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#07296F"
-														d="M49.4,29.7v40.5H8.8L49.4,29.7z" />
-												</g>
-												<g class="c-illustration-part blue-paper">
-													<linearGradient
-														id="SVGID_00000181793921979892339140000002532425369639637891_"
-														gradientUnits="userSpaceOnUse" x1="188.626" y1="143.3244"
-														x2="71.2137" y2="-12.7385"
-														gradientTransform="matrix(1 0 0 -1 0 277.8898)">
-														<stop offset="0" style="stop-color:#2F4A8F" />
-														<stop offset="0.59" style="stop-color:#284285" />
-														<stop offset="0.8" style="stop-color:#18316F" />
-														<stop offset="1" style="stop-color:#09215A" />
-													</linearGradient>
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														fill="url(#SVGID_00000181793921979892339140000002532425369639637891_)"
-														d="
-M231.7,70.2H89.9v161.6l41,41.1h100.8V70.2L231.7,70.2z" />
-													<defs>
-														<filter id="Adobe_OpacityMaskFilter"
-															filterUnits="userSpaceOnUse" x="89.9" y="70.2" width="141.8"
-															height="202.7">
-															<feColorMatrix type="matrix"
-																values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" />
-														</filter>
-													</defs>
-
-													<mask maskUnits="userSpaceOnUse" x="89.9" y="70.2" width="141.8"
-														height="202.7"
-														id="mask0_335_15564_00000031899691033866059700000010629392863370817200_">
-														<path fill="#FFFFFF" filter="url(#Adobe_OpacityMaskFilter)"
-															d="M231.7,70.2H89.9v161.6l41,41.1h100.8V70.2L231.7,70.2z" />
-													</mask>
-													<g
-														mask="url(#mask0_335_15564_00000031899691033866059700000010629392863370817200_)">
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M110.1,70.2v170.1" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M130.4,70.2v202.7" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M150.7,70.2v202.7" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M170.9,70.2v202.7" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M191.2,70.2v202.7" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M211.4,218.8v54.1" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,232.4h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,171.6h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,191.8h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,151.3h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M109.2,252.6h122.5" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,131h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,110.8h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,90.5h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,212h141.8" />
-													</g>
-													<path class="c-illustration-part dot-1" fill="#FFFFFF" d="M191.2,154.7c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
-C187.8,153.2,189.3,154.7,191.2,154.7z" />
-													<path class="c-illustration-part dot-2" fill="#25A4FF" d="M150.7,195.2c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
-C147.3,193.7,148.8,195.2,150.7,195.2z" />
-													<path class="c-illustration-part dot-3" fill="#25A4FF" d="M170.9,235.7c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
-C167.6,234.2,169.1,235.7,170.9,235.7z" />
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#2F4A8F"
-														d="M130.9,272.8v-41h-41L130.9,272.8z" />
-												</g>
-												<g class="c-illustration-part green-paper">
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#BDEBE0"
-														d="M211.4,2.7h128.3l33.8,33.8v182.3H211.4V2.7L211.4,2.7z" />
-													<path fill="none" stroke="#23A4FF" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,70.2h-94.5v81
-h94.5V70.2z" />
-													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,70.2h-94.5v81
-h94.5V70.2z" />
-													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,83.7h-94.5
-v67.5h94.5V83.7z" />
-													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,97.2h-94.5v54
-h94.5V97.2z" />
-													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,110.7h-94.5 v40.5h94.5V110.7z" />
-													<path class="c-illustration-part bar-1" fill="#07296F"
-														d="M278.9,124.2h-33.1v26.4h33.1V124.2z" />
-													<path class="c-illustration-part bar-2" fill="#25A4FF"
-														d="M308.3,70.8h-31.9v79.7h31.9V70.8z" />
-													<path class="c-illustration-part bar-3" fill="#0040B4"
-														d="M339.1,110.1h-30.8v40.5h30.8V110.1z" />
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#69DFCA"
-														d="M339.8,2.7v33.8h33.8L339.8,2.7z" />
-												</g>
-												<g class="c-illustration-part checkbox">
-													<linearGradient
-														id="SVGID_00000168092625491253223100000001649462572247085755_"
-														gradientUnits="userSpaceOnUse" x1="80.3143" y1="173.8488"
-														x2="80.3143" y2="-12.6892"
-														gradientTransform="matrix(1 0 0 -1 0 277.8898)">
-														<stop offset="0" style="stop-color:#9CB8FF" />
-														<stop offset="0.2" style="stop-color:#ACCAFF" />
-														<stop offset="0.42" style="stop-color:#BCDDFF" />
-														<stop offset="1" style="stop-color:#C3E6FF" />
-													</linearGradient>
-													<path
-														fill="url(#SVGID_00000168092625491253223100000001649462572247085755_)"
-														d="M61.6,110.7H99c6.7,0,12.2,5.4,12.2,12.2v37.3 c0,6.7-5.4,12.2-12.2,12.2H61.6c-6.7,0-12.2-5.4-12.2-12.2v-37.3C49.4,116.1,54.9,110.7,61.6,110.7z" />
-													<path fill="none" stroke="#2F4A8F" stroke-width="2.5933"
-														stroke-linejoin="round" stroke-miterlimit="1.5" d="M59.1,146.4 l13.4,10.2l30.6-31.8" />
-												</g>
-												<path class="c-illustration-part green-box" fill="#69DFCA" d="M400.6,218.8h-10.8c-4.5,0-8.1,3.6-8.1,8.1v10.8c0,4.5,3.6,8.1,8.1,8.1h10.8 c4.5,0,8.1-3.6,8.1-8.1v-10.8C408.7,222.4,405.1,218.8,400.6,218.8z" />
-											</svg>
+										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2" data-animate data-animate-scale="0.8">
+											<img src="../../assets/img/pages/acercaDe/equipo.webp" alt="Equipo de trabajo" class="imgFat centrado">
 										</div>
 										<div class="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
 
@@ -253,157 +106,8 @@ h94.5V97.2z" />
 								<div class="c-lock-scroll-card" data-animate-section>
 									<div class="c-grid items-center c-lock-scroll-card-inner">
 
-										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2"
-											data-animate data-animate-scale="0.8">
-											<svg class="c-illustration-specialist-soft-skills" width="413" height="277"
-												version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-												xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												viewBox="0 0 413 277" enable-background="new 0 0 413 277"
-												xml:space="preserve">
-												<g class="c-illustration-part darkblue-paper">
-													<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse"
-														x1="165.9722" y1="70.806" x2="-92.473" y2="329.2508"
-														gradientTransform="matrix(1 0 0 -1 0 277.8898)">
-														<stop offset="0" style="stop-color:#07296F" />
-														<stop offset="1" style="stop-color:#0B1841" />
-													</linearGradient>
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)"
-														d="M143.9,29.7H49.4L8.8,70.2v135.1h135.1V29.7L143.9,29.7z" />
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#07296F"
-														d="M49.4,29.7v40.5H8.8L49.4,29.7z" />
-												</g>
-												<g class="c-illustration-part blue-paper">
-													<linearGradient
-														id="SVGID_00000181793921979892339140000002532425369639637891_"
-														gradientUnits="userSpaceOnUse" x1="188.626" y1="143.3244"
-														x2="71.2137" y2="-12.7385"
-														gradientTransform="matrix(1 0 0 -1 0 277.8898)">
-														<stop offset="0" style="stop-color:#2F4A8F" />
-														<stop offset="0.59" style="stop-color:#284285" />
-														<stop offset="0.8" style="stop-color:#18316F" />
-														<stop offset="1" style="stop-color:#09215A" />
-													</linearGradient>
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														fill="url(#SVGID_00000181793921979892339140000002532425369639637891_)"
-														d="
-M231.7,70.2H89.9v161.6l41,41.1h100.8V70.2L231.7,70.2z" />
-													<defs>
-														<filter id="Adobe_OpacityMaskFilter"
-															filterUnits="userSpaceOnUse" x="89.9" y="70.2" width="141.8"
-															height="202.7">
-															<feColorMatrix type="matrix"
-																values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0" />
-														</filter>
-													</defs>
-
-													<mask maskUnits="userSpaceOnUse" x="89.9" y="70.2" width="141.8"
-														height="202.7"
-														id="mask0_335_15564_00000031899691033866059700000010629392863370817200_">
-														<path fill="#FFFFFF" filter="url(#Adobe_OpacityMaskFilter)"
-															d="M231.7,70.2H89.9v161.6l41,41.1h100.8V70.2L231.7,70.2z" />
-													</mask>
-													<g
-														mask="url(#mask0_335_15564_00000031899691033866059700000010629392863370817200_)">
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M110.1,70.2v170.1" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M130.4,70.2v202.7" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M150.7,70.2v202.7" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M170.9,70.2v202.7" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M191.2,70.2v202.7" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M211.4,218.8v54.1" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,232.4h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,171.6h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,191.8h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,151.3h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M109.2,252.6h122.5" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,131h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,110.8h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,90.5h141.8" />
-														<path fill="none" stroke="#143378" stroke-width="1.3501"
-															stroke-linejoin="round" stroke-miterlimit="2"
-															d="M89.9,212h141.8" />
-													</g>
-													<path class="c-illustration-part dot-1" fill="#FFFFFF" d="M191.2,154.7c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
-C187.8,153.2,189.3,154.7,191.2,154.7z" />
-													<path class="c-illustration-part dot-2" fill="#25A4FF" d="M150.7,195.2c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
-C147.3,193.7,148.8,195.2,150.7,195.2z" />
-													<path class="c-illustration-part dot-3" fill="#25A4FF" d="M170.9,235.7c1.9,0,3.4-1.5,3.4-3.4c0-1.9-1.5-3.4-3.4-3.4c-1.9,0-3.4,1.5-3.4,3.4
-C167.6,234.2,169.1,235.7,170.9,235.7z" />
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#2F4A8F"
-														d="M130.9,272.8v-41h-41L130.9,272.8z" />
-												</g>
-												<g class="c-illustration-part green-paper">
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#BDEBE0"
-														d="M211.4,2.7h128.3l33.8,33.8v182.3H211.4V2.7L211.4,2.7z" />
-													<path fill="none" stroke="#23A4FF" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,70.2h-94.5v81
-h94.5V70.2z" />
-													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,70.2h-94.5v81
-h94.5V70.2z" />
-													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,83.7h-94.5
-v67.5h94.5V83.7z" />
-													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,97.2h-94.5v54
-h94.5V97.2z" />
-													<path fill="none" stroke="#69DFCA" stroke-width="1.3501"
-														stroke-linejoin="round" stroke-miterlimit="2" d="M339.8,110.7h-94.5 v40.5h94.5V110.7z" />
-													<path class="c-illustration-part bar-1" fill="#07296F"
-														d="M278.9,124.2h-33.1v26.4h33.1V124.2z" />
-													<path class="c-illustration-part bar-2" fill="#25A4FF"
-														d="M308.3,70.8h-31.9v79.7h31.9V70.8z" />
-													<path class="c-illustration-part bar-3" fill="#0040B4"
-														d="M339.1,110.1h-30.8v40.5h30.8V110.1z" />
-													<path fill-rule="evenodd" clip-rule="evenodd" fill="#69DFCA"
-														d="M339.8,2.7v33.8h33.8L339.8,2.7z" />
-												</g>
-												<g class="c-illustration-part checkbox">
-													<linearGradient
-														id="SVGID_00000168092625491253223100000001649462572247085755_"
-														gradientUnits="userSpaceOnUse" x1="80.3143" y1="173.8488"
-														x2="80.3143" y2="-12.6892"
-														gradientTransform="matrix(1 0 0 -1 0 277.8898)">
-														<stop offset="0" style="stop-color:#9CB8FF" />
-														<stop offset="0.2" style="stop-color:#ACCAFF" />
-														<stop offset="0.42" style="stop-color:#BCDDFF" />
-														<stop offset="1" style="stop-color:#C3E6FF" />
-													</linearGradient>
-													<path
-														fill="url(#SVGID_00000168092625491253223100000001649462572247085755_)"
-														d="M61.6,110.7H99c6.7,0,12.2,5.4,12.2,12.2v37.3 c0,6.7-5.4,12.2-12.2,12.2H61.6c-6.7,0-12.2-5.4-12.2-12.2v-37.3C49.4,116.1,54.9,110.7,61.6,110.7z" />
-													<path fill="none" stroke="#2F4A8F" stroke-width="2.5933"
-														stroke-linejoin="round" stroke-miterlimit="1.5" d="M59.1,146.4 l13.4,10.2l30.6-31.8" />
-												</g>
-												<path class="c-illustration-part green-box" fill="#69DFCA" d="M400.6,218.8h-10.8c-4.5,0-8.1,3.6-8.1,8.1v10.8c0,4.5,3.6,8.1,8.1,8.1h10.8 c4.5,0,8.1-3.6,8.1-8.1v-10.8C408.7,222.4,405.1,218.8,400.6,218.8z" />
-											</svg>
+										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2" data-animate data-animate-scale="0.8">
+											<img src="../../assets/img/pages/acercaDe/fundamentos.webp" alt="Maquina" class="imgFat centrado">
 										</div>
 										<div class="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
 
@@ -459,12 +163,7 @@ h94.5V97.2z" />
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
-												fill="#102458" />
-										</svg>
+										<i class="fas fa-balance-scale" style="font-size: 42px; color: #102458;"></i>
 									</div>
 
 								</div>
@@ -479,12 +178,7 @@ h94.5V97.2z" />
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
-												fill="#102458" />
-										</svg>
+										<i class="fas fa-award" style="font-size: 42px; color: #102458;"></i>
 									</div>
 
 								</div>
@@ -499,12 +193,7 @@ h94.5V97.2z" />
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
-												fill="#102458" />
-										</svg>
+										<i class="fas fa-tasks" style="font-size: 42px; color: #102458;"></i>
 									</div>
 
 								</div>
@@ -523,12 +212,7 @@ h94.5V97.2z" />
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
-												fill="#102458" />
-										</svg>
+										<i class="fas fa-chess-king" style="font-size: 42px; color: #102458;"></i>
 									</div>
 
 								</div>
@@ -543,12 +227,7 @@ h94.5V97.2z" />
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
-												fill="#102458" />
-										</svg>
+										<i class="fas fa-handshake" style="font-size: 42px; color: #102458;"></i>
 									</div>
 
 								</div>
@@ -563,12 +242,7 @@ h94.5V97.2z" />
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<svg width="42" height="42" viewBox="0 0 42 42" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M13.9655 6C11.787 6 10 7.79133 10 10.0271V33.785L12.6145 31.4797C13.007 31.1336 13.6 31.1486 13.9745 31.5142L17.138 34.6025L20.3014 31.5142C20.6899 31.1349 21.31 31.1349 21.6985 31.5142L24.862 34.6025L28.0257 31.5142C28.4001 31.1486 28.9931 31.1336 29.3856 31.4797L32 33.785V10.0271C32 7.79131 30.2131 6 28.0345 6H13.9655ZM8 10.0271C8 6.71005 10.6593 4 13.9655 4H28.0345C31.3408 4 34 6.71007 34 10.0271V36C34 36.3931 33.7697 36.7497 33.4115 36.9114C33.0532 37.0732 32.6334 37.01 32.3386 36.7501L28.7588 33.5935L25.5606 36.7156C25.1721 37.0948 24.552 37.0948 24.1635 36.7156L21 33.6272L17.8365 36.7156C17.448 37.0948 16.8279 37.0948 16.4394 36.7156L13.2413 33.5935L9.66137 36.7501C9.36654 37.01 8.94677 37.0732 8.58852 36.9114C8.23027 36.7497 8 36.3931 8 36V10.0271ZM26.0475 12.9462C26.4404 13.3343 26.4443 13.9675 26.0562 14.3604L20.8148 19.6668C20.6269 19.8571 20.3707 19.9641 20.1034 19.9641C19.836 19.9641 19.5798 19.857 19.3919 19.6668L16.7713 17.0136C16.3832 16.6206 16.3871 15.9875 16.7801 15.5994C17.173 15.2113 17.8062 15.2152 18.1943 15.6081L20.1034 17.5411L24.6333 12.9549C25.0214 12.562 25.6546 12.5581 26.0475 12.9462ZM14.6207 25.1081C14.6207 24.5559 15.0684 24.1081 15.6207 24.1081H26.3793C26.9316 24.1081 27.3793 24.5559 27.3793 25.1081C27.3793 25.6604 26.9316 26.1081 26.3793 26.1081H15.6207C15.0684 26.1081 14.6207 25.6604 14.6207 25.1081Z"
-												fill="#102458" />
-										</svg>
+										<i class="fas fa-heart" style="font-size: 42px; color: #102458;"></i>
 									</div>
 
 								</div>

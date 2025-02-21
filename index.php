@@ -22,6 +22,7 @@
 	<link href="./index.php" rel="alternate" hreflang="x-default" />
 	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet" />
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet" />
+	<link href="/assets/css/acomodo.css" rel="stylesheet" />
 	<link href="./index.php" rel="canonical" />
 	<link href="./index.php" rel="home" />
 	<link href="https://www.performanse.com/it/" rel="alternate" hreflang="it" />
@@ -47,6 +48,8 @@
 
 					<div class="c-hero-section-1" data-nav-section="dark"></div>
 					<div class="c-hero-section-2" data-nav-section="light"></div>
+
+					<!-- Estos dos son los de la sinematica -->
 					<div class="c-hero-bg mobile:hidden">
 						<div class="c-hero-illustration">
 
@@ -862,6 +865,7 @@
 							</svg>
 						</div>
 					</div>
+
 					<div class="wrap">
 
 						<h1 class="c-hero-title">
@@ -919,33 +923,6 @@
 							</div>
 						</div>
 
-					</div>
-					<div class="c-video-modal" style="opacity: 0; pointer-events: none" data-video-modal="hero"
-						data-video-id="917423547"
-						data-video-url="https://player.vimeo.com/external/917423547.m3u8?s=ebdce5bb51ea2d7a03c9407a680a94e985e30449&amp;oauth2_token_id=1749906544">
-						<div class="c-video-modal-outer">
-							<div class="c-video-modal-inner">
-								<div class="c-video is-muted">
-									<div class="plyr__video-wrapper--fixed-ratio">
-										<video id="player-917423547" controls crossorigin playsinline
-											poster="https://i.vimeocdn.com/video/1805734273-f2f5757f316637123057c7419054143283edcd7a9025a614342fb1ac38042008-d"></video>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="c-video-modal-header">
-							<div class="wrap">
-								<div class="c-button--round c-video-modal-close">
-									<svg class="c-icon-close" width="10" height="10" viewBox="0 0 10 10" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path fill-rule="evenodd" clip-rule="evenodd"
-											d="M0.21967 0.21967C0.512563 -0.0732233 0.987437 -0.0732233 1.28033 0.21967L5 3.93934L8.71967 0.21967C9.01256 -0.0732233 9.48744 -0.0732233 9.78033 0.21967C10.0732 0.512563 10.0732 0.987437 9.78033 1.28033L6.06066 5L9.78033 8.71967C10.0732 9.01256 10.0732 9.48744 9.78033 9.78033C9.48744 10.0732 9.01256 10.0732 8.71967 9.78033L5 6.06066L1.28033 9.78033C0.987437 10.0732 0.512563 10.0732 0.21967 9.78033C-0.0732233 9.48744 -0.0732233 9.01256 0.21967 8.71967L3.93934 5L0.21967 1.28033C-0.0732233 0.987437 -0.0732233 0.512563 0.21967 0.21967Z"
-											fill="#102458" />
-									</svg>
-								</div>
-							</div>
-						</div>
 					</div>
 
 				</div>
@@ -1024,7 +1001,7 @@
 								<div class="col-span-10 md:col-span-7 md:text-right mobile:order-1">
 									<div class="c-cards-illustration">
 										<div data-animate data-animate-scale="0.8">
-											<img src="assets/img/pages/index/01.webp" alt="Descripción de la imagen" width="584" height="387">
+											<img src="./assets/img/pages/index/cortadora.webp" alt="cortadora" class="imgLarge imgReduccion centrado">
 										</div>
 									</div>
 								</div>
@@ -1128,8 +1105,8 @@
 
 										</div>
 									</div>
-									<div class="c-card-item-img" style="justify-content: center;">
-										<img src="assets/img/pages/index/01.webp" alt="Descripción de la imagen" width="584" height="387" style="max-height: 200px; width: auto;">
+									<div class="c-card-item-img centrado">
+										<img src="./assets/img/pages/index/servicios/corteMateriales.webp" alt="Cortando materiales" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Precisión en cada proyecto con tecnología avanzada.</p>
@@ -1156,96 +1133,8 @@
 
 										</div>
 									</div>
-									<div class="c-card-item-img">
-										<svg width="241" height="205" viewBox="0 0 241 205" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M120.452 38C138.341 38 155.498 45.1065 168.147 57.7561C180.797 70.4058 187.903 87.5624 187.903 105.452V168.688H53V105.452C53 87.5624 60.1065 70.4058 72.7561 57.7561C85.4058 45.1065 102.562 38 120.452 38Z"
-												fill="url(#paint0_linear_1140_395)" />
-											<path
-												d="M53 168.69C116.236 168.69 120.452 95.6172 152.772 95.6172C182.282 95.6172 187.903 168.69 187.903 168.69H53Z"
-												fill="url(#paint1_linear_1140_395)" />
-											<path
-												d="M53 168.696C81.1049 168.696 86.7259 99.8391 123.262 113.891C146.168 122.701 155.583 168.696 187.903 168.696H53Z"
-												fill="url(#paint2_linear_1140_395)" />
-											<path
-												d="M53 168.691C53 168.691 73.157 123.766 116.236 141.992C152.772 157.449 161.204 168.691 187.903 168.691H53Z"
-												fill="url(#paint3_linear_1140_395)" />
-											<path
-												d="M69.8632 122.531C71.8328 122.531 73.4295 120.934 73.4295 118.965C73.4295 116.995 71.8328 115.398 69.8632 115.398C67.8936 115.398 66.2969 116.995 66.2969 118.965C66.2969 120.934 67.8936 122.531 69.8632 122.531Z"
-												fill="url(#paint4_radial_1140_395)" />
-											<path
-												d="M69.8632 111.828C71.8328 111.828 73.4295 110.231 73.4295 108.262C73.4295 106.292 71.8328 104.695 69.8632 104.695C67.8936 104.695 66.2969 106.292 66.2969 108.262C66.2969 110.231 67.8936 111.828 69.8632 111.828Z"
-												fill="url(#paint5_radial_1140_395)" />
-											<path
-												d="M69.8632 101.133C71.8328 101.133 73.4295 99.536 73.4295 97.5663C73.4295 95.5967 71.8328 94 69.8632 94C67.8936 94 66.2969 95.5967 66.2969 97.5663C66.2969 99.536 67.8936 101.133 69.8632 101.133Z"
-												fill="url(#paint6_radial_1140_395)" />
-											<defs>
-												<linearGradient id="paint0_linear_1140_395" x1="113.94" y1="158.037"
-													x2="145.695" y2="34.779" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="0.12619" stop-color="white" stop-opacity="0.01561" />
-													<stop offset="0.25177" stop-color="white" stop-opacity="0.06254" />
-													<stop offset="0.37727" stop-color="white" stop-opacity="0.14098" />
-													<stop offset="0.50274" stop-color="white" stop-opacity="0.25106" />
-													<stop offset="0.62824" stop-color="white" stop-opacity="0.3929" />
-													<stop offset="0.75384" stop-color="white" stop-opacity="0.56671" />
-													<stop offset="0.87702" stop-color="white" stop-opacity="0.76817" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint1_linear_1140_395" x1="120.36" y1="169.757"
-													x2="127.08" y2="91.3572" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint2_linear_1140_395" x1="120.452" y1="169.845"
-													x2="120.452" y2="96.244" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint3_linear_1140_395" x1="120.452" y1="170.551"
-													x2="120.452" y2="130.267" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<radialGradient id="paint4_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(72.0402 116.667) scale(6.81652)">
-													<stop stop-color="white" />
-													<stop offset="0.08727" stop-color="white" stop-opacity="0.95412" />
-													<stop offset="0.24391" stop-color="white" stop-opacity="0.83186" />
-													<stop offset="0.45199" stop-color="white" stop-opacity="0.63339" />
-													<stop offset="0.7037" stop-color="white" stop-opacity="0.35858" />
-													<stop offset="0.98965" stop-color="white" stop-opacity="0.01306" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-												<radialGradient id="paint5_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(73.6155 104.898) scale(8.95289)">
-													<stop stop-color="white" />
-													<stop offset="0.01784" stop-color="white" stop-opacity="0.97746" />
-													<stop offset="0.30109" stop-color="white" stop-opacity="0.63522" />
-													<stop offset="0.55057" stop-color="white" stop-opacity="0.36308" />
-													<stop offset="0.75712" stop-color="white" stop-opacity="0.16651" />
-													<stop offset="0.91295" stop-color="white" stop-opacity="0.04539" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-												<radialGradient id="paint6_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(73.6647 93.7265) scale(10.1368)">
-													<stop stop-color="white" />
-													<stop offset="0.00475" stop-color="white" stop-opacity="0.99033" />
-													<stop offset="0.12517" stop-color="white" stop-opacity="0.76136" />
-													<stop offset="0.24861" stop-color="white" stop-opacity="0.55836" />
-													<stop offset="0.3722" stop-color="white" stop-opacity="0.38707" />
-													<stop offset="0.49611" stop-color="white" stop-opacity="0.24723" />
-													<stop offset="0.62045" stop-color="white" stop-opacity="0.13874" />
-													<stop offset="0.74532" stop-color="white" stop-opacity="0.06151" />
-													<stop offset="0.87128" stop-color="white" stop-opacity="0.0153" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-											</defs>
-										</svg>
+									<div class="c-card-item-img centrado">
+										<img src="./assets/img/pages/index/servicios/dobladoMetales.webp" alt="Doblando materiales" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Adaptación a grandes formatos para múltiples industrias.</p>
@@ -1272,96 +1161,8 @@
 
 										</div>
 									</div>
-									<div class="c-card-item-img">
-										<svg width="241" height="205" viewBox="0 0 241 205" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M120.452 38C138.341 38 155.498 45.1065 168.147 57.7561C180.797 70.4058 187.903 87.5624 187.903 105.452V168.688H53V105.452C53 87.5624 60.1065 70.4058 72.7561 57.7561C85.4058 45.1065 102.562 38 120.452 38Z"
-												fill="url(#paint0_linear_1140_395)" />
-											<path
-												d="M53 168.69C116.236 168.69 120.452 95.6172 152.772 95.6172C182.282 95.6172 187.903 168.69 187.903 168.69H53Z"
-												fill="url(#paint1_linear_1140_395)" />
-											<path
-												d="M53 168.696C81.1049 168.696 86.7259 99.8391 123.262 113.891C146.168 122.701 155.583 168.696 187.903 168.696H53Z"
-												fill="url(#paint2_linear_1140_395)" />
-											<path
-												d="M53 168.691C53 168.691 73.157 123.766 116.236 141.992C152.772 157.449 161.204 168.691 187.903 168.691H53Z"
-												fill="url(#paint3_linear_1140_395)" />
-											<path
-												d="M69.8632 122.531C71.8328 122.531 73.4295 120.934 73.4295 118.965C73.4295 116.995 71.8328 115.398 69.8632 115.398C67.8936 115.398 66.2969 116.995 66.2969 118.965C66.2969 120.934 67.8936 122.531 69.8632 122.531Z"
-												fill="url(#paint4_radial_1140_395)" />
-											<path
-												d="M69.8632 111.828C71.8328 111.828 73.4295 110.231 73.4295 108.262C73.4295 106.292 71.8328 104.695 69.8632 104.695C67.8936 104.695 66.2969 106.292 66.2969 108.262C66.2969 110.231 67.8936 111.828 69.8632 111.828Z"
-												fill="url(#paint5_radial_1140_395)" />
-											<path
-												d="M69.8632 101.133C71.8328 101.133 73.4295 99.536 73.4295 97.5663C73.4295 95.5967 71.8328 94 69.8632 94C67.8936 94 66.2969 95.5967 66.2969 97.5663C66.2969 99.536 67.8936 101.133 69.8632 101.133Z"
-												fill="url(#paint6_radial_1140_395)" />
-											<defs>
-												<linearGradient id="paint0_linear_1140_395" x1="113.94" y1="158.037"
-													x2="145.695" y2="34.779" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="0.12619" stop-color="white" stop-opacity="0.01561" />
-													<stop offset="0.25177" stop-color="white" stop-opacity="0.06254" />
-													<stop offset="0.37727" stop-color="white" stop-opacity="0.14098" />
-													<stop offset="0.50274" stop-color="white" stop-opacity="0.25106" />
-													<stop offset="0.62824" stop-color="white" stop-opacity="0.3929" />
-													<stop offset="0.75384" stop-color="white" stop-opacity="0.56671" />
-													<stop offset="0.87702" stop-color="white" stop-opacity="0.76817" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint1_linear_1140_395" x1="120.36" y1="169.757"
-													x2="127.08" y2="91.3572" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint2_linear_1140_395" x1="120.452" y1="169.845"
-													x2="120.452" y2="96.244" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint3_linear_1140_395" x1="120.452" y1="170.551"
-													x2="120.452" y2="130.267" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<radialGradient id="paint4_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(72.0402 116.667) scale(6.81652)">
-													<stop stop-color="white" />
-													<stop offset="0.08727" stop-color="white" stop-opacity="0.95412" />
-													<stop offset="0.24391" stop-color="white" stop-opacity="0.83186" />
-													<stop offset="0.45199" stop-color="white" stop-opacity="0.63339" />
-													<stop offset="0.7037" stop-color="white" stop-opacity="0.35858" />
-													<stop offset="0.98965" stop-color="white" stop-opacity="0.01306" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-												<radialGradient id="paint5_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(73.6155 104.898) scale(8.95289)">
-													<stop stop-color="white" />
-													<stop offset="0.01784" stop-color="white" stop-opacity="0.97746" />
-													<stop offset="0.30109" stop-color="white" stop-opacity="0.63522" />
-													<stop offset="0.55057" stop-color="white" stop-opacity="0.36308" />
-													<stop offset="0.75712" stop-color="white" stop-opacity="0.16651" />
-													<stop offset="0.91295" stop-color="white" stop-opacity="0.04539" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-												<radialGradient id="paint6_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(73.6647 93.7265) scale(10.1368)">
-													<stop stop-color="white" />
-													<stop offset="0.00475" stop-color="white" stop-opacity="0.99033" />
-													<stop offset="0.12517" stop-color="white" stop-opacity="0.76136" />
-													<stop offset="0.24861" stop-color="white" stop-opacity="0.55836" />
-													<stop offset="0.3722" stop-color="white" stop-opacity="0.38707" />
-													<stop offset="0.49611" stop-color="white" stop-opacity="0.24723" />
-													<stop offset="0.62045" stop-color="white" stop-opacity="0.13874" />
-													<stop offset="0.74532" stop-color="white" stop-opacity="0.06151" />
-													<stop offset="0.87128" stop-color="white" stop-opacity="0.0153" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-											</defs>
-										</svg>
+									<div class="c-card-item-img centrado">
+										<img src="./assets/img/pages/index/servicios/corteMaterialesHidraulica.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Soluciones rápidas y eficaces.</p>
@@ -1388,96 +1189,8 @@
 
 										</div>
 									</div>
-									<div class="c-card-item-img">
-										<svg width="241" height="205" viewBox="0 0 241 205" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M120.452 38C138.341 38 155.498 45.1065 168.147 57.7561C180.797 70.4058 187.903 87.5624 187.903 105.452V168.688H53V105.452C53 87.5624 60.1065 70.4058 72.7561 57.7561C85.4058 45.1065 102.562 38 120.452 38Z"
-												fill="url(#paint0_linear_1140_395)" />
-											<path
-												d="M53 168.69C116.236 168.69 120.452 95.6172 152.772 95.6172C182.282 95.6172 187.903 168.69 187.903 168.69H53Z"
-												fill="url(#paint1_linear_1140_395)" />
-											<path
-												d="M53 168.696C81.1049 168.696 86.7259 99.8391 123.262 113.891C146.168 122.701 155.583 168.696 187.903 168.696H53Z"
-												fill="url(#paint2_linear_1140_395)" />
-											<path
-												d="M53 168.691C53 168.691 73.157 123.766 116.236 141.992C152.772 157.449 161.204 168.691 187.903 168.691H53Z"
-												fill="url(#paint3_linear_1140_395)" />
-											<path
-												d="M69.8632 122.531C71.8328 122.531 73.4295 120.934 73.4295 118.965C73.4295 116.995 71.8328 115.398 69.8632 115.398C67.8936 115.398 66.2969 116.995 66.2969 118.965C66.2969 120.934 67.8936 122.531 69.8632 122.531Z"
-												fill="url(#paint4_radial_1140_395)" />
-											<path
-												d="M69.8632 111.828C71.8328 111.828 73.4295 110.231 73.4295 108.262C73.4295 106.292 71.8328 104.695 69.8632 104.695C67.8936 104.695 66.2969 106.292 66.2969 108.262C66.2969 110.231 67.8936 111.828 69.8632 111.828Z"
-												fill="url(#paint5_radial_1140_395)" />
-											<path
-												d="M69.8632 101.133C71.8328 101.133 73.4295 99.536 73.4295 97.5663C73.4295 95.5967 71.8328 94 69.8632 94C67.8936 94 66.2969 95.5967 66.2969 97.5663C66.2969 99.536 67.8936 101.133 69.8632 101.133Z"
-												fill="url(#paint6_radial_1140_395)" />
-											<defs>
-												<linearGradient id="paint0_linear_1140_395" x1="113.94" y1="158.037"
-													x2="145.695" y2="34.779" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="0.12619" stop-color="white" stop-opacity="0.01561" />
-													<stop offset="0.25177" stop-color="white" stop-opacity="0.06254" />
-													<stop offset="0.37727" stop-color="white" stop-opacity="0.14098" />
-													<stop offset="0.50274" stop-color="white" stop-opacity="0.25106" />
-													<stop offset="0.62824" stop-color="white" stop-opacity="0.3929" />
-													<stop offset="0.75384" stop-color="white" stop-opacity="0.56671" />
-													<stop offset="0.87702" stop-color="white" stop-opacity="0.76817" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint1_linear_1140_395" x1="120.36" y1="169.757"
-													x2="127.08" y2="91.3572" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint2_linear_1140_395" x1="120.452" y1="169.845"
-													x2="120.452" y2="96.244" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint3_linear_1140_395" x1="120.452" y1="170.551"
-													x2="120.452" y2="130.267" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<radialGradient id="paint4_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(72.0402 116.667) scale(6.81652)">
-													<stop stop-color="white" />
-													<stop offset="0.08727" stop-color="white" stop-opacity="0.95412" />
-													<stop offset="0.24391" stop-color="white" stop-opacity="0.83186" />
-													<stop offset="0.45199" stop-color="white" stop-opacity="0.63339" />
-													<stop offset="0.7037" stop-color="white" stop-opacity="0.35858" />
-													<stop offset="0.98965" stop-color="white" stop-opacity="0.01306" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-												<radialGradient id="paint5_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(73.6155 104.898) scale(8.95289)">
-													<stop stop-color="white" />
-													<stop offset="0.01784" stop-color="white" stop-opacity="0.97746" />
-													<stop offset="0.30109" stop-color="white" stop-opacity="0.63522" />
-													<stop offset="0.55057" stop-color="white" stop-opacity="0.36308" />
-													<stop offset="0.75712" stop-color="white" stop-opacity="0.16651" />
-													<stop offset="0.91295" stop-color="white" stop-opacity="0.04539" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-												<radialGradient id="paint6_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(73.6647 93.7265) scale(10.1368)">
-													<stop stop-color="white" />
-													<stop offset="0.00475" stop-color="white" stop-opacity="0.99033" />
-													<stop offset="0.12517" stop-color="white" stop-opacity="0.76136" />
-													<stop offset="0.24861" stop-color="white" stop-opacity="0.55836" />
-													<stop offset="0.3722" stop-color="white" stop-opacity="0.38707" />
-													<stop offset="0.49611" stop-color="white" stop-opacity="0.24723" />
-													<stop offset="0.62045" stop-color="white" stop-opacity="0.13874" />
-													<stop offset="0.74532" stop-color="white" stop-opacity="0.06151" />
-													<stop offset="0.87128" stop-color="white" stop-opacity="0.0153" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-											</defs>
-										</svg>
+									<div class="c-card-item-img centrado">
+										<img src="./assets/img/pages/index/servicios/dobladoTubos.webp" alt="Dobles de tubos" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Para diferentes materiales y aplicaciones.</p>
@@ -1504,96 +1217,8 @@
 
 										</div>
 									</div>
-									<div class="c-card-item-img">
-										<svg width="241" height="205" viewBox="0 0 241 205" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M120.452 38C138.341 38 155.498 45.1065 168.147 57.7561C180.797 70.4058 187.903 87.5624 187.903 105.452V168.688H53V105.452C53 87.5624 60.1065 70.4058 72.7561 57.7561C85.4058 45.1065 102.562 38 120.452 38Z"
-												fill="url(#paint0_linear_1140_395)" />
-											<path
-												d="M53 168.69C116.236 168.69 120.452 95.6172 152.772 95.6172C182.282 95.6172 187.903 168.69 187.903 168.69H53Z"
-												fill="url(#paint1_linear_1140_395)" />
-											<path
-												d="M53 168.696C81.1049 168.696 86.7259 99.8391 123.262 113.891C146.168 122.701 155.583 168.696 187.903 168.696H53Z"
-												fill="url(#paint2_linear_1140_395)" />
-											<path
-												d="M53 168.691C53 168.691 73.157 123.766 116.236 141.992C152.772 157.449 161.204 168.691 187.903 168.691H53Z"
-												fill="url(#paint3_linear_1140_395)" />
-											<path
-												d="M69.8632 122.531C71.8328 122.531 73.4295 120.934 73.4295 118.965C73.4295 116.995 71.8328 115.398 69.8632 115.398C67.8936 115.398 66.2969 116.995 66.2969 118.965C66.2969 120.934 67.8936 122.531 69.8632 122.531Z"
-												fill="url(#paint4_radial_1140_395)" />
-											<path
-												d="M69.8632 111.828C71.8328 111.828 73.4295 110.231 73.4295 108.262C73.4295 106.292 71.8328 104.695 69.8632 104.695C67.8936 104.695 66.2969 106.292 66.2969 108.262C66.2969 110.231 67.8936 111.828 69.8632 111.828Z"
-												fill="url(#paint5_radial_1140_395)" />
-											<path
-												d="M69.8632 101.133C71.8328 101.133 73.4295 99.536 73.4295 97.5663C73.4295 95.5967 71.8328 94 69.8632 94C67.8936 94 66.2969 95.5967 66.2969 97.5663C66.2969 99.536 67.8936 101.133 69.8632 101.133Z"
-												fill="url(#paint6_radial_1140_395)" />
-											<defs>
-												<linearGradient id="paint0_linear_1140_395" x1="113.94" y1="158.037"
-													x2="145.695" y2="34.779" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="0.12619" stop-color="white" stop-opacity="0.01561" />
-													<stop offset="0.25177" stop-color="white" stop-opacity="0.06254" />
-													<stop offset="0.37727" stop-color="white" stop-opacity="0.14098" />
-													<stop offset="0.50274" stop-color="white" stop-opacity="0.25106" />
-													<stop offset="0.62824" stop-color="white" stop-opacity="0.3929" />
-													<stop offset="0.75384" stop-color="white" stop-opacity="0.56671" />
-													<stop offset="0.87702" stop-color="white" stop-opacity="0.76817" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint1_linear_1140_395" x1="120.36" y1="169.757"
-													x2="127.08" y2="91.3572" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint2_linear_1140_395" x1="120.452" y1="169.845"
-													x2="120.452" y2="96.244" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<linearGradient id="paint3_linear_1140_395" x1="120.452" y1="170.551"
-													x2="120.452" y2="130.267" gradientUnits="userSpaceOnUse">
-													<stop stop-color="white" stop-opacity="0" />
-													<stop offset="1" stop-color="white" />
-												</linearGradient>
-												<radialGradient id="paint4_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(72.0402 116.667) scale(6.81652)">
-													<stop stop-color="white" />
-													<stop offset="0.08727" stop-color="white" stop-opacity="0.95412" />
-													<stop offset="0.24391" stop-color="white" stop-opacity="0.83186" />
-													<stop offset="0.45199" stop-color="white" stop-opacity="0.63339" />
-													<stop offset="0.7037" stop-color="white" stop-opacity="0.35858" />
-													<stop offset="0.98965" stop-color="white" stop-opacity="0.01306" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-												<radialGradient id="paint5_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(73.6155 104.898) scale(8.95289)">
-													<stop stop-color="white" />
-													<stop offset="0.01784" stop-color="white" stop-opacity="0.97746" />
-													<stop offset="0.30109" stop-color="white" stop-opacity="0.63522" />
-													<stop offset="0.55057" stop-color="white" stop-opacity="0.36308" />
-													<stop offset="0.75712" stop-color="white" stop-opacity="0.16651" />
-													<stop offset="0.91295" stop-color="white" stop-opacity="0.04539" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-												<radialGradient id="paint6_radial_1140_395" cx="0" cy="0" r="1"
-													gradientUnits="userSpaceOnUse"
-													gradientTransform="translate(73.6647 93.7265) scale(10.1368)">
-													<stop stop-color="white" />
-													<stop offset="0.00475" stop-color="white" stop-opacity="0.99033" />
-													<stop offset="0.12517" stop-color="white" stop-opacity="0.76136" />
-													<stop offset="0.24861" stop-color="white" stop-opacity="0.55836" />
-													<stop offset="0.3722" stop-color="white" stop-opacity="0.38707" />
-													<stop offset="0.49611" stop-color="white" stop-opacity="0.24723" />
-													<stop offset="0.62045" stop-color="white" stop-opacity="0.13874" />
-													<stop offset="0.74532" stop-color="white" stop-opacity="0.06151" />
-													<stop offset="0.87128" stop-color="white" stop-opacity="0.0153" />
-													<stop offset="1" stop-color="white" stop-opacity="0" />
-												</radialGradient>
-											</defs>
-										</svg>
+									<div class="c-card-item-img centrado">
+										<img src="./assets/img/pages/index/servicios/maquinado.webp" alt="Maquina" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Piezas personalizadas con alta calidad.</p>
@@ -2249,10 +1874,12 @@
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static"><img
 										src="https://www.performanse.com/assets/general/Logos/ateliers-bocage-logo.svg"
-										alt="Ateliers bocage logo" /></span>
+										alt="Ateliers bocage logo" />
+								</span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/ateliers-bocage-logo.svg"
-										alt="Ateliers bocage logo" /></span>
+										alt="Ateliers bocage logo" />
+								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
@@ -2263,7 +1890,8 @@
 										alt="Logo DVA" /></span>
 								<span class="c-client-logo-hover"><img
 										src="https://www.performanse.com/assets/general/Logos/DVA.svg"
-										alt="Logo DVA" /></span>
+										alt="Logo DVA" />
+								</span>
 							</a>
 						</div>
 
@@ -2279,82 +1907,8 @@
 
 									<span class="ts-eyebrow ts-indicator" data-animate>Preguntas Frecuentes</span>
 									<h2 class="ts-3" data-animate-title data-animate-delay="100">Preguntas Frecuentes</h2>
-									<div class="c-dropdown-1-illustration" data-animate data-animate-delay="400"
-										data-animate-scale=".8">
-										<svg class="c-illustration-faq" width="404" height="304" viewBox="0 0 404 304"
-											fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M294.59 99.9844H100.452V303.911H294.59V99.9844Z"
-												fill="url(#paint0_linear_335_16422)" />
-											<path d="M139.139 99.9844V303.911" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path d="M178.061 99.9844V303.911" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path d="M217.071 100.072V303.999" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path d="M255.762 100.102V304" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path d="M100.513 215.58H294.651" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path d="M100.452 244.787H294.668" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path d="M100.513 186.447H294.651" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path d="M100.513 157.314H294.651" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path d="M100.513 128.184H294.651" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path d="M100.562 273.924H294.67" stroke="#2F4A8F" stroke-opacity="0.3"
-												stroke-width="1.94138" stroke-miterlimit="2" stroke-linejoin="round" />
-											<path class="c-illustration-part white-dot-2"
-												d="M255.962 251.182C259.492 251.182 262.355 248.32 262.355 244.789C262.355 241.259 259.492 238.396 255.962 238.396C252.431 238.396 249.569 241.259 249.569 244.789C249.569 248.32 252.431 251.182 255.962 251.182Z"
-												fill="white" />
-											<path class="c-illustration-part blue-dot-1"
-												d="M255.999 135.786C259.53 135.786 262.392 132.923 262.392 129.393C262.392 125.862 259.53 123 255.999 123C252.469 123 249.606 125.862 249.606 129.393C249.606 132.923 252.469 135.786 255.999 135.786Z"
-												fill="#2D62E8" />
-											<path class="c-illustration-part white-dot-1"
-												d="M139.24 163.809C142.771 163.809 145.633 160.947 145.633 157.416C145.633 153.886 142.771 151.023 139.24 151.023C135.709 151.023 132.847 153.886 132.847 157.416C132.847 160.947 135.709 163.809 139.24 163.809Z"
-												fill="white" />
-											<path class="c-illustration-part blue-dot-2"
-												d="M217.081 280.424C220.612 280.424 223.474 277.562 223.474 274.031C223.474 270.501 220.612 267.639 217.081 267.639C213.551 267.639 210.688 270.501 210.688 274.031C210.688 277.562 213.551 280.424 217.081 280.424Z"
-												fill="#2D62E8" />
-											<path class="c-illustration-part black-dot"
-												d="M178.159 222.073C181.69 222.073 184.552 219.211 184.552 215.68C184.552 212.149 181.69 209.287 178.159 209.287C174.628 209.287 171.766 212.149 171.766 215.68C171.766 219.211 174.628 222.073 178.159 222.073Z"
-												fill="#0B1841" />
-											<path
-												d="M356.294 48.2422H323.786C318.411 48.2422 314.054 52.5994 314.054 57.9743V90.4823C314.054 95.8572 318.411 100.214 323.786 100.214H356.294C361.669 100.214 366.026 95.8572 366.026 90.4823V57.9743C366.026 52.5994 361.669 48.2422 356.294 48.2422Z"
-												fill="#9CB8FF" />
-											<g class="c-illustration-part cross">
-												<path d="M348.131 66.1895L331.997 82.3235" stroke="#2F4A8F"
-													stroke-width="1.45662" stroke-miterlimit="1.5"
-													stroke-linecap="square" />
-												<path d="M348.131 82.3235L331.997 66.1895" stroke="#2F4A8F"
-													stroke-width="1.45662" stroke-miterlimit="1.5"
-													stroke-linecap="square" />
-											</g>
-											<path
-												d="M294.59 258.463L294.59 155.451L346.562 155.451L346.562 258.463L294.59 258.463Z"
-												fill="#69DFCA" />
-											<path
-												d="M358.241 294.177L358.241 268.195C358.241 262.82 362.598 258.463 367.973 258.463L393.956 258.463C399.331 258.463 403.688 262.82 403.688 268.195L403.688 294.177C403.688 299.552 399.331 303.909 393.956 303.909L367.973 303.909C362.598 303.909 358.241 299.552 358.241 294.177Z"
-												fill="#B8D8FF" />
-											<path
-												d="M0.00146328 159.013L0.00146442 133.031C0.00146465 127.656 4.35867 123.299 9.73355 123.299L35.7159 123.299C41.0908 123.299 45.448 127.656 45.448 133.031L45.448 159.013C45.448 164.388 41.0908 168.745 35.7159 168.745L9.73355 168.745C4.35866 168.745 0.00146305 164.388 0.00146328 159.013Z"
-												fill="#69DFCA" />
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M100.452 0H32.2823L0.00362396 32.3952V99.9824H100.452V0Z"
-												fill="#B8D8FF" />
-											<path fill-rule="evenodd" clip-rule="evenodd"
-												d="M32.1621 0V32.1622H-6.48499e-05L32.1621 0Z" fill="#9CAEDD" />
-											<defs>
-												<linearGradient id="paint0_linear_335_16422" x1="261.358" y1="77.9332"
-													x2="261.358" y2="695.55" gradientUnits="userSpaceOnUse">
-													<stop stop-color="#9CB8FF" />
-													<stop offset="0.2" stop-color="#ACCAFF" />
-													<stop offset="0.42" stop-color="#BCDDFF" />
-													<stop offset="1" stop-color="#C3E6FF" />
-												</linearGradient>
-											</defs>
-										</svg>
+									<div class="c-dropdown-1-illustration" data-animate data-animate-delay="400" data-animate-scale=".8">
+										<img src="./assets/img/pages/index/pregunta.webp" alt="Pregunta" class="imgLarge centrado imgReduccion">
 									</div>
 
 								</div>
