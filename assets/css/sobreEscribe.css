@@ -1,16 +1,65 @@
 .buttonColorBlue {
-    background-color: #25a4ff !important;
-    color: #fff !important;
+    background-color: #165de6;
+    color: #fff;
 }
 
 .buttonColorBlue:hover {
-    background-color: #69DFCA !important;
-    color: black !important;
+    background-color: #0080FF;
+    color: #fff;
 }
 
 .footerBlaco li,
 .footerBlaco a {
     color: #fff;
+}
+
+.c-footer {
+    background-color: #000;
+}
+
+.buttonTop {
+    background-color: #165de6 !important;
+}
+
+.c-button {
+    color: #fff;
+}
+
+.c-button-text-hover,
+.c-button-icon-hover {
+    color: #fff
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .c-button-bg-hover {
+        background-color: #0080FF;
+    }
+}
+
+.c-hero-title {
+    padding-top: 10rem;
+}
+
+.c-hero {
+    background: #fff;
+    color: #000;
+    height: 80vw;
+}
+
+.ts-p {
+    color: #000 ;
+}
+
+@media (max-width: 799px) {
+    .c-hero {
+        height: 130vw
+    }
+}
+
+@media (max-width: 450px) {
+    .c-hero {
+        height: 190vw
+    }
 }
 
 @media (max-width: 600px) {
@@ -20,7 +69,7 @@
         padding-top: 5%;
     }
 
-    .cellphoneDisapare{
+    .cellphoneDisapare {
         display: none;
     }
 }
