@@ -12,3 +12,15 @@
 .footerBlaco a {
     color: #fff;
 }
+
+@media (max-width: 600px) {
+    .break-word {
+        word-break: break-all;
+        white-space: normal !important;
+        padding-top: 5%;
+    }
+
+    .cellphoneDisapare{
+        display: none;
+    }
+}

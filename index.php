@@ -1000,8 +1000,8 @@
 								</div>
 								<div class="col-span-10 md:col-span-7 md:text-right mobile:order-1">
 									<div class="c-cards-illustration">
-										<div data-animate data-animate-scale="0.8">
-											<img src="./assets/img/pages/index/cortadora.webp" alt="cortadora" class="imgLarge imgReduccion centrado">
+										<div>
+											<img src="/assets/img/pages/index/cortadora.webp" alt="cortadora" class="imgLarge imgReduccion centrado">
 										</div>
 									</div>
 								</div>
@@ -1026,7 +1026,7 @@
 												<span class="c-title-part" data-split-chars data-split-resize="false">Accesible</span>
 											</span>
 										</span>
-										<span>
+										<span class="break-word">
 											es trabajar con nosotros
 										</span>
 
@@ -1106,7 +1106,7 @@
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
-										<img src="./assets/img/pages/index/servicios/corteMateriales.webp" alt="Cortando materiales" class="imgFat centrado">
+										<img src="/assets/img/pages/index/servicios/corteMateriales.webp" alt="Cortando materiales" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Precisión en cada proyecto con tecnología avanzada.</p>
@@ -1134,7 +1134,7 @@
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
-										<img src="./assets/img/pages/index/servicios/dobladoMetales.webp" alt="Doblando materiales" class="imgFat centrado">
+										<img src="/assets/img/pages/index/servicios/dobladoMetales.webp" alt="Doblando materiales" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Adaptación a grandes formatos para múltiples industrias.</p>
@@ -1162,7 +1162,7 @@
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
-										<img src="./assets/img/pages/index/servicios/corteMaterialesHidraulica.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
+										<img src="/assets/img/pages/index/servicios/corteMaterialesHidraulica.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Soluciones rápidas y eficaces.</p>
@@ -1190,7 +1190,7 @@
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
-										<img src="./assets/img/pages/index/servicios/dobladoTubos.webp" alt="Dobles de tubos" class="imgFat centrado">
+										<img src="/assets/img/pages/index/servicios/dobladoTubos.webp" alt="Dobles de tubos" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Para diferentes materiales y aplicaciones.</p>
@@ -1218,7 +1218,7 @@
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
-										<img src="./assets/img/pages/index/servicios/maquinado.webp" alt="Maquina" class="imgFat centrado">
+										<img src="/assets/img/pages/index/servicios/maquinado.webp" alt="Maquina" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Piezas personalizadas con alta calidad.</p>
@@ -1907,8 +1907,8 @@
 
 									<span class="ts-eyebrow ts-indicator" data-animate>Preguntas Frecuentes</span>
 									<h2 class="ts-3" data-animate-title data-animate-delay="100">Preguntas Frecuentes</h2>
-									<div class="c-dropdown-1-illustration" data-animate data-animate-delay="400" data-animate-scale=".8">
-										<img src="./assets/img/pages/index/pregunta.webp" alt="Pregunta" class="imgLarge centrado imgReduccion">
+									<div class="c-dropdown-1-illustration cellphoneDisapare" data-animate data-animate-delay="400" data-animate-scale=".8">
+										<img src="/assets/img/pages/index/pregunta.webp" alt="Pregunta" class="imgLarge centrado imgReduccion">
 									</div>
 
 								</div>
