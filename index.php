@@ -142,7 +142,7 @@
 									<h2 class="ts-eyebrow ts-indicator textWhite" data-animate>
 										Servicios
 									</h2>
-									<div class="ts-2">
+									<div class="ts-2 textWhite">
 
 										<p>Soluciones Integrales</p>
 										<p>de Maquinado y Corte</p>
@@ -257,7 +257,7 @@
 									<h2 class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">
 										Servicios Especializados
 									</h2>
-									<p class="ts-2" data-animate-title data-animate-delay="100">
+									<p class="ts-2 textWhite" data-animate-title data-animate-delay="100">
 										Nuestros Servicios Especializados
 									</p>
 
@@ -1323,6 +1323,6 @@
 <script type="module" src="/assets/js/main.c3dfb829.js" crossorigin="anonymous"
 	onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
 </script>
-<script src="./assets/js/universal.js"></script>
+<script src="/assets/js/universal.js"></script>
 
 </html>

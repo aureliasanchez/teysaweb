@@ -229,6 +229,12 @@ button:hover .c-icon-close {
     background-color: #fff;
 }
 
+.c-section--dark {
+    --form-border-color: #fff;
+    border-width: 1px;
+    --background-color: #000;
+}
+
 .textWhite {
     color: #fff;
 }
