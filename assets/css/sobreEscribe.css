@@ -46,7 +46,7 @@
     height: 80vw;
 }
 
-.c-section--title-1 .c-title-parts-bg{
+.c-section--title-1 .c-title-parts-bg {
     border: .125rem solid #0080FF;
 }
 
@@ -64,7 +64,8 @@
 
 .c-cards--5 .c-cards-content {
     background-color: #000;
-    border-color: #fff; border-width: 3px;
+    border-color: #fff;
+    border-width: 3px;
 }
 
 .c-dropdown-1 {
@@ -82,7 +83,10 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-    .c-nav-bar-menu-a:hover:before, .c-nav-bar-menu-li.is-active>.c-nav-bar-menu-a:before, .c-nav-bar-menu-a.is-active:before {
+
+    .c-nav-bar-menu-a:hover:before,
+    .c-nav-bar-menu-li.is-active>.c-nav-bar-menu-a:before,
+    .c-nav-bar-menu-a.is-active:before {
         background-color: #000;
     }
 }
@@ -141,13 +145,16 @@
 }
 
 .c-icon-close {
-    fill: white; /* Color base blanco */
-    transition: fill 0.3s ease; /* Transición suave para el cambio de color */
+    fill: white;
+    /* Color base blanco */
+    transition: fill 0.3s ease;
+    /* Transición suave para el cambio de color */
 }
 
 .c-icon-close:hover,
 button:hover .c-icon-close {
-    fill: black; /* Color al hacer hover negro */
+    fill: black;
+    /* Color al hacer hover negro */
 }
 
 .c-nav-menu-content-a {
@@ -167,19 +174,74 @@ button:hover .c-icon-close {
     --breadcrumb-color-active: #000;
 }
 
+.c-section--title-text-center.c-section--dark {
+    --breadcrumb-color: #165de6;
+    --breadcrumb-color-active: #000;
+}
+
+.c-lock-scroll-1 {
+    background: linear-gradient(to bottom, #000 0%, #000 100%);
+}
+
+.c-lock-scroll-card {
+    background-color: #fff !important;
+}
+
+.ts-3 {
+    color: #000;
+}
+
+.c-lock-scroll-card-text .ts-p,
+.c-lock-scroll-card-text p {
+    color: #000;
+}
+
+.ts-2 {
+    color: #000;
+}
+
+.c-card-item--8 .c-card-item-title h3 {
+    color: #fff;
+}
+
+.c-card-item--8 .c-card-item-text {
+    color: #fff;
+}
+
+.iconosFont {
+    font-size: 42px;
+    color: #fff;
+}
+
+.c-card-item--8 {
+    background-color: #000;
+}
+
 .textWhite {
     color: #fff;
+}
+
+.c-carousel--5 .c-carousel-year-inner:before {
+    background: linear-gradient(97deg, #165de6 6.5%, #165de6 99.84%);
+}
+
+.c-carousel--5 {
+    --background-color: #000;
+}
+
+.c-section-progress-drag {
+    background-color: #fff;
 }
 
 .textBlack {
     color: #000;
 }
 
-.textBlue1{
+.textBlue1 {
     color: #165de6;
 }
 
-.textBlue2{
+.textBlue2 {
     color: #0080FF;
 }
 

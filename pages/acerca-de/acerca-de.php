@@ -46,8 +46,7 @@
 
 			<div data-page data-entry-id="44">
 
-				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--dark c-section--dark-2"
-					data-animate-section data-nav-section="dark">
+				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--dark c-section--light" data-animate-section data-nav-section="light">
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center">
 
@@ -143,7 +142,7 @@
 									<br>
 									<span>Nuestra Esencia</span>
 								</h2>
-								<div class="ts-p" data-split-articles data-animate-paragraph data-animate-delay="200">
+								<div class="ts-p textBlack" data-split-articles data-animate-paragraph data-animate-delay="200">
 									<p>
 										En Maquinados Teysa nos guiamos por principios sólidos que fortalecen cada aspecto de nuestro trabajo
 									</p>
@@ -163,7 +162,7 @@
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<i class="fas fa-balance-scale" style="font-size: 42px; color: #102458;"></i>
+										<i class="fas fa-balance-scale iconosFont"></i>
 									</div>
 
 								</div>
@@ -178,7 +177,7 @@
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<i class="fas fa-award" style="font-size: 42px; color: #102458;"></i>
+										<i class="fas fa-award iconosFont"></i>
 									</div>
 
 								</div>
@@ -193,7 +192,7 @@
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<i class="fas fa-tasks" style="font-size: 42px; color: #102458;"></i>
+										<i class="fas fa-tasks iconosFont"></i>
 									</div>
 
 								</div>
@@ -212,7 +211,7 @@
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<i class="fas fa-chess-king" style="font-size: 42px; color: #102458;"></i>
+										<i class="fas fa-chess-king iconosFont"></i>
 									</div>
 
 								</div>
@@ -227,7 +226,7 @@
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<i class="fas fa-handshake" style="font-size: 42px; color: #102458;"></i>
+										<i class="fas fa-handshake iconosFont"></i>
 									</div>
 
 								</div>
@@ -242,7 +241,7 @@
 										</p>
 									</div>
 									<div class="c-card-item-icon">
-										<i class="fas fa-heart" style="font-size: 42px; color: #102458;"></i>
+										<i class="fas fa-heart iconosFont"></i>
 									</div>
 
 								</div>
@@ -265,7 +264,7 @@
 									</div>
 								</div>
 							</div>
-							<h2 class="ts-2" data-animate-title data-animate-delay="100">Nuestra historia</h2>
+							<h2 class="ts-2 textWhite" data-animate-title data-animate-delay="100">Nuestra historia</h2>
 
 						</div>
 						<div class="c-carousel-inner" data-animate data-animate-y="100" data-animate-delay="200">
@@ -277,7 +276,7 @@
 
 										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
 
-											<h2 class="ts-3">
+											<h2 class="ts-3 textWhite">
 												El Inicio de una Trayectoria de Precisión e Innovación
 											</h2>
 											<span class="ts-eyebrow">
