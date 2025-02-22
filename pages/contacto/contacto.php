@@ -54,7 +54,8 @@
 								<h2 class="ts-2" data-animate-title>Información de <span>Contacto</span></h2>
 							</div>
 							<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
-								<p>
+
+								<p class="textBlack">
 									<strong>Télefono:</strong>
 									<span>
 										<a href="https://wa.me/527919153714" target="_blank">
@@ -62,7 +63,7 @@
 										</a>
 									</span>
 								</p>
-								<p>
+								<p class="textBlack">
 									<strong>Correo Electrónico:</strong>
 									<span>
 										<a href="https://mail.google.com/mail/?view=cm&fs=1&to=contacto@mteysa.com" target="_blank">
@@ -70,7 +71,7 @@
 										</a>
 									</span>
 								</p>
-								<p>
+								<p class="textBlack">
 									<strong>Dirección:</strong>
 									<span>
 										<a href="https://www.google.com/maps/search/?api=1&query=Corredor+Industrial+Ex-Dina,+Fracción+13,+Cd.+Sahagún,+Hidalgo,+México" target="_blank">
@@ -78,12 +79,13 @@
 										</a>
 									</span>
 								</p>
-								<p>
+								<p class="textBlack">
 									<strong>Horario de Atención:</strong>
 									<span>
 										Lunes a Viernes, 9:00 am - 6:00 pm
 									</span>
 								</p>
+
 							</div>
 
 						</div>

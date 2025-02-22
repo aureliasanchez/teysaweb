@@ -45,7 +45,7 @@
 .custom-form-button {
     width: 100%;
     padding: 10px;
-    background: #25a4ff;
+    background: #165de6;
     color: white;
     border: none;
     border-radius: 25px;
@@ -55,7 +55,7 @@
 }
 
 .custom-form-button:hover {
-    background: #69DFCA;
+    background: #0080FF;
 }
 
 .c-loader {
