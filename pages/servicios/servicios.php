@@ -62,7 +62,7 @@
 								Servicios que <span>Impulsan</span> tu Producción
 							</h1>
 							<div class="ts-p" data-animate-paragraph data-animate-delay="400" data-split-articles>
-								<p>
+								<p class="textBlack">
 									En Maquinados Teysa ofrecemos soluciones completas en corte, doblado y maquinado, diseñadas para optimizar tus procesos industriales
 								</p>
 							</div>
@@ -108,7 +108,7 @@
 								<h2 class="ts-2" data-animate-title>Donde la <span>Precisión</span> Encuentra su Propósito</h2>
 							</div>
 							<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
-								<p>
+								<p class="textBlack">
 									Nuestros servicios se integran en proyectos clave de transporte, manufactura y tecnología, adaptándose a tus necesidades específicas
 								</p>
 							</div>
@@ -125,7 +125,7 @@
 									<div class="c-section-title">
 
 										<span class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">Nuestros servicios</span>
-										<div class="ts-2">
+										<div class="ts-2 textWhite">
 
 											<p>servicios</p>
 											<p>Especiales</p>
@@ -152,7 +152,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
+														<h3 class="textBlack">Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -165,7 +165,7 @@
 													<img src="../../assets/img/pages/servicio/cortadoraOxi.webp" alt="Cortadora Oxi" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Procesos de corte versátiles y de alta precisión, ideales para materiales de diversos espesores y tamaños, utilizando tecnología de última generación.
 													</p>
 												</div>
@@ -178,7 +178,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Corte con Guillotina Hidráulica</h3>
+														<h3 class="textBlack">Corte con Guillotina Hidráulica</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -191,7 +191,7 @@
 													<img src="../../assets/img/pages/servicio/corteHidraulico.webp" alt="Corte Hidráulica" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Cortes limpios y precisos en piezas de hasta 5,000 mm de longitud y 0.5” de grosor, ideal para proyectos que exigen rapidez y exactitud.
 													</p>
 												</div>
@@ -204,7 +204,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Maquinado CNC y Convencional</h3>
+														<h3 class="textBlack">Maquinado CNC y Convencional</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -217,7 +217,7 @@
 													<img src="../../assets/img/pages/servicio/maquinado.webp" alt="Maquinado" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Más de 40 máquinas CNC para fresado, torneado y rectificado, con capacidad para ensamblajes grandes (X 4000mm, Y 2000mm, Z 1600mm) y piezas pequeñas (X 300mm, Y 200mm, Z 200mm).
 													</p>
 												</div>
@@ -234,7 +234,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Doblado de Metales</h3>
+														<h3 class="textBlack">Doblado de Metales</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -247,7 +247,7 @@
 													<img src="../../assets/img/pages/servicio/doblarMetal.webp" alt="Doblar metal" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Capacidad de doblado de piezas de hasta 12,000 mm de longitud y 600 toneladas de presión, asegurando resultados precisos en formatos grandes.
 													</p>
 												</div>
@@ -260,7 +260,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Doblado de Tubos CNC</h3>
+														<h3 class="textBlack">Doblado de Tubos CNC</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -273,7 +273,7 @@
 													<img src="../../assets/img/pages/servicio/doblarTubos.webp" alt="Doblar tuvos" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Soluciones personalizadas para el doblado de tubos de diferentes radios, adaptándose a materiales como cobre, aluminio, acero al carbono y acero inoxidable.
 													</p>
 												</div>

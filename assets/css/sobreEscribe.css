@@ -217,10 +217,6 @@ button:hover .c-icon-close {
     background-color: #000;
 }
 
-.textWhite {
-    color: #fff;
-}
-
 .c-carousel--5 .c-carousel-year-inner:before {
     background: linear-gradient(97deg, #165de6 6.5%, #165de6 99.84%);
 }
@@ -231,6 +227,10 @@ button:hover .c-icon-close {
 
 .c-section-progress-drag {
     background-color: #fff;
+}
+
+.textWhite {
+    color: #fff;
 }
 
 .textBlack {
