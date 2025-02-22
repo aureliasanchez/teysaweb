@@ -46,8 +46,163 @@
     height: 80vw;
 }
 
-.ts-p {
-    color: #000 ;
+.c-section--title-1 .c-title-parts-bg{
+    border: .125rem solid #0080FF;
+}
+
+.c-list h3 {
+    color: #165de6;
+}
+
+.c-list p {
+    color: #000;
+}
+
+.c-section--title-text-center.c-section--light {
+    --title-color: #000;
+}
+
+.c-cards--5 .c-cards-content {
+    background-color: #000;
+    border-color: #fff; border-width: 3px;
+}
+
+.c-dropdown-1 {
+    --background-color: #000;
+    --title-color: #fff;
+    --dropdown-item-background-color: #0080FF;
+    --dropdown-item-hover-background-color: #165de6;
+    --dropdown-item-active-background-color: #fff;
+    --dropdown-item-expanded-background-color: #fff;
+    --dropdown-item-title-color: #fff;
+    --dropdown-item-icon-color: #fff;
+    --dropdown-item-hover-text-color: #fff;
+    --dropdown-item-active-text-color: #000;
+    --dropdown-item-expanded-text-color: #000;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .c-nav-bar-menu-a:hover:before, .c-nav-bar-menu-li.is-active>.c-nav-bar-menu-a:before, .c-nav-bar-menu-a.is-active:before {
+        background-color: #000;
+    }
+}
+
+.ts-eyebrow {
+    color: #fff;
+}
+
+.c-card-item--5 .c-card-item-bg {
+    background-color: #fff;
+}
+
+.c-card-item--5 .c-card-item-bg-hover {
+    background-color: #bababa;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .c-card-item--5:hover .c-card-item-title-icon {
+        background-color: #0080FF;
+    }
+}
+
+.c-card-item--5 .c-card-item-title-icon {
+    background-color: #165de6;
+    color: #fff;
+}
+
+.ts-3 .title-span:before {
+    background: #0080ff68;
+}
+
+.c-nav-menu-bg {
+    background: #000;
+}
+
+@media (max-width: 999px) {
+    .c-nav-menu-content-light:before {
+        background-color: #000;
+    }
+}
+
+@media (max-width: 799px) {
+    .c-nav-menu-top {
+        background-color: unset;
+    }
+}
+
+@media (min-width: 1000px) {
+    .c-nav-menu-bg {
+        background: #000;
+    }
+}
+
+.c-button--round:before {
+    background-color: #0080FF;
+}
+
+.c-icon-close {
+    fill: white; /* Color base blanco */
+    transition: fill 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.c-icon-close:hover,
+button:hover .c-icon-close {
+    fill: black; /* Color al hacer hover negro */
+}
+
+.c-nav-menu-content-a {
+    --link-color-hover: #fff;
+}
+
+.c-nav-menu-content-a:before {
+    background-color: #0080FF;
+}
+
+.c-lock-scroll-2 {
+    --background-color: #000;
+    --title-color: var(--white);
+    --text-color: var(--white);
+    --paragraph-color: var(--blue-patch);
+    --span-color: var(--blue-ice);
+    --eyebrow-color: var(--blue-fantasy);
+    --padding: 11.875rem;
+    margin-top: -.1rem;
+}
+
+.textWhite {
+    color: #fff;
+}
+
+.textBlack {
+    color: #000;
+}
+
+.textBlue1{
+    color: #165de6;
+}
+
+.textBlue2{
+    color: #0080FF;
+}
+
+.bgWhite {
+    background-color: #fff;
+}
+
+.bgBlack {
+    background-color: #000;
+}
+
+.bgBlue1 {
+    background-color: #165de6;
+}
+
+.bgBlue2 {
+    background-color: #0080FF;
+}
+
+.ts-2 .title-span:before {
+    background: #0080ff68;
 }
 
 @media (max-width: 799px) {
