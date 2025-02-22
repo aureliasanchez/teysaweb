@@ -61,7 +61,7 @@
 							</div>
 							<h1 class="ts-2" data-animate-title>Productos que <span>Impulsan</span> la Industria</h1>
 							<div class="ts-p" data-animate-paragraph data-animate-delay="400" data-split-articles>
-								<p>
+								<p class="textBlack">
 									Fabricamos piezas metálicas diseñadas para cumplir con los estándares más exigentes. Desde componentes ferroviarios hasta autopartes, garantizamos precisión y calidad en cada producto
 								</p>
 							</div>
@@ -104,10 +104,10 @@
 						<div class="c-grid">
 
 							<div class="col-span-10 md:col-span-12 md:col-start-2 text-center c-section-title">
-								<h2 class="ts-2" data-animate-title>Versatilidad en <span>Cada Proyecto</span></h2>
+								<h2 class="ts-2 textBlack" data-animate-title>Versatilidad en <span>Cada Proyecto</span></h2>
 							</div>
 							<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
-								<p>
+								<p class="textBlack">
 									Desde trenes y aviones hasta maquinaria industrial, nuestros productos se adaptan a múltiples aplicaciones con precisión garantizada
 								</p>
 							</div>
@@ -151,7 +151,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Piezas Estructurales para Trenes</h3>
+														<h3 class="textBlack">Piezas Estructurales para Trenes</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -164,7 +164,7 @@
 													<img src="../../assets/img/pages/productos/piezaTrenes.webp" alt="Pieza trenes" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.
 													</p>
 												</div>
@@ -177,7 +177,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Partes de Chasis para la Industria Automotriz</h3>
+														<h3 class="textBlack">Partes de Chasis para la Industria Automotriz</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -190,7 +190,7 @@
 													<img src="../../assets/img/pages/productos/parteChasis.webp" alt="Parte Chasis" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.
 													</p>
 												</div>
@@ -203,7 +203,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Piezas Personalizadas para Maquinaria Industrial</h3>
+														<h3 class="textBlack">Piezas para Maquinaria Industrial</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -216,7 +216,7 @@
 													<img src="../../assets/img/pages/productos/maquinariaPersonalisada.webp" alt="Maquinaria Personalizadas" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.
 													</p>
 												</div>
@@ -233,7 +233,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Componentes Metálicos para Aeronaves</h3>
+														<h3 class="textBlack">Componentes Metálicos para Aeronaves</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -246,7 +246,7 @@
 													<img src="../../assets/img/pages/productos/aeronaves.webp" alt="Componentes aeronaves" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.
 													</p>
 												</div>
@@ -259,7 +259,7 @@
 												</span>
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
-														<h3>Autopartes Personalizadas</h3>
+														<h3 class="textBlack">Autopartes Personalizadas</h3>
 														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 																<path fill-rule="evenodd" clip-rule="evenodd"
 																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
@@ -272,7 +272,7 @@
 													<img src="../../assets/img/pages/productos/autopartePersonalisada.webp" alt="Autoparte personalizadas" class="imgFat centrado">
 												</div>
 												<div class="c-card-item-text ts-p">
-													<p>
+													<p class="textBlack">
 														Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.
 													</p>
 												</div>

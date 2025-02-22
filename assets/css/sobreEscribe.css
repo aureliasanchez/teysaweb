@@ -160,13 +160,11 @@ button:hover .c-icon-close {
 
 .c-lock-scroll-2 {
     --background-color: #000;
-    --title-color: var(--white);
-    --text-color: var(--white);
-    --paragraph-color: var(--blue-patch);
-    --span-color: var(--blue-ice);
-    --eyebrow-color: var(--blue-fantasy);
-    --padding: 11.875rem;
-    margin-top: -.1rem;
+}
+
+.c-section--hero-1 {
+    --breadcrumb-color: #165de6;
+    --breadcrumb-color-active: #000;
 }
 
 .textWhite {
