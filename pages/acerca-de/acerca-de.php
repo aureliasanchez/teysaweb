@@ -28,9 +28,10 @@
 	<link href="https://www.performanse.com/fr/a-propos/" rel="alternate" hreflang="fr">
 	<link href="https://www.performanse.com/nl/over-ons/" rel="alternate" hreflang="nl">
 	<link href="https://www.performanse.com/en/about-us/" rel="alternate" hreflang="en">
-	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet">
-	<link href="/assets/css/sobreEscribe.css" rel="stylesheet">
-	<link href="/assets/css/acomodo.css" rel="stylesheet">
+	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet" />
+	<link href="/assets/css/sobreEscribe.css" rel="stylesheet" />
+	<link href="/assets/css/acomodo.css" rel="stylesheet" />
+	<link href="/assets/css/formulario.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
@@ -903,9 +904,9 @@
 </body>
 
 <!-- Scripts -->
-<script type="module" src="assets/js/main.c3dfb829.js" crossorigin="anonymous"
+<script type="module" src="/assets/js/main.c3dfb829.js" crossorigin="anonymous"
 	onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
 </script>
-<script src="assets/js/universal.js"></script>
+<script src="/assets/js/universal.js"></script>
 
 </html>
