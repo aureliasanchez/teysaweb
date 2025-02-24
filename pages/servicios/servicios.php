@@ -24,6 +24,7 @@
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet" />
 	<link href="/assets/css/acomodo.css" rel="stylesheet" />
 	<link href="/assets/css/formulario.css" rel="stylesheet" />
+	<link href="/assets/css/idiomas.css" rel="stylesheet" />
 	<link href="index.php" rel="canonical">
 	<link href="/index.php" rel="home">
 	<link href="https://www.performanse.com/it/i-nostri-servizi/" rel="alternate" hreflang="it">

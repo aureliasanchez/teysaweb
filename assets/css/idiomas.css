@@ -1,0 +1,104 @@
+/* Ajustar la posición dentro del navbar */
+.c-nav-bar-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    /* Ajusta la separación con el logo */
+}
+
+/* Ajuste fino del botón de idioma */
+.goog-te-gadget-simple {
+    background-color: #1B3372 !important;
+    color: white !important;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Ocultar el texto "Con la tecnología de Google" */
+.goog-te-gadget span,
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+/* Ocultar la bandera predeterminada de Google */
+.goog-te-gadget img {
+    display: none !important;
+}
+
+/* Ajustar el select de idioma */
+.goog-te-combo {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Ocultar el banner de Google Translate */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0px !important;
+}
+
+/* Ocultar el texto "Con la tecnología de Google" */
+.goog-te-gadget span {
+    display: none;
+}
+
+/* Ocultar el ícono de Google Translate */
+.goog-te-gadget img {
+    display: none;
+}
+
+/* Estilizar el botón de selección de idioma */
+#google_translate_element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+}
+
+/* Personalizar el botón */
+.goog-te-gadget-simple {
+    background-color: #1B3372;
+    /* Color de fondo */
+    color: #fff !important;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cambiar el estilo del select */
+.goog-te-combo {
+    background-color: #1B3372;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Ocultar el borde azul cuando se selecciona */
+.goog-te-combo:focus {
+    outline: none;
+}
+
+/* Alinear en la barra de navegación */
+.c-nav-bar-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}

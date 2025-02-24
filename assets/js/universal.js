@@ -115,3 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.opacity = 1;
   }, 2000); // 2000 milisegundos = 2 segundos
 });
+
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({ pageLanguage: 'es', includedLanguages: 'en' }, 'google_translate_element');
+}
