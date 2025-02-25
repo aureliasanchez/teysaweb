@@ -47,24 +47,23 @@
 
 			<div data-page data-entry-id="1">
 
-				<div class="c-hero">
+				<div class="c-hero fondoIndex" style="background-image: url(/assets/img/pages/index/fondo.webp);">
 
 					<div class="c-hero-section-2" data-nav-section="light"></div>
 					<div class="c-hero-bg c-hero-bg--mobile block md:hidden"></div>
-
 					<div class="wrap">
 
 						<h1 class="c-hero-title">
 							<div class="grid grid-cols-10 md:grid-cols-14 gap-x-20 md:gap-x-60">
 
 								<div class="col-span-10 md:col-span-12 md:col-start-2 line">
-									<div class="line-inner">Precisión que</div>
+									<div class="line-inner textWhite">Precisión que</div>
 								</div>
 								<div class="col-span-7 col-start-3 md:col-span-8 md:col-start-6 line">
-									<div class="line-inner">Impulsa</div>
+									<div class="line-inner textWhite">Impulsa</div>
 								</div>
 								<div class="col-span-9 col-start-2 md:col-span-10 md:col-start-4 line">
-									<div class="line-inner">Industrias</div>
+									<div class="line-inner textWhite">Industrias</div>
 								</div>
 
 							</div>
@@ -72,7 +71,7 @@
 						<div class="c-grid">
 							<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-6 lg:col-span-4 lg:col-start-6">
 
-								<div class="ts-p textBlack" data-split-articles>
+								<div class="ts-p textWhite" data-split-articles>
 									<p>
 										Desde México para el mundo, Maquinados Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
 									</p>
