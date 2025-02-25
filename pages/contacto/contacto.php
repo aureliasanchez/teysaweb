@@ -26,6 +26,7 @@
 	<link href="/assets/css/formulario.css" rel="stylesheet" />
 	<link href="/assets/css/idiomas.css" rel="stylesheet" />
 	<link href="/assets/css/bottonesHF.css" rel="stylesheet" />
+	<link href="/assets/css/colores.css" rel="stylesheet" />
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
 	<link href="/index.php" rel="home">
@@ -35,7 +36,7 @@
 	<link href="https://www.performanse.com/nl/uw-noden/" rel="alternate" hreflang="nl">
 	<link href="https://www.performanse.com/en/your-needs/" rel="alternate" hreflang="en">
 
-	<link href="/assets/img/logo/teysaRecortado.webp" rel="icon">
+	<link href="/assets/img/logo/webp/icono/logo_2.webp" rel="icon">
 	<title>Teysa | Contacto</title>
 </head>
 

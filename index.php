@@ -25,6 +25,7 @@
 	<link href="/assets/css/formulario.css" rel="stylesheet" />
 	<link href="/assets/css/idiomas.css" rel="stylesheet" />
 	<link href="/assets/css/bottonesHF.css" rel="stylesheet" />
+	<link href="/assets/css/colores.css" rel="stylesheet" />
 	<link href="/index.php" rel="alternate" hreflang="x-default" />
 	<link href="/index.php" rel="canonical" />
 	<link href="/index.php" rel="home" />
@@ -34,7 +35,7 @@
 	<link href="https://www.performanse.com/nl/" rel="alternate" hreflang="nl" />
 	<link href="https://www.performanse.com/en/" rel="alternate" hreflang="en" />
 
-	<link href="/assets/img/logo/teysaRecortado.webp" rel="icon">
+	<link href="/assets/img/logo/webp/icono/logo_2.webp" rel="icon">
 	<title>Teysa | Innovación en Maquinados</title>
 </head>
 
@@ -48,9 +49,6 @@
 			<div data-page data-entry-id="1">
 
 				<div class="c-hero fondoIndex" style="background-image: url(/assets/img/pages/index/fondo.webp);">
-
-					<div class="c-hero-section-2" data-nav-section="light"></div>
-					<div class="c-hero-bg c-hero-bg--mobile block md:hidden"></div>
 					<div class="wrap">
 
 						<h1 class="c-hero-title">
@@ -69,9 +67,9 @@
 							</div>
 						</h1>
 						<div class="c-grid">
-							<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-6 lg:col-span-4 lg:col-start-6">
+							<div class="col-span-6 col-start-6 md:col-span-14 md:col-start-1 lg:col-span-10 lg:col-start-3 flex flex-col items-center">
 
-								<div class="ts-p textWhite" data-split-articles>
+								<div class="ts-p textWhite" data-animate-paragraph data-animate-delay="400" data-split-articles>
 									<p>
 										Desde México para el mundo, Maquinados Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
 									</p>
@@ -109,7 +107,6 @@
 						</div>
 
 					</div>
-
 				</div>
 				<section class="c-section c-section--title-text-center c-section--light" data-animate-section data-nav-section="light">
 					<div class="wrap wrap--max">

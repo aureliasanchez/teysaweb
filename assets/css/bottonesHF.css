@@ -10,7 +10,7 @@
     flex: 1 1 45%; /* Dos botones por fila en pantallas grandes */
     margin: 10px;
     padding: 20px; /* Botones grandes */
-    background-color: #165de6;
+    background-color: #0146f9;
     color: white;
     text-align: center;
     border: none;
@@ -21,7 +21,7 @@
 }
 
 .c-footer-button:hover {
-    background-color: #0080FF;
+    background-color: #3c8cff;
 }
 
 /* Estilos para pantallas medianas */

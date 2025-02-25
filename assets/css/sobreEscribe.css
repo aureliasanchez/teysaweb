@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Manrope:wght@400;700&display=swap');
+
+* {
+    font-family: 'Exo 2', sans-serif !important;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Aplica la fuente Manrope a elementos específicos si es necesario */
+h1, h2, h3, h4, h5, h6, p, a, span, div {
+    font-family: 'Manrope', sans-serif;
+}
+
 .buttonColorBlue {
-    background-color: #165de6;
+    background-color: #0146f9;
     color: #fff;
 }
 
 .buttonColorBlue:hover {
-    background-color: #0080FF;
+    background-color: #3c8cff;
     color: #fff;
 }
 
@@ -18,7 +33,7 @@
 }
 
 .buttonTop {
-    background-color: #165de6 !important;
+    background-color: #0146f9 !important;
 }
 
 .c-button {
@@ -32,7 +47,7 @@
 
 @media (hover: hover) and (pointer: fine) {
     .c-button-bg-hover {
-        background-color: #0080FF;
+        background-color: #3c8cff;
     }
 }
 
@@ -47,11 +62,11 @@
 }
 
 .c-section--title-1 .c-title-parts-bg {
-    border: .125rem solid #0080FF;
+    border: .125rem solid #3c8cff;
 }
 
 .c-list h3 {
-    color: #165de6;
+    color: #0146f9;
 }
 
 .c-list p {
@@ -71,8 +86,8 @@
 .c-dropdown-1 {
     --background-color: #000;
     --title-color: #fff;
-    --dropdown-item-background-color: #0080FF;
-    --dropdown-item-hover-background-color: #165de6;
+    --dropdown-item-background-color: #3c8cff;
+    --dropdown-item-hover-background-color: #0146f9;
     --dropdown-item-active-background-color: #fff;
     --dropdown-item-expanded-background-color: #fff;
     --dropdown-item-title-color: #fff;
@@ -105,17 +120,17 @@
 
 @media (hover: hover) and (pointer: fine) {
     .c-card-item--5:hover .c-card-item-title-icon {
-        background-color: #0080FF;
+        background-color: #3c8cff;
     }
 }
 
 .c-card-item--5 .c-card-item-title-icon {
-    background-color: #165de6;
+    background-color: #0146f9;
     color: #fff;
 }
 
 .ts-3 .title-span:before {
-    background: #0080ff68;
+    background: #3c8cff68;
 }
 
 .c-nav-menu-bg {
@@ -141,7 +156,7 @@
 }
 
 .c-button--round:before {
-    background-color: #0080FF;
+    background-color: #3c8cff;
 }
 
 .c-icon-close {
@@ -162,7 +177,7 @@ button:hover .c-icon-close {
 }
 
 .c-nav-menu-content-a:before {
-    background-color: #0080FF;
+    background-color: #3c8cff;
 }
 
 .c-lock-scroll-2 {
@@ -170,12 +185,12 @@ button:hover .c-icon-close {
 }
 
 .c-section--hero-1 {
-    --breadcrumb-color: #165de6;
+    --breadcrumb-color: #0146f9;
     --breadcrumb-color-active: #000;
 }
 
 .c-section--title-text-center.c-section--dark {
-    --breadcrumb-color: #165de6;
+    --breadcrumb-color: #0146f9;
     --breadcrumb-color-active: #000;
 }
 
@@ -218,7 +233,7 @@ button:hover .c-icon-close {
 }
 
 .c-carousel--5 .c-carousel-year-inner:before {
-    background: linear-gradient(97deg, #165de6 6.5%, #165de6 99.84%);
+    background: linear-gradient(97deg, #0146f9 6.5%, #0146f9 99.84%);
 }
 
 .c-carousel--5 {
@@ -240,40 +255,8 @@ button:hover .c-icon-close {
     --button-text-hover-color: #fff;
 }
 
-.textWhite {
-    color: #fff;
-}
-
-.textBlack {
-    color: #000;
-}
-
-.textBlue1 {
-    color: #165de6;
-}
-
-.textBlue2 {
-    color: #0080FF;
-}
-
-.bgWhite {
-    background-color: #fff;
-}
-
-.bgBlack {
-    background-color: #000;
-}
-
-.bgBlue1 {
-    background-color: #165de6;
-}
-
-.bgBlue2 {
-    background-color: #0080FF;
-}
-
 .ts-2 .title-span:before {
-    background: #0080ff68;
+    background: #3c8cff68;
 }
 
 .navegationEnable {

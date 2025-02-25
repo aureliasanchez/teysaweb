@@ -1,0 +1,47 @@
+.textGray {
+    color: #eceef2;
+}
+
+.textDarkGray {
+    color: #1b1b1b;
+}
+
+.textWhite {
+    color: #fff;
+}
+
+.textBlack {
+    color: #000;
+}
+
+.textBlue1 {
+    color: #0146f9;
+}
+
+.textBlue2 {
+    color: #3c8cff;
+}
+
+.bgGeay {
+    background-color: #eceef2;
+}
+
+.bgDarkGeay {
+    background-color: #1b1b1b;
+}
+
+.bgWhite {
+    background-color: #fff;
+}
+
+.bgBlack {
+    background-color: #000;
+}
+
+.bgBlue1 {
+    background-color: #0146f9;
+}
+
+.bgBlue2 {
+    background-color: #3c8cff;
+}
