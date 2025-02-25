@@ -235,6 +235,11 @@ button:hover .c-icon-close {
     --background-color: #000;
 }
 
+.c-section--light .c-button--outlined {
+    --button-text-color: #fff;
+    --button-text-hover-color: #fff;
+}
+
 .textWhite {
     color: #fff;
 }
@@ -271,6 +276,10 @@ button:hover .c-icon-close {
     background: #0080ff68;
 }
 
+.navegationEnable{
+    display: none;
+}
+
 @media (max-width: 799px) {
     .c-hero {
         height: 130vw
@@ -298,5 +307,9 @@ button:hover .c-icon-close {
 @media (max-width: 1000px) {
     .languageDisable {
         display: none !important;
+    }
+
+    .navegationEnable{
+        display: inline-block;
     }
 }

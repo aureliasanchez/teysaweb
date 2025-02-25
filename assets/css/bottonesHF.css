@@ -1,0 +1,43 @@
+/* Estilos generales para el contenedor */
+.c-footer-menus .c-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los botones horizontalmente */
+}
+
+/* Estilos para los botones */
+.c-footer-button {
+    flex: 1 1 45%; /* Dos botones por fila en pantallas grandes */
+    margin: 10px;
+    padding: 20px; /* Botones grandes */
+    background-color: #165de6;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Tamaño de letra más grande */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.c-footer-button:hover {
+    background-color: #0080FF;
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 1200px) {
+    .c-footer-button {
+        flex: 1 1 45%; /* Dos botones por fila en pantallas medianas */
+        padding: 18px; /* Botones medianos */
+        font-size: 16px; /* Tamaño de letra mediano */
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 800px) {
+    .c-footer-button {
+        flex: 1 1 100%; /* Un botón por fila en pantallas pequeñas */
+        padding: 15px; /* Botones pequeños */
+        font-size: 14px; /* Tamaño de letra pequeño */
+    }
+}

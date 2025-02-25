@@ -20,12 +20,13 @@
 	<meta content="" property="og:image">
 
 	<!-- Link -->
-	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet" />
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet" />
 	<link href="/assets/css/acomodo.css" rel="stylesheet" />
 	<link href="/assets/css/formulario.css" rel="stylesheet" />
 	<link href="/assets/css/idiomas.css" rel="stylesheet" />
+	<link href="/assets/css/bottonesHF.css" rel="stylesheet" />
+	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
 	<link href="/index.php" rel="home">
 	<link href="https://www.performanse.com/it/i-nostri-prodotti/" rel="alternate" hreflang="it">
@@ -34,7 +35,7 @@
 	<link href="https://www.performanse.com/nl/onze-producten/" rel="alternate" hreflang="nl">
 	<link href="https://www.performanse.com/en/our-products/" rel="alternate" hreflang="en">
 
-	<link href="https://www.performanse.com/assets/favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="/assets/img/logo/teysaRecortado.webp" rel="icon">
 	<title>Teysa | Productos</title>
 </head>
 
