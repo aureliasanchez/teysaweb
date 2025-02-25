@@ -68,7 +68,7 @@
 						</h1>
 						<div class="c-grid">
 							<div class="col-span-6 col-start-6 md:col-span-14 md:col-start-1 lg:col-span-10 lg:col-start-3 flex flex-col items-center">
-
+							
 								<div class="ts-p textWhite" data-animate-paragraph data-animate-delay="400" data-split-articles>
 									<p>
 										Desde México para el mundo, Maquinados Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
@@ -132,7 +132,7 @@
 					</div>
 				</section>
 				<div class="c-cards-wrap">
-					<section class="c-cards c-cards--1 bgBlack" data-animate-section data-animate-margin="-35% 0% -35% 0%" data-nav-section="dark">
+					<section class="c-cards c-cards--1 bgBlue1" data-animate-section data-animate-margin="-35% 0% -35% 0%" data-nav-section="dark">
 						<div class="wrap wrap--max">
 							<div class="c-grid items-center">
 
@@ -142,10 +142,9 @@
 										Servicios
 									</h2>
 									<div class="ts-2 textWhite">
-
-										<p>Soluciones Integrales</p>
-										<p>de Maquinado y Corte</p>
-
+										<div class="saltoLinea">
+											Soluciones Integrales de Maquinado y Corte
+										</div>
 									</div>
 									<div class="ts-body--xl" data-animate-paragraph data-animate-delay="100"
 										data-split-articles>
@@ -153,17 +152,15 @@
 											Cumplimos con las demandas de la industria ferroviaria, automotriz e industrial, ofreciendo corte, doblado y fabricación de piezas metálicas con tecnología avanzada y calidad certificada.
 										</p>
 									</div>
-									<a data-animate data-animate-y="50" data-animate-delay="300" href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 c-button--blue c-button--hover-cyan buttonColorBlue">
+									<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 										<span class="c-button-bg">
-											<span class="c-button-bg-hover"></span>
+											<span class=""></span>
 										</span>
 										<span class="c-button-text">
 											<span class="c-button-text-inner">
-
 												<span class="c-button-text-hover">Conoce más</span>
 												<span class="c-button-text-static">Conoce más</span>
-
 											</span>
 										</span>
 										<span class="c-button-icon">
@@ -171,8 +168,7 @@
 												fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path
 													d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-													stroke="currentColor" stroke-linecap="round"
-													stroke-linejoin="round" />
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
 											</svg>
 										</span>
 
@@ -246,7 +242,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="c-section--dark-1 c-cards c-cards--5 bgBlack" data-animate-section>
+				<section class="c-section--dark-1 c-cards c-cards--5 bgBlue1" data-animate-section>
 					<div class="c-cards-inner">
 
 						<div class="c-cards-title wrap wrap--max">
@@ -274,14 +270,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="textBlack">Corte de Materiales</h3>
+											<h3 class="">Corte de Materiales</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/corteMateriales.webp" alt="Cortando materiales" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="textBlack">Precisión en cada proyecto con tecnología avanzada.</p>
+										<p class="">Precisión en cada proyecto con tecnología avanzada.</p>
 									</div>
 
 								</a>
@@ -292,14 +288,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="textBlack">Doblado de Metales</h3>
+											<h3 class="">Doblado de Metales</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/dobladoMetales.webp" alt="Doblando materiales" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="textBlack">Adaptación a grandes formatos para múltiples industrias.</p>
+										<p class="">Adaptación a grandes formatos para múltiples industrias.</p>
 									</div>
 
 								</a>
@@ -310,14 +306,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="textBlack">Corte con Guillotina Hidráulica</h3>
+											<h3 class="">Corte con Guillotina Hidráulica</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/corteMaterialesHidraulica.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="textBlack">Soluciones rápidas y eficaces.</p>
+										<p class="">Soluciones rápidas y eficaces.</p>
 									</div>
 
 								</a>
@@ -328,14 +324,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="textBlack">Doblado de Tubos CNC</h3>
+											<h3 class="">Doblado de Tubos CNC</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/dobladoTubos.webp" alt="Dobles de tubos" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="textBlack">Para diferentes materiales y aplicaciones.</p>
+										<p class="">Para diferentes materiales y aplicaciones.</p>
 									</div>
 
 								</a>
@@ -346,14 +342,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="textBlack">Maquinado CNC y Convencional</h3>
+											<h3 class="">Maquinado CNC y Convencional</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/maquinado.webp" alt="Maquina" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="textBlack">Piezas personalizadas con alta calidad.</p>
+										<p class="">Piezas personalizadas con alta calidad.</p>
 									</div>
 
 								</a>
@@ -361,17 +357,15 @@
 							</div>
 							<div class="c-cards-content-cta">
 								<div data-animate data-animate-delay="400">
-									<a href="./pages/productos/productos.php" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue">
+									<a href="./pages/productos/productos.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 										<span class="c-button-bg">
-											<span class="c-button-bg-hover"></span>
+											<span class=""></span>
 										</span>
 										<span class="c-button-text">
 											<span class="c-button-text-inner">
-
 												<span class="c-button-text-hover">Explora todos nuestros servicios</span>
 												<span class="c-button-text-static">Explora todos nuestros servicios</span>
-
 											</span>
 										</span>
 										<span class="c-button-icon">
@@ -379,8 +373,7 @@
 												fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path
 													d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-													stroke="currentColor" stroke-linecap="round"
-													stroke-linejoin="round" />
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
 											</svg>
 										</span>
 
@@ -774,17 +767,15 @@
 							<div class="c-cards-content" style="padding-top: 5%;">
 								<div class="c-cards-content-cta">
 									<div data-animate data-animate-delay="400">
-										<a href="#" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue">
+										<a href="#" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 											<span class="c-button-bg">
-												<span class="c-button-bg-hover"></span>
+												<span class=""></span>
 											</span>
 											<span class="c-button-text">
 												<span class="c-button-text-inner">
-
 													<span class="c-button-text-hover">Transforma tu producción</span>
 													<span class="c-button-text-static">Transforma tu producción</span>
-
 												</span>
 											</span>
 											<span class="c-button-icon">
@@ -792,8 +783,7 @@
 													fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path
 														d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-														stroke="currentColor" stroke-linecap="round"
-														stroke-linejoin="round" />
+														stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
 												</svg>
 											</span>
 

@@ -5,17 +5,20 @@
 }
 
 body {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Exo 2', sans-serif !important;
 }
 
-/* Aplica la fuente Manrope a elementos específicos si es necesario */
+/* Aplica la fuente Exo 2 a todos los elementos */
 h1, h2, h3, h4, h5, h6, p, a, span, div {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Exo 2', sans-serif !important;
 }
 
 .buttonColorBlue {
     background-color: #0146f9;
     color: #fff;
+    border-color: #eceef2;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .buttonColorBlue:hover {
@@ -78,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 }
 
 .c-cards--5 .c-cards-content {
-    background-color: #000;
+    background-color: #3c8cff;
     border-color: #fff;
     border-width: 3px;
 }
@@ -111,11 +114,24 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 }
 
 .c-card-item--5 .c-card-item-bg {
-    background-color: #fff;
+    background-color: #0146f9;
 }
 
 .c-card-item--5 .c-card-item-bg-hover {
-    background-color: #bababa;
+    background-color: #3c8cff;
+    border-color: #eceef2;
+    border-width: 5px; 
+    border-style: solid;
+}
+
+.c-card-item--5 .c-card-item-title .c-card-item-title-inner h3,
+.c-card-item--5 .c-card-item-text{
+    color: #eceef2;
+}
+
+.c-card-item--5:hover .c-card-item-title .c-card-item-title-inner h3,
+.c-card-item--5:hover .c-card-item-text{
+    color: #000;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -261,6 +277,12 @@ button:hover .c-icon-close {
 
 .navegationEnable {
     display: none;
+}
+
+.saltoLinea {
+    height: 50%;
+    white-space: pre-wrap; /* Permite el salto de línea */
+    word-wrap: break-word; /* Ajusta el texto para que no se desborde */
 }
 
 @media (max-width: 799px) {
