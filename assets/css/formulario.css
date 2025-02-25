@@ -43,7 +43,7 @@
 }
 
 .custom-form-button {
-    width: 100%;
+    width: auto;
     padding: 10px;
     background: #165de6;
     color: white;
@@ -60,4 +60,79 @@
 
 .c-loader {
     display: none !important;
+}
+
+/* Estilos personalizados para el formulario de cotización */
+.custom-form-container {
+    width: 70%; /* Ajustado para abarcar el 70% del ancho de la página */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.custom-form-container h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.custom-form-group {
+    margin-bottom: 15px;
+}
+
+.custom-form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.custom-form-input, .custom-form-select, .custom-form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #ffffff;
+    color: #333;
+}
+
+.custom-form-select {
+    background: #ffffff;
+    color: #222;
+}
+
+.custom-form-textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.custom-form-button-container {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.custom-form-button {
+    width: auto;
+    padding: 20px 40px; /* Aumenta el tamaño del botón */
+    background: #165de6;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 22px; /* Aumenta el tamaño de la letra */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.custom-form-button:hover {
+    background: #0080FF;
+}
+
+.c-loader {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    .custom-form-container {
+        width: 90%; /* Ajustado para abarcar el 90% del ancho de la pantalla en dispositivos móviles */
+    }
 }

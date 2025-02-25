@@ -155,12 +155,6 @@
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
 														<h3 class="textBlack">Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
-														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path fill-rule="evenodd" clip-rule="evenodd"
-																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-																	fill="currentColor" />
-															</svg>
-														</span>
 													</div>
 												</div>
 												<div class="c-card-item-img">
@@ -181,12 +175,6 @@
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
 														<h3 class="textBlack">Corte con Guillotina Hidráulica</h3>
-														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path fill-rule="evenodd" clip-rule="evenodd"
-																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-																	fill="currentColor" />
-															</svg>
-														</span>
 													</div>
 												</div>
 												<div class="c-card-item-img">
@@ -207,12 +195,6 @@
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
 														<h3 class="textBlack">Maquinado CNC y Convencional</h3>
-														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path fill-rule="evenodd" clip-rule="evenodd"
-																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-																	fill="currentColor" />
-															</svg>
-														</span>
 													</div>
 												</div>
 												<div class="c-card-item-img">
@@ -237,12 +219,6 @@
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
 														<h3 class="textBlack">Doblado de Metales</h3>
-														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path fill-rule="evenodd" clip-rule="evenodd"
-																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-																	fill="currentColor" />
-															</svg>
-														</span>
 													</div>
 												</div>
 												<div class="c-card-item-img">
@@ -263,12 +239,6 @@
 												<div class="c-card-item-title">
 													<div class="c-card-item-title-inner">
 														<h3 class="textBlack">Doblado de Tubos CNC</h3>
-														<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path fill-rule="evenodd" clip-rule="evenodd"
-																	d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-																	fill="currentColor" />
-															</svg>
-														</span>
 													</div>
 												</div>
 												<div class="c-card-item-img">

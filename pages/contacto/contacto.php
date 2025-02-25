@@ -104,26 +104,23 @@
 						</div>
 						<div class="custom-form-container">
 							<form>
+
 								<div class="custom-form-group">
 									<label class="custom-form-label">Nombre Completo *</label>
 									<input type="text" class="custom-form-input" required>
 								</div>
-
 								<div class="custom-form-group">
 									<label class="custom-form-label">Correo Electrónico *</label>
 									<input type="email" class="custom-form-input" required>
 								</div>
-
 								<div class="custom-form-group">
 									<label class="custom-form-label">Teléfono de Contacto *</label>
 									<input type="tel" class="custom-form-input" required>
 								</div>
-
 								<div class="custom-form-group">
 									<label class="custom-form-label">Nombre de la Empresa *</label>
 									<input type="text" class="custom-form-input" required>
 								</div>
-
 								<div class="custom-form-group">
 									<label class="custom-form-label">Tipo de Servicio Requerido *</label>
 									<select class="custom-form-select" required>
@@ -135,13 +132,14 @@
 										<option value="otro">Otro (especificar en el mensaje)</option>
 									</select>
 								</div>
-
 								<div class="custom-form-group">
 									<label class="custom-form-label">Incluir información sobre el costo de envío</label>
 									<textarea class="custom-form-textarea" placeholder="Ejemplo: 'Por favor, incluir información sobre el costo de envío.'"></textarea>
 								</div>
+								<div class="custom-form-button-container">
+									<button type="submit" class="custom-form-button">Solicitar Cotización</button>
+								</div>
 
-								<button type="submit" class="custom-form-button">Solicitar Cotización</button>
 							</form>
 						</div>
 

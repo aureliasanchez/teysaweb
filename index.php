@@ -139,9 +139,9 @@
 						<div class="wrap wrap--max">
 							<div class="c-grid items-center">
 
-								<div class="col-span-0 md:col-span-7 mobile:order-2 mobile:mt-80 relative">
+								<div class="col-span-10 md:col-span-7 mobile:order-2 mobile:mt-80 relative">
 
-									<h2 class="ts-eyebrow ts-indicator textWhite" data-animate>
+									<h2 class="ts-eyebrow ts-indicator" data-animate>
 										Servicios
 									</h2>
 									<div class="ts-2 textWhite">
@@ -277,17 +277,7 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-
 											<h3 class="textBlack">Corte de Materiales</h3>
-											<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6"
-													height="10" viewBox="0 0 6 10" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-														fill="currentColor" />
-												</svg>
-											</span>
-
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
@@ -305,17 +295,7 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-
 											<h3 class="textBlack">Doblado de Metales</h3>
-											<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6"
-													height="10" viewBox="0 0 6 10" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-														fill="currentColor" />
-												</svg>
-											</span>
-
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
@@ -333,17 +313,7 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-
 											<h3 class="textBlack">Corte con Guillotina Hidráulica</h3>
-											<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6"
-													height="10" viewBox="0 0 6 10" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-														fill="currentColor" />
-												</svg>
-											</span>
-
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
@@ -361,17 +331,7 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-
 											<h3 class="textBlack">Doblado de Tubos CNC</h3>
-											<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6"
-													height="10" viewBox="0 0 6 10" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-														fill="currentColor" />
-												</svg>
-											</span>
-
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
@@ -389,17 +349,7 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-
 											<h3 class="textBlack">Maquinado CNC y Convencional</h3>
-											<span class="c-card-item-title-icon"><svg class="icon-r-md" width="6"
-													height="10" viewBox="0 0 6 10" fill="none"
-													xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd"
-														d="M0.46967 0.46967C0.762563 0.176777 1.23744 0.176777 1.53033 0.46967L5.53033 4.46967C5.82322 4.76256 5.82322 5.23744 5.53033 5.53033L1.53033 9.53033C1.23744 9.82322 0.762563 9.82322 0.46967 9.53033C0.176777 9.23744 0.176777 8.76256 0.46967 8.46967L3.93934 5L0.46967 1.53033C0.176777 1.23744 0.176777 0.762563 0.46967 0.46967Z"
-														fill="currentColor" />
-												</svg>
-											</span>
-
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
@@ -463,619 +413,176 @@
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_nickel.svg"
-										alt="Logo Nickel" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_nickel.svg"
-										alt="Logo Nickel" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/stelliant-logo.svg"
-										alt="Logo Stelliant" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/stelliant-logo.svg"
-										alt="Logo Stelliant" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Sodexo_logo_svg.svg"
-										alt="Logo Sodexo" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Sodexo_logo_svg.svg"
-										alt="Logo Sodexo" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_Ami.svg"
-										alt="Logo Ami Paris" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_Ami.svg"
-										alt="Logo Ami Paris" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/ID_Logistics_logo.svg"
-										alt="Logo ID Logistics" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/ID_Logistics_logo.svg"
-										alt="Logo ID Logistics" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Presidence_Republique.svg"
-										alt="Logo de la Présidence de la République" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Presidence_Republique.svg"
-										alt="Logo de la Présidence de la République" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="https://www.performanse.com/fr/nos-succes/aligner-strategies-dentreprise-et-soft-skills-des-equipes"
-								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_de_Daher.svg"
-										alt="Logo de Daher" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_de_Daher.svg"
-										alt="Logo de Daher" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-chantelle.svg"
-										alt="Logo Client PerformanSe Chantelle" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-chantelle.svg"
-										alt="Logo Client PerformanSe Chantelle" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/nuestros-exitos/como-ataraxis-transformo-su-seleccion-de-personal/index.php"
-								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/AtaraxisV2.svg"
-										alt="Logo Ataraxis" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/AtaraxisV2.svg"
-										alt="Logo Ataraxis" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/business-cases/como-profesionalizar-y-evitar-los-sesgos-en-un-proceso-de-seleccion/index.php"
-								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Agbar_Svg.svg"
-										alt="Logo Agabar" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Agbar_Svg.svg"
-										alt="Logo Agabar" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-pole-emploi.svg"
-										alt="Logo Pole Emploi" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-pole-emploi.svg"
-										alt="Logo Pole Emploi" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Min_Culture_Svg.svg"
-										alt="Logo Ministère de la Culture" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Min_Culture_Svg.svg"
-										alt="Logo Ministère de la Culture" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Elior.svg"
-										alt="Logo Elior" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Elior.svg"
-										alt="Logo Elior" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/MalakoffHumanis.svg"
-										alt="Logo Malakoff Humanis" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/MalakoffHumanis.svg"
-										alt="Logo Malakoff Humanis" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/nuestros-exitos/como-detectar-a-los-mejores-talentos-entre-sus-empleados/index.php"
-								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Leroy_Merlin_Logo.svg"
-										alt="Logo Leroy Merlin" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Leroy_Merlin_Logo.svg"
-										alt="Logo Leroy Merlin" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/dalkia_logo.svg"
-										alt="Logo Dalkia" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/dalkia_logo.svg"
-										alt="Logo Dalkia" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-barriere.svg"
-										alt="Logo Barrière" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-barriere.svg"
-										alt="Logo Barrière" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/CA_Logo_seul.svg"
-										alt="Logo Crédit Agricole" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/CA_Logo_seul.svg"
-										alt="Logo Crédit Agricole" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/ENSP.svg"
-										alt="Logo ENSP" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/ENSP.svg"
-										alt="Logo ENSP" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Shiva.svg"
-										alt="Logo Shiva" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Shiva.svg"
-										alt="Logo Shiva" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Kalyptus.svg"
-										alt="Logo Kalyptus" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Kalyptus.svg"
-										alt="Logo Kalyptus" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/EpiCURA.svg"
-										alt="Logo Epicura" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/EpiCURA.svg"
-										alt="Logo Epicura" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/One.svg"
-										alt="Logo One" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/One.svg"
-										alt="Logo One" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Satys.svg"
-										alt="Logo Satys" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Satys.svg"
-										alt="Logo Satys" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Open.svg"
-										alt="Logo Open" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Open.svg"
-										alt="Logo Open" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/CoopérativeWelcoop.svg"
-										alt="Logo Coopérative Welcoop" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/CoopérativeWelcoop.svg"
-										alt="Logo Coopérative Welcoop" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_sofip_primary.svg"
-										alt="Logo Sofip" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_sofip_primary.svg"
-										alt="Logo Sofip" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/WestAfricanResources.svg"
-										alt="Logo West African Resources" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/WestAfricanResources.svg"
-										alt="Logo West African Resources" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/FFB-NORMANDIE.svg"
-										alt="Logo FFB Normandie" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/FFB-NORMANDIE.svg"
-										alt="Logo FFB Normandie" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/christofle-vector-logo_V2.svg"
-										alt="Logo Christofle" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/christofle-vector-logo_V2.svg"
-										alt="Logo Christofle" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Regime_social_des_independants_France_Logo.svg"
-										alt="Logo Regime Social des indépendants France" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Regime_social_des_independants_France_Logo.svg"
-										alt="Logo Regime Social des indépendants France" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/rte-logo.svg"
-										alt="logo rte" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/rte-logo.svg"
-										alt="logo rte" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-kiloutou.svg"
-										alt="Logo Kiloutou" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-kiloutou.svg"
-										alt="Logo Kiloutou" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/nuestros-exitos/como-identificar-a-los-mejores-talentos/index.php"
-								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Mobalpa.svg"
-										alt="Logo Mobalpa" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Mobalpa.svg"
-										alt="Logo Mobalpa" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="./pages/nuestros-exitos/como-asesorar-a-los-empleados-en-un-contexto-de-reorganizacion/index.php"
-								class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Groupe_ADP.svg"
-										alt="Logo Groupe ADP" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Groupe_ADP.svg"
-										alt="Logo Groupe ADP" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Transgourmet.svg"
-										alt="Logo transgourmet" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Transgourmet.svg"
-										alt="Logo transgourmet" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_foncia.svg"
-										alt="Logo Foncia" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_foncia.svg"
-										alt="Logo Foncia" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Academie_Service.svg"
-										alt="Logo Académie du Service" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Academie_Service.svg"
-										alt="Logo Académie du Service" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-centrale-marseille-mediterranee.svg"
-										alt="Logo Centrale Méditerranée" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-centrale-marseille-mediterranee.svg"
-										alt="Logo Centrale Méditerranée" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_credit_mutuel.svg"
-										alt="Logo Crédit Mutuel" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_credit_mutuel.svg"
-										alt="Logo Crédit Mutuel" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_ipag.svg"
-										alt="Logo Ipag" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo_ipag.svg"
-										alt="Logo Ipag" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Aperam_Logo.svg"
-										alt="Logo Aperam" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Aperam_Logo.svg"
-										alt="Logo Aperam" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Inetum.svg"
-										alt="Logo Inetum" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Inetum.svg"
-										alt="Logo Inetum" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/PierreMartinet.svg"
-										alt="Logo Pierre Martinet" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/PierreMartinet.svg"
-										alt="Logo Pierre Martinet" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/cpformation.svg"
-										alt="Logo CP Formation" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/cpformation.svg"
-										alt="Logo CP Formation" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-swcs.svg"
-										alt="Logo SWCS" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-swcs.svg"
-										alt="Logo SWCS" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Okami_Svg.svg"
-										alt="Logo Okami" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Okami_Svg.svg"
-										alt="Logo Okami" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Bricot-Depot-Logo.svg"
-										alt="Bricot Depot Logo" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Bricot-Depot-Logo.svg"
-										alt="Bricot Depot Logo" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Siep_Svg.svg"
-										alt="Logo Siep" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/Logo_Siep_Svg.svg"
-										alt="Logo Siep" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-audeo.svg"
-										alt="Logo Audeo" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-audeo.svg"
-										alt="Logo Audeo" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/FOREM-Logo.svg"
-										alt="Logo Forem" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/FOREM-Logo.svg"
-										alt="Logo Forem" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/CCI_IDF.svg"
-										alt="Logo CCI" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/CCI_IDF.svg"
-										alt="Logo CCI" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/val-d-oise-logo.svg"
-										alt="Val d&#039;oise logo" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/val-d-oise-logo.svg"
-										alt="Val d&#039;oise logo" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-solutions-institution-fr.svg"
-										alt="Logo client PerformanSe: Solutions&amp;co" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/logo-solutions-institution-fr.svg"
-										alt="Logo client PerformanSe: Solutions&amp;co" /></span>
-							</a>
-						</div>
-						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/ateliers-bocage-logo.svg"
-										alt="Ateliers bocage logo" />
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/alstom.webp" alt="Alstom" />
 								</span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/ateliers-bocage-logo.svg"
-										alt="Ateliers bocage logo" />
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/alstom.webp" alt="Alstom" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
-								<span class="c-client-logo-static"><img
-										src="https://www.performanse.com/assets/general/Logos/DVA.svg"
-										alt="Logo DVA" /></span>
-								<span class="c-client-logo-hover"><img
-										src="https://www.performanse.com/assets/general/Logos/DVA.svg"
-										alt="Logo DVA" />
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/amstedRail.webp" alt="Amsted Rail" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/amstedRail.webp" alt="Amsted Rail" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/caf.webp" alt="CAF" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/caf.webp" alt="CAF" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/comau.webp" alt="Comau" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/comau.webp" alt="Comau" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/bombardier.webp" alt="Bombardier" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/bombardier.webp" alt="Bombardier" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/danieli.webp" alt="Danieli" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/danieli.webp" alt="Danieli" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/dina.webp" alt="Dina" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/dina.webp" alt="Dina" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/espartec.webp" alt="Espartec" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/espartec.webp" alt="Espartec" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/forbo.webp" alt="Forbo" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/forbo.webp" alt="Forbo" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/gerdau.webp" alt="Gerdau" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/gerdau.webp" alt="Gerdau" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/greenbrier.webp" alt="Greenbrier" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/greenbrier.webp" alt="Greenbrier" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/kuka.webp" alt="Kuka" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/kuka.webp" alt="Kuka" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/lauak.webp" alt="Lauak" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/lauak.webp" alt="Lauak" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg" alt="Matrix Metals" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg" alt="Matrix Metals" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/sycsa.webp" alt="Sycsa" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/sycsa.webp" alt="Sycsa" />
+								</span>
+							</a>
+						</div>
+						<div class="c-carousel-slide" data-carousel-item>
+							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+								rel="noreferrer noopener">
+								<span class="c-client-logo-static">
+									<img src="/assets/img/pages/index/clientes/vicrila.webp" alt="Vicrila" />
+								</span>
+								<span class="c-client-logo-hover">
+									<img src="/assets/img/pages/index/clientes/vicrila.webp" alt="Vicrila" />
 								</span>
 							</a>
 						</div>

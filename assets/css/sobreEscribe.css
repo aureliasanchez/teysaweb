@@ -294,3 +294,9 @@ button:hover .c-icon-close {
         display: none;
     }
 }
+
+@media (max-width: 1000px) {
+    .languageDisable {
+        display: none !important;
+    }
+}
