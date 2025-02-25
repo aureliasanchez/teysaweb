@@ -87,17 +87,17 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 }
 
 .c-dropdown-1 {
-    --background-color: #000;
-    --title-color: #fff;
+    --background-color: #eceef2;
+    --title-color: #1b1b1b;
     --dropdown-item-background-color: #3c8cff;
     --dropdown-item-hover-background-color: #0146f9;
-    --dropdown-item-active-background-color: #fff;
-    --dropdown-item-expanded-background-color: #fff;
-    --dropdown-item-title-color: #fff;
-    --dropdown-item-icon-color: #fff;
-    --dropdown-item-hover-text-color: #fff;
-    --dropdown-item-active-text-color: #000;
-    --dropdown-item-expanded-text-color: #000;
+    --dropdown-item-active-background-color: #1b1b1b;
+    --dropdown-item-expanded-background-color: #1b1b1b;
+    --dropdown-item-title-color: #eceef2;
+    --dropdown-item-icon-color: #eceef2;
+    --dropdown-item-hover-text-color: #eceef2;
+    --dropdown-item-active-text-color: #eceef2;
+    --dropdown-item-expanded-text-color: #eceef2;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 }
 
 .ts-eyebrow {
-    color: #fff;
+    color: #1b1b1b;
 }
 
 .c-card-item--5 .c-card-item-bg {
@@ -206,16 +206,16 @@ button:hover .c-icon-close {
 }
 
 .c-section--title-text-center.c-section--dark {
-    --breadcrumb-color: #0146f9;
-    --breadcrumb-color-active: #000;
+    --breadcrumb-color: #fff;
+    --breadcrumb-color-active: #fff;
 }
 
 .c-lock-scroll-1 {
-    background: linear-gradient(to bottom, #000 0%, #000 100%);
+    background: linear-gradient(to bottom, #0146f9 0%, #0146f9 100%);
 }
 
 .c-lock-scroll-card {
-    background-color: #fff !important;
+    background-color: #3c8cff !important;
 }
 
 .ts-3 {
@@ -231,12 +231,35 @@ button:hover .c-icon-close {
     color: #000;
 }
 
+
 .c-card-item--8 .c-card-item-title h3 {
     color: #fff;
+    font-size: 45px; 
 }
 
 .c-card-item--8 .c-card-item-text {
     color: #fff;
+    font-size: 34px;
+}
+
+@media (max-width: 1400px) {
+    .c-card-item--8 .c-card-item-title h3 {
+        font-size: 30px; 
+    }
+
+    .c-card-item--8 .c-card-item-text {
+        font-size: 24px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .c-card-item--8 .c-card-item-title h3 {
+        font-size: 24px; /* Ajusta el tamaño de la letra para dispositivos móviles */
+    }
+
+    .c-card-item--8 .c-card-item-text {
+        font-size: 18px; /* Ajusta el tamaño de la letra para dispositivos móviles */
+    }
 }
 
 .iconosFont {
@@ -245,7 +268,7 @@ button:hover .c-icon-close {
 }
 
 .c-card-item--8 {
-    background-color: #000;
+    background-color: #0146f9;
 }
 
 .c-carousel--5 .c-carousel-year-inner:before {
