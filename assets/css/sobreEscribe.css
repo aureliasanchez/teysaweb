@@ -266,6 +266,12 @@ button:hover .c-icon-close {
     font-size: 34px;
 }
 
+img, video {
+    max-width: 100%;
+    width: auto;
+    /* height: 50px; */
+}
+
 @media (max-width: 1400px) {
     .c-card-item--8 .c-card-item-title h3 {
         font-size: 30px;
