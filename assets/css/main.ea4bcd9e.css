@@ -392,7 +392,7 @@ object {
     --bg-color: var(--white);
     --text-color: var(--off-black);
     --expo-out: cubic-bezier(.19, 1, .22, 1);
-    --button-border-radius: 1.75rem;
+    --button-border-radius: 0.5rem;
     --z-widget: 1;
     --z-nav: 2;
     --z-modal: 3
@@ -4338,7 +4338,7 @@ ul {
 }
 
 .c-hero+.c-section {
-    padding-top: 5rem
+    padding-top: 3rem
 }
 
 @media (max-width: 799px) {
@@ -5308,7 +5308,7 @@ a:hover .c-button--round:before {
 }
 
 .c-button.c-button--xl {
-    --button-border-radius: 3.4375rem;
+    --button-border-radius: 2.8125rem;
     height: 4.75rem;
     padding: 0 2.8125rem;
     border-radius: 3.4375rem
@@ -9067,7 +9067,7 @@ a.c-map-svg-marker-infobox-text:hover {
 
 .c-cards {
     background-color: var(--background-color);
-    padding: var(--padding) 0;
+    padding: 5.5rem;
     overflow: hidden
 }
 
@@ -9508,7 +9508,7 @@ a.c-map-svg-marker-infobox-text:hover {
 
 @media (max-width: 799px) {
     .c-cards--5 {
-        --padding: 7.5rem;
+        --padding: 1.5rem;
         padding-bottom: 0
     }
 }
@@ -11539,7 +11539,7 @@ a.c-map-svg-marker-infobox-text:hover {
 
 .c-section--title-text-10 {
     --eyebrow-color: var(--blue-fantasy);
-    --padding: 12.5rem;
+    --padding: 5.5rem;
     --padding-b: 13.875rem
 }
 
@@ -15437,7 +15437,7 @@ input:-internal-autofill-previewed {
     --padding: 10rem;
     background-color: var(--background-color);
     color: var(--text-color);
-    padding: var(--padding) 0;
+    padding: 0;
     overflow: hidden;
     position: relative
 }
