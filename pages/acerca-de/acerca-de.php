@@ -52,7 +52,7 @@
 
 			<div data-page data-entry-id="44">
 
-				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--dark c-section--light fondoIndex" data-animate-section data-nav-section="light" style="background-image: url(/assets/img/pages/index/fondo.webp);">
+				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--dark c-section--light fondoIndex" data-animate-section data-nav-section="light" style="background-image: url(/assets/img/pages/acercaDe/fondo.webp);">
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center">
 
