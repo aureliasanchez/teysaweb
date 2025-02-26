@@ -1,0 +1,130 @@
+.new-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.new-footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.new-footer-logo,
+.new-footer-buttons,
+.new-footer-contact,
+.new-footer-credits {
+    width: 100%;
+}
+
+.new-footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.new-footer-logo-img {
+    height: 100%;
+    max-height: 100px; /* Ajusta este valor según sea necesario */
+    width: auto;
+}
+
+.new-footer-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.new-footer-button {
+    background-color: #0146f9;
+    color: #fff;
+    border: 5px solid #fff;
+    border-radius: 15px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1 1 100%;
+    max-width: 100%;
+    font-size: 18px; /* Ajusta este valor según sea necesario */
+}
+
+.new-footer-button:hover {
+    background-color: #3c8cff;
+}
+
+.new-footer-contact {
+    text-align: left; /* Alinear a la izquierda */
+}
+
+.new-footer-contact a {
+    color: #fff; /* Color de la letra blanco */
+    text-decoration: none; /* Quitar subrayado */
+    padding: 1px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.new-footer-contact a:last-child {
+    margin-bottom: 0; /* Quitar margen del último elemento */
+}
+
+.new-footer-contact a:hover {
+    color: #000; /* Cambiar color de la letra a negro */
+    background-color: #fff; /* Fondo blanco */
+}
+
+.new-footer-credits {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .new-footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        gap: 20px;
+        align-items: start;
+    }
+
+    .new-footer-logo {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .new-footer-buttons {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-content: flex-end;
+    }
+
+    .new-footer-contact {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        text-align: center; /* Centrar el texto */
+    }
+
+    .new-footer-credits {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        text-align: center; /* Centrar el texto */
+    }
+
+    .new-footer-logo-img {
+        height: 100%;
+        max-height: 100px; /* Ajusta este valor según sea necesario */
+        width: auto;
+    }
+
+    .new-footer-button {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
