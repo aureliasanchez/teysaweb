@@ -26,6 +26,8 @@
 	<link href="/assets/css/idiomas.css" rel="stylesheet" />
 	<link href="/assets/css/bottonesHF.css" rel="stylesheet" />
 	<link href="/assets/css/colores.css" rel="stylesheet" />
+	<link href="/assets/css/footer.css" rel="stylesheet" />
+	<link href="/assets/css/header.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
@@ -121,18 +123,18 @@
 						</div>
 					</div>
 				</section>
-				<section class="c-section c-lock-scroll-2" data-animate-section>
-					<div class="c-section-inner">
-						<div class="wrap wrap--max">
-							<div class="c-grid">
+				<section class="c-section--dark-1 c-cards c-cards--5 bgBlue1" data-animate-section>
+					<div class="c-cards-inner">
 
+						<div class="c-cards-title wrap wrap--max">
+							<div class="c-grid">
 								<div class="col-span-10 md:col-span-6">
 									<div class="c-section-title">
 
 										<span class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">Nuestros servicios</span>
 										<div class="ts-2 textWhite">
 
-											<p>servicios</p>
+											<p>Servicios</p>
 											<p>Especiales</p>
 
 										</div>
@@ -145,123 +147,132 @@
 
 									</div>
 								</div>
-								<div class="col-span-10 md:col-span-8 c-section-cards">
-									<div class="c-section-cards-inner">
-
-										<div class="c-section-cards-col" data-animate-items data-animate-delay="100" data-animate-stagger="50">
-
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/servicio/cortadoraOxi.webp" alt="Cortadora Oxi" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Procesos de corte versátiles y de alta precisión, ideales para materiales de diversos espesores y tamaños, utilizando tecnología de última generación.
-													</p>
-												</div>
-
-											</a>
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Corte con Guillotina Hidráulica</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/servicio/corteHidraulico.webp" alt="Corte Hidráulica" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Cortes limpios y precisos en piezas de hasta 5,000 mm de longitud y 0.5” de grosor, ideal para proyectos que exigen rapidez y exactitud.
-													</p>
-												</div>
-
-											</a>
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Maquinado CNC y Convencional</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/servicio/maquinado.webp" alt="Maquinado" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Más de 40 máquinas CNC para fresado, torneado y rectificado, con capacidad para ensamblajes grandes (X 4000mm, Y 2000mm, Z 1600mm) y piezas pequeñas (X 300mm, Y 200mm, Z 200mm).
-													</p>
-												</div>
-
-											</a>
-
-										</div>
-										<div class="c-section-cards-col" data-scroll data-scroll-speed=".3" data-animate-items data-animate-delay="150" data-animate-stagger="50">
-
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Doblado de Metales</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/servicio/doblarMetal.webp" alt="Doblar metal" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Capacidad de doblado de piezas de hasta 12,000 mm de longitud y 600 toneladas de presión, asegurando resultados precisos en formatos grandes.
-													</p>
-												</div>
-
-											</a>
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Doblado de Tubos CNC</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/servicio/doblarTubos.webp" alt="Doblar tuvos" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Soluciones personalizadas para el doblado de tubos de diferentes radios, adaptándose a materiales como cobre, aluminio, acero al carbono y acero inoxidable.
-													</p>
-												</div>
-
-											</a>
-
-										</div>
-
-									</div>
-								</div>
-
 							</div>
 						</div>
+						<div class="c-cards-content">
+
+							<div class="c-cards-content-inner no-scrollbar">
+
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Cortando materiales" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Procesos de corte versátiles y de alta precisión, ideales para materiales de diversos espesores y tamaños, utilizando tecnología de última generación.</p>
+									</div>
+
+								</a>
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Corte con Guillotina Hidráulica</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/servicio/corteHidraulico.webp" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Cortes limpios y precisos en piezas de hasta 5,000 mm de longitud y 0.5” de grosor, ideal para proyectos que exigen rapidez y exactitud.</p>
+									</div>
+
+								</a>
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Maquinado CNC y Convencional</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/servicio/maquinado.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Más de 40 máquinas CNC para fresado, torneado y rectificado, con capacidad para ensamblajes grandes (X 4000mm, Y 2000mm, Z 1600mm) y piezas pequeñas (X 300mm, Y 200mm, Z 200mm).</p>
+									</div>
+
+								</a>
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Doblado de Metales</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/servicio/doblarMetal.webp" alt="Dobles de tubos" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Capacidad de doblado de piezas de hasta 12,000 mm de longitud y 600 toneladas de presión, asegurando resultados precisos en formatos grandes.</p>
+									</div>
+
+								</a>
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Doblado de Tubos CNC</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/servicio/doblarTubos.webp" alt="Maquina" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Soluciones personalizadas para el doblado de tubos de diferentes radios, adaptándose a materiales como cobre, aluminio, acero al carbono y acero inoxidable.</p>
+									</div>
+
+								</a>
+
+							</div>
+							<div class="c-cards-content-cta">
+								<div data-animate data-animate-delay="400">
+									<a href="./pages/productos/productos.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
+
+										<span class="c-button-bg">
+											<span></span>
+										</span>
+										<span class="c-button-text">
+											<span class="c-button-text-inner">
+												<span class="c-button-text-hover">Explora todos nuestros servicios</span>
+												<span class="c-button-text-static">Explora todos nuestros servicios</span>
+											</span>
+										</span>
+										<span class="c-button-icon">
+											<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
+												fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</span>
+
+									</a>
+								</div>
+							</div>
+
+						</div>
+
 					</div>
 				</section>
 				<section class="c-section c-section--light c-section--related" data-nav-section="light" data-animate-section>

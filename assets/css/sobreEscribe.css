@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Manrope:wght@400;700&display=swap');
 
 * {
-    font-family: 'Exo 2', sans-serif !important;
+    font-family: 'Exo 2', sans-serif;
 }
 
 body {
-    font-family: 'Exo 2', sans-serif !important;
+    font-family: 'Exo 2', sans-serif;
 }
 
 /* Aplica la fuente Exo 2 a todos los elementos */
-h1, h2, h3, h4, h5, h6, p, a, span, div {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+div {
     font-family: 'Exo 2', sans-serif !important;
+}
+
+.c-button .c-button-bg {
+    background-color: unset;
 }
 
 .buttonColorBlue {
@@ -37,6 +50,9 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 
 .buttonTop {
     background-color: #0146f9 !important;
+    border-color: #1b1b1b;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .c-button {
@@ -110,7 +126,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 }
 
 .ts-eyebrow {
-    color: #1b1b1b;
+    color: #fff;
 }
 
 .c-card-item--5 .c-card-item-bg {
@@ -120,18 +136,26 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 .c-card-item--5 .c-card-item-bg-hover {
     background-color: #3c8cff;
     border-color: #eceef2;
-    border-width: 5px; 
+    border-width: 5px;
     border-style: solid;
 }
 
 .c-card-item--5 .c-card-item-title .c-card-item-title-inner h3,
-.c-card-item--5 .c-card-item-text{
+.c-card-item--5 .c-card-item-text {
     color: #eceef2;
 }
 
 .c-card-item--5:hover .c-card-item-title .c-card-item-title-inner h3,
-.c-card-item--5:hover .c-card-item-text{
+.c-card-item--5:hover .c-card-item-text {
     color: #000;
+}
+
+@media (max-width: 999px) {
+
+    .c-card-item--5:hover .c-card-item-title .c-card-item-title-inner h3,
+    .c-card-item--5:hover .c-card-item-text {
+        color: #fff;
+    }
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -234,7 +258,7 @@ button:hover .c-icon-close {
 
 .c-card-item--8 .c-card-item-title h3 {
     color: #fff;
-    font-size: 45px; 
+    font-size: 45px;
 }
 
 .c-card-item--8 .c-card-item-text {
@@ -242,23 +266,31 @@ button:hover .c-icon-close {
     font-size: 34px;
 }
 
+img, video {
+    max-width: 100%;
+    width: auto;
+    /* height: 50px; */
+}
+
 @media (max-width: 1400px) {
     .c-card-item--8 .c-card-item-title h3 {
-        font-size: 30px; 
+        font-size: 30px;
     }
 
     .c-card-item--8 .c-card-item-text {
-        font-size: 24px; 
+        font-size: 24px;
     }
 }
 
 @media (max-width: 600px) {
     .c-card-item--8 .c-card-item-title h3 {
-        font-size: 24px; /* Ajusta el tamaño de la letra para dispositivos móviles */
+        font-size: 24px;
+        /* Ajusta el tamaño de la letra para dispositivos móviles */
     }
 
     .c-card-item--8 .c-card-item-text {
-        font-size: 18px; /* Ajusta el tamaño de la letra para dispositivos móviles */
+        font-size: 18px;
+        /* Ajusta el tamaño de la letra para dispositivos móviles */
     }
 }
 
@@ -284,9 +316,8 @@ button:hover .c-icon-close {
 }
 
 .c-section--dark {
-    --form-border-color: #fff;
     border-width: 1px;
-    --background-color: #000;
+    background-color: #1b1b1b;
 }
 
 .c-section--light .c-button--outlined {
@@ -304,8 +335,10 @@ button:hover .c-icon-close {
 
 .saltoLinea {
     height: 50%;
-    white-space: pre-wrap; /* Permite el salto de línea */
-    word-wrap: break-word; /* Ajusta el texto para que no se desborde */
+    white-space: pre-wrap;
+    /* Permite el salto de línea */
+    word-wrap: break-word;
+    /* Ajusta el texto para que no se desborde */
 }
 
 @media (max-width: 799px) {

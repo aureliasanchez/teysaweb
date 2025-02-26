@@ -27,6 +27,8 @@
 	<link href="/assets/css/idiomas.css" rel="stylesheet" />
 	<link href="/assets/css/bottonesHF.css" rel="stylesheet" />
 	<link href="/assets/css/colores.css" rel="stylesheet" />
+	<link href="/assets/css/footer.css" rel="stylesheet" />
+	<link href="/assets/css/header.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
@@ -73,17 +75,15 @@
 							<div class="c-cards-content" style="padding-top: 5%;">
 								<div class="c-cards-content-cta">
 									<div data-animate data-animate-delay="400">
-										<a href="#" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue">
+										<a href="#" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 											<span class="c-button-bg">
-												<span class="c-button-bg-hover"></span>
+												<span></span>
 											</span>
 											<span class="c-button-text">
 												<span class="c-button-text-inner">
-
 													<span class="c-button-text-hover">Explora nuestra gama de productos</span>
 													<span class="c-button-text-static">Explora nuestra gama de productos</span>
-
 												</span>
 											</span>
 											<span class="c-button-icon">
@@ -91,8 +91,7 @@
 													fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path
 														d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-														stroke="currentColor" stroke-linecap="round"
-														stroke-linejoin="round" />
+														stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
 												</svg>
 											</span>
 
@@ -120,16 +119,16 @@
 						</div>
 					</div>
 				</section>
-				<section class="c-section c-lock-scroll-2" data-animate-section>
-					<div class="c-section-inner">
-						<div class="wrap wrap--max">
-							<div class="c-grid">
+				<section class="c-section--dark-1 c-cards c-cards--5 bgBlue1" data-animate-section>
+					<div class="c-cards-inner">
 
+						<div class="c-cards-title wrap wrap--max">
+							<div class="c-grid">
 								<div class="col-span-10 md:col-span-6">
 									<div class="c-section-title">
 
 										<span class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">Productos Especialisados</span>
-										<div class="ts-2">
+										<div class="ts-2 textWhite">
 
 											<p>Productos</p>
 											<p>Especiales</p>
@@ -144,123 +143,132 @@
 
 									</div>
 								</div>
-								<div class="col-span-10 md:col-span-8 c-section-cards">
-									<div class="c-section-cards-inner">
-
-										<div class="c-section-cards-col" data-animate-items data-animate-delay="100" data-animate-stagger="50">
-
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Piezas Estructurales para Trenes</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/productos/piezaTrenes.webp" alt="Pieza trenes" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.
-													</p>
-												</div>
-
-											</a>
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Partes de Chasis para la Industria Automotriz</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/productos/parteChasis.webp" alt="Parte Chasis" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.
-													</p>
-												</div>
-
-											</a>
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Piezas para Maquinaria Industrial</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/productos/maquinariaPersonalisada.webp" alt="Maquinaria Personalizadas" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.
-													</p>
-												</div>
-
-											</a>
-
-										</div>
-										<div class="c-section-cards-col" data-scroll data-scroll-speed=".3" data-animate-items data-animate-delay="150" data-animate-stagger="50">
-
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Componentes Metálicos para Aeronaves</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/productos/aeronaves.webp" alt="Componentes aeronaves" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.
-													</p>
-												</div>
-
-											</a>
-											<a href="#" class="c-card-item c-card-item--5">
-
-												<span class="c-card-item-bg">
-													<span class="c-card-item-bg-hover"></span>
-												</span>
-												<div class="c-card-item-title">
-													<div class="c-card-item-title-inner">
-														<h3 class="textBlack">Autopartes Personalizadas</h3>
-													</div>
-												</div>
-												<div class="c-card-item-img">
-													<img src="../../assets/img/pages/productos/autopartePersonalisada.webp" alt="Autoparte personalizadas" class="imgFat centrado">
-												</div>
-												<div class="c-card-item-text ts-p">
-													<p class="textBlack">
-														Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.
-													</p>
-												</div>
-
-											</a>
-
-										</div>
-
-									</div>
-								</div>
-
 							</div>
 						</div>
+						<div class="c-cards-content">
+
+							<div class="c-cards-content-inner no-scrollbar">
+
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Piezas Estructurales para Trenes</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/productos/piezaTrenes.webp" alt="Cortando materiales" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.</p>
+									</div>
+
+								</a>
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Partes de Chasis para la Industria Automotriz</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/productos/parteChasis.webp" alt="Doblando materiales" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.</p>
+									</div>
+
+								</a>
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Piezas para Maquinaria Industrial</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/productos/maquinariaPersonalisada.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.</p>
+									</div>
+
+								</a>
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Componentes Metálicos para Aeronaves</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/productos/aeronaves.webp" alt="Dobles de tubos" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.</p>
+									</div>
+
+								</a>
+								<a href="#" class="c-card-item c-card-item--5">
+
+									<span class="c-card-item-bg">
+										<span class="c-card-item-bg-hover"></span>
+									</span>
+									<div class="c-card-item-title">
+										<div class="c-card-item-title-inner">
+											<h3>Autopartes Personalizadas</h3>
+										</div>
+									</div>
+									<div class="c-card-item-img centrado">
+										<img src="/assets/img/pages/productos/autopartePersonalisada.webp" alt="Maquina" class="imgFat centrado">
+									</div>
+									<div class="c-card-item-text ts-p">
+										<p>Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.</p>
+									</div>
+
+								</a>
+
+							</div>
+							<div class="c-cards-content-cta">
+								<div data-animate data-animate-delay="400">
+									<a href="./pages/productos/productos.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
+
+										<span class="c-button-bg">
+											<span></span>
+										</span>
+										<span class="c-button-text">
+											<span class="c-button-text-inner">
+												<span class="c-button-text-hover">Explora todos nuestros servicios</span>
+												<span class="c-button-text-static">Explora todos nuestros servicios</span>
+											</span>
+										</span>
+										<span class="c-button-icon">
+											<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
+												fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
+													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</span>
+
+									</a>
+								</div>
+							</div>
+
+						</div>
+
 					</div>
 				</section>
 				<section class="c-section c-section--light c-section--related" data-nav-section="light" data-animate-section>
