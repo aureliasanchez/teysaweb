@@ -37,6 +37,9 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 
 .buttonTop {
     background-color: #0146f9 !important;
+    border-color: #1b1b1b;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .c-button {
@@ -110,7 +113,7 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 }
 
 .ts-eyebrow {
-    color: #1b1b1b;
+    color: #fff;
 }
 
 .c-card-item--5 .c-card-item-bg {

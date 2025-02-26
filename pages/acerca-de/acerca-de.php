@@ -297,185 +297,185 @@
 									</div>
 								</div>
 								<!-- <div class="c-carousel-item" data-year=1989>
-									<div class="c-grid">
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-											<h2 class="ts-3">
-												Alianza de la IA con la experiencia en recursos humanos
-											</h2>
-											<span class="ts-eyebrow">Desarrollar herramientas especializadas en evaluar
-												de la manera más real y precisa posible</span>
-										</div>
+								<div class="c-grid">
+									<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+										<h2 class="ts-3">
+											Alianza de la IA con la experiencia en recursos humanos
+										</h2>
+										<span class="ts-eyebrow">Desarrollar herramientas especializadas en evaluar
+											de la manera más real y precisa posible</span>
+									</div>
 
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>Se firma un acuerdo de colaboración con el laboratorio especializado en
-												gestión del conocimiento de la Escuela Politécnica de la Universidad de
-												Nantes. Así, PerformanSe inicia su andadura como start-up de
-												investigación y de tecnología avanzada para desarrollar soluciones
-												francesas 100 % web en el ámbito de la evaluación de competencias
-												comportamentales.</p>
-										</div>
+									<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+										<p>Se firma un acuerdo de colaboración con el laboratorio especializado en
+											gestión del conocimiento de la Escuela Politécnica de la Universidad de
+											Nantes. Así, PerformanSe inicia su andadura como start-up de
+											investigación y de tecnología avanzada para desarrollar soluciones
+											francesas 100 % web en el ámbito de la evaluación de competencias
+											comportamentales.</p>
 									</div>
 								</div>
-								<div class="c-carousel-item" data-year=1990>
-									<div class="c-grid">
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-											<h2 class="ts-3">
-												Desarrollo de la herramienta Echo
-											</h2>
-											<span class="ts-eyebrow">¡La herramienta que revoluciona las evaluaciones
-												comportamentales!</span>
-										</div>
+							</div>
+							<div class="c-carousel-item" data-year=1990>
+								<div class="c-grid">
+									<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+										<h2 class="ts-3">
+											Desarrollo de la herramienta Echo
+										</h2>
+										<span class="ts-eyebrow">¡La herramienta que revoluciona las evaluaciones
+											comportamentales!</span>
+									</div>
 
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>El estudio de los comportamientos se aborda bajo una perspectiva
-												fundamentalmente dinámica, considerando al individuo como un sistema
-												complejo en interacción permanente con su contexto. Los resultados de la
-												evaluación, presentados en un informe descriptivo rico, concreto y de
-												fácil comprensión, constituyen a partir de ahora el soporte
-												revolucionario que esperaban los profesionales de RR. HH. para
-												fiabilizar sus decisiones y hacer operativa su estrategia en materia de
-												gestión de las competencias.</p>
-										</div>
+									<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+										<p>El estudio de los comportamientos se aborda bajo una perspectiva
+											fundamentalmente dinámica, considerando al individuo como un sistema
+											complejo en interacción permanente con su contexto. Los resultados de la
+											evaluación, presentados en un informe descriptivo rico, concreto y de
+											fácil comprensión, constituyen a partir de ahora el soporte
+											revolucionario que esperaban los profesionales de RR. HH. para
+											fiabilizar sus decisiones y hacer operativa su estrategia en materia de
+											gestión de las competencias.</p>
 									</div>
 								</div>
-								<div class="c-carousel-item" data-year=2000>
-									<div class="c-grid">
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-											<h2 class="ts-3">
-												Una gama de herramientas cada vez más completa
-											</h2>
-											<span class="ts-eyebrow">Soluciones cada vez más fiables adaptadas a las
-												demandas específicas del mercado</span>
-										</div>
+							</div>
+							<div class="c-carousel-item" data-year=2000>
+								<div class="c-grid">
+									<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+										<h2 class="ts-3">
+											Una gama de herramientas cada vez más completa
+										</h2>
+										<span class="ts-eyebrow">Soluciones cada vez más fiables adaptadas a las
+											demandas específicas del mercado</span>
+									</div>
 
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>La base de conocimientos se enriquece con las investigaciones realizadas
-												por el equipo de I+D a través de análisis estadísticos y mediciones que
-												permiten a la vez un estudio interindividual (comparación con un grupo
-												de referencia) y una lectura intraindividual (evolución propia de cada
-												uno según las situaciones profesionales). PerformanSe está considerado
-												actualmente el líder francés más creativo en materia de soluciones de
-												evaluación y de gestión de las competencias.</p>
-										</div>
+									<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+										<p>La base de conocimientos se enriquece con las investigaciones realizadas
+											por el equipo de I+D a través de análisis estadísticos y mediciones que
+											permiten a la vez un estudio interindividual (comparación con un grupo
+											de referencia) y una lectura intraindividual (evolución propia de cada
+											uno según las situaciones profesionales). PerformanSe está considerado
+											actualmente el líder francés más creativo en materia de soluciones de
+											evaluación y de gestión de las competencias.</p>
 									</div>
 								</div>
-								<div class="c-carousel-item" data-year=2008>
-									<div class="c-grid">
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-											<h2 class="ts-3">
-												PerformanSe se une al grupo Julhiet
-											</h2>
-											<span class="ts-eyebrow">Reto: Desarrollar la empresa y multiplicar por diez
-												su éxito</span>
-										</div>
+							</div>
+							<div class="c-carousel-item" data-year=2008>
+								<div class="c-grid">
+									<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+										<h2 class="ts-3">
+											PerformanSe se une al grupo Julhiet
+										</h2>
+										<span class="ts-eyebrow">Reto: Desarrollar la empresa y multiplicar por diez
+											su éxito</span>
+									</div>
 
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>Para convertirse en multiespecialista de la dirección de recursos humanos
-												en Francia y en Europa, <a href="https://www.julhiet-sterwen.com/en/"
-													target="_blank" rel="noreferrer noopener">el grupo Julhiet</a> desea
-												integrar soluciones de evaluación y desarrollo de las competencias.
-												¡PerformanSe, líder en el mercado, abre un amplio campo de
-												posibilidades! Perspectiva: ampliar y enriquecer la gama de soluciones y
-												servicios e impulsar el potencial internacional de esta innovadora
-												empresa digital adelantada a su tiempo.</p>
-										</div>
+									<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+										<p>Para convertirse en multiespecialista de la dirección de recursos humanos
+											en Francia y en Europa, <a href="https://www.julhiet-sterwen.com/en/"
+												target="_blank" rel="noreferrer noopener">el grupo Julhiet</a> desea
+											integrar soluciones de evaluación y desarrollo de las competencias.
+											¡PerformanSe, líder en el mercado, abre un amplio campo de
+											posibilidades! Perspectiva: ampliar y enriquecer la gama de soluciones y
+											servicios e impulsar el potencial internacional de esta innovadora
+											empresa digital adelantada a su tiempo.</p>
 									</div>
 								</div>
-								<div class="c-carousel-item" data-year=2011>
-									<div class="c-grid">
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-											<h2 class="ts-3">
-												Desarrollo de la actividad de asesoramiento y consultoría
-											</h2>
-											<span class="ts-eyebrow">Asesoramiento a medida y equipo implicado</span>
-										</div>
+							</div>
+							<div class="c-carousel-item" data-year=2011>
+								<div class="c-grid">
+									<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+										<h2 class="ts-3">
+											Desarrollo de la actividad de asesoramiento y consultoría
+										</h2>
+										<span class="ts-eyebrow">Asesoramiento a medida y equipo implicado</span>
+									</div>
 
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>Con el fin de satisfacer las demandas de los clientes que desean
-												asesoramiento en proyectos de gestión, movilización interna o
-												contratación de talentos, PerformanSe crea su actividad de consultoría.
-												Un equipo de consultores multidisciplinarios, multilingües y
-												multiculturales asesora ahora a las empresas en Francia y a nivel
-												internacional con servicios a medida.</p>
-										</div>
+									<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+										<p>Con el fin de satisfacer las demandas de los clientes que desean
+											asesoramiento en proyectos de gestión, movilización interna o
+											contratación de talentos, PerformanSe crea su actividad de consultoría.
+											Un equipo de consultores multidisciplinarios, multilingües y
+											multiculturales asesora ahora a las empresas en Francia y a nivel
+											internacional con servicios a medida.</p>
 									</div>
 								</div>
-								<div class="c-carousel-item" data-year=2012>
-									<div class="c-grid">
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-											<h2 class="ts-3">
-												Una posición internacional
-											</h2>
-											<span class="ts-eyebrow">Ambición: posicionarse como empresa líder en
-												Europa</span>
-										</div>
+							</div>
+							<div class="c-carousel-item" data-year=2012>
+								<div class="c-grid">
+									<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+										<h2 class="ts-3">
+											Una posición internacional
+										</h2>
+										<span class="ts-eyebrow">Ambición: posicionarse como empresa líder en
+											Europa</span>
+									</div>
 
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>Las soluciones desarrolladas en 28 idiomas, los socios y distribuidores
-												presentes en unos 20 países y en los 5 continentes, así como los
-												numerosos proyectos de investigación científica en estrecha colaboración
-												con laboratorios internacionales de excelencia, permiten a PerformanSe
-												desarrollar su presencia internacional.</p>
-										</div>
+									<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+										<p>Las soluciones desarrolladas en 28 idiomas, los socios y distribuidores
+											presentes en unos 20 países y en los 5 continentes, así como los
+											numerosos proyectos de investigación científica en estrecha colaboración
+											con laboratorios internacionales de excelencia, permiten a PerformanSe
+											desarrollar su presencia internacional.</p>
 									</div>
 								</div>
-								<div class="c-carousel-item" data-year=2013>
-									<div class="c-grid">
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-											<h2 class="ts-3">
-												Creación del Comité científico de PerformanSe
-											</h2>
-											<span class="ts-eyebrow">Cultura de investigación e innovación</span>
-										</div>
+							</div>
+							<div class="c-carousel-item" data-year=2013>
+								<div class="c-grid">
+									<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+										<h2 class="ts-3">
+											Creación del Comité científico de PerformanSe
+										</h2>
+										<span class="ts-eyebrow">Cultura de investigación e innovación</span>
+									</div>
 
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>El equipo de I+D de PerformanSe, compuesto por doctores y estudiantes de
-												doctorado en ciencias humanas y sociales, cuenta ahora con un Comité
-												científico cuya función es evaluar la madurez y la validez científica de
-												los proyectos de la empresa. Miembros: cuatro profesores universitarios
-												reconocidos por la comunidad científica francesa e internacional por su
-												experiencia en psicología y en ciencias de la evaluación.</p>
-										</div>
+									<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+										<p>El equipo de I+D de PerformanSe, compuesto por doctores y estudiantes de
+											doctorado en ciencias humanas y sociales, cuenta ahora con un Comité
+											científico cuya función es evaluar la madurez y la validez científica de
+											los proyectos de la empresa. Miembros: cuatro profesores universitarios
+											reconocidos por la comunidad científica francesa e internacional por su
+											experiencia en psicología y en ciencias de la evaluación.</p>
 									</div>
 								</div>
-								<div class="c-carousel-item" data-year=2015>
-									<div class="c-grid">
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-											<h2 class="ts-3">
-												Primer editor europeo con certificado ISO 10667--2
-											</h2>
-											<span class="ts-eyebrow">Garantía de calidad y respeto de los principios
-												éticos y deontológicos</span>
-										</div>
+							</div>
+							<div class="c-carousel-item" data-year=2015>
+								<div class="c-grid">
+									<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+										<h2 class="ts-3">
+											Primer editor europeo con certificado ISO 10667--2
+										</h2>
+										<span class="ts-eyebrow">Garantía de calidad y respeto de los principios
+											éticos y deontológicos</span>
+									</div>
 
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>Como parte de su iniciativa de calidad, PerformanSe se convierte en 2015
-												en el primer editor europeo certificado según la norma ISO 10667-2 para
-												el diseño de pruebas psicométricas y la prestación de servicios de
-												evaluación y desarrollo de talentos.</p>
-										</div>
+									<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+										<p>Como parte de su iniciativa de calidad, PerformanSe se convierte en 2015
+											en el primer editor europeo certificado según la norma ISO 10667-2 para
+											el diseño de pruebas psicométricas y la prestación de servicios de
+											evaluación y desarrollo de talentos.</p>
 									</div>
 								</div>
-								<div class="c-carousel-item" data-year=2019>
-									<div class="c-grid">
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-											<h2 class="ts-3">
-												Lanzamiento de la plataforma Wesuggest
-											</h2>
-											<span class="ts-eyebrow"></span>
-										</div>
-
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>En un entorno en constante evolución, en el que las soft skills de los
-												empleados son las que marcan la diferencia, PerformanSe lanza <a
-													href="https://wesuggest.io/es/pagina-de-inicio-2" target="_blank"
-													rel="noreferrer noopener">Wesuggest</a>. ¡Wesuggest recomienda las
-												soft skills clave que hay que evaluar en un proceso de selección, evalúa
-												el potencial de los candidatos para prosperar en el puesto de trabajo y
-												ayuda a la compañía a seleccionar a los mejores!</p>
-										</div>
+							</div>
+							<div class="c-carousel-item" data-year=2019>
+								<div class="c-grid">
+									<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
+										<h2 class="ts-3">
+											Lanzamiento de la plataforma Wesuggest
+										</h2>
+										<span class="ts-eyebrow"></span>
 									</div>
-								</div> -->
+
+									<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
+										<p>En un entorno en constante evolución, en el que las soft skills de los
+											empleados son las que marcan la diferencia, PerformanSe lanza <a
+												href="https://wesuggest.io/es/pagina-de-inicio-2" target="_blank"
+												rel="noreferrer noopener">Wesuggest</a>. ¡Wesuggest recomienda las
+											soft skills clave que hay que evaluar en un proceso de selección, evalúa
+											el potencial de los candidatos para prosperar en el puesto de trabajo y
+											ayuda a la compañía a seleccionar a los mejores!</p>
+									</div>
+								</div>
+							</div> -->
 
 							</div>
 							<div class="c-carousel-controls" data-animate data-animate-x="200" data-animate-delay="600">
@@ -539,7 +539,7 @@
 
 					</div>
 				</section>
-				<section class="c-map" data-animate-section>
+				<section class="c-map cellphoneDisapare" data-animate-section>
 
 					<div class="c-map-title">
 						<div class="wrap wrap--max">
@@ -562,13 +562,14 @@
 									<defs>
 										<linearGradient id="paint0_linear_989_925" x1="1081.5" y1="200.143" x2="1081.5"
 											y2="662.472" gradientUnits="userSpaceOnUse">
-											<stop stop-color="#69DFCA" stop-opacity="0" />
-											<stop offset="1" stop-color="#69DFCA" stop-opacity="0.6" />
+											<stop stop-color="#0146f9" stop-opacity="0" />
+											<stop offset="1" stop-color="#3c8cff" stop-opacity="0.6" />
 										</linearGradient>
 									</defs>
 								</svg>
 								<div class="c-map-svg-markers">
-									<div class="c-map-svg-marker" data-location data-location-lat="56.1304" data-location-long="-106.3468">
+
+									<div class="c-map-svg-marker" data-location data-location-lat="56.1304" data-location-long="-60">
 										<div class="c-map-svg-marker-icon">
 											<svg class="c-icon-marker" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path fill-rule="evenodd" clip-rule="evenodd" d="M4.66797 11.6668C4.66797 6.51217 8.84664 2.3335 14.0013 2.3335C19.156 2.3335 23.3346 6.51217 23.3346 11.6668C23.3346 14.5533 22.0581 17.2188 20.5704 19.3599C19.0738 21.5138 17.2866 23.2474 16.0922 24.2946C14.8861 25.3521 13.1165 25.3521 11.9104 24.2946C10.7161 23.2474 8.92885 21.5138 7.43221 19.3599C5.94446 17.2188 4.66797 14.5533 4.66797 11.6668ZM13.9987 14.5835C15.6096 14.5835 16.9154 13.2777 16.9154 11.6668C16.9154 10.056 15.6096 8.75016 13.9987 8.75016C12.3879 8.75016 11.0821 10.056 11.0821 11.6668C11.0821 13.2777 12.3879 14.5835 13.9987 14.5835Z" fill="currentColor" />
@@ -583,7 +584,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="c-map-svg-marker" data-location data-location-lat="40.4637" data-location-long="-3.7492">
+									<div class="c-map-svg-marker" data-location data-location-lat="40.4637" data-location-long="50">
 										<div class="c-map-svg-marker-icon">
 											<svg class="c-icon-marker" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path fill-rule="evenodd" clip-rule="evenodd" d="M4.66797 11.6668C4.66797 6.51217 8.84664 2.3335 14.0013 2.3335C19.156 2.3335 23.3346 6.51217 23.3346 11.6668C23.3346 14.5533 22.0581 17.2188 20.5704 19.3599C19.0738 21.5138 17.2866 23.2474 16.0922 24.2946C14.8861 25.3521 13.1165 25.3521 11.9104 24.2946C10.7161 23.2474 8.92885 21.5138 7.43221 19.3599C5.94446 17.2188 4.66797 14.5533 4.66797 11.6668ZM13.9987 14.5835C15.6096 14.5835 16.9154 13.2777 16.9154 11.6668C16.9154 10.056 15.6096 8.75016 13.9987 8.75016C12.3879 8.75016 11.0821 10.056 11.0821 11.6668C11.0821 13.2777 12.3879 14.5835 13.9987 14.5835Z" fill="currentColor" />
@@ -598,7 +599,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="c-map-svg-marker" data-location data-location-lat="37.0902" data-location-long="-95.7129">
+									<div class="c-map-svg-marker" data-location data-location-lat="37.0902" data-location-long="-50">
 										<div class="c-map-svg-marker-icon">
 											<svg class="c-icon-marker" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path fill-rule="evenodd" clip-rule="evenodd" d="M4.66797 11.6668C4.66797 6.51217 8.84664 2.3335 14.0013 2.3335C19.156 2.3335 23.3346 6.51217 23.3346 11.6668C23.3346 14.5533 22.0581 17.2188 20.5704 19.3599C19.0738 21.5138 17.2866 23.2474 16.0922 24.2946C14.8861 25.3521 13.1165 25.3521 11.9104 24.2946C10.7161 23.2474 8.92885 21.5138 7.43221 19.3599C5.94446 17.2188 4.66797 14.5533 4.66797 11.6668ZM13.9987 14.5835C15.6096 14.5835 16.9154 13.2777 16.9154 11.6668C16.9154 10.056 15.6096 8.75016 13.9987 8.75016C12.3879 8.75016 11.0821 10.056 11.0821 11.6668C11.0821 13.2777 12.3879 14.5835 13.9987 14.5835Z" fill="currentColor" />
@@ -613,6 +614,7 @@
 											</div>
 										</div>
 									</div>
+									
 								</div>
 
 							</div>
