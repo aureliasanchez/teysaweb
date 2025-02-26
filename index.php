@@ -67,18 +67,17 @@
 
 							</div>
 						</h1>
+						<div class="ts-p textWhite" data-animate-paragraph data-animate-delay="400" data-split-articles>
+							<p>
+								Desde México para el mundo, Maquinados Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
+							</p>
+						</div>
 						<div class="c-grid">
 							<div class="col-span-6 col-start-6 md:col-span-14 md:col-start-1 lg:col-span-10 lg:col-start-3 flex flex-col items-center">
-							
-								<div class="ts-p textWhite" data-animate-paragraph data-animate-delay="400" data-split-articles>
-									<p>
-										Desde México para el mundo, Maquinados Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
-									</p>
-								</div>
-								<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
+								<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue" style="margin-top: 5%;">
 
 									<span class="c-button-bg">
-										<span class=""></span>
+										<span></span>
 									</span>
 									<span class="c-button-text">
 										<span class="c-button-text-inner">
@@ -96,7 +95,6 @@
 									</span>
 
 								</a>
-
 							</div>
 						</div>
 						<div class="c-hero-cta" data-scroll data-scroll-speed="0.1">
@@ -156,7 +154,7 @@
 									<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 										<span class="c-button-bg">
-											<span class=""></span>
+											<span></span>
 										</span>
 										<span class="c-button-text">
 											<span class="c-button-text-inner">
@@ -271,14 +269,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="">Corte de Materiales</h3>
+											<h3>Corte de Materiales</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/corteMateriales.webp" alt="Cortando materiales" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="">Precisión en cada proyecto con tecnología avanzada.</p>
+										<p>Precisión en cada proyecto con tecnología avanzada.</p>
 									</div>
 
 								</a>
@@ -289,14 +287,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="">Doblado de Metales</h3>
+											<h3>Doblado de Metales</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/dobladoMetales.webp" alt="Doblando materiales" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="">Adaptación a grandes formatos para múltiples industrias.</p>
+										<p>Adaptación a grandes formatos para múltiples industrias.</p>
 									</div>
 
 								</a>
@@ -307,14 +305,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="">Corte con Guillotina Hidráulica</h3>
+											<h3>Corte con Guillotina Hidráulica</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/corteMaterialesHidraulica.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="">Soluciones rápidas y eficaces.</p>
+										<p>Soluciones rápidas y eficaces.</p>
 									</div>
 
 								</a>
@@ -325,14 +323,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="">Doblado de Tubos CNC</h3>
+											<h3>Doblado de Tubos CNC</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/dobladoTubos.webp" alt="Dobles de tubos" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="">Para diferentes materiales y aplicaciones.</p>
+										<p>Para diferentes materiales y aplicaciones.</p>
 									</div>
 
 								</a>
@@ -343,14 +341,14 @@
 									</span>
 									<div class="c-card-item-title">
 										<div class="c-card-item-title-inner">
-											<h3 class="">Maquinado CNC y Convencional</h3>
+											<h3>Maquinado CNC y Convencional</h3>
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
 										<img src="/assets/img/pages/index/servicios/maquinado.webp" alt="Maquina" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
-										<p class="">Piezas personalizadas con alta calidad.</p>
+										<p>Piezas personalizadas con alta calidad.</p>
 									</div>
 
 								</a>
@@ -361,7 +359,7 @@
 									<a href="./pages/productos/productos.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 										<span class="c-button-bg">
-											<span class=""></span>
+											<span></span>
 										</span>
 										<span class="c-button-text">
 											<span class="c-button-text-inner">
@@ -771,7 +769,7 @@
 										<a href="#" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 											<span class="c-button-bg">
-												<span class=""></span>
+												<span></span>
 											</span>
 											<span class="c-button-text">
 												<span class="c-button-text-inner">
