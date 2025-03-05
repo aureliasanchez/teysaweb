@@ -117,7 +117,7 @@
     background: #0146f9;
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 15px;
     font-size: 22px; /* Aumenta el tamaño de la letra */
     cursor: pointer;
     transition: background 0.3s ease;

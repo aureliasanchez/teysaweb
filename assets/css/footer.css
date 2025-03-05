@@ -24,38 +24,35 @@
 .new-footer-logo {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .new-footer-logo-img {
-    height: 100%;
-    max-height: 100px; /* Ajusta este valor según sea necesario */
+    max-height: 60px; 
     width: auto;
 }
 
 .new-footer-buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column; /* Cambiar a columna para lista vertical */
     gap: 10px;
     justify-content: center;
+    align-items: center; /* Centrar los botones */
 }
 
 .new-footer-button {
-    background-color: #0146f9;
-    color: #fff;
-    border: 5px solid #fff;
-    border-radius: 15px;
-    padding: 15px 30px;
+    background-color: transparent; /* Sin fondo */
+    color: #fff; /* Color del texto blanco */
+    border: none; /* Sin contorno */
+    padding: 1px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    flex: 1 1 100%;
-    max-width: 100%;
+    transition: color 0.3s, background-color 0.3s;
     font-size: 18px; /* Ajusta este valor según sea necesario */
+    text-align: center; /* Centrar el texto */
 }
 
 .new-footer-button:hover {
-    background-color: #3c8cff;
+    color: #000; /* Cambiar color de la letra a negro */
+    background-color: #fff; /* Fondo blanco */
 }
 
 .new-footer-contact {
@@ -119,7 +116,7 @@
 
     .new-footer-logo-img {
         height: 100%;
-        max-height: 100px; /* Ajusta este valor según sea necesario */
+        max-height: 70px; /* Ajusta este valor según sea necesario */
         width: auto;
     }
 

@@ -58,13 +58,13 @@
 							<div class="grid grid-cols-10 md:grid-cols-14 gap-x-20 md:gap-x-60">
 
 								<div class="col-span-10 md:col-span-12 md:col-start-2 line">
-									<div class="line-inner textWhite">Precisión que</div>
+									<div class="line-inner textWhite">Forjamos metal</div>
 								</div>
 								<div class="col-span-7 col-start-3 md:col-span-8 md:col-start-6 line">
-									<div class="line-inner textWhite">Impulsa</div>
+									<div class="line-inner textWhite"> en soluciones</div>
 								</div>
 								<div class="col-span-9 col-start-2 md:col-span-10 md:col-start-4 line">
-									<div class="line-inner textWhite">Industrias</div>
+									<div class="line-inner textWhite">con precisión</div>
 								</div>
 
 							</div>
@@ -264,7 +264,7 @@
 
 							<div class="c-cards-content-inner no-scrollbar">
 
-								<a href="#" class="c-card-item c-card-item--5">
+								<a class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -282,7 +282,7 @@
 									</div>
 
 								</a>
-								<a href="#" class="c-card-item c-card-item--5">
+								<a class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -300,7 +300,7 @@
 									</div>
 
 								</a>
-								<a href="#" class="c-card-item c-card-item--5">
+								<a class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -318,7 +318,7 @@
 									</div>
 
 								</a>
-								<a href="#" class="c-card-item c-card-item--5">
+								<a class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -336,7 +336,7 @@
 									</div>
 
 								</a>
-								<a href="#" class="c-card-item c-card-item--5">
+								<a class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -358,7 +358,7 @@
 							</div>
 							<div class="c-cards-content-cta">
 								<div data-animate data-animate-delay="400">
-									<a href="./pages/productos/productos.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
+									<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 										<span class="c-button-bg">
 											<span></span>
@@ -402,7 +402,7 @@
 					<div class="c-carousel-slides" data-carousel data-animate data-animate-y="100" data-animate-delay="400">
 
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/alstom.webp" alt="Alstom" />
@@ -413,7 +413,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/amstedRail.webp" alt="Amsted Rail" />
@@ -424,7 +424,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/caf.webp" alt="CAF" />
@@ -435,7 +435,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/comau.webp" alt="Comau" />
@@ -446,7 +446,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/bombardier.webp" alt="Bombardier" />
@@ -457,7 +457,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/danieli.webp" alt="Danieli" />
@@ -468,7 +468,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/dina.webp" alt="Dina" />
@@ -479,7 +479,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/espartec.webp" alt="Espartec" />
@@ -490,7 +490,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/forbo.webp" alt="Forbo" />
@@ -501,7 +501,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/gerdau.webp" alt="Gerdau" />
@@ -512,7 +512,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/greenbrier.webp" alt="Greenbrier" />
@@ -523,7 +523,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/kuka.webp" alt="Kuka" />
@@ -534,7 +534,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/lauak.webp" alt="Lauak" />
@@ -545,7 +545,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg" alt="Matrix Metals" />
@@ -556,7 +556,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/sycsa.webp" alt="Sycsa" />
@@ -567,7 +567,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a href="#" class="c-carousel-slide-inner c-client-logo" target="_blank"
+							<a  class="c-carousel-slide-inner c-client-logo" target="_blank"
 								rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/vicrila.webp" alt="Vicrila" />
@@ -768,7 +768,7 @@
 							<div class="c-cards-content" style="padding-top: 5%;">
 								<div class="c-cards-content-cta">
 									<div data-animate data-animate-delay="400">
-										<a href="#" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
+										<a href="/pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 											<span class="c-button-bg">
 												<span></span>
