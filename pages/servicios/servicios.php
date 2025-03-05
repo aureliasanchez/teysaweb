@@ -76,7 +76,7 @@
 							<div class="c-cards-content" style="padding-top: 5%;">
 								<div class="c-cards-content-cta">
 									<div data-animate data-animate-delay="400">
-										<a href="#" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue">
+										<a href="#servicios" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue">
 
 											<span class="c-button-bg">
 												<span class="c-button-bg-hover"></span>
@@ -123,7 +123,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="c-section--dark-1 c-cards c-cards--5 bgBlue1" data-animate-section>
+				<section class="c-section--dark-1 c-cards c-cards--5 bgBlue1" data-animate-section id="servicios">
 					<div class="c-cards-inner">
 
 						<div class="c-cards-title wrap wrap--max">
@@ -153,7 +153,7 @@
 
 							<div class="c-cards-content-inner no-scrollbar">
 
-								<a href="#" class="c-card-item c-card-item--5">
+								<a  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -171,7 +171,7 @@
 									</div>
 
 								</a>
-								<a href="#" class="c-card-item c-card-item--5">
+								<a  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -189,7 +189,7 @@
 									</div>
 
 								</a>
-								<a href="#" class="c-card-item c-card-item--5">
+								<a  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -207,7 +207,7 @@
 									</div>
 
 								</a>
-								<a href="#" class="c-card-item c-card-item--5">
+								<a  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -225,7 +225,7 @@
 									</div>
 
 								</a>
-								<a href="#" class="c-card-item c-card-item--5">
+								<a  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -244,31 +244,6 @@
 
 								</a>
 
-							</div>
-							<div class="c-cards-content-cta">
-								<div data-animate data-animate-delay="400">
-									<a href="./pages/productos/productos.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
-
-										<span class="c-button-bg">
-											<span></span>
-										</span>
-										<span class="c-button-text">
-											<span class="c-button-text-inner">
-												<span class="c-button-text-hover">Explora todos nuestros servicios</span>
-												<span class="c-button-text-static">Explora todos nuestros servicios</span>
-											</span>
-										</span>
-										<span class="c-button-icon">
-											<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
-												fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-											</svg>
-										</span>
-
-									</a>
-								</div>
 							</div>
 
 						</div>
@@ -291,7 +266,7 @@
 							<div class="c-cards-content" style="padding-top: 5%;">
 								<div class="c-cards-content-cta">
 									<div data-animate data-animate-delay="400">
-										<a href="#" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue">
+										<a href="/pages/contacto/contacto.php" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue">
 
 											<span class="c-button-bg">
 												<span class="c-button-bg-hover"></span>

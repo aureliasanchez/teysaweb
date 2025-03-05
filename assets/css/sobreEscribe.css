@@ -272,6 +272,29 @@ img, video {
     /* height: 50px; */
 }
 
+.c-nav-bar-menu-a:before {
+    border-radius: 15px;
+}
+
+.c-button,
+.c-button .c-button-bg {
+    border-radius: 15px;
+}
+
+.c-nav-bar-cta {
+    border-radius: 15px;
+}
+
+.c-nav-bar-bg {
+    border-radius: 15px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .c-button-bg-hover {
+        border-radius: 15px;
+    }
+}
+
 @media (max-width: 1400px) {
     .c-card-item--8 .c-card-item-title h3 {
         font-size: 30px;
