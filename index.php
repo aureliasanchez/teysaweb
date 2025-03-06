@@ -63,12 +63,6 @@
 					</div>
 
 					<div class="wrap">
-<<<<<<< HEAD:index.html
-						<div class="c-grid">
-							<div class="col-span-6 col-start-6 md:col-span-14 md:col-start-1 lg:col-span-10 lg:col-start-3 flex flex-col items-center">
-							
-								<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue" style="margin-top: auto; border-radius: 15px;">
-=======
 
 						<h1 class="c-hero-title">
 							<div class="grid grid-cols-10 md:grid-cols-14 gap-x-20 md:gap-x-60">
@@ -94,7 +88,6 @@
 							<div class="col-span-6 col-start-6 md:col-span-14 md:col-start-1 lg:col-span-10 lg:col-start-3 flex flex-col items-center">
 								<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue" style="margin-top: 5%;">
 
->>>>>>> d3863cd557f1320bceaa8deb28ac54a999b66a63:index.php
 									<span class="c-button-bg">
 										<span></span>
 									</span>
