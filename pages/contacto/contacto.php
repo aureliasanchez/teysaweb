@@ -28,6 +28,7 @@
 	<link href="/assets/css/bottonesHF.css" rel="stylesheet" />
 	<link href="/assets/css/colores.css" rel="stylesheet" />
 	<link href="/assets/css/footer.css" rel="stylesheet" />
+	<link href="/assets/css/contacto.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
@@ -51,8 +52,9 @@
 
 			<div data-page data-entry-id="44">
 
-				<section class="c-section c-section--light c-section--title-illustration" data-animate-section data-nav-section="light">
+				<section class="c-section c-section--light c-section--title-illustration paddingBT" data-animate-section data-nav-section="light">
 					<div class="wrap">
+
 						<div class="c-grid">
 
 							<div class="col-span-10 md:col-span-12 md:col-start-2 text-center c-section-title">
@@ -69,7 +71,7 @@
 									</span>
 								</p>
 								<p class="textBlack">
-									<strong>Correo Electrónico:</strong>
+									<strong>Correo:</strong>
 									<span>
 										<a href="https://mail.google.com/mail/?view=cm&fs=1&to=contacto@mteysa.com" target="_blank">
 											contacto@mteysa.com
@@ -94,14 +96,136 @@
 							</div>
 
 						</div>
+						<div class="contacto-directo-container">
+
+							<button class="contacto-directo-button" onclick="toggleContactoDirecto()">Contacto directo</button>
+							<div class="contacto-directo-content" id="contactoDirectoContent">
+
+								<div class="contacto-persona" id="Benjamin">
+									<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
+
+										<p class="textBlack ">
+											<strong>CEO</strong>
+										</p>
+										<p class="textBlack ">
+											Benjamin Castañeda Montaño
+										</p>
+										<p class="textBlack textoIzquierda">
+											<strong>Oficina:</strong>
+											<span>
+												<a href="tel:+527919153715">
+													+52 791 915 3715
+												</a>
+												(Ext. 1012)
+											</span>
+										</p>
+										<p class="textBlack textoIzquierda">
+											<strong>Movil:</strong>
+											<span>
+												<a href="https://wa.me/527757571902" target="_blank">
+													+52 775 757 1902
+												</a>
+											</span>
+										</p>
+										<p class="textBlack textoIzquierda">
+											<strong>Correo</strong>
+											<span>
+												<a href="https://mail.google.com/mail/?view=cm&fs=1&to=benjamin.castaneda@mteysa.com" target="_blank">
+													benjamin.castaneda@mteysa.com
+												</a>
+											</span>
+										</p>
+
+									</div>
+								</div>
+								<div class="contacto-persona" id="Emmanuel">
+									<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
+
+										<p class="textBlack ">
+											<strong>Sales Manager</strong>
+										</p>
+										<p class="textBlack">
+											Emmanuel Castañeda Daniells
+										</p>
+										<p class="textBlack textoIzquierda">
+											<strong>Oficina:</strong>
+											<span>
+												<a href="tel:+527919153715">
+													+52 791 915 3715
+												</a>
+												(Ext. 1021)
+											</span>
+										</p>
+										<p class="textBlack textoIzquierda">
+											<strong>Movil:</strong>
+											<span>
+												<a href="https://wa.me/527757571904" target="_blank">
+													+52 775 757 1904
+												</a>
+											</span>
+										</p>
+										<p class="textBlack textoIzquierda">
+											<strong>Correo:</strong>
+											<span>
+												<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ebcastaneda@mteysa.com" target="_blank">
+													ebcastaneda@mteysa.com
+												</a>
+											</span>
+										</p>
+
+									</div>
+								</div>
+								<div class="contacto-persona" id="Joel">
+									<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
+
+										<p class="textBlack ">
+											<strong>Sales Manager</strong>
+										</p>
+										<p class="textBlack ">
+											Joel Castañeda Franco
+										</p>
+										<p class="textBlack textoIzquierda">
+											<strong>Oficina:</strong>
+											<span>
+												<a href="tel:+527919153715">
+													+52 791 915 3715
+												</a>
+												(Ext. 1021)
+											</span>
+										</p>
+										<p class="textBlack textoIzquierda">
+											<strong>Movil:</strong>
+											<span>
+												<a href="https://wa.me/527757713514" target="_blank">
+													+52 775 771 3514
+												</a>
+											</span>
+										</p>
+										<p class="textBlack textoIzquierda">
+											<strong>Correo:</strong>
+											<span>
+												<a href="https://mail.google.com/mail/?view=cm&fs=1&to=joel.castaneda@mteysa.com" target="_blank">
+													joel.castaneda@mteysa.com
+												</a>
+											</span>
+										</p>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
 					</div>
 				</section>
 				<section class="c-section c-section--dark c-section--form c-section--form-1" data-nav-section="dark" data-animate-delay="400">
 					<div class="wrap wrap--max">
 
 						<div class="text-center">
-							<h2 class="ts-2--sm" data-animate-title>Contáctanos y Lleva tu
-								Proyecto al Siguiente Nivel</h2>
+							<h2 class="ts-2--sm" data-animate-title>
+								Contáctanos y lleva tu proyecto al siguiente nivel
+							</h2>
 							<div class="ts-eyebrow" data-animate data-animate-y="50" data-animate-delay="200">
 								<p style="color: #fff;">Ponte en contacto con nosotros y descubre cómo podemos impulsar tu producción</p>
 							</div>

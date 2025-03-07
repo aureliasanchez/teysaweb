@@ -119,3 +119,12 @@ document.addEventListener("DOMContentLoaded", function () {
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({ pageLanguage: 'es', includedLanguages: 'en' }, 'google_translate_element');
 }
+
+function toggleContactoDirecto() {
+    var content = document.getElementById('contactoDirectoContent');
+    if (content.style.display === 'none' || content.style.display === '') {
+        content.style.display = 'block';
+    } else {
+        content.style.display = 'none';
+    }
+}

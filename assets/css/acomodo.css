@@ -30,6 +30,25 @@
     margin-right: .5rem;
 }
 
+.paddingBT {
+    padding-bottom: 1rem;
+}
+
+
+.imgReduccion {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.centrado {
+    justify-content: center;
+    align-items: center;
+}
+
+.textoIzquierda {
+    text-align: left;
+}
+
 @media (max-width: 1300px) {
     .imgLogo {
         height: 50px;
@@ -76,14 +95,4 @@
     .c-nav-bar-bg {
         margin-top: 7px;
     }
-}
-
-.imgReduccion {
-    max-width: 80%;
-    max-height: 80%;
-}
-
-.centrado {
-    justify-content: center;
-    align-items: center;
 }

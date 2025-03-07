@@ -1,0 +1,39 @@
+.contacto-directo-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contacto-directo-button {
+    background-color: #0146f9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.contacto-directo-button:hover {
+    background-color: #3c8cff;
+}
+
+.contacto-directo-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.contacto-persona {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin: 10px;
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+    .contacto-persona {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
