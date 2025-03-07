@@ -10,7 +10,7 @@
 
 .imgFat,
 .imgLarge {
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 .imgLogo {
@@ -18,9 +18,29 @@
     width: auto;
 }
 
+.c-nav-bar-bg {
+    margin-top: 2px;
+}
+
+.c-nav-bar-logo {
+    padding-top: 2%;
+}
+
+.c-nav-bar-cta .c-button {
+    margin-right: .5rem;
+}
+
 @media (max-width: 1300px) {
     .imgLogo {
-        height: 60px;
+        height: 50px;
+    }
+
+    .c-nav-bar-bg {
+        margin-top: 0px;
+    }
+
+    .c-nav-bar-logo {
+        padding-top: 0%;
     }
 }
 
@@ -29,33 +49,32 @@
         height: 50px;
     }
 
-    .c-nav-bar-part--left{
+    .c-nav-bar-part--left {
         padding-left: 3%;
     }
 
     .c-nav-bar-bg {
         margin-top: 7px;
-        
     }
 }
 
 @media (max-width: 450px) {
     .imgLogo {
-        height: 40px;
+        height: 55  px;
     }
 
     .c-nav-bar-bg {
-        margin-top: 5px;
+        margin-top: 8px;
     }
 }
 
 @media (max-width: 350px) {
     .imgLogo {
-        height: 30px;
+        height: 35px;
     }
 
     .c-nav-bar-bg {
-        margin-top: 3px;
+        margin-top: 7px;
     }
 }
 

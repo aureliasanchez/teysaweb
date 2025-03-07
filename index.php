@@ -27,7 +27,6 @@
 	<link href="/assets/css/bottonesHF.css" rel="stylesheet" />
 	<link href="/assets/css/colores.css" rel="stylesheet" />
 	<link href="/assets/css/footer.css" rel="stylesheet" />
-	<link href="/assets/css/header.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default" />
 	<link href="/index.php" rel="canonical" />
@@ -153,7 +152,7 @@
 										Servicios
 									</h2>
 									<div class="ts-2 textWhite">
-										<div class="">
+										<div class="saltoLinea">
 											Soluciones Integrales de Maquinado y Corte
 										</div>
 									</div>
@@ -253,7 +252,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="c-section--dark-1 c-cards c-cards--5 bgBlue2" data-animate-section>
+				<section class="c-section--dark-1 c-cards c-cards--5" data-animate-section>
 					<div class="c-cards-inner">
 
 						<div class="c-cards-title wrap wrap--max">
@@ -261,10 +260,10 @@
 								<div class="col-span-8 md:col-span-6">
 
 									<h2 class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">
-										Servicios Especializados
+										Servicios especializados
 									</h2>
 									<p class="ts-2 textWhite" data-animate-title data-animate-delay="100">
-										Nuestros Servicios Especializados
+										Nuestros servicios especiales
 									</p>
 
 								</div>

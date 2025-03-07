@@ -130,19 +130,19 @@ div {
 }
 
 .c-card-item--5 .c-card-item-bg {
-    background-color: #000000;
+    background-color: #000;
 }
 
 .c-card-item--5 .c-card-item-bg-hover {
-    background-color: #3c8cff;
-    border-color: #eceef2;
+    background-color: #fff;
+    border-color: #000;
     border-width: 5px;
     border-style: solid;
 }
 
 .c-card-item--5 .c-card-item-title .c-card-item-title-inner h3,
 .c-card-item--5 .c-card-item-text {
-    color: #eceef2;
+    color: #fff;
 }
 
 .c-card-item--5:hover .c-card-item-title .c-card-item-title-inner h3,
@@ -274,25 +274,25 @@ video {
 }
 
 .c-nav-bar-menu-a:before {
-    border-radius: 15px;
+    border-radius: 0px;
 }
 
 .c-button,
 .c-button .c-button-bg {
-    border-radius: 15px;
+    border-radius: 0px;
 }
 
 .c-nav-bar-cta {
-    border-radius: 15px;
+    border-radius: 0px;
 }
 
 .c-nav-bar-bg {
-    border-radius: 15px;
+    border-radius: 0px;
 }
 
 @media (hover: hover) and (pointer: fine) {
     .c-button-bg-hover {
-        border-radius: 15px;
+        border-radius: 0px;
     }
 }
 
@@ -332,7 +332,7 @@ video {
 }
 
 .c-carousel--5 {
-    --background-color: #000;
+    --background-color: #1b1b1b;
 }
 
 .c-section-progress-drag {
@@ -353,16 +353,17 @@ video {
     background: #3c8cff68;
 }
 
+.c-cards--5 {
+    --background-color: #000;
+}
+
 .navegationEnable {
     display: none;
 }
 
 .saltoLinea {
-    height: 50%;
     white-space: pre-wrap;
-    /* Permite el salto de línea */
     word-wrap: break-word;
-    /* Ajusta el texto para que no se desborde */
 }
 
 @media (max-width: 799px) {
@@ -405,6 +406,21 @@ video {
     }
 }
 
+.c-card-item--5 .c-card-item-bg, .c-card-item--5 .c-card-item-bg-hover {
+    border-radius: 0px;
+}
+
+.c-cards--1 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.c-cards--1 {
+    will-change: transform;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
 .fondoIndex {
     background-size: cover;
     background-position: center;
@@ -414,7 +430,7 @@ video {
     position: relative;
     overflow: hidden;
     margin-top: 7%;
-    border-radius: 15px;
+    border-radius: 0px;
 }
 
 .video-container {

@@ -63,7 +63,7 @@
     color: #fff; /* Color de la letra blanco */
     text-decoration: none; /* Quitar subrayado */
     padding: 1px; /* Espacio alrededor del texto */
-    border-radius: 5px; /* Bordes redondeados */
+    border-radius: 0px; /* Bordes redondeados */
     transition: color 0.3s, background-color 0.3s;
 }
 

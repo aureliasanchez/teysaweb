@@ -3,7 +3,7 @@
     width: 70%; /* Ajustado para abarcar el 70% del ancho de la página */
     margin: 20px auto;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 0px;
 }
 
 .custom-form-container h2 {
@@ -26,7 +26,7 @@
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 0px;
     font-size: 16px;
     background: #ffffff;
     color: #333;
@@ -48,7 +48,7 @@
     background: #0146f9;
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 0px;
     font-size: 18px;
     cursor: pointer;
     transition: background 0.3s ease;
@@ -67,7 +67,7 @@
     width: 70%; /* Ajustado para abarcar el 70% del ancho de la página */
     margin: 20px auto;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 0px;
 }
 
 .custom-form-container h2 {
@@ -90,7 +90,7 @@
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 0px;
     font-size: 16px;
     background: #ffffff;
     color: #333;
@@ -117,7 +117,7 @@
     background: #0146f9;
     color: white;
     border: none;
-    border-radius: 15px;
+    border-radius: 0px;
     font-size: 22px; /* Aumenta el tamaño de la letra */
     cursor: pointer;
     transition: background 0.3s ease;

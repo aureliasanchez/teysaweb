@@ -11,7 +11,7 @@
 .goog-te-gadget-simple {
     background-color: #1B3372 !important;
     color: white !important;
-    border-radius: 5px;
+    border-radius: 0px;
     padding: 5px 10px;
     font-size: 14px;
     font-weight: bold;
@@ -73,7 +73,7 @@ body {
     color: #fff !important;
     border: 1px solid #fff;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@ body {
     color: white;
     border: none;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
 }
 
