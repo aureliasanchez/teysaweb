@@ -269,6 +269,10 @@ button:hover .c-icon-close {
     font-size: 1rem;
 }
 
+.c-dropdown-item {
+    border-radius: 0px;
+}
+
 .c-card-item--8 .c-card-item-title h3 {
     color: #fff;
     font-size: 45px;

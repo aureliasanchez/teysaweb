@@ -573,7 +573,7 @@
 							<div class="col-span-8 col-start-2 md:col-span-6 lg:col-span-5 lg:col-start-2">
 								<div class="c-dropdown-1-text">
 
-									<span class="ts-eyebrow ts-indicator" data-animate>Preguntas Frecuentes</span>
+									<span class="ts-eyebrow ts-indicator textBlack" data-animate>Preguntas Frecuentes</span>
 									<h2 class="ts-3" data-animate-title data-animate-delay="100">Preguntas Frecuentes</h2>
 									<div class="c-dropdown-1-illustration cellphoneDisapare" data-animate data-animate-delay="400" data-animate-scale=".8">
 										<img src="/assets/img/pages/index/pregunta.webp" alt="Pregunta" class="imgLarge centrado imgReduccion">
