@@ -249,12 +249,25 @@ button:hover .c-icon-close {
 .c-lock-scroll-card-text .ts-p,
 .c-lock-scroll-card-text p {
     color: #000;
+    text-align: justify;
 }
 
 .ts-2 {
     color: #000;
 }
 
+.c-lock-scroll-card {
+    border-radius: 0px;
+}
+
+.c-card-item--8 {
+    border-radius: 0px;
+}
+
+.c-lock-scroll-card-text .ts-p,
+.c-lock-scroll-card-text p {
+    font-size: 1rem;
+}
 
 .c-card-item--8 .c-card-item-title h3 {
     color: #fff;

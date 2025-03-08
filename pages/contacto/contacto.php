@@ -110,7 +110,7 @@
 										<p class="textBlack ">
 											Benjamin Castañeda Montaño
 										</p>
-										<p class="textBlack textoIzquierda">
+										<p class="textBlack textoJustificado">
 											<strong>Oficina:</strong>
 											<span>
 												<a href="tel:+527919153715">
@@ -119,7 +119,7 @@
 												(Ext. 1012)
 											</span>
 										</p>
-										<p class="textBlack textoIzquierda">
+										<p class="textBlack textoJustificado">
 											<strong>Movil:</strong>
 											<span>
 												<a href="https://wa.me/527757571902" target="_blank">
@@ -127,7 +127,7 @@
 												</a>
 											</span>
 										</p>
-										<p class="textBlack textoIzquierda">
+										<p class="textBlack textoJustificado">
 											<strong>Correo</strong>
 											<span>
 												<a href="https://mail.google.com/mail/?view=cm&fs=1&to=benjamin.castaneda@mteysa.com" target="_blank">
@@ -147,7 +147,7 @@
 										<p class="textBlack">
 											Emmanuel Castañeda Daniells
 										</p>
-										<p class="textBlack textoIzquierda">
+										<p class="textBlack textoJustificado">
 											<strong>Oficina:</strong>
 											<span>
 												<a href="tel:+527919153715">
@@ -156,7 +156,7 @@
 												(Ext. 1021)
 											</span>
 										</p>
-										<p class="textBlack textoIzquierda">
+										<p class="textBlack textoJustificado">
 											<strong>Movil:</strong>
 											<span>
 												<a href="https://wa.me/527757571904" target="_blank">
@@ -164,7 +164,7 @@
 												</a>
 											</span>
 										</p>
-										<p class="textBlack textoIzquierda">
+										<p class="textBlack textoJustificado">
 											<strong>Correo:</strong>
 											<span>
 												<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ebcastaneda@mteysa.com" target="_blank">
@@ -184,7 +184,7 @@
 										<p class="textBlack ">
 											Joel Castañeda Franco
 										</p>
-										<p class="textBlack textoIzquierda">
+										<p class="textBlack textoJustificado">
 											<strong>Oficina:</strong>
 											<span>
 												<a href="tel:+527919153715">
@@ -193,7 +193,7 @@
 												(Ext. 1021)
 											</span>
 										</p>
-										<p class="textBlack textoIzquierda">
+										<p class="textBlack textoJustificado">
 											<strong>Movil:</strong>
 											<span>
 												<a href="https://wa.me/527757713514" target="_blank">
@@ -201,7 +201,7 @@
 												</a>
 											</span>
 										</p>
-										<p class="textBlack textoIzquierda">
+										<p class="textBlack textoJustificado">
 											<strong>Correo:</strong>
 											<span>
 												<a href="https://mail.google.com/mail/?view=cm&fs=1&to=joel.castaneda@mteysa.com" target="_blank">

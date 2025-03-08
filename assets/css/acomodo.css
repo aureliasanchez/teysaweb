@@ -45,8 +45,8 @@
     align-items: center;
 }
 
-.textoIzquierda {
-    text-align: left;
+.textoJustificado {
+    text-align: justify;
 }
 
 @media (max-width: 1300px) {
