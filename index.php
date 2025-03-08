@@ -366,31 +366,6 @@
 								</a>
 
 							</div>
-							<div class="c-cards-content-cta">
-								<div data-animate data-animate-delay="400">
-									<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
-
-										<span class="c-button-bg">
-											<span></span>
-										</span>
-										<span class="c-button-text">
-											<span class="c-button-text-inner">
-												<span class="c-button-text-hover">Explora todos nuestros servicios</span>
-												<span class="c-button-text-static">Explora todos nuestros servicios</span>
-											</span>
-										</span>
-										<span class="c-button-icon">
-											<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
-												fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-											</svg>
-										</span>
-
-									</a>
-								</div>
-							</div>
 
 						</div>
 
