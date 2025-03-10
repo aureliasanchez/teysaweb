@@ -231,44 +231,43 @@
 							</div>
 						</div>
 						<div class="custom-form-container">
-							<form>
+						<form action="procesar_formulario.php" method="POST">
+							<div class="custom-form-group">
+								<label class="custom-form-label">Nombre Completo *</label>
+								<input type="text" class="custom-form-input" name="nombre" required>
+							</div>
+							<div class="custom-form-group">
+								<label class="custom-form-label">Correo Electrónico *</label>
+								<input type="email" class="custom-form-input" name="correo" required>
+							</div>
+							<div class="custom-form-group">
+								<label class="custom-form-label">Teléfono de Contacto *</label>
+								<input type="tel" class="custom-form-input" name="telefono" required>
+							</div>
+							<div class="custom-form-group">
+								<label class="custom-form-label">Nombre de la Empresa *</label>
+								<input type="text" class="custom-form-input" name="empresa" required>
+							</div>
+							<div class="custom-form-group">
+								<label class="custom-form-label">Tipo de Servicio Requerido *</label>
+								<select class="custom-form-select" name="servicio" required>
+									<option value="corte-materiales">Corte de materiales</option>
+									<option value="doblado-metales">Doblado de metales</option>
+									<option value="corte-guillotina">Corte con guillotina hidráulica</option>
+									<option value="doblado-tubos">Doblado de tubos CNC</option>
+									<option value="maquinado">Maquinado CNC o convencional</option>
+									<option value="otro">Otro (especificar en el mensaje)</option>
+								</select>
+							</div>
+							<div class="custom-form-group">
+								<label class="custom-form-label">Mensaje</label>
+								<textarea class="custom-form-textarea" name="mensaje" placeholder="Escribe aquí los detalles adicionales..."></textarea>
+							</div>
+							<div class="custom-form-button-container">
+								<button type="submit" class="custom-form-button">Solicitar Cotización</button>
+							</div>
+						</form>
 
-								<div class="custom-form-group">
-									<label class="custom-form-label">Nombre Completo *</label>
-									<input type="text" class="custom-form-input" required>
-								</div>
-								<div class="custom-form-group">
-									<label class="custom-form-label">Correo Electrónico *</label>
-									<input type="email" class="custom-form-input" required>
-								</div>
-								<div class="custom-form-group">
-									<label class="custom-form-label">Teléfono de Contacto *</label>
-									<input type="tel" class="custom-form-input" required>
-								</div>
-								<div class="custom-form-group">
-									<label class="custom-form-label">Nombre de la Empresa *</label>
-									<input type="text" class="custom-form-input" required>
-								</div>
-								<div class="custom-form-group">
-									<label class="custom-form-label">Tipo de Servicio Requerido *</label>
-									<select class="custom-form-select" required>
-										<option value="corte-materiales">Corte de materiales</option>
-										<option value="doblado-metales">Doblado de metales</option>
-										<option value="corte-guillotina">Corte con guillotina hidráulica</option>
-										<option value="doblado-tubos">Doblado de tubos CNC</option>
-										<option value="maquinado">Maquinado CNC o convencional</option>
-										<option value="otro">Otro (especificar en el mensaje)</option>
-									</select>
-								</div>
-								<div class="custom-form-group">
-									<label class="custom-form-label">Incluir información sobre el costo de envío</label>
-									<textarea class="custom-form-textarea" placeholder="Ejemplo: 'Por favor, incluir información sobre el costo de envío.'"></textarea>
-								</div>
-								<div class="custom-form-button-container">
-									<button type="submit" class="custom-form-button">Solicitar Cotización</button>
-								</div>
-
-							</form>
 						</div>
 
 					</div>
