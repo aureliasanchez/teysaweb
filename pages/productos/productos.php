@@ -149,7 +149,7 @@
 
 							<div class="c-cards-content-inner no-scrollbar">
 
-								<a  class="c-card-item c-card-item--5">
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -160,14 +160,14 @@
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
-										<img src="/assets/img/pages/productos/piezaTrenes.webp" alt="Cortando materiales" class="imgFat centrado">
+										<img src="/assets/img/fotosSeleccionadas/almacen/almacen_1.webp" alt="Cortando materiales" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.</p>
 									</div>
 
-								</a>
-								<a  class="c-card-item c-card-item--5">
+								</div>
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -184,8 +184,8 @@
 										<p>Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.</p>
 									</div>
 
-								</a>
-								<a  class="c-card-item c-card-item--5">
+								</div>
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -202,8 +202,8 @@
 										<p>Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.</p>
 									</div>
 
-								</a>
-								<a  class="c-card-item c-card-item--5">
+								</div>
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -214,14 +214,14 @@
 										</div>
 									</div>
 									<div class="c-card-item-img centrado">
-										<img src="/assets/img/pages/productos/aeronaves.webp" alt="Dobles de tubos" class="imgFat centrado">
+										<img src="/assets/img/fotosSeleccionadas/almacen/almacen_4.webp" alt="Dobles de tubos" class="imgFat centrado">
 									</div>
 									<div class="c-card-item-text ts-p">
 										<p>Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.</p>
 									</div>
 
-								</a>
-								<a  class="c-card-item c-card-item--5">
+								</div>
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -238,7 +238,7 @@
 										<p>Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.</p>
 									</div>
 
-								</a>
+								</div>
 
 							</div>
 

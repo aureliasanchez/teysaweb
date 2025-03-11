@@ -283,6 +283,12 @@ button:hover .c-icon-close {
     font-size: 34px;
 }
 
+@media (max-width: 799px) {
+    .c-cards--1 .c-cards-illustration {
+        margin-left: 0;
+    }
+}
+
 img,
 video {
     max-width: 100%;

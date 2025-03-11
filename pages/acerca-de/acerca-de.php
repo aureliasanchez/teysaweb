@@ -90,7 +90,7 @@
 									<div class="c-grid items-center c-lock-scroll-card-inner">
 
 										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2" data-animate data-animate-scale="0.8">
-											<img src="../../assets/img/pages/acercaDe/equipo.webp" alt="Equipo de trabajo" class="imgFat centrado">
+											<img src="/assets/img/pages/acercaDe/equipo.webp" alt="Equipo de trabajo" class="imgFat centrado">
 										</div>
 										<div class="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
 
@@ -112,7 +112,7 @@
 									<div class="c-grid items-center c-lock-scroll-card-inner">
 
 										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2" data-animate data-animate-scale="0.8">
-											<img src="../../assets/img/pages/acercaDe/fundamentos.webp" alt="Maquina" class="imgFat centrado">
+											<img src="/assets/img/pages/acercaDe/fundamentos.webp" alt="Maquina" class="imgFat centrado">
 										</div>
 										<div class="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
 
