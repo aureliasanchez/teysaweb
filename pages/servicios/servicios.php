@@ -153,7 +153,7 @@
 
 							<div class="c-cards-content-inner no-scrollbar">
 
-								<a  class="c-card-item c-card-item--5">
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -170,8 +170,8 @@
 										<p>Procesos de corte versátiles y de alta precisión, ideales para materiales de diversos espesores y tamaños, utilizando tecnología de última generación.</p>
 									</div>
 
-								</a>
-								<a  class="c-card-item c-card-item--5">
+								</div>
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -188,8 +188,8 @@
 										<p>Cortes limpios y precisos en piezas de hasta 5,000 mm de longitud y 0.5” de grosor, ideal para proyectos que exigen rapidez y exactitud.</p>
 									</div>
 
-								</a>
-								<a  class="c-card-item c-card-item--5">
+								</div>
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -206,8 +206,8 @@
 										<p>Más de 40 máquinas CNC para fresado, torneado y rectificado, con capacidad para ensamblajes grandes (X 4000mm, Y 2000mm, Z 1600mm) y piezas pequeñas (X 300mm, Y 200mm, Z 200mm).</p>
 									</div>
 
-								</a>
-								<a  class="c-card-item c-card-item--5">
+								</div>
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -224,8 +224,8 @@
 										<p>Capacidad de doblado de piezas de hasta 12,000 mm de longitud y 600 toneladas de presión, asegurando resultados precisos en formatos grandes.</p>
 									</div>
 
-								</a>
-								<a  class="c-card-item c-card-item--5">
+								</div>
+								<div  class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -242,7 +242,7 @@
 										<p>Soluciones personalizadas para el doblado de tubos de diferentes radios, adaptándose a materiales como cobre, aluminio, acero al carbono y acero inoxidable.</p>
 									</div>
 
-								</a>
+								</div>
 
 							</div>
 
