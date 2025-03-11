@@ -9067,7 +9067,7 @@ a.c-map-svg-marker-infobox-text:hover {
 
 .c-cards {
     background-color: var(--background-color);
-    padding: 5.5rem;
+    padding: var(--padding) 0;
     overflow: hidden
 }
 
