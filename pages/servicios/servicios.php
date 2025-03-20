@@ -28,6 +28,7 @@
 	<link href="/assets/css/colores.css" rel="stylesheet" />
 	<link href="/assets/css/footer.css" rel="stylesheet" />
 	<link href="/assets/css/contacto.css" rel="stylesheet" />
+	<link href="/assets/css/header.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
@@ -320,5 +321,6 @@
 	onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
 </script>
 <script src="/assets/js/universal.js"></script>
+<script src="/assets/js/header.js"></script>
 
 </html>

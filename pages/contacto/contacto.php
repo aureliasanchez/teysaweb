@@ -29,6 +29,7 @@
 	<link href="/assets/css/colores.css" rel="stylesheet" />
 	<link href="/assets/css/footer.css" rel="stylesheet" />
 	<link href="/assets/css/contacto.css" rel="stylesheet" />
+	<link href="/assets/css/header.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
@@ -96,126 +97,6 @@
 							</div>
 
 						</div>
-						<div class="contacto-directo-container">
-
-							<button class="contacto-directo-button" onclick="toggleContactoDirecto()">Contacto directo</button>
-							<div class="contacto-directo-content" id="contactoDirectoContent">
-
-								<div class="contacto-persona" id="Benjamin">
-									<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
-
-										<p class="textBlack ">
-											<strong>CEO</strong>
-										</p>
-										<p class="textBlack ">
-											Benjamin Castañeda Montaño
-										</p>
-										<p class="textBlack textoJustificado">
-											<strong>Oficina:</strong>
-											<span>
-												<a href="tel:+527919153715">
-													+52 791 915 3715
-												</a>
-												(Ext. 1012)
-											</span>
-										</p>
-										<p class="textBlack textoJustificado">
-											<strong>Movil:</strong>
-											<span>
-												<a href="https://wa.me/527757571902" target="_blank">
-													+52 775 757 1902
-												</a>
-											</span>
-										</p>
-										<p class="textBlack textoJustificado">
-											<strong>Correo</strong>
-											<span>
-												<a href="https://mail.google.com/mail/?view=cm&fs=1&to=benjamin.castaneda@mteysa.com" target="_blank">
-													benjamin.castaneda@mteysa.com
-												</a>
-											</span>
-										</p>
-
-									</div>
-								</div>
-								<div class="contacto-persona" id="Emmanuel">
-									<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
-
-										<p class="textBlack ">
-											<strong>Sales Manager</strong>
-										</p>
-										<p class="textBlack">
-											Emmanuel Castañeda Daniells
-										</p>
-										<p class="textBlack textoJustificado">
-											<strong>Oficina:</strong>
-											<span>
-												<a href="tel:+527919153715">
-													+52 791 915 3715
-												</a>
-												(Ext. 1021)
-											</span>
-										</p>
-										<p class="textBlack textoJustificado">
-											<strong>Movil:</strong>
-											<span>
-												<a href="https://wa.me/527757571904" target="_blank">
-													+52 775 757 1904
-												</a>
-											</span>
-										</p>
-										<p class="textBlack textoJustificado">
-											<strong>Correo:</strong>
-											<span>
-												<a href="https://mail.google.com/mail/?view=cm&fs=1&to=ebcastaneda@mteysa.com" target="_blank">
-													ebcastaneda@mteysa.com
-												</a>
-											</span>
-										</p>
-
-									</div>
-								</div>
-								<div class="contacto-persona" id="Joel">
-									<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
-
-										<p class="textBlack ">
-											<strong>Sales Manager</strong>
-										</p>
-										<p class="textBlack ">
-											Joel Castañeda Franco
-										</p>
-										<p class="textBlack textoJustificado">
-											<strong>Oficina:</strong>
-											<span>
-												<a href="tel:+527919153715">
-													+52 791 915 3715
-												</a>
-												(Ext. 1021)
-											</span>
-										</p>
-										<p class="textBlack textoJustificado">
-											<strong>Movil:</strong>
-											<span>
-												<a href="https://wa.me/527757713514" target="_blank">
-													+52 775 771 3514
-												</a>
-											</span>
-										</p>
-										<p class="textBlack textoJustificado">
-											<strong>Correo:</strong>
-											<span>
-												<a href="https://mail.google.com/mail/?view=cm&fs=1&to=joel.castaneda@mteysa.com" target="_blank">
-													joel.castaneda@mteysa.com
-												</a>
-											</span>
-										</p>
-
-									</div>
-								</div>
-
-							</div>
-
-						</div>
 
 					</div>
 				</section>
@@ -231,27 +112,26 @@
 							</div>
 						</div>
 						<div class="custom-form-container">
-							<form>
-
+							<form action="send_email.php" method="post">
 								<div class="custom-form-group">
 									<label class="custom-form-label">Nombre Completo *</label>
-									<input type="text" class="custom-form-input" required>
+									<input type="text" name="nombre" class="custom-form-input" required>
 								</div>
 								<div class="custom-form-group">
 									<label class="custom-form-label">Correo Electrónico *</label>
-									<input type="email" class="custom-form-input" required>
+									<input type="email" name="email" class="custom-form-input" required>
 								</div>
 								<div class="custom-form-group">
 									<label class="custom-form-label">Teléfono de Contacto *</label>
-									<input type="tel" class="custom-form-input" required>
+									<input type="tel" name="telefono" class="custom-form-input" required>
 								</div>
 								<div class="custom-form-group">
 									<label class="custom-form-label">Nombre de la Empresa *</label>
-									<input type="text" class="custom-form-input" required>
+									<input type="text" name="empresa" class="custom-form-input" required>
 								</div>
 								<div class="custom-form-group">
 									<label class="custom-form-label">Tipo de Servicio Requerido *</label>
-									<select class="custom-form-select" required>
+									<select name="servicio" class="custom-form-select" required>
 										<option value="corte-materiales">Corte de materiales</option>
 										<option value="doblado-metales">Doblado de metales</option>
 										<option value="corte-guillotina">Corte con guillotina hidráulica</option>
@@ -262,12 +142,11 @@
 								</div>
 								<div class="custom-form-group">
 									<label class="custom-form-label">Incluir información sobre el costo de envío</label>
-									<textarea class="custom-form-textarea" placeholder="Ejemplo: 'Por favor, incluir información sobre el costo de envío.'"></textarea>
+									<textarea name="mensaje" class="custom-form-textarea" placeholder="Ejemplo: 'Por favor, incluir información sobre el costo de envío.'"></textarea>
 								</div>
 								<div class="custom-form-button-container">
 									<button type="submit" class="custom-form-button">Solicitar Cotización</button>
 								</div>
-
 							</form>
 						</div>
 
@@ -296,5 +175,6 @@
 	onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
 </script>
 <script src="/assets/js/universal.js"></script>
+<script src="/assets/js/header.js"></script>
 
 </html>
