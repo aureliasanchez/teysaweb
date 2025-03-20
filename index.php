@@ -29,6 +29,7 @@
 	<link href="/assets/css/footer.css" rel="stylesheet" />
 	<link href="/assets/css/contacto.css" rel="stylesheet" />
 	<link href="/assets/css/header.css" rel="stylesheet" />
+	<link href="/assets/css/videos.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default" />
 	<link href="/index.php" rel="canonical" />
@@ -39,7 +40,7 @@
 	<link href="https://www.performanse.com/nl/" rel="alternate" hreflang="nl" />
 	<link href="https://www.performanse.com/en/" rel="alternate" hreflang="en" />
 
-	<link href="/assets/img/logo/webp/icono/logo_2.webp" rel="icon">
+	<link href="/assets/img/logo/webp/icono/logoFinal.webp" rel="icon">
 	<title>Teysa | Innovación en Maquinados</title>
 </head>
 
@@ -50,81 +51,33 @@
 	<main>
 		<div data-view="home">
 
-			<div data-page data-entry-id="1">
+			<div class="video-section">
 
-				<div class="c-hero fondoVideo">
+				<iframe src="https://www.youtube.com/embed/kDInHYMnMGI?autoplay=1&mute=1&loop=1&playlist=kDInHYMnMGI&controls=0&showinfo=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+				<div class="video-overlay">
 
-					<div class="video-container">
-						<iframe
-							src="https://www.youtube.com/embed/kDInHYMnMGI?autoplay=1&mute=1&loop=1&playlist=kDInHYMnMGI&controls=0&showinfo=0&modestbranding=1"
-							frameborder="0"
-							allowfullscreen
-							allow="autoplay; encrypted-media">
-						</iframe>
+					<div class="title">
+						<span>Forjamos metal</span>
+						<span>en soluciones</span>
+						<span>con precisión</span>
 					</div>
-
-					<div class="wrap">
-
-						<h1 class="c-hero-title">
-							<div class="grid grid-cols-10 md:grid-cols-14 gap-x-20 md:gap-x-60">
-
-								<div class="col-span-10 md:col-span-12 md:col-start-2 line">
-									<div class="line-inner textWhite">Forjamos metal</div>
-								</div>
-								<div class="col-span-7 col-start-3 md:col-span-8 md:col-start-6 line">
-									<div class="line-inner textWhite"> en soluciones</div>
-								</div>
-								<div class="col-span-9 col-start-2 md:col-span-10 md:col-start-4 line">
-									<div class="line-inner textWhite">con precisión</div>
-								</div>
-
-							</div>
-						</h1>
-						<div class="ts-p textWhite" data-animate-paragraph data-animate-delay="400" data-split-articles>
-							<p>
-								Desde México para el mundo, Maquinados Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
-							</p>
-						</div>
-						<div class="c-grid">
-							<div class="col-span-6 col-start-6 md:col-span-14 md:col-start-1 lg:col-span-10 lg:col-start-3 flex flex-col items-center">
-								<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue" style="margin-top: 5%;">
-
-									<span class="c-button-bg">
-										<span></span>
-									</span>
-									<span class="c-button-text">
-										<span class="c-button-text-inner">
-											<span class="c-button-text-hover">Descubre nuestras soluciones</span>
-											<span class="c-button-text-static">Descubre nuestras soluciones</span>
-										</span>
-									</span>
-									<span class="c-button-icon">
-										<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
-											fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path
-												d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-												stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-										</svg>
-									</span>
-								</a>
-							</div>
-						</div>
-						<div class="c-hero-cta" data-scroll data-scroll-speed="0.1">
-							<div class="c-grid">
-								<div class="col-span-12 md:col-span-4 md:col-start-10 lg:col-span-4 lg:col-start-10 mobile:text-center">
-									<button class="c-hero-cta-button" data-video-modal-trigger="hero"></button>
-								</div>
-							</div>
-						</div>
-
-					</div>
+					<p>
+						Desde México para el mundo, Maquinados Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
+					</p>
+					<a href="/pages/servicios/servicios.php" class="cta-button">
+						Descubre nuestras soluciones
+					</a>
 
 				</div>
+
+			</div>
+
+			<div data-page data-entry-id="1">
+
 				<section class="c-section c-section--title-text-center c-section--light" data-animate-section data-nav-section="light">
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center textBlack">
 
-							<span class="ts-eyebrow ts-indicator textBlack" data-animate data-animate-y="50">servicios de alta precisión</span>
 							<h2 class="ts-2" data-animate-title data-animate-delay="100">
 								Optimiza tu
 								<span>Producción</span>
@@ -150,9 +103,6 @@
 
 								<div class="col-span-10 md:col-span-7 mobile:order-2 mobile:mt-80 relative">
 
-									<h2 class="ts-eyebrow ts-indicator" data-animate>
-										Servicios
-									</h2>
 									<div class="ts-2 textWhite">
 										<div class="saltoLinea">
 											Soluciones Integrales de Maquinado y Corte
