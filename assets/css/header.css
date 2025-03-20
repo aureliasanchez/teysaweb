@@ -5,8 +5,16 @@
     background: white;
     border: 2px solid black;
     padding: 10px 20px;
-    position: relative;
-    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header.hidden {
+    transform: translateY(-100%);
 }
 
 .logo img {
@@ -43,6 +51,13 @@
     border-radius: 5px;
     font-size: 22px;
     font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.contact-btn:hover {
+    background: white;
+    color: black;
+    border: 2px solid black;
 }
 
 .menu-toggle {
