@@ -5,13 +5,13 @@
 }
 
 .info-carousel-title {
-    font-size: 2.5rem;
+    font-size: 5rem;
     margin-bottom: 10px;
 }
 
 .info-carousel-description {
-    font-size: 18px;
-    max-width: 700px;
+    font-size: 1.5rem;
+    max-width: 90%;
     margin: 0 auto 40px auto;
 }
 
@@ -72,14 +72,14 @@
 .info-carousel-card img {
     width: 100%;
     height: auto;
-    max-height: 200px;
+    max-height: 300px;
     object-fit: cover;
     margin-bottom: 15px;
     border-radius: 5px;
 }
 
 .info-carousel-card-title {
-    font-size: 24px;
+    font-size: 40px;
     margin: 15px 0 10px;
 }
 

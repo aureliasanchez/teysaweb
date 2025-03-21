@@ -84056,7 +84056,7 @@ function initCarousel() {
 
   function moveInfoCarousel(direction) {
     if (autoMoving) return;
-    autoMoving = true;
+    autoMoving = false;
 
     const cardWidth = infoTrack.firstElementChild.offsetWidth + 20;
     const shift = direction === 1 ? -cardWidth : cardWidth;
