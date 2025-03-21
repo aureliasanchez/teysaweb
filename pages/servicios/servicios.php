@@ -30,6 +30,7 @@
 	<link href="/assets/css/contacto.css" rel="stylesheet" />
 	<link href="/assets/css/header.css" rel="stylesheet" />
 	<link href="/assets/css/videos.css" rel="stylesheet" />
+	<link href="/assets/css/carruceles.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
@@ -323,5 +324,6 @@
 </script>
 <script src="/assets/js/universal.js"></script>
 <script src="/assets/js/header.js"></script>
+<script src="/assets/js/carruceles.js"></script>
 
 </html>

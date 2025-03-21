@@ -84038,3 +84038,84 @@ class Ji {
 qe(Ji, "theatre", lo.exports.getProject("performanse", { state: tF }));
 Ji.init();
 export { fl as c, vr as d, yj as g };
+
+//Primer carrucel
+function initCarousel() {
+  const infoTrack = document.getElementById("infoCarouselTrack");
+  const carouselSection = document.getElementById("carouselSection");
+  const prevBtn = document.getElementById("prevBtn");
+  const nextBtn = document.getElementById("nextBtn");
+
+  if (!infoTrack || !carouselSection || !prevBtn || !nextBtn) return;
+  if (carouselSection.dataset.initialized === "true") return;
+  carouselSection.dataset.initialized = "true";
+
+  let carouselInterval;
+  let userInteraction = false;
+  let autoMoving = false;
+
+  function moveInfoCarousel(direction) {
+    if (autoMoving) return;
+    autoMoving = true;
+
+    const cardWidth = infoTrack.firstElementChild.offsetWidth + 20;
+    const shift = direction === 1 ? -cardWidth : cardWidth;
+
+    infoTrack.style.transition = "transform 0.4s ease-in-out";
+    infoTrack.style.transform = `translateX(${shift}px)`;
+
+    setTimeout(() => {
+      if (direction === 1) {
+        infoTrack.appendChild(infoTrack.firstElementChild);
+      } else {
+        infoTrack.prepend(infoTrack.lastElementChild);
+      }
+      infoTrack.style.transition = "none";
+      infoTrack.style.transform = "translateX(0)";
+      autoMoving = false;
+    }, 400);
+  }
+
+  function startCarousel() {
+    if (!carouselSection.dataset.intervalId) {
+      const interval = setInterval(() => moveInfoCarousel(1), 4000);
+      carouselSection.dataset.intervalId = interval;
+    }
+  }
+
+  function stopCarousel() {
+    clearInterval(carouselSection.dataset.intervalId);
+    carouselSection.dataset.intervalId = "";
+  }
+
+  function manualMove(direction) {
+    stopCarousel();
+    moveInfoCarousel(direction);
+    userInteraction = true;
+    setTimeout(() => {
+      userInteraction = false;
+      if (!carouselSection.matches(":hover")) {
+        startCarousel();
+      }
+    }, 5000);
+  }
+
+  prevBtn.addEventListener("click", () => manualMove(-1));
+  nextBtn.addEventListener("click", () => manualMove(1));
+  carouselSection.addEventListener("mouseenter", stopCarousel);
+  carouselSection.addEventListener("mouseleave", () => {
+    if (!userInteraction) startCarousel();
+  });
+
+  startCarousel();
+}
+
+// Vuelve a iniciar el carrusel cada vez que se navega a una vista con él
+ui.on("NAVIGATE_IN", ({ to }) => {
+  const carouselSection = to?.page?.querySelector?.("#carouselSection");
+  if (carouselSection) {
+    setTimeout(() => {
+      initCarousel();
+    }, 100);
+  }
+});

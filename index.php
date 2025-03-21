@@ -30,6 +30,7 @@
 	<link href="/assets/css/contacto.css" rel="stylesheet" />
 	<link href="/assets/css/header.css" rel="stylesheet" />
 	<link href="/assets/css/videos.css" rel="stylesheet" />
+	<link href="/assets/css/carruceles.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default" />
 	<link href="/index.php" rel="canonical" />
@@ -204,124 +205,70 @@
 						</div>
 					</div>
 				</section>
-				<section class="c-section--dark-1 c-cards c-cards--5" data-animate-section>
-					<div class="c-cards-inner">
 
-						<div class="c-cards-title wrap wrap--max">
-							<div class="c-grid">
-								<div class="col-span-8 md:col-span-6">
+				<section class="info-carousel" id="carouselSection">
 
-									<h2 class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">
-										Servicios especializados
-									</h2>
-									<p class="ts-2 textWhite" data-animate-title data-animate-delay="100">
-										Nuestros servicios especiales
-									</p>
-
-								</div>
-							</div>
-						</div>
-						<div class="c-cards-content">
-
-							<div class="c-cards-content-inner no-scrollbar">
-
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Corte de Materiales</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/fotosSeleccionadas/calidad/calidad_1.webp" alt="Cortando materiales" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Precisión en cada proyecto con tecnología avanzada.</p>
-									</div>
-
-								</div>
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Doblado de Metales</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/fotosSeleccionadas/conformado/conformado_6.webp" alt="Doblando materiales" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Adaptación a grandes formatos para múltiples industrias.</p>
-									</div>
-
-								</div>
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Corte con Guillotina Hidráulica</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/fotosSeleccionadas/conformado/conformado_8.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Soluciones rápidas y eficaces.</p>
-									</div>
-
-								</div>
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Doblado de Tubos CNC</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/fotosSeleccionadas/conformado/conformado_9.webp" alt="Dobles de tubos" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Para diferentes materiales y aplicaciones.</p>
-									</div>
-
-								</div>
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Maquinado CNC y Convencional</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/pages/index/servicios/maquinado.webp" alt="Maquina" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Piezas personalizadas con alta calidad.</p>
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
+					<h2 class="info-carousel-title">Nuestros servicios especiales</h2>
+					<p class="info-carousel-description"></p>
+					<div class="info-carousel-controls">
+						<button class="info-carousel-button" id="prevBtn">&#8249;</button>
+						<button class="info-carousel-button" id="nextBtn">&#8250;</button>
 					</div>
+					<div class="info-carousel-container">
+						<div class="info-carousel-track" id="infoCarouselTrack">
+
+							<div class="info-carousel-card">
+
+								<img src="/assets/img/fotosSeleccionadas/calidad/calidad_1.webp" alt="Cortando materiales">
+								<h3 class="info-carousel-card-title">Corte de Materiales</h3>
+								<p class="info-carousel-card-text">
+									Precisión en cada proyecto con tecnología avanzada.
+								</p>
+
+							</div>
+							<div class="info-carousel-card">
+
+								<img src="/assets/img/fotosSeleccionadas/conformado/conformado_6.webp" alt="Doblando materiales">
+								<h3 class="info-carousel-card-title">Doblado de Metales</h3>
+								<p class="info-carousel-card-text">
+									Adaptación a grandes formatos para múltiples industrias.
+								</p>
+
+							</div>
+							<div class="info-carousel-card">
+
+								<img src="/assets/img/fotosSeleccionadas/conformado/conformado_8.webp" alt="Corte materiales Hidráulica">
+								<h3 class="info-carousel-card-title">Corte con Guillotina Hidráulica</h3>
+								<p class="info-carousel-card-text">
+									Soluciones rápidas y eficaces.
+								</p>
+
+							</div>
+							<div class="info-carousel-card">
+
+								<img src="/assets/img/fotosSeleccionadas/conformado/conformado_9.webp" alt="Dobles de tubos">
+								<h3 class="info-carousel-card-title">Doblado de Tubos CNC</h3>
+								<p class="info-carousel-card-text">
+									Para diferentes materiales y aplicaciones.
+								</p>
+
+							</div>
+							<div class="info-carousel-card">
+
+								<img src="/assets/img/pages/index/servicios/maquinado.webp" alt="Maquina">
+								<h3 class="info-carousel-card-title">Maquinado CNC y Convencional</h3>
+								<p class="info-carousel-card-text">
+									Piezas personalizadas con alta calidad.
+								</p>
+
+							</div>
+
+						</div>
+					</div>
+
 				</section>
+
+
 				<section class="c-section c-section--light c-carousel c-carousel--2" data-animate-section>
 
 					<div class="wrap wrap--max">
@@ -758,5 +705,6 @@
 </script>
 <script src="/assets/js/universal.js"></script>
 <script src="/assets/js/header.js"></script>
+<script src="/assets/js/carruceles.js"></script>
 
 </html>
