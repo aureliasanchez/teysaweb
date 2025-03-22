@@ -62,69 +62,77 @@ observer.observe(document.body, {
 });
 
 // Segundo carrucel
-  function initCarousel2() {
-    const cards = document.querySelectorAll(".interactive-card");
-    const track = document.getElementById("infoCarouselTrack2");
-    const prevBtn = document.getElementById("prevBtn2");
-    const nextBtn = document.getElementById("nextBtn2");
+function initCarousel2() {
+  const track = document.getElementById("infoCarouselTrack2");
+  const prevBtn = document.getElementById("prevBtn2");
+  const nextBtn = document.getElementById("nextBtn2");
+  const cards = document.querySelectorAll(".interactive-card");
 
-    if (!track || !prevBtn || !nextBtn) return;
-    if (track.dataset.initialized === "true") return;
-    track.dataset.initialized = "true";
+  if (!track || !prevBtn || !nextBtn || cards.length === 0) return;
 
-    cards.forEach(card => {
-      card.addEventListener("click", () => {
-        const isActive = card.classList.contains("selected");
-        cards.forEach(c => c.classList.remove("selected"));
-        if (!isActive) card.classList.add("selected");
-      });
-    });
+  // Reiniciar listeners para evitar duplicados
+  prevBtn.replaceWith(prevBtn.cloneNode(true));
+  nextBtn.replaceWith(nextBtn.cloneNode(true));
 
-    let autoMoving = false;
+  const newPrevBtn = document.getElementById("prevBtn2");
+  const newNextBtn = document.getElementById("nextBtn2");
 
-    function moveCarousel(direction) {
-      if (autoMoving) return;
-      autoMoving = true;
+  let autoMoving = false;
 
-      const cardWidth = track.firstElementChild.offsetWidth + 20;
-      const shift = direction === 1 ? -cardWidth : cardWidth;
+  function moveCarousel(direction) {
+    if (autoMoving) return;
+    autoMoving = true;
 
-      track.style.transition = "transform 0.4s ease-in-out";
-      track.style.transform = `translateX(${shift}px)`;
+    const cardWidth = track.firstElementChild.offsetWidth + 20;
+    const shift = direction === 1 ? -cardWidth : cardWidth;
 
-      function onEnd() {
-        track.removeEventListener("transitionend", onEnd);
+    track.style.transition = "transform 0.4s ease-in-out";
+    track.style.transform = `translateX(${shift}px)`;
 
-        if (direction === 1) {
-          track.appendChild(track.firstElementChild);
-        } else {
-          track.prepend(track.lastElementChild);
-        }
-
-        track.style.transition = "none";
-        track.style.transform = "translateX(0)";
-        setTimeout(() => autoMoving = false, 50);
+    track.addEventListener("transitionend", function onTransitionEnd() {
+      track.removeEventListener("transitionend", onTransitionEnd);
+      if (direction === 1) {
+        track.appendChild(track.firstElementChild);
+      } else {
+        track.prepend(track.lastElementChild);
       }
-
-      track.addEventListener("transitionend", onEnd);
-    }
-
-    prevBtn.addEventListener("click", () => moveCarousel(-1));
-    nextBtn.addEventListener("click", () => moveCarousel(1));
+      track.style.transition = "none";
+      track.style.transform = "translateX(0)";
+      setTimeout(() => autoMoving = false, 50);
+    });
   }
 
-  // Ejecutar en primera carga
-  document.addEventListener("DOMContentLoaded", () => {
-    initCarousel2();
-  });
+  newPrevBtn.addEventListener("click", () => moveCarousel(-1));
+  newNextBtn.addEventListener("click", () => moveCarousel(1));
 
-  // Re-ejecutar en SPA cuando el carrusel reaparece en el DOM
-  const observer2 = new MutationObserver(() => {
-    const section = document.getElementById("carouselSection2");
-    if (section && !section.dataset.initialized) {
-      section.dataset.initialized = "true";
-      initCarousel2();
+  // Reiniciar listeners de tarjetas para evitar duplicados
+  cards.forEach(card => {
+    const newCard = card.cloneNode(true);
+    card.replaceWith(newCard);
+    newCard.addEventListener("click", () => {
+      const alreadySelected = newCard.classList.contains("selected");
+      document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
+      if (!alreadySelected) {
+        newCard.classList.add("selected");
+      }
+    });
+  });
+}
+
+// Inicialización inmediata
+document.addEventListener("DOMContentLoaded", initCarousel2);
+
+// Observador específico para navegación SPA
+const observerCarousel2 = new MutationObserver((mutations) => {
+  mutations.forEach((mutation) => {
+    if (mutation.addedNodes.length > 0) {
+      const track = document.getElementById("infoCarouselTrack2");
+      if (track && !track.dataset.initialized) {
+        track.dataset.initialized = "true";
+        initCarousel2();
+      }
     }
   });
-  observer2.observe(document.body, { childList: true, subtree: true });
+});
 
+observerCarousel2.observe(document.body, { childList: true, subtree: true });
