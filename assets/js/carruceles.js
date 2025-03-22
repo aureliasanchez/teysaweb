@@ -62,9 +62,15 @@ observer.observe(document.body, {
 });
 
 // Segundo carrucel
+// Segundo carrusel
 function updateSelectedCard(card) {
   document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
   card.classList.add("selected");
+
+  const group = card.dataset.imageGroup;
+  document.querySelectorAll(".carousel-images").forEach(imgGroup => {
+    imgGroup.style.display = imgGroup.dataset.group === group ? "flex" : "none";
+  });
 }
 
 function detectVisibleCard() {
@@ -92,10 +98,11 @@ function initCarousel2() {
   const nextBtn = document.getElementById("nextBtn2");
 
   if (!track || !prevBtn || !nextBtn) return;
+
+  // Evitar reinicialización innecesaria
   if (track.dataset.initialized === "true") return;
   track.dataset.initialized = "true";
 
-  // Clonar botones para evitar listeners duplicados
   const newPrevBtn = prevBtn.cloneNode(true);
   const newNextBtn = nextBtn.cloneNode(true);
   prevBtn.replaceWith(newPrevBtn);
@@ -132,7 +139,6 @@ function initCarousel2() {
   newPrevBtn.addEventListener("click", () => moveCarousel(-1));
   newNextBtn.addEventListener("click", () => moveCarousel(1));
 
-  // Tarjetas interactivas
   document.querySelectorAll(".interactive-card").forEach(card => {
     const newCard = card.cloneNode(true);
     card.replaceWith(newCard);
@@ -140,23 +146,38 @@ function initCarousel2() {
     newCard.addEventListener("click", () => {
       const wasSelected = newCard.classList.contains("selected");
       document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
-      if (!wasSelected) newCard.classList.add("selected");
+      if (!wasSelected) updateSelectedCard(newCard);
     });
   });
 
-  // Detectar scroll en móviles para cambiar selección
   if (window.innerWidth <= 768) {
     track.addEventListener("scroll", () => {
       setTimeout(detectVisibleCard, 100);
     });
   }
 
-  // Selección inicial
   const allCards = document.querySelectorAll(".interactive-card");
   if (window.innerWidth > 768) {
     updateSelectedCard(allCards[0]);
   } else {
     detectVisibleCard();
+  }
+
+  // Auto movimiento del carrusel inferior
+  const autoTrack = document.getElementById("auto-carousel-track");
+  if (autoTrack && !autoTrack.dataset.looping) {
+    autoTrack.dataset.looping = "true";
+    let scrollAmount = 1;
+
+    function loopCarousel() {
+      autoTrack.scrollLeft += scrollAmount;
+      const activeGroup = autoTrack.querySelector(".carousel-images[style*='flex']");
+      if (activeGroup && autoTrack.scrollLeft >= activeGroup.scrollWidth - autoTrack.clientWidth) {
+        autoTrack.scrollLeft = 0;
+      }
+    }
+
+    setInterval(loopCarousel, 30);
   }
 }
 
@@ -165,10 +186,10 @@ document.addEventListener("DOMContentLoaded", () => {
   initCarousel2();
 });
 
-// Re-inicializar si el carrusel aparece dinámicamente (SPA)
+// Re-inicializar al volver a montar en navegación SPA
 const observerCarousel2 = new MutationObserver(() => {
   const track = document.getElementById("infoCarouselTrack2");
-  if (track && !track.dataset.initialized) {
+  if (track && track.dataset.initialized !== "true") {
     initCarousel2();
   }
 });

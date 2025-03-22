@@ -203,37 +203,63 @@
 					</div>
 					<div class="info-carousel-2-container">
 						<div class="info-carousel-2-track" id="infoCarouselTrack2">
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte">
-								<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Cortando materiales">
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="corte">
+								<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Imagen Corte Oxi-Fuel">
 								<h3 class="info-carousel-2-card-title">Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
 								<p class="info-carousel-2-card-text">Procesos de corte versátiles y de alta precisión para diversos materiales.</p>
 							</div>
-							<div class="info-carousel-2-card interactive-card" data-target="productos-guillotina">
-								<img src="/assets/img/pages/servicio/corteHidraulico.webp" class="imgFat centrado">
+							<div class="info-carousel-2-card interactive-card" data-target="productos-guillotina" data-image-group="guillotina">
+								<img src="/assets/img/pages/servicio/corteHidraulico.webp" alt="Imagen Corte Guillotina" class="imgFat centrado">
 								<h3 class="info-carousel-2-card-title">Corte con Guillotina Hidraulica</h3>
 								<p class="info-carousel-2-card-text">Cortes limpios y precisos en piezas de gran formato.</p>
 							</div>
-							<div class="info-carousel-2-card interactive-card" data-target="productos-maquinado">
-								<img src="/assets/img/pages/servicio/maquinado.webp" alt="Maquinado">
+							<div class="info-carousel-2-card interactive-card" data-target="productos-maquinado" data-image-group="maquinado">
+								<img src="/assets/img/pages/servicio/maquinado.webp" alt="Imagen Maquinado">
 								<h3 class="info-carousel-2-card-title">Maquinado CNC y Convencional</h3>
 								<p class="info-carousel-2-card-text">Amplia capacidad de fresado, torneado y rectificado.</p>
 							</div>
-							<div class="info-carousel-2-card interactive-card" data-target="productos-doblado">
-								<img src="/assets/img/pages/servicio/doblarMetal.webp" alt="Doblar metales">
+							<div class="info-carousel-2-card interactive-card" data-target="productos-doblado" data-image-group="doblado">
+								<img src="/assets/img/pages/servicio/doblarMetal.webp" alt="Imagen Doblado Metales">
 								<h3 class="info-carousel-2-card-title">Doblado de Metales</h3>
 								<p class="info-carousel-2-card-text">Procesos de doblado para piezas de hasta 12 metros.</p>
 							</div>
-							<div class="info-carousel-2-card interactive-card" data-target="productos-tubos">
-								<img src="/assets/img/pages/servicio/doblarTubos.webp" alt="Doblar tubos">
+							<div class="info-carousel-2-card interactive-card" data-target="productos-tubos" data-image-group="tubos">
+								<img src="/assets/img/pages/servicio/doblarTubos.webp" alt="Imagen Doblado Tubos">
 								<h3 class="info-carousel-2-card-title">Doblado de Tubos CNC</h3>
 								<p class="info-carousel-2-card-text">Soluciones para materiales como acero, aluminio y cobre.</p>
 							</div>
 						</div>
 					</div>
 
-					<div id="auto-carousel-container" style="overflow:hidden; margin-top:30px;">
-						<div id="auto-carousel-track" style="display:flex; width:max-content;">
-							<!-- Las imágenes se inyectan dinámicamente -->
+					<div id="auto-carousel-container" class="auto-carousel">
+						<div class="auto-carousel-track" id="auto-carousel-track">
+							<div class="carousel-images" data-group="corte">
+								<img src="/assets/img/demo/corte1.webp" alt="Imagen Corte 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/corte2.webp" alt="Imagen Corte 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/corte3.webp" alt="Imagen Corte 3" class="auto-carousel-img">
+								<img src="/assets/img/demo/corte4.webp" alt="Imagen Corte 4" class="auto-carousel-img">
+								<img src="/assets/img/demo/corte5.webp" alt="Imagen Corte 5" class="auto-carousel-img">
+							</div>
+							<div class="carousel-images" data-group="guillotina" style="display:none">
+								<img src="/assets/img/demo/guillotina1.webp" alt="Imagen Guillotina 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/guillotina2.webp" alt="Imagen Guillotina 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/guillotina3.webp" alt="Imagen Guillotina 3" class="auto-carousel-img">
+							</div>
+							<div class="carousel-images" data-group="maquinado" style="display:none">
+								<img src="/assets/img/demo/maquinado1.webp" alt="Imagen Maquinado 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/maquinado2.webp" alt="Imagen Maquinado 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/maquinado3.webp" alt="Imagen Maquinado 3" class="auto-carousel-img">
+							</div>
+							<div class="carousel-images" data-group="doblado" style="display:none">
+								<img src="/assets/img/demo/doblado1.webp" alt="Imagen Doblado 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/doblado2.webp" alt="Imagen Doblado 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/doblado3.webp" alt="Imagen Doblado 3" class="auto-carousel-img">
+							</div>
+							<div class="carousel-images" data-group="tubos" style="display:none">
+								<img src="/assets/img/demo/tubos1.webp" alt="Imagen Tubos 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/tubos2.webp" alt="Imagen Tubos 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/tubos3.webp" alt="Imagen Tubos 3" class="auto-carousel-img">
+							</div>
 						</div>
 					</div>
 				</section>
