@@ -141,7 +141,7 @@ function initCarousel2() {
     card.replaceWith(newCard);
 
     newCard.addEventListener("click", () => {
-      updateSelectedCard(newCard); // 🔄 Siempre selecciona, nunca deselecciona
+      updateSelectedCard(newCard);
     });
   });
 
@@ -158,19 +158,28 @@ function initCarousel2() {
     detectVisibleCard();
   }
 
-  // Auto movimiento del carrusel inferior
-  const autoTrack = document.getElementById("auto-carousel-track");
-  let scrollAmount = 1;
+  // Auto movimiento del carrusel inferior con efecto de ciclo infinito
+  const autoTrack = document.querySelector(".carousel-images[data-group][style*='flex']");
+  if (!autoTrack) return;
 
-  function loopCarousel() {
-    autoTrack.scrollLeft += scrollAmount;
-    const activeGroup = autoTrack.querySelector(".carousel-images[style*='flex']");
-    if (activeGroup && autoTrack.scrollLeft >= activeGroup.scrollWidth - autoTrack.clientWidth) {
-      autoTrack.scrollLeft = 0;
-    }
+  function cycleCarousel() {
+    if (autoTrack.children.length < 2) return;
+
+    const firstImage = autoTrack.children[0];
+    const imageWidth = firstImage.offsetWidth;
+
+    autoTrack.style.transition = "transform 0.5s linear";
+    autoTrack.style.transform = `translateX(-${imageWidth}px)`;
+
+    autoTrack.addEventListener("transitionend", function onEnd() {
+      autoTrack.removeEventListener("transitionend", onEnd);
+      autoTrack.appendChild(firstImage);
+      autoTrack.style.transition = "none";
+      autoTrack.style.transform = "translateX(0)";
+    });
   }
 
-  setInterval(loopCarousel, 30);
+  setInterval(cycleCarousel, 2000);
 }
 
 // Inicializar cuando el DOM está listo
