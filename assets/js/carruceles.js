@@ -92,6 +92,8 @@ function initCarousel2() {
   const nextBtn = document.getElementById("nextBtn2");
 
   if (!track || !prevBtn || !nextBtn) return;
+  if (track.dataset.initialized === "true") return;
+  track.dataset.initialized = "true";
 
   // Clonar botones para evitar listeners duplicados
   const newPrevBtn = prevBtn.cloneNode(true);
@@ -113,13 +115,11 @@ function initCarousel2() {
 
     track.addEventListener("transitionend", function onTransitionEnd() {
       track.removeEventListener("transitionend", onTransitionEnd);
-
       if (direction === 1) {
         track.appendChild(track.firstElementChild);
       } else {
         track.prepend(track.lastElementChild);
       }
-
       track.style.transition = "none";
       track.style.transform = "translateX(0)";
       setTimeout(() => {
@@ -132,18 +132,19 @@ function initCarousel2() {
   newPrevBtn.addEventListener("click", () => moveCarousel(-1));
   newNextBtn.addEventListener("click", () => moveCarousel(1));
 
-  // Selección al hacer clic
+  // Tarjetas interactivas
   document.querySelectorAll(".interactive-card").forEach(card => {
     const newCard = card.cloneNode(true);
     card.replaceWith(newCard);
+
     newCard.addEventListener("click", () => {
-      const isSelected = newCard.classList.contains("selected");
+      const wasSelected = newCard.classList.contains("selected");
       document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
-      if (!isSelected) newCard.classList.add("selected");
+      if (!wasSelected) newCard.classList.add("selected");
     });
   });
 
-  // En móviles, observar scroll para detectar selección
+  // Detectar scroll en móviles para cambiar selección
   if (window.innerWidth <= 768) {
     track.addEventListener("scroll", () => {
       setTimeout(detectVisibleCard, 100);
@@ -151,23 +152,25 @@ function initCarousel2() {
   }
 
   // Selección inicial
+  const allCards = document.querySelectorAll(".interactive-card");
   if (window.innerWidth > 768) {
-    const firstCard = document.querySelector(".interactive-card");
-    if (firstCard) updateSelectedCard(firstCard);
+    updateSelectedCard(allCards[0]);
   } else {
     detectVisibleCard();
   }
 }
 
-// Cargar en DOM
-document.addEventListener("DOMContentLoaded", initCarousel2);
+// Inicializar cuando el DOM está listo
+document.addEventListener("DOMContentLoaded", () => {
+  initCarousel2();
+});
 
-// Reintentar en SPA si aparece dinámicamente
+// Re-inicializar si el carrusel aparece dinámicamente (SPA)
 const observerCarousel2 = new MutationObserver(() => {
   const track = document.getElementById("infoCarouselTrack2");
   if (track && !track.dataset.initialized) {
-    track.dataset.initialized = "true";
     initCarousel2();
   }
 });
+
 observerCarousel2.observe(document.body, { childList: true, subtree: true });
