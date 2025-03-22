@@ -62,6 +62,30 @@ observer.observe(document.body, {
 });
 
 // Segundo carrucel
+function updateSelectedCard(card) {
+  document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
+  card.classList.add("selected");
+}
+
+function detectVisibleCard() {
+  const cards = document.querySelectorAll(".interactive-card");
+  const center = window.innerWidth / 2;
+  let closestCard = null;
+  let closestDistance = Infinity;
+
+  cards.forEach(card => {
+    const rect = card.getBoundingClientRect();
+    const cardCenter = rect.left + rect.width / 2;
+    const distance = Math.abs(cardCenter - center);
+    if (distance < closestDistance) {
+      closestDistance = distance;
+      closestCard = card;
+    }
+  });
+
+  if (closestCard) updateSelectedCard(closestCard);
+}
+
 function initCarousel2() {
   const track = document.getElementById("infoCarouselTrack2");
   const prevBtn = document.getElementById("prevBtn2");
@@ -69,9 +93,11 @@ function initCarousel2() {
 
   if (!track || !prevBtn || !nextBtn) return;
 
-  // Evitar múltiples inicializaciones
-  if (track.dataset.initialized) return;
-  track.dataset.initialized = "true";
+  // Clonar botones para evitar listeners duplicados
+  const newPrevBtn = prevBtn.cloneNode(true);
+  const newNextBtn = nextBtn.cloneNode(true);
+  prevBtn.replaceWith(newPrevBtn);
+  nextBtn.replaceWith(newNextBtn);
 
   let autoMoving = false;
 
@@ -87,55 +113,61 @@ function initCarousel2() {
 
     track.addEventListener("transitionend", function onTransitionEnd() {
       track.removeEventListener("transitionend", onTransitionEnd);
+
       if (direction === 1) {
         track.appendChild(track.firstElementChild);
       } else {
         track.prepend(track.lastElementChild);
       }
+
       track.style.transition = "none";
       track.style.transform = "translateX(0)";
-      setTimeout(() => autoMoving = false, 50);
+      setTimeout(() => {
+        autoMoving = false;
+        if (window.innerWidth <= 768) detectVisibleCard();
+      }, 50);
     });
   }
 
-  prevBtn.addEventListener("click", () => moveCarousel(-1));
-  nextBtn.addEventListener("click", () => moveCarousel(1));
+  newPrevBtn.addEventListener("click", () => moveCarousel(-1));
+  newNextBtn.addEventListener("click", () => moveCarousel(1));
 
-  function updateSelectedCard(card) {
-    document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
-    card.classList.add("selected");
-  }
-
+  // Selección al hacer clic
   document.querySelectorAll(".interactive-card").forEach(card => {
-    card.addEventListener("click", () => {
-      const wasSelected = card.classList.contains("selected");
+    const newCard = card.cloneNode(true);
+    card.replaceWith(newCard);
+    newCard.addEventListener("click", () => {
+      const isSelected = newCard.classList.contains("selected");
       document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
-      if (!wasSelected) {
-        card.classList.add("selected");
-      }
+      if (!isSelected) newCard.classList.add("selected");
     });
   });
 
-  // Asegurar selección en móviles
-  const firstCard = document.querySelector(".interactive-card");
-  if (window.innerWidth <= 768 && firstCard) {
-    updateSelectedCard(firstCard);
+  // En móviles, observar scroll para detectar selección
+  if (window.innerWidth <= 768) {
+    track.addEventListener("scroll", () => {
+      setTimeout(detectVisibleCard, 100);
+    });
+  }
+
+  // Selección inicial
+  if (window.innerWidth > 768) {
+    const firstCard = document.querySelector(".interactive-card");
+    if (firstCard) updateSelectedCard(firstCard);
+  } else {
+    detectVisibleCard();
   }
 }
 
-// Ejecutar al cargar
+// Cargar en DOM
 document.addEventListener("DOMContentLoaded", initCarousel2);
 
-// Observador para navegación SPA
-const observerCarousel2 = new MutationObserver((mutations) => {
-  for (const mutation of mutations) {
-    if (mutation.addedNodes.length > 0) {
-      const track = document.getElementById("infoCarouselTrack2");
-      if (track && !track.dataset.initialized) {
-        initCarousel2();
-      }
-    }
+// Reintentar en SPA si aparece dinámicamente
+const observerCarousel2 = new MutationObserver(() => {
+  const track = document.getElementById("infoCarouselTrack2");
+  if (track && !track.dataset.initialized) {
+    track.dataset.initialized = "true";
+    initCarousel2();
   }
 });
-
 observerCarousel2.observe(document.body, { childList: true, subtree: true });
