@@ -34,7 +34,7 @@
     background: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,8 +97,8 @@
 }
 
 .info-carousel-button {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     background: black;
     color: white;
     border: none;
@@ -116,6 +116,10 @@
     .info-carousel-card {
         flex: 0 0 100%;
     }
+
+    .info-carousel-container {
+        overflow: unset;
+    }
 }
 
 /* Segundo carrucel */
@@ -123,29 +127,29 @@
     padding: 60px 20px;
     background: #f5f5f5;
     text-align: center;
-  }
-  
-  .info-carousel-2-title {
+}
+
+.info-carousel-2-title {
     font-size: 3rem;
     margin-bottom: 10px;
-  }
-  
-  .info-carousel-2-description {
+}
+
+.info-carousel-2-description {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto 30px auto;
-  }
-  
-  .info-carousel-2-controls {
+}
+
+.info-carousel-2-controls {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
     gap: 10px;
-  }
-  
-  .info-carousel-2-button {
-    width: 40px;
-    height: 40px;
+}
+
+.info-carousel-2-button {
+    width: 80px;
+    height: 80px;
     font-size: 20px;
     background: black;
     color: white;
@@ -153,25 +157,25 @@
     border-radius: 50%;
     cursor: pointer;
     transition: background 0.3s ease;
-  }
-  
-  .info-carousel-2-button:hover {
+}
+
+.info-carousel-2-button:hover {
     background: #333;
-  }
-  
-  .info-carousel-2-container {
+}
+
+.info-carousel-2-container {
     position: relative;
     overflow: hidden;
     width: 100%;
     margin: 0 auto;
-  }
-  
-  .info-carousel-2-track {
+}
+
+.info-carousel-2-track {
     display: flex;
     transition: transform 0.4s ease-in-out;
-  }
-  
-  .info-carousel-2-card {
+}
+
+.info-carousel-2-card {
     flex: 0 0 calc(33.33% - 20px);
     margin: 10px;
     background: white;
@@ -180,62 +184,64 @@
     padding: 20px;
     text-align: center;
     transition: box-shadow 0.3s ease;
-    min-width: 0; /* importante para evitar overflow horizontal */
-  }
-  
-  .info-carousel-2-card img {
+    min-width: 0;
+    /* importante para evitar overflow horizontal */
+}
+
+.info-carousel-2-card img {
     width: 100%;
     height: auto;
-    max-height: 220px;
+    max-height: 350px;
     object-fit: cover;
     margin-bottom: 10px;
     border-radius: 6px;
-  }
-  
-  .info-carousel-2-card-title {
-    font-size: 22px;
+}
+
+.info-carousel-2-card-title {
+    font-size: 40px;
     margin: 10px 0 5px;
-  }
-  
-  .info-carousel-2-card-text {
-    font-size: 16px;
+}
+
+.info-carousel-2-card-text {
+    font-size: 18px;
     color: #555;
-  }
-  
-  /* Interacciones */
-  .interactive-card {
+}
+
+/* Interacciones */
+.interactive-card {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-  }
-  
-  .interactive-card:hover,
-  .interactive-card.selected {
+}
+
+.interactive-card:hover,
+.interactive-card.selected {
     background-color: black;
     color: white;
     transform: scale(1.05);
-  }
-  
-  .interactive-card:hover h3,
-  .interactive-card:hover p,
-  .interactive-card.selected h3,
-  .interactive-card.selected p {
+}
+
+.interactive-card:hover h3,
+.interactive-card:hover p,
+.interactive-card.selected h3,
+.interactive-card.selected p {
     color: white;
-  }
-  
-  /* Responsive para móviles */
-  @media (max-width: 768px) {
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
     .info-carousel-2-track {
-      flex-wrap: nowrap;
-      scroll-snap-type: x mandatory;
+        flex: 0 0 calc(100% - 20px) !important;
+        margin: 10px;
+        box-sizing: border-box;
     }
-  
+
     .info-carousel-2-card {
-      flex: 0 0 100% !important;
-      scroll-snap-align: start;
+        flex: 0 0 100% !important;
+        scroll-snap-align: start;
     }
-  
-    .info-carousel-2-container {
-      overflow-x: hidden;
+
+    .info-carousel-2-container,
+    .info-carousel-2-track {
+        overflow: unset;
     }
-  }
-  
+}
