@@ -122,6 +122,84 @@
 						</div>
 					</div>
 				</section>
+
+
+				<section class="info-carousel-2" id="carouselSection2">
+
+					<h2 class="info-carousel-2-title">Productos Especiales</h2>
+					<p class="info-carousel-2-description">
+						Fabricamos piezas de alta precisión diseñadas para los sectores ferroviario, automotriz, aeronáutico e industrial
+					</p>
+					<div class="info-carousel-2-controls">
+						<button class="info-carousel-2-button" id="prevBtn2">❮</button>
+						<button class="info-carousel-2-button" id="nextBtn2">❯</button>
+					</div>
+					<div class="info-carousel-2-container">
+						<div class="info-carousel-2-track" id="infoCarouselTrack2">
+
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="corte">
+								<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Imagen Corte Oxi-Fuel">
+								<h3 class="info-carousel-2-card-title">Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
+								<p class="info-carousel-2-card-text">Procesos de corte versátiles y de alta precisión para diversos materiales.</p>
+							</div>
+							<div class="info-carousel-2-card interactive-card" data-target="productos-guillotina" data-image-group="guillotina">
+								<img src="/assets/img/pages/servicio/corteHidraulico.webp" alt="Imagen Corte Guillotina" class="imgFat centrado">
+								<h3 class="info-carousel-2-card-title">Corte con Guillotina Hidraulica</h3>
+								<p class="info-carousel-2-card-text">Cortes limpios y precisos en piezas de gran formato.</p>
+							</div>
+							<div class="info-carousel-2-card interactive-card" data-target="productos-maquinado" data-image-group="maquinado">
+								<img src="/assets/img/pages/servicio/maquinado.webp" alt="Imagen Maquinado">
+								<h3 class="info-carousel-2-card-title">Maquinado CNC y Convencional</h3>
+								<p class="info-carousel-2-card-text">Amplia capacidad de fresado, torneado y rectificado.</p>
+							</div>
+							<div class="info-carousel-2-card interactive-card" data-target="productos-doblado" data-image-group="doblado">
+								<img src="/assets/img/pages/servicio/doblarMetal.webp" alt="Imagen Doblado Metales">
+								<h3 class="info-carousel-2-card-title">Doblado de Metales</h3>
+								<p class="info-carousel-2-card-text">Procesos de doblado para piezas de hasta 12 metros.</p>
+							</div>
+							<div class="info-carousel-2-card interactive-card" data-target="productos-tubos" data-image-group="tubos">
+								<img src="/assets/img/pages/servicio/doblarTubos.webp" alt="Imagen Doblado Tubos">
+								<h3 class="info-carousel-2-card-title">Doblado de Tubos CNC</h3>
+								<p class="info-carousel-2-card-text">Soluciones para materiales como acero, aluminio y cobre.</p>
+							</div>
+
+						</div>
+					</div>
+					<div id="auto-carousel-container" class="auto-carousel">
+						<div class="auto-carousel-track" id="auto-carousel-track">
+
+							<div class="carousel-images" data-group="corte">
+								<img src="/assets/img/demo/corte1.webp" alt="Imagen Corte 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/corte2.webp" alt="Imagen Corte 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/corte3.webp" alt="Imagen Corte 3" class="auto-carousel-img">
+								<img src="/assets/img/demo/corte4.webp" alt="Imagen Corte 4" class="auto-carousel-img">
+								<img src="/assets/img/demo/corte5.webp" alt="Imagen Corte 5" class="auto-carousel-img">
+							</div>
+							<div class="carousel-images" data-group="guillotina" style="display:none">
+								<img src="/assets/img/demo/guillotina1.webp" alt="Imagen Guillotina 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/guillotina2.webp" alt="Imagen Guillotina 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/guillotina3.webp" alt="Imagen Guillotina 3" class="auto-carousel-img">
+							</div>
+							<div class="carousel-images" data-group="maquinado" style="display:none">
+								<img src="/assets/img/demo/maquinado1.webp" alt="Imagen Maquinado 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/maquinado2.webp" alt="Imagen Maquinado 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/maquinado3.webp" alt="Imagen Maquinado 3" class="auto-carousel-img">
+							</div>
+							<div class="carousel-images" data-group="doblado" style="display:none">
+								<img src="/assets/img/demo/doblado1.webp" alt="Imagen Doblado 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/doblado2.webp" alt="Imagen Doblado 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/doblado3.webp" alt="Imagen Doblado 3" class="auto-carousel-img">
+							</div>
+							<div class="carousel-images" data-group="tubos" style="display:none">
+								<img src="/assets/img/demo/tubos1.webp" alt="Imagen Tubos 1" class="auto-carousel-img">
+								<img src="/assets/img/demo/tubos2.webp" alt="Imagen Tubos 2" class="auto-carousel-img">
+								<img src="/assets/img/demo/tubos3.webp" alt="Imagen Tubos 3" class="auto-carousel-img">
+							</div>
+							
+						</div>
+					</div>
+
+				</section>
 				<section class="c-section--dark-1 c-cards c-cards--5 bgBlue1" data-animate-section id="productos">
 					<div class="c-cards-inner">
 
@@ -152,7 +230,7 @@
 
 							<div class="c-cards-content-inner no-scrollbar">
 
-								<div  class="c-card-item c-card-item--5">
+								<div class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -170,7 +248,7 @@
 									</div>
 
 								</div>
-								<div  class="c-card-item c-card-item--5">
+								<div class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -188,7 +266,7 @@
 									</div>
 
 								</div>
-								<div  class="c-card-item c-card-item--5">
+								<div class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -206,7 +284,7 @@
 									</div>
 
 								</div>
-								<div  class="c-card-item c-card-item--5">
+								<div class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -224,7 +302,7 @@
 									</div>
 
 								</div>
-								<div  class="c-card-item c-card-item--5">
+								<div class="c-card-item c-card-item--5">
 
 									<span class="c-card-item-bg">
 										<span class="c-card-item-bg-hover"></span>
@@ -249,6 +327,9 @@
 
 					</div>
 				</section>
+
+
+
 				<section class="c-section c-section--light c-section--related" data-nav-section="light" data-animate-section>
 					<div class="wrap wrap--max">
 
