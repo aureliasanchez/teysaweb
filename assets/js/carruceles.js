@@ -62,6 +62,7 @@ observer.observe(document.body, {
 });
 
 // Segundo carrucel
+// Segundo carrucel
 function updateSelectedCard(card) {
   document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
   card.classList.add("selected");
@@ -159,27 +160,30 @@ function initCarousel2() {
   }
 
   // Auto movimiento del carrusel inferior con efecto de ciclo infinito
-  const autoTrack = document.querySelector(".carousel-images[data-group][style*='flex']");
-  if (!autoTrack) return;
+  let currentGroup = document.querySelector(".carousel-images[data-group][style*='flex']");
+  if (!currentGroup) return;
 
   function cycleCarousel() {
-    if (autoTrack.children.length < 2) return;
+    if (!currentGroup || currentGroup.children.length < 2) return;
 
-    const firstImage = autoTrack.children[0];
-    const imageWidth = firstImage.offsetWidth;
+    const firstImage = currentGroup.children[0];
+    const imageWidth = firstImage.offsetWidth + 10;
 
-    autoTrack.style.transition = "transform 0.5s linear";
-    autoTrack.style.transform = `translateX(-${imageWidth}px)`;
+    currentGroup.style.transition = "transform 0.6s ease-in-out";
+    currentGroup.style.transform = `translateX(-${imageWidth}px)`;
 
-    autoTrack.addEventListener("transitionend", function onEnd() {
-      autoTrack.removeEventListener("transitionend", onEnd);
-      autoTrack.appendChild(firstImage);
-      autoTrack.style.transition = "none";
-      autoTrack.style.transform = "translateX(0)";
+    currentGroup.addEventListener("transitionend", function onEnd() {
+      currentGroup.removeEventListener("transitionend", onEnd);
+      currentGroup.appendChild(firstImage);
+      currentGroup.style.transition = "none";
+      currentGroup.style.transform = "translateX(0)";
     });
   }
 
-  setInterval(cycleCarousel, 2000);
+  setInterval(() => {
+    currentGroup = document.querySelector(".carousel-images[data-group][style*='flex']");
+    cycleCarousel();
+  }, 3000);
 }
 
 // Inicializar cuando el DOM está listo

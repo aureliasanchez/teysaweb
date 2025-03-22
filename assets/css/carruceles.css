@@ -123,7 +123,6 @@
 }
 
 /* Segundo carrucel */
-/* Estructura general del segundo carrusel */
 .info-carousel-2 {
     padding: 60px 20px;
     background: #f5f5f5;
@@ -207,7 +206,6 @@
     color: #555;
   }
   
-  /* Estilos de interacción */
   .interactive-card {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
@@ -227,37 +225,6 @@
     color: white;
   }
   
-  /* Carrusel automático inferior */
-  .auto-carousel {
-    overflow: hidden;
-    width: 100%;
-    margin-top: 30px;
-  }
-  
-  .auto-carousel-track {
-    display: flex;
-    width: max-content;
-    animation: scrollLoop 20s linear infinite;
-  }
-  
-  .auto-carousel-img {
-    height: 200px;
-    width: auto;
-    margin-right: 20px;
-    border-radius: 10px;
-    object-fit: cover;
-  }
-  
-  @keyframes scrollLoop {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-  
-  /* Responsive para móviles */
   @media (max-width: 768px) {
     .info-carousel-2-track {
       flex: 0 0 calc(100% - 20px) !important;
@@ -274,9 +241,45 @@
     .info-carousel-2-track {
       overflow: unset;
     }
+  }
   
+  /* Carrusel automático de imágenes */
+  .auto-carousel {
+    overflow: hidden;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .auto-carousel-track {
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+  
+  .carousel-images {
+    display: none;
+    flex-wrap: nowrap;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .carousel-images.active {
+    display: flex;
+  }
+  
+  .auto-carousel-img {
+    width: calc(100% / 3 - 10px);
+    min-width: calc(100% / 3 - 10px);
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.4s ease;
+  }
+  
+  @media (max-width: 768px) {
     .auto-carousel-img {
-      height: 140px;
+      width: 100%;
+      min-width: 100%;
     }
   }
   
