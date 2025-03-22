@@ -202,7 +202,7 @@
 					</div>
 					<div class="info-carousel-2-container">
 						<div class="info-carousel-2-track" id="infoCarouselTrack2">
-							<div class="info-carousel-2-card interactive-card" data-target="productos-corte">
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte">
 								<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Cortando materiales">
 								<h3 class="info-carousel-2-card-title">Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
 								<p class="info-carousel-2-card-text">Procesos de corte versátiles y de alta precisión para diversos materiales.</p>
@@ -227,6 +227,12 @@
 								<h3 class="info-carousel-2-card-title">Doblado de Tubos CNC</h3>
 								<p class="info-carousel-2-card-text">Soluciones para materiales como acero, aluminio y cobre.</p>
 							</div>
+						</div>
+					</div>
+
+					<div id="auto-carousel-container" style="overflow:hidden; margin-top:30px;">
+						<div id="auto-carousel-track" style="display:flex; width:max-content;">
+							<!-- Las imágenes se inyectan dinámicamente -->
 						</div>
 					</div>
 				</section>

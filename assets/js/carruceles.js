@@ -66,16 +66,12 @@ function initCarousel2() {
   const track = document.getElementById("infoCarouselTrack2");
   const prevBtn = document.getElementById("prevBtn2");
   const nextBtn = document.getElementById("nextBtn2");
-  const cards = document.querySelectorAll(".interactive-card");
 
-  if (!track || !prevBtn || !nextBtn || cards.length === 0) return;
+  if (!track || !prevBtn || !nextBtn) return;
 
-  // Reiniciar listeners para evitar duplicados
-  prevBtn.replaceWith(prevBtn.cloneNode(true));
-  nextBtn.replaceWith(nextBtn.cloneNode(true));
-
-  const newPrevBtn = document.getElementById("prevBtn2");
-  const newNextBtn = document.getElementById("nextBtn2");
+  // Evitar múltiples inicializaciones
+  if (track.dataset.initialized) return;
+  track.dataset.initialized = "true";
 
   let autoMoving = false;
 
@@ -102,37 +98,44 @@ function initCarousel2() {
     });
   }
 
-  newPrevBtn.addEventListener("click", () => moveCarousel(-1));
-  newNextBtn.addEventListener("click", () => moveCarousel(1));
+  prevBtn.addEventListener("click", () => moveCarousel(-1));
+  nextBtn.addEventListener("click", () => moveCarousel(1));
 
-  // Reiniciar listeners de tarjetas para evitar duplicados
-  cards.forEach(card => {
-    const newCard = card.cloneNode(true);
-    card.replaceWith(newCard);
-    newCard.addEventListener("click", () => {
-      const alreadySelected = newCard.classList.contains("selected");
+  function updateSelectedCard(card) {
+    document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
+    card.classList.add("selected");
+  }
+
+  document.querySelectorAll(".interactive-card").forEach(card => {
+    card.addEventListener("click", () => {
+      const wasSelected = card.classList.contains("selected");
       document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
-      if (!alreadySelected) {
-        newCard.classList.add("selected");
+      if (!wasSelected) {
+        card.classList.add("selected");
       }
     });
   });
+
+  // Asegurar selección en móviles
+  const firstCard = document.querySelector(".interactive-card");
+  if (window.innerWidth <= 768 && firstCard) {
+    updateSelectedCard(firstCard);
+  }
 }
 
-// Inicialización inmediata
+// Ejecutar al cargar
 document.addEventListener("DOMContentLoaded", initCarousel2);
 
-// Observador específico para navegación SPA
+// Observador para navegación SPA
 const observerCarousel2 = new MutationObserver((mutations) => {
-  mutations.forEach((mutation) => {
+  for (const mutation of mutations) {
     if (mutation.addedNodes.length > 0) {
       const track = document.getElementById("infoCarouselTrack2");
       if (track && !track.dataset.initialized) {
-        track.dataset.initialized = "true";
         initCarousel2();
       }
     }
-  });
+  }
 });
 
 observerCarousel2.observe(document.body, { childList: true, subtree: true });
