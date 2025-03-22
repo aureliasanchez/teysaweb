@@ -62,7 +62,6 @@ observer.observe(document.body, {
 });
 
 // Segundo carrucel
-// Segundo carrusel
 function updateSelectedCard(card) {
   document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
   card.classList.add("selected");
@@ -98,8 +97,6 @@ function initCarousel2() {
   const nextBtn = document.getElementById("nextBtn2");
 
   if (!track || !prevBtn || !nextBtn) return;
-
-  // Evitar reinicialización innecesaria
   if (track.dataset.initialized === "true") return;
   track.dataset.initialized = "true";
 
@@ -144,9 +141,7 @@ function initCarousel2() {
     card.replaceWith(newCard);
 
     newCard.addEventListener("click", () => {
-      const wasSelected = newCard.classList.contains("selected");
-      document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
-      if (!wasSelected) updateSelectedCard(newCard);
+      updateSelectedCard(newCard); // 🔄 Siempre selecciona, nunca deselecciona
     });
   });
 
@@ -165,20 +160,17 @@ function initCarousel2() {
 
   // Auto movimiento del carrusel inferior
   const autoTrack = document.getElementById("auto-carousel-track");
-  if (autoTrack && !autoTrack.dataset.looping) {
-    autoTrack.dataset.looping = "true";
-    let scrollAmount = 1;
+  let scrollAmount = 1;
 
-    function loopCarousel() {
-      autoTrack.scrollLeft += scrollAmount;
-      const activeGroup = autoTrack.querySelector(".carousel-images[style*='flex']");
-      if (activeGroup && autoTrack.scrollLeft >= activeGroup.scrollWidth - autoTrack.clientWidth) {
-        autoTrack.scrollLeft = 0;
-      }
+  function loopCarousel() {
+    autoTrack.scrollLeft += scrollAmount;
+    const activeGroup = autoTrack.querySelector(".carousel-images[style*='flex']");
+    if (activeGroup && autoTrack.scrollLeft >= activeGroup.scrollWidth - autoTrack.clientWidth) {
+      autoTrack.scrollLeft = 0;
     }
-
-    setInterval(loopCarousel, 30);
   }
+
+  setInterval(loopCarousel, 30);
 }
 
 // Inicializar cuando el DOM está listo
@@ -186,10 +178,10 @@ document.addEventListener("DOMContentLoaded", () => {
   initCarousel2();
 });
 
-// Re-inicializar al volver a montar en navegación SPA
+// Re-inicializar si el carrusel aparece dinámicamente (SPA)
 const observerCarousel2 = new MutationObserver(() => {
   const track = document.getElementById("infoCarouselTrack2");
-  if (track && track.dataset.initialized !== "true") {
+  if (track && !track.dataset.initialized) {
     initCarousel2();
   }
 });
