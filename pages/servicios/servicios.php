@@ -126,6 +126,8 @@
 						</div>
 					</div>
 				</section>
+
+
 				<section class="info-carousel" id="carouselSection">
 
 					<h2 class="info-carousel-title">Servicios Especiales</h2>
@@ -189,6 +191,49 @@
 					</div>
 
 				</section>
+				<section class="info-carousel-2" id="carouselSection2">
+					<h2 class="info-carousel-2-title">Servicios Especiales</h2>
+					<p class="info-carousel-2-description">
+						Ofrecemos una gama completa de soluciones avanzadas en corte, doblado y maquinado, diseñadas para satisfacer las demandas técnicas de múltiples industrias.
+					</p>
+					<div class="info-carousel-2-controls">
+						<button class="info-carousel-2-button" id="prevBtn2">❮</button>
+						<button class="info-carousel-2-button" id="nextBtn2">❯</button>
+					</div>
+					<div class="info-carousel-2-container">
+						<div class="info-carousel-2-track" id="infoCarouselTrack2">
+							<div class="info-carousel-2-card interactive-card" data-target="productos-corte">
+								<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Cortando materiales">
+								<h3 class="info-carousel-2-card-title">Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
+								<p class="info-carousel-2-card-text">Procesos de corte versátiles y de alta precisión para diversos materiales.</p>
+							</div>
+							<div class="info-carousel-2-card interactive-card" data-target="productos-guillotina">
+								<img src="/assets/img/pages/servicio/corteHidraulico.webp" class="imgFat centrado">
+								<h3 class="info-carousel-2-card-title">Corte con Guillotina Hidraulica</h3>
+								<p class="info-carousel-2-card-text">Cortes limpios y precisos en piezas de gran formato.</p>
+							</div>
+							<div class="info-carousel-2-card interactive-card" data-target="productos-maquinado">
+								<img src="/assets/img/pages/servicio/maquinado.webp" alt="Maquinado">
+								<h3 class="info-carousel-2-card-title">Maquinado CNC y Convencional</h3>
+								<p class="info-carousel-2-card-text">Amplia capacidad de fresado, torneado y rectificado.</p>
+							</div>
+							<div class="info-carousel-2-card interactive-card" data-target="productos-doblado">
+								<img src="/assets/img/pages/servicio/doblarMetal.webp" alt="Doblar metales">
+								<h3 class="info-carousel-2-card-title">Doblado de Metales</h3>
+								<p class="info-carousel-2-card-text">Procesos de doblado para piezas de hasta 12 metros.</p>
+							</div>
+							<div class="info-carousel-2-card interactive-card" data-target="productos-tubos">
+								<img src="/assets/img/pages/servicio/doblarTubos.webp" alt="Doblar tubos">
+								<h3 class="info-carousel-2-card-title">Doblado de Tubos CNC</h3>
+								<p class="info-carousel-2-card-text">Soluciones para materiales como acero, aluminio y cobre.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+
 				<section class="c-section c-section--light c-section--related" data-nav-section="light" data-animate-section>
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center text-center">
