@@ -1,10 +1,22 @@
-// Primer carrucel
+// Utilidad para evitar múltiples ejecuciones
+function debounce(fn, delay = 100) {
+  let timeout;
+  return () => {
+    clearTimeout(timeout);
+    timeout = setTimeout(fn, delay);
+  };
+}
+
+// -------------------------
+// Primer Carrusel
+// -------------------------
 function initCarousel() {
   const infoTrack = document.getElementById("infoCarouselTrack");
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
 
-  if (!infoTrack || !prevBtn || !nextBtn) return;
+  if (!infoTrack || !prevBtn || !nextBtn || infoTrack.dataset.initialized === "true") return;
+  infoTrack.dataset.initialized = "true";
 
   const newPrev = prevBtn.cloneNode(true);
   const newNext = nextBtn.cloneNode(true);
@@ -25,13 +37,11 @@ function initCarousel() {
 
     function onEnd() {
       infoTrack.removeEventListener("transitionend", onEnd);
-
       if (direction === 1) {
         infoTrack.appendChild(infoTrack.firstElementChild);
       } else {
         infoTrack.prepend(infoTrack.lastElementChild);
       }
-
       infoTrack.style.transition = "none";
       infoTrack.style.transform = "translateX(0)";
       setTimeout(() => (autoMoving = false), 50);
@@ -44,25 +54,21 @@ function initCarousel() {
   newNext.addEventListener("click", () => move(1));
 }
 
-// Ejecutar inicial
 document.addEventListener("DOMContentLoaded", initCarousel);
 
-// 🧠 Detectar si el carrusel aparece en el DOM dinámicamente
-const observer = new MutationObserver(() => {
-  const carousel = document.getElementById("carouselSection");
-  if (carousel && !carousel.dataset.initialized) {
-    carousel.dataset.initialized = "true";
+const observerCarousel1 = new MutationObserver(debounce(() => {
+  const infoTrack = document.getElementById("infoCarouselTrack");
+  if (infoTrack && infoTrack.dataset.initialized !== "true") {
     initCarousel();
   }
-});
+}));
 
-observer.observe(document.body, {
-  childList: true,
-  subtree: true,
-});
+observerCarousel1.observe(document.body, { childList: true, subtree: true });
 
-// Segundo carrucel
-// Segundo carrucel
+
+// -------------------------
+// Segundo Carrusel
+// -------------------------
 function updateSelectedCard(card) {
   document.querySelectorAll(".interactive-card").forEach(c => c.classList.remove("selected"));
   card.classList.add("selected");
@@ -97,14 +103,13 @@ function initCarousel2() {
   const prevBtn = document.getElementById("prevBtn2");
   const nextBtn = document.getElementById("nextBtn2");
 
-  if (!track || !prevBtn || !nextBtn) return;
-  if (track.dataset.initialized === "true") return;
+  if (!track || !prevBtn || !nextBtn || track.dataset.initialized === "true") return;
   track.dataset.initialized = "true";
 
-  const newPrevBtn = prevBtn.cloneNode(true);
-  const newNextBtn = nextBtn.cloneNode(true);
-  prevBtn.replaceWith(newPrevBtn);
-  nextBtn.replaceWith(newNextBtn);
+  const newPrev = prevBtn.cloneNode(true);
+  const newNext = nextBtn.cloneNode(true);
+  prevBtn.replaceWith(newPrev);
+  nextBtn.replaceWith(newNext);
 
   let autoMoving = false;
 
@@ -134,16 +139,13 @@ function initCarousel2() {
     });
   }
 
-  newPrevBtn.addEventListener("click", () => moveCarousel(-1));
-  newNextBtn.addEventListener("click", () => moveCarousel(1));
+  newPrev.addEventListener("click", () => moveCarousel(-1));
+  newNext.addEventListener("click", () => moveCarousel(1));
 
   document.querySelectorAll(".interactive-card").forEach(card => {
     const newCard = card.cloneNode(true);
     card.replaceWith(newCard);
-
-    newCard.addEventListener("click", () => {
-      updateSelectedCard(newCard);
-    });
+    newCard.addEventListener("click", () => updateSelectedCard(newCard));
   });
 
   if (window.innerWidth <= 768) {
@@ -159,7 +161,8 @@ function initCarousel2() {
     detectVisibleCard();
   }
 
-  // Auto movimiento del carrusel inferior con efecto de ciclo infinito
+  if (window._carousel2Interval) clearInterval(window._carousel2Interval);
+
   let currentGroup = document.querySelector(".carousel-images[data-group][style*='flex']");
   if (!currentGroup) return;
 
@@ -180,23 +183,19 @@ function initCarousel2() {
     });
   }
 
-  setInterval(() => {
+  window._carousel2Interval = setInterval(() => {
     currentGroup = document.querySelector(".carousel-images[data-group][style*='flex']");
     cycleCarousel();
   }, 3000);
 }
 
-// Inicializar cuando el DOM está listo
-document.addEventListener("DOMContentLoaded", () => {
-  initCarousel2();
-});
+document.addEventListener("DOMContentLoaded", initCarousel2);
 
-// Re-inicializar si el carrusel aparece dinámicamente (SPA)
-const observerCarousel2 = new MutationObserver(() => {
+const observerCarousel2 = new MutationObserver(debounce(() => {
   const track = document.getElementById("infoCarouselTrack2");
-  if (track && !track.dataset.initialized) {
+  if (track && track.dataset.initialized !== "true") {
     initCarousel2();
   }
-});
+}));
 
 observerCarousel2.observe(document.body, { childList: true, subtree: true });
