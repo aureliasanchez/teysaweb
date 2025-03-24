@@ -137,30 +137,60 @@
 					<div class="info-carousel-2-container">
 						<div class="info-carousel-2-track" id="infoCarouselTrack2">
 
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="corte">
-								<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Imagen Corte Oxi-Fuel">
-								<h3 class="info-carousel-2-card-title">Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
-								<p class="info-carousel-2-card-text">Procesos de corte versátiles y de alta precisión para diversos materiales.</p>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="trenes">
+
+								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1">
+								<h3 class="info-carousel-2-card-title">
+									Piezas Estructurales para Trenes
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.
+								</p>
+
 							</div>
-							<div class="info-carousel-2-card interactive-card" data-target="productos-guillotina" data-image-group="guillotina">
-								<img src="/assets/img/pages/servicio/corteHidraulico.webp" alt="Imagen Corte Guillotina" class="imgFat centrado">
-								<h3 class="info-carousel-2-card-title">Corte con Guillotina Hidraulica</h3>
-								<p class="info-carousel-2-card-text">Cortes limpios y precisos en piezas de gran formato.</p>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="automotriz">
+
+								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6">
+								<h3 class="info-carousel-2-card-title">
+									Partes de Chasis para la Industria Automotriz
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.
+								</p>
+
 							</div>
-							<div class="info-carousel-2-card interactive-card" data-target="productos-maquinado" data-image-group="maquinado">
-								<img src="/assets/img/pages/servicio/maquinado.webp" alt="Imagen Maquinado">
-								<h3 class="info-carousel-2-card-title">Maquinado CNC y Convencional</h3>
-								<p class="info-carousel-2-card-text">Amplia capacidad de fresado, torneado y rectificado.</p>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="industrial">
+
+								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1">
+								<h3 class="info-carousel-2-card-title">
+									Piezas para Maquinaria Industrial
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.
+								</p>
+
 							</div>
-							<div class="info-carousel-2-card interactive-card" data-target="productos-doblado" data-image-group="doblado">
-								<img src="/assets/img/pages/servicio/doblarMetal.webp" alt="Imagen Doblado Metales">
-								<h3 class="info-carousel-2-card-title">Doblado de Metales</h3>
-								<p class="info-carousel-2-card-text">Procesos de doblado para piezas de hasta 12 metros.</p>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="aeronaves">
+
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1">
+								<h3 class="info-carousel-2-card-title">
+									Componentes Metálicos para Aeronaves
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.
+								</p>
+
 							</div>
-							<div class="info-carousel-2-card interactive-card" data-target="productos-tubos" data-image-group="tubos">
-								<img src="/assets/img/pages/servicio/doblarTubos.webp" alt="Imagen Doblado Tubos">
-								<h3 class="info-carousel-2-card-title">Doblado de Tubos CNC</h3>
-								<p class="info-carousel-2-card-text">Soluciones para materiales como acero, aluminio y cobre.</p>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="autopartes">
+
+								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1">
+								<h3 class="info-carousel-2-card-title">
+									Autopartes Personalizadas
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.
+								</p>
+
 							</div>
 
 						</div>
@@ -168,164 +198,49 @@
 					<div id="auto-carousel-container" class="auto-carousel">
 						<div class="auto-carousel-track" id="auto-carousel-track">
 
-							<div class="carousel-images" data-group="corte">
-								<img src="/assets/img/demo/corte1.webp" alt="Imagen Corte 1" class="auto-carousel-img">
-								<img src="/assets/img/demo/corte2.webp" alt="Imagen Corte 2" class="auto-carousel-img">
-								<img src="/assets/img/demo/corte3.webp" alt="Imagen Corte 3" class="auto-carousel-img">
-								<img src="/assets/img/demo/corte4.webp" alt="Imagen Corte 4" class="auto-carousel-img">
-								<img src="/assets/img/demo/corte5.webp" alt="Imagen Corte 5" class="auto-carousel-img">
+							<div class="carousel-images" data-group="trenes">
+
+								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/trenes/trenes_02.webp" alt="Pieza Trenes 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/trenes/trenes_03.webp" alt="Pieza Trenes 3" class="auto-carousel-img">
+
 							</div>
-							<div class="carousel-images" data-group="guillotina" style="display:none">
-								<img src="/assets/img/demo/guillotina1.webp" alt="Imagen Guillotina 1" class="auto-carousel-img">
-								<img src="/assets/img/demo/guillotina2.webp" alt="Imagen Guillotina 2" class="auto-carousel-img">
-								<img src="/assets/img/demo/guillotina3.webp" alt="Imagen Guillotina 3" class="auto-carousel-img">
+							<div class="carousel-images" data-group="automotriz">
+
+								<img src="/assets/img/pages/productos/automotris/automotris_01.webp" alt="Pieza Automotriz 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_02.webp" alt="Pieza Automotriz 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_03.webp" alt="Pieza Automotriz 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_04.webp" alt="Pieza Automotriz 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_05.webp" alt="Pieza Automotriz 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6" class="auto-carousel-img">
+
 							</div>
-							<div class="carousel-images" data-group="maquinado" style="display:none">
-								<img src="/assets/img/demo/maquinado1.webp" alt="Imagen Maquinado 1" class="auto-carousel-img">
-								<img src="/assets/img/demo/maquinado2.webp" alt="Imagen Maquinado 2" class="auto-carousel-img">
-								<img src="/assets/img/demo/maquinado3.webp" alt="Imagen Maquinado 3" class="auto-carousel-img">
+							<div class="carousel-images" data-group="industrial">
+
+								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_02.webp" alt="Pieza Industrial 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_03.webp" alt="Pieza Industrial 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_04.webp" alt="Pieza Industrial 4" class="auto-carousel-img">
+
 							</div>
-							<div class="carousel-images" data-group="doblado" style="display:none">
-								<img src="/assets/img/demo/doblado1.webp" alt="Imagen Doblado 1" class="auto-carousel-img">
-								<img src="/assets/img/demo/doblado2.webp" alt="Imagen Doblado 2" class="auto-carousel-img">
-								<img src="/assets/img/demo/doblado3.webp" alt="Imagen Doblado 3" class="auto-carousel-img">
+							<div class="carousel-images" data-group="aeronaves">
+
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_02.webp" alt="Pieza Aeronave 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_03.webp" alt="Pieza Aeronave 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_04.webp" alt="Pieza Aeronave 4" class="auto-carousel-img">
+
 							</div>
-							<div class="carousel-images" data-group="tubos" style="display:none">
-								<img src="/assets/img/demo/tubos1.webp" alt="Imagen Tubos 1" class="auto-carousel-img">
-								<img src="/assets/img/demo/tubos2.webp" alt="Imagen Tubos 2" class="auto-carousel-img">
-								<img src="/assets/img/demo/tubos3.webp" alt="Imagen Tubos 3" class="auto-carousel-img">
+							<div class="carousel-images" data-group="autopartes">
+
+								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/autopartes/autoparte_02.webp" alt="Autopartes 2" class="auto-carousel-img">
+
 							</div>
-							
+
 						</div>
 					</div>
 
-				</section>
-				<section class="c-section--dark-1 c-cards c-cards--5 bgBlue1" data-animate-section id="productos">
-					<div class="c-cards-inner">
-
-						<div class="c-cards-title wrap wrap--max">
-							<div class="c-grid">
-								<div class="col-span-10 md:col-span-6">
-									<div class="c-section-title">
-
-										<span class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">Productos Especialisados</span>
-										<div class="ts-2 textWhite">
-
-											<p>Productos</p>
-											<p>Especiales</p>
-
-										</div>
-										<div class="ts-body--xl" data-animate-paragraph data-animate-delay="100"
-											data-split-articles>
-											<p>
-												Fabricamos piezas de alta precisión diseñadas para los sectores ferroviario, automotriz, aeronáutico e industrial
-											</p>
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="c-cards-content">
-
-							<div class="c-cards-content-inner no-scrollbar">
-
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Piezas Estructurales para Trenes</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/fotosSeleccionadas/almacen/almacen_1.webp" alt="Cortando materiales" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.</p>
-									</div>
-
-								</div>
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Partes de Chasis para la Industria Automotriz</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/pages/productos/parteChasis.webp" alt="Doblando materiales" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.</p>
-									</div>
-
-								</div>
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Piezas para Maquinaria Industrial</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/pages/productos/maquinariaPersonalisada.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.</p>
-									</div>
-
-								</div>
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Componentes Metálicos para Aeronaves</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/fotosSeleccionadas/almacen/almacen_4.webp" alt="Dobles de tubos" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.</p>
-									</div>
-
-								</div>
-								<div class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Autopartes Personalizadas</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/pages/productos/autopartePersonalisada.webp" alt="Maquina" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.</p>
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
-					</div>
 				</section>
 
 
