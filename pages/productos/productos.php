@@ -148,7 +148,7 @@
 								</p>
 
 							</div>
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="automotriz">
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="automotris">
 
 								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6">
 								<h3 class="info-carousel-2-card-title">
@@ -205,7 +205,7 @@
 								<img src="/assets/img/pages/productos/trenes/trenes_03.webp" alt="Pieza Trenes 3" class="auto-carousel-img">
 
 							</div>
-							<div class="carousel-images" data-group="automotriz">
+							<div class="carousel-images" data-group="automotris">
 
 								<img src="/assets/img/pages/productos/automotris/automotris_01.webp" alt="Pieza Automotriz 1" class="auto-carousel-img">
 								<img src="/assets/img/pages/productos/automotris/automotris_02.webp" alt="Pieza Automotriz 2" class="auto-carousel-img">
@@ -315,9 +315,10 @@
 	<script type="module" src="/assets/js/main.js" crossorigin="anonymous"
 		onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
 	</script>
+	<script src="/assets/js/precarga.js"></script>
 	<script src="/assets/js/universal.js"></script>
 	<script src="/assets/js/header.js"></script>
-	<script src="/assets/js/carruceles.js" defer></script>
+	<script src="/assets/js/carruceles.js"></script>
 </body>
 
 </html>
