@@ -1,11 +1,13 @@
+/* JS en bloque para pruebas SPA */
 function toggleMenu(event) {
-    event.stopPropagation();
-    const menu = document.getElementById("mobileMenu");
-    const button = document.getElementById("menuButton");
-    menu.classList.toggle("show");
-    button.classList.toggle("active");
-  }
-  
+  event.stopPropagation();
+  const menu = document.getElementById("mobileMenu");
+  const button = document.getElementById("menuButton");
+  menu.classList.toggle("show");
+  button.classList.toggle("active");
+}
+
+document.addEventListener("DOMContentLoaded", () => {
   document.addEventListener("click", function (event) {
     const menu = document.getElementById("mobileMenu");
     const button = document.getElementById("menuButton");
@@ -14,21 +16,21 @@ function toggleMenu(event) {
       button.classList.remove("active");
     }
   });
-  
+
   window.addEventListener("resize", function () {
     if (window.innerWidth > 768) {
       document.getElementById("mobileMenu").classList.remove("show");
       document.getElementById("menuButton").classList.remove("active");
     }
   });
-  
+
   let lastScrollTop = 0;
   window.addEventListener("scroll", function () {
     const header = document.getElementById("header");
     const menu = document.getElementById("mobileMenu");
     const button = document.getElementById("menuButton");
     let scrollTop = window.scrollY || document.documentElement.scrollTop;
-  
+
     if (scrollTop === 0) {
       header.classList.remove("hidden");
     } else if (scrollTop > lastScrollTop) {
@@ -38,20 +40,17 @@ function toggleMenu(event) {
     } else {
       header.classList.remove("hidden");
     }
-  
     lastScrollTop = scrollTop;
   });
-  
-  // Función para activar el enlace correcto según la URL
+
   function updateActiveLink() {
     const path = window.location.pathname;
     const desktopLinks = document.querySelectorAll(".nav-links a");
     const mobileLinks = document.querySelectorAll(".mobile-menu a");
-  
-    [...desktopLinks, ...mobileLinks].forEach(link => {
+
+    [...desktopLinks, ...mobileLinks].forEach((link) => {
       const href = link.getAttribute("href");
       const url = new URL(href, window.location.origin);
-  
       if (url.pathname === path) {
         link.classList.add("nav-active");
       } else {
@@ -59,25 +58,32 @@ function toggleMenu(event) {
       }
     });
   }
-  
-  // Inicializar en carga inicial
-  document.addEventListener("DOMContentLoaded", updateActiveLink);
-  
-  // Detectar navegación SPA (usando MutationObserver como respaldo)
-  const navObserver = new MutationObserver(updateActiveLink);
-  navObserver.observe(document.body, { childList: true, subtree: true });
-  
-  // Escuchar cambios del historial (SPA)
-  ["pushState", "replaceState"].forEach(type => {
-    const original = history[type];
-    history[type] = function (...args) {
-      const result = original.apply(this, args);
-      window.dispatchEvent(new Event(type.toLowerCase()));
-      return result;
-    };
-  });
-  
+
+  updateActiveLink();
+
+  // Detectar navegación SPA con pushState o replaceState
+  const originalPush = history.pushState;
+  history.pushState = function () {
+    originalPush.apply(this, arguments);
+    updateActiveLink();
+  };
+
+  const originalReplace = history.replaceState;
+  history.replaceState = function () {
+    originalReplace.apply(this, arguments);
+    updateActiveLink();
+  };
+
   window.addEventListener("popstate", updateActiveLink);
-  window.addEventListener("pushstate", updateActiveLink);
-  window.addEventListener("replacestate", updateActiveLink);
-  
+
+  // Cerrar menú móvil al hacer clic en un enlace
+  const mobileLinks = document.querySelectorAll(".mobile-menu a");
+  const menu = document.getElementById("mobileMenu");
+  const button = document.getElementById("menuButton");
+  mobileLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      menu.classList.remove("show");
+      button.classList.remove("active");
+    });
+  });
+});
