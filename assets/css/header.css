@@ -133,3 +133,10 @@
         display: none !important;
     }
 }
+
+a.nav-active,
+.mobile-menu a.nav-active {
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
