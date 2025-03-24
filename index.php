@@ -697,14 +697,15 @@
 	<?php include './assets/html/footer.html'; ?>
 	<?php include './assets/html/funcionamiento.html'; ?>
 
+	<!-- Scripts -->
+	<script type="module" src="/assets/js/main.js" crossorigin="anonymous"
+		onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
+	</script>
+	<script src="/assets/js/precarga.js"></script>
+	<script src="/assets/js/universal.js"></script>
+	<script src="/assets/js/header.js"></script>
+	<script src="/assets/js/carruceles.js"></script>
 </body>
 
-<!-- Scripts -->
-<script src="/assets/js/universal.js"></script>
-<script src="/assets/js/header.js"></script>
-<script src="/assets/js/carruceles.js"></script>
-<script type="module" src="/assets/js/main.c3dfb829.js" crossorigin="anonymous"
-	onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
-</script>
 
 </html>

@@ -42,7 +42,7 @@
 	<link href="https://www.performanse.com/nl/onze-producten/" rel="alternate" hreflang="nl">
 	<link href="https://www.performanse.com/en/our-products/" rel="alternate" hreflang="en">
 
-	<link href="/assets/img/logo/webp/icono/logo_2.webp" rel="icon">
+	<link href="/assets/img/logo/webp/icono/logoFinal.webp" rel="icon">
 	<title>Teysa | Productos</title>
 </head>
 
@@ -122,133 +122,129 @@
 						</div>
 					</div>
 				</section>
-				<section class="c-section--dark-1 c-cards c-cards--5 bgBlue1" data-animate-section id="productos">
-					<div class="c-cards-inner">
 
-						<div class="c-cards-title wrap wrap--max">
-							<div class="c-grid">
-								<div class="col-span-10 md:col-span-6">
-									<div class="c-section-title">
 
-										<span class="ts-eyebrow ts-indicator" data-animate data-animate-y="50">Productos Especialisados</span>
-										<div class="ts-2 textWhite">
+				<section class="info-carousel-2" id="carouselSection2">
 
-											<p>Productos</p>
-											<p>Especiales</p>
-
-										</div>
-										<div class="ts-body--xl" data-animate-paragraph data-animate-delay="100"
-											data-split-articles>
-											<p>
-												Fabricamos piezas de alta precisión diseñadas para los sectores ferroviario, automotriz, aeronáutico e industrial
-											</p>
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="c-cards-content">
-
-							<div class="c-cards-content-inner no-scrollbar">
-
-								<div  class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Piezas Estructurales para Trenes</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/fotosSeleccionadas/almacen/almacen_1.webp" alt="Cortando materiales" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.</p>
-									</div>
-
-								</div>
-								<div  class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Partes de Chasis para la Industria Automotriz</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/pages/productos/parteChasis.webp" alt="Doblando materiales" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.</p>
-									</div>
-
-								</div>
-								<div  class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Piezas para Maquinaria Industrial</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/pages/productos/maquinariaPersonalisada.webp" alt="Corte materiales Hidráulica" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.</p>
-									</div>
-
-								</div>
-								<div  class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Componentes Metálicos para Aeronaves</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/fotosSeleccionadas/almacen/almacen_4.webp" alt="Dobles de tubos" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.</p>
-									</div>
-
-								</div>
-								<div  class="c-card-item c-card-item--5">
-
-									<span class="c-card-item-bg">
-										<span class="c-card-item-bg-hover"></span>
-									</span>
-									<div class="c-card-item-title">
-										<div class="c-card-item-title-inner">
-											<h3>Autopartes Personalizadas</h3>
-										</div>
-									</div>
-									<div class="c-card-item-img centrado">
-										<img src="/assets/img/pages/productos/autopartePersonalisada.webp" alt="Maquina" class="imgFat centrado">
-									</div>
-									<div class="c-card-item-text ts-p">
-										<p>Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.</p>
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
-
+					<h2 class="info-carousel-2-title">Productos Especiales</h2>
+					<p class="info-carousel-2-description">
+						Fabricamos piezas de alta precisión diseñadas para los sectores ferroviario, automotriz, aeronáutico e industrial
+					</p>
+					<div class="info-carousel-2-controls">
+						<button class="info-carousel-2-button" id="prevBtn2">❮</button>
+						<button class="info-carousel-2-button" id="nextBtn2">❯</button>
 					</div>
+					<div class="info-carousel-2-container">
+						<div class="info-carousel-2-track" id="infoCarouselTrack2">
+
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="trenes">
+
+								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1">
+								<h3 class="info-carousel-2-card-title">
+									Piezas Estructurales para Trenes
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="automotris">
+
+								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6">
+								<h3 class="info-carousel-2-card-title">
+									Partes de Chasis para la Industria Automotriz
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="industrial">
+
+								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1">
+								<h3 class="info-carousel-2-card-title">
+									Piezas para Maquinaria Industrial
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="aeronaves">
+
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1">
+								<h3 class="info-carousel-2-card-title">
+									Componentes Metálicos para Aeronaves
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="autopartes">
+
+								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1">
+								<h3 class="info-carousel-2-card-title">
+									Autopartes Personalizadas
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.
+								</p>
+
+							</div>
+
+						</div>
+					</div>
+					<div id="auto-carousel-container" class="auto-carousel">
+						<div class="auto-carousel-track" id="auto-carousel-track">
+
+							<div class="carousel-images" data-group="trenes">
+
+								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/trenes/trenes_02.webp" alt="Pieza Trenes 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/trenes/trenes_03.webp" alt="Pieza Trenes 3" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="automotris">
+
+								<img src="/assets/img/pages/productos/automotris/automotris_01.webp" alt="Pieza Automotriz 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_02.webp" alt="Pieza Automotriz 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_03.webp" alt="Pieza Automotriz 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_04.webp" alt="Pieza Automotriz 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_05.webp" alt="Pieza Automotriz 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="industrial">
+
+								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_02.webp" alt="Pieza Industrial 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_03.webp" alt="Pieza Industrial 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_04.webp" alt="Pieza Industrial 4" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="aeronaves">
+
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_02.webp" alt="Pieza Aeronave 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_03.webp" alt="Pieza Aeronave 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_04.webp" alt="Pieza Aeronave 4" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="autopartes">
+
+								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/autopartes/autoparte_02.webp" alt="Autopartes 2" class="auto-carousel-img">
+
+							</div>
+
+						</div>
+					</div>
+
 				</section>
+
+
+
 				<section class="c-section c-section--light c-section--related" data-nav-section="light" data-animate-section>
 					<div class="wrap wrap--max">
 
@@ -315,14 +311,14 @@
 	<?php include '../../assets/html/footer.html'; ?>
 	<?php include '../../assets/html/funcionamiento.html'; ?>
 
+	<!-- Scripts -->
+	<script type="module" src="/assets/js/main.js" crossorigin="anonymous"
+		onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
+	</script>
+	<script src="/assets/js/precarga.js"></script>
+	<script src="/assets/js/universal.js"></script>
+	<script src="/assets/js/header.js"></script>
+	<script src="/assets/js/carruceles.js"></script>
 </body>
-
-<!-- Scripts -->
-<script src="/assets/js/universal.js"></script>
-<script src="/assets/js/header.js"></script>
-<script src="/assets/js/carruceles.js"></script>
-<script type="module" src="/assets/js/main.c3dfb829.js" crossorigin="anonymous"
-	onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
-</script>
 
 </html>

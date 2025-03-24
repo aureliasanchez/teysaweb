@@ -41,7 +41,7 @@
 	<link href="https://www.performanse.com/nl/onze-diensten/" rel="alternate" hreflang="nl">
 	<link href="https://www.performanse.com/en/our-services/" rel="alternate" hreflang="en">
 
-	<link href="/assets/img/logo/webp/icono/logo_2.webp" rel="icon">
+	<link href="/assets/img/logo/webp/icono/logoFinal.webp" rel="icon">
 	<title>Teysa | Servicio</title>
 </head>
 
@@ -126,6 +126,7 @@
 						</div>
 					</div>
 				</section>
+
 				<section class="info-carousel" id="carouselSection">
 
 					<h2 class="info-carousel-title">Servicios Especiales</h2>
@@ -189,6 +190,7 @@
 					</div>
 
 				</section>
+
 				<section class="c-section c-section--light c-section--related" data-nav-section="light" data-animate-section>
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center text-center">
@@ -252,14 +254,14 @@
 	<?php include '../../assets/html/footer.html'; ?>
 	<?php include '../../assets/html/funcionamiento.html'; ?>
 
+	<!-- Scripts -->
+	<script type="module" src="/assets/js/main.js" crossorigin="anonymous"
+		onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
+	</script>
+	<script src="/assets/js/precarga.js"></script>
+	<script src="/assets/js/universal.js"></script>
+	<script src="/assets/js/header.js"></script>
+	<script src="/assets/js/carruceles.js"></script>
 </body>
-
-<!-- Scripts -->
-<script src="/assets/js/universal.js"></script>
-<script src="/assets/js/header.js"></script>
-<script src="/assets/js/carruceles.js"></script>
-<script type="module" src="/assets/js/main.c3dfb829.js" crossorigin="anonymous"
-	onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
-</script>
 
 </html>
