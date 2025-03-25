@@ -127,93 +127,6 @@
 					</div>
 				</section>
 
-				<section class="info-carousel" id="carouselSection">
-
-					<h2 class="info-carousel-title">Servicios Especiales</h2>
-					<p class="info-carousel-description">
-						Ofrecemos una gama completa de soluciones avanzadas en corte, doblado y maquinado, diseñadas para satisfacer las demandas técnicas de múltiples industrias.
-					</p>
-					<div class="info-carousel-controls">
-						<button class="info-carousel-button" id="prevBtn">&#8249;</button>
-						<button class="info-carousel-button" id="nextBtn">&#8250;</button>
-					</div>
-					<div class="info-carousel-container">
-						<div class="info-carousel-track" id="infoCarouselTrack">
-
-							<div class="info-carousel-card">
-								<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Corte Oxi-Fuel">
-								<h3 class="info-carousel-card-title">Corte Oxi-Fuel</h3>
-								<p class="info-carousel-card-text">
-									Ideal para cortar materiales gruesos y de gran tamaño, utilizando una mezcla de oxígeno y combustible para lograr cortes precisos y limpios.
-								</p>
-							</div>
-							<div class="info-carousel-card">
-								<img src="/assets/img/pages/servicio/corteAgua.webp" alt="Corte con Agua">
-								<h3 class="info-carousel-card-title">Corte con Agua</h3>
-								<p class="info-carousel-card-text">
-									Utiliza un chorro de agua a alta presión para cortar materiales sin generar calor, ideal para materiales sensibles al calor y de alta precisión.
-								</p>
-							</div>
-							<div class="info-carousel-card">
-								<img src="/assets/img/pages/servicio/cortePlasma.webp" alt="Corte con Plasma">
-								<h3 class="info-carousel-card-title">Corte con Plasma</h3>
-								<p class="info-carousel-card-text">
-									Utiliza un chorro de plasma para cortar materiales conductores de electricidad, ofreciendo cortes rápidos y precisos en metales de diversos espesores.
-								</p>
-							</div>
-							<div class="info-carousel-card">
-								<img src="/assets/img/pages/servicio/corteLaser.webp" alt="Corte con Láser">
-								<h3 class="info-carousel-card-title">Corte con Láser</h3>
-								<p class="info-carousel-card-text">
-									Utiliza un rayo láser para cortar materiales con alta precisión y velocidad, ideal para cortes complejos y detallados en una amplia variedad de materiales.
-								</p>
-							</div>
-							<div class="info-carousel-card">
-
-								<img src="/assets/img/pages/servicio/corteHidraulico.webp" class="imgFat centrado">
-								<h3 class="info-carousel-card-title">Corte con Guillotina Hidráulica</h3>
-								<p class="info-carousel-card-text">
-									Cortes limpios y precisos en piezas de hasta 5,000 mm de longitud y 0.5” de grosor, ideal para proyectos que exigen rapidez y exactitud.
-								</p>
-
-							</div>
-							<div class="info-carousel-card">
-								<img src="/assets/img/pages/servicio/maquinadoCNC.webp" alt="Maquinado CNC">
-								<h3 class="info-carousel-card-title">Maquinado CNC</h3>
-								<p class="info-carousel-card-text">
-									Más de 40 máquinas CNC para fresado, torneado y rectificado, con capacidad para ensamblajes grandes (X 4000mm, Y 2000mm, Z 1600mm) y piezas pequeñas (X 300mm, Y 200mm, Z 200mm).
-								</p>
-							</div>
-							<div class="info-carousel-card">
-								<img src="/assets/img/pages/servicio/maquinadoConvencional.webp" alt="Maquinado Convencional">
-								<h3 class="info-carousel-card-title">Maquinado Convencional</h3>
-								<p class="info-carousel-card-text">
-									Equipos de maquinado convencional para fresado, torneado y rectificado, ideales para proyectos que requieren precisión y flexibilidad en piezas de diversos tamaños.
-								</p>
-							</div>
-							<div class="info-carousel-card">
-
-								<img src="/assets/img/pages/servicio/doblarMetal.webp" alt="Dobles de tubos">
-								<h3 class="info-carousel-card-title">Doblado de Metales</h3>
-								<p class="info-carousel-card-text">
-									Capacidad de doblado de piezas de hasta 12,000 mm de longitud y 600 toneladas de presión, asegurando resultados precisos en formatos grandes.
-								</p>
-
-							</div>
-							<div class="info-carousel-card">
-
-								<img src="/assets/img/pages/servicio/doblarTubos.webp" alt="Maquina">
-								<h3 class="info-carousel-card-title">Doblado de Tubos CNC</h3>
-								<p class="info-carousel-card-text">
-									Soluciones personalizadas para el doblado de tubos de diferentes radios, adaptándose a materiales como cobre, aluminio, acero al carbono y acero inoxidable.
-								</p>
-
-							</div>
-
-						</div>
-					</div>
-
-				</section>
 				<section class="info-carousel-2" id="carouselSection2">
 
 					<h2 class="info-carousel-2-title">Servicios Especiales</h2>
@@ -227,58 +140,91 @@
 					<div class="info-carousel-2-container">
 						<div class="info-carousel-2-track" id="infoCarouselTrack2">
 
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="trenes">
+							<div class="info-carousel-2-card interactive-card selected" data-target="Detallado de acabados" data-image-group="detallado">
 
-								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1">
+								<img src="/assets/img/pages/servicio/detallado/detallado_02.webp" alt="Proceso detallado 2">
 								<h3 class="info-carousel-2-card-title">
-									Piezas Estructurales para Trenes
+									Detallado de Acabados
 								</h3>
 								<p class="info-carousel-2-card-text">
-									Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.
+									Servicios de pulido para mejorar la apariencia y protección de tus piezas metálicas.
 								</p>
 
 							</div>
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="automotris">
+							<div class="info-carousel-2-card interactive-card selected" data-target="Corte con agua" data-image-group="agua">
 
-								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6">
+								<img src="/assets/img/pages/servicio/agua/agua_09.webp" alt="Proceso corte de agua 9">
 								<h3 class="info-carousel-2-card-title">
-									Partes de Chasis para la Industria Automotriz
+									Corte con Agua
 								</h3>
 								<p class="info-carousel-2-card-text">
-									Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.
+									Utiliza un chorro de agua a alta presión para cortar materiales sin generar calor, ideal para materiales sensibles al calor y de alta precisión.
 								</p>
 
 							</div>
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="industrial">
+							<div class="info-carousel-2-card interactive-card selected" data-target="Corte con plasma" data-image-group="plasma">
 
-								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1">
+								<img src="/assets/img/pages/servicio/plasma/plasma_01.webp" alt="Proceso corte con plasma 1">
 								<h3 class="info-carousel-2-card-title">
-									Piezas para Maquinaria Industrial
+									Corte con Plasma
 								</h3>
 								<p class="info-carousel-2-card-text">
-									Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.
+									Utiliza un chorro de plasma para cortar materiales conductores de electricidad, ofreciendo cortes rápidos y precisos en metales de diversos espesores.
 								</p>
 
 							</div>
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="aeronaves">
+							<div class="info-carousel-2-card interactive-card selected" data-target="Corte con laser" data-image-group="laser">
 
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1">
+								<img src="/assets/img/pages/servicio/laser/laser_05.webp" alt="Proceso corte con laser 5">
 								<h3 class="info-carousel-2-card-title">
-									Componentes Metálicos para Aeronaves
+									Corte con Láser
 								</h3>
 								<p class="info-carousel-2-card-text">
-									Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.
+									Utiliza un rayo láser para cortar materiales con alta precisión y velocidad, ideal para cortes complejos y detallados en una amplia variedad de materiales.
 								</p>
 
 							</div>
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="autopartes">
+							<div class="info-carousel-2-card interactive-card selected" data-target="Corte con guillotina" data-image-group="guillotina">
 
-								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_06.webp" alt="Proceso corte con guillotina 6">
 								<h3 class="info-carousel-2-card-title">
-									Autopartes Personalizadas
+									Corte con Guillotina Hidráulica
 								</h3>
 								<p class="info-carousel-2-card-text">
-									Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.
+									Cortes limpios y precisos en piezas de hasta 5,000 mm de longitud y 0.5” de grosor, ideal para proyectos que exigen rapidez y exactitud.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="Maquinado CNC" data-image-group="cnc">
+
+								<img src="/assets/img/pages/servicio/cnc/cnc_01.webp" alt="Maquinado CNC 1">
+								<h3 class="info-carousel-2-card-title">
+									Maquinado CNC
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Más de 40 máquinas CNC para fresado, torneado y rectificado, con capacidad para ensamblajes grandes (X 4000mm, Y 2000mm, Z 1600mm) y piezas pequeñas (X 300mm, Y 200mm, Z 200mm).
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="Maquinado convencional" data-image-group="convencional">
+
+								<img src="/assets/img/pages/servicio/convencional/convencional_06.webp" alt="Maquinado Convencional 6">
+								<h3 class="info-carousel-2-card-title">
+									Maquinado Convencional
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Equipos de maquinado convencional para fresado, torneado y rectificado, ideales para proyectos que requieren precisión y flexibilidad en piezas de diversos tamaños.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="Doblado de metales" data-image-group="tubos">
+
+								<img src="/assets/img/pages/servicio/tubos/tubos_02.webp" alt="Dobles 2">
+								<h3 class="info-carousel-2-card-title">
+									Doblado de Metales y Tubos CNC
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Doblado de piezas de hasta 12,000 mm y 600 toneladas, adaptándose a diversos materiales como cobre, aluminio y acero.
 								</p>
 
 							</div>
@@ -288,43 +234,73 @@
 					<div id="auto-carousel-container" class="auto-carousel">
 						<div class="auto-carousel-track" id="auto-carousel-track">
 
-							<div class="carousel-images" data-group="trenes">
+							<div class="carousel-images" data-group="detallado">
 
-								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/trenes/trenes_02.webp" alt="Pieza Trenes 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/trenes/trenes_03.webp" alt="Pieza Trenes 3" class="auto-carousel-img">
-
-							</div>
-							<div class="carousel-images" data-group="automotris">
-
-								<img src="/assets/img/pages/productos/automotris/automotris_01.webp" alt="Pieza Automotriz 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_02.webp" alt="Pieza Automotriz 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_03.webp" alt="Pieza Automotriz 3" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_04.webp" alt="Pieza Automotriz 4" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_05.webp" alt="Pieza Automotriz 5" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/detallado/detallado_01.webp" alt="Proceso detallado 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/detallado/detallado_02.webp" alt="Proceso detallado 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/detallado/detallado_04.webp" alt="Proceso detallado 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/detallado/detallado_06.webp" alt="Proceso detallado 6" class="auto-carousel-img">
 
 							</div>
-							<div class="carousel-images" data-group="industrial">
+							<div class="carousel-images" data-group="agua">
 
-								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/industrial/industrial_02.webp" alt="Pieza Industrial 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/industrial/industrial_03.webp" alt="Pieza Industrial 3" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/industrial/industrial_04.webp" alt="Pieza Industrial 4" class="auto-carousel-img">
-
-							</div>
-							<div class="carousel-images" data-group="aeronaves">
-
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_02.webp" alt="Pieza Aeronave 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_03.webp" alt="Pieza Aeronave 3" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_04.webp" alt="Pieza Aeronave 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_01.webp" alt="Proceso corte de agua 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_03.webp" alt="Proceso corte de agua 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_05.webp" alt="Proceso corte de agua 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_07.webp" alt="Proceso corte de agua 7" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_09.webp" alt="Proceso corte de agua 9" class="auto-carousel-img">
 
 							</div>
-							<div class="carousel-images" data-group="autopartes">
+							<div class="carousel-images" data-group="plasma">
 
-								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/autopartes/autoparte_02.webp" alt="Autopartes 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/plasma/plasma_01.webp" alt="Proceso corte con plasma 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/plasma/plasma_02.webp" alt="Proceso corte con plasma 2" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="laser">
+
+								<img src="/assets/img/pages/servicio/laser/laser_01.webp" alt="Proceso corte con laser 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/laser/laser_02.webp" alt="Proceso corte con laser 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/laser/laser_03.webp" alt="Proceso corte con laser 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/laser/laser_05.webp" alt="Proceso corte con laser 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/laser/laser_06.webp" alt="Proceso corte con laser 6" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="guillotina">
+
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_01.webp" alt="Proceso corte con guillotina 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_02.webp" alt="Proceso corte con guillotina 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_04.webp" alt="Proceso corte con guillotina 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_05.webp" alt="Proceso corte con guillotina 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_06.webp" alt="Proceso corte con guillotina 6" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_07.webp" alt="Proceso corte con guillotina 7" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="cnc">
+
+								<img src="/assets/img/pages/servicio/cnc/cnc_01.webp" alt="Maquinado CNC 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/cnc/cnc_02.webp" alt="Maquinado CNC 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/cnc/cnc_03.webp" alt="Maquinado CNC 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/cnc/cnc_04.webp" alt="Maquinado CNC 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/cnc/cnc_05.webp" alt="Maquinado CNC 5" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="convencional">
+
+								<img src="/assets/img/pages/servicio/convencional/convencional_01.webp" alt="Maquinado Convencional 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/convencional/convencional_02.webp" alt="Maquinado Convencional 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/convencional/convencional_04.webp" alt="Maquinado Convencional 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/convencional/convencional_05.webp" alt="Maquinado Convencional 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/convencional/convencional_06.webp" alt="Maquinado Convencional 6" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="tubos">
+
+								<img src="/assets/img/pages/servicio/tubos/tubos_01.webp" alt="Dobles 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/tubos/tubos_02.webp" alt="Dobles 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/tubos/tubos_04.webp" alt="Dobles 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/tubos/tubos_05.webp" alt="Dobles 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/tubos/tubos_06.webp" alt="Dobles 6" class="auto-carousel-img">
 
 							</div>
 

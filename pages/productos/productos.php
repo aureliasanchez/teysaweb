@@ -137,7 +137,7 @@
 					<div class="info-carousel-2-container">
 						<div class="info-carousel-2-track" id="infoCarouselTrack2">
 
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="trenes">
+							<div class="info-carousel-2-card interactive-card selected" data-target="piesas trenes" data-image-group="trenes">
 
 								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1">
 								<h3 class="info-carousel-2-card-title">
@@ -148,7 +148,7 @@
 								</p>
 
 							</div>
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="automotris">
+							<div class="info-carousel-2-card interactive-card selected" data-target="piesas automotris" data-image-group="automotris">
 
 								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6">
 								<h3 class="info-carousel-2-card-title">
@@ -159,7 +159,7 @@
 								</p>
 
 							</div>
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="industrial">
+							<div class="info-carousel-2-card interactive-card selected" data-target="piesas maquinaria industrial" data-image-group="industrial">
 
 								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1">
 								<h3 class="info-carousel-2-card-title">
@@ -170,7 +170,7 @@
 								</p>
 
 							</div>
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="aeronaves">
+							<div class="info-carousel-2-card interactive-card selected" data-target="piesas aeronaves" data-image-group="aeronaves">
 
 								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1">
 								<h3 class="info-carousel-2-card-title">
@@ -181,7 +181,7 @@
 								</p>
 
 							</div>
-							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="autopartes">
+							<div class="info-carousel-2-card interactive-card selected" data-target="autopartes personalisadas" data-image-group="autopartes">
 
 								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1">
 								<h3 class="info-carousel-2-card-title">
