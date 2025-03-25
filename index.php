@@ -72,7 +72,6 @@
 				</div>
 
 			</div>
-
 			<div data-page data-entry-id="1">
 
 				<section class="c-section c-section--title-text-center c-section--light" data-animate-section data-nav-section="light">
@@ -141,7 +140,7 @@
 								<div class="col-span-10 md:col-span-7 md:text-right mobile:order-1">
 									<div class="c-cards-illustration">
 										<div>
-											<img src="/assets/img/fotosSeleccionadas/conformado/conformado_7.webp" alt="cortadora" class="imgLarge centrado">
+											<img src="/assets/img/pages/index/soluciones.webp" alt="Dobles metal" class="imgLarge centrado">
 										</div>
 									</div>
 								</div>
@@ -219,7 +218,7 @@
 
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/fotosSeleccionadas/calidad/calidad_1.webp" alt="Cortando materiales">
+								<img src="/assets/img/pages/index/servicios/corte.webp" alt="Corte material">
 								<h3 class="info-carousel-card-title">Corte de Materiales</h3>
 								<p class="info-carousel-card-text">
 									Precisión en cada proyecto con tecnología avanzada.
@@ -228,7 +227,7 @@
 							</div>
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/fotosSeleccionadas/conformado/conformado_6.webp" alt="Doblando materiales">
+								<img src="/assets/img/pages/index/servicios/doblado.webp" alt="Doblando materiales">
 								<h3 class="info-carousel-card-title">Doblado de Metales</h3>
 								<p class="info-carousel-card-text">
 									Adaptación a grandes formatos para múltiples industrias.
@@ -237,7 +236,7 @@
 							</div>
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/fotosSeleccionadas/conformado/conformado_8.webp" alt="Corte materiales Hidráulica">
+								<img src="/assets/img/pages/index/servicios/guillotina.webp" alt="Corte materiales Hidráulica">
 								<h3 class="info-carousel-card-title">Corte con Guillotina Hidráulica</h3>
 								<p class="info-carousel-card-text">
 									Soluciones rápidas y eficaces.
@@ -246,7 +245,7 @@
 							</div>
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/fotosSeleccionadas/conformado/conformado_9.webp" alt="Dobles de tubos">
+								<img src="/assets/img/pages/index/servicios/tubos.webp" alt="Dobles de tubos">
 								<h3 class="info-carousel-card-title">Doblado de Tubos CNC</h3>
 								<p class="info-carousel-card-text">
 									Para diferentes materiales y aplicaciones.
@@ -255,7 +254,7 @@
 							</div>
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/pages/index/servicios/maquinado.webp" alt="Maquina">
+								<img src="/assets/img/pages/index/servicios/convencional.webp" alt="Maquina">
 								<h3 class="info-carousel-card-title">Maquinado CNC y Convencional</h3>
 								<p class="info-carousel-card-text">
 									Piezas personalizadas con alta calidad.

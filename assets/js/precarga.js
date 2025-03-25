@@ -87,11 +87,11 @@ document.addEventListener("DOMContentLoaded", () => {
   
     // Imágenes sueltas (fuera de carruseles)
     const standaloneImages = [
-      "/assets/img/pages/servicio/cortadoraOxi.webp",
-      "/assets/img/pages/servicio/corteHidraulico.webp",
-      "/assets/img/pages/servicio/maquinado.webp",
-      "/assets/img/pages/servicio/doblarMetal.webp",
-      "/assets/img/pages/servicio/doblarTubos.webp"
+      "/assets/img/pages/index/servicios/corte.webp",
+      "/assets/img/pages/index/servicios/doblado.webp",
+      "/assets/img/pages/index/servicios/guillotina.webp",
+      "/assets/img/pages/index/servicios/tubos.webp",
+      "/assets/img/pages/index/servicios/convencional.webp"
     ];
   
     // Pre-cargar todas las imágenes
