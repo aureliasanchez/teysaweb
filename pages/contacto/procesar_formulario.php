@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje = htmlspecialchars($_POST["mensaje"]);
 
     // Correos destinatarios
-    $destinatarios = "#,#"; // Cambia por los correos reales
+    $destinatarios = "Joel.castaneda@mteysa.com,Ebcastaneda@mteysa.com,benjamin.castaneda@mteysa.com";
 
     // Asunto del correo
     $asunto = "Solicitud de Cotización - $nombre";
