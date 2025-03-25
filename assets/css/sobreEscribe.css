@@ -26,11 +26,53 @@ div {
     background-color: unset;
 }
 
+.c-button--ts-1 {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.c-button-text {
+    height: auto;
+}
+
+@media (max-width: 799px) {
+    .c-button-text {
+        height: auto;
+    }
+}
+
+.c-icon-arrow-right-sm {
+    width: 20px;
+    height: 18px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .c-button--icon-hover .c-button-icon {
+        position: absolute;
+        right: 1rem;
+        transform: translateY(-50%);
+    }
+}
+
+@media (min-width: 800px) {
+    .c-list p {
+        font-size: 1.4rem;
+    }
+}
+
+.ts-p {
+    font-size: 1.5rem;
+}
+
+.c-section--title-text-center .ts-p {
+    max-width: 100%; 
+}
+
 .buttonColorBlue {
     background-color: #0146f9;
-    color: #fff;
+    color: #eceef2;
     border-color: #eceef2;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
 }
 
@@ -106,7 +148,7 @@ div {
     --background-color: #eceef2;
     --title-color: #1b1b1b;
     --dropdown-item-background-color: #3c8cff;
-    --dropdown-item-hover-background-color: #0146f9;
+    --dropdown-item-hover-background-color: #1b1b1b;
     --dropdown-item-active-background-color: #1b1b1b;
     --dropdown-item-expanded-background-color: #1b1b1b;
     --dropdown-item-title-color: #eceef2;
@@ -435,7 +477,8 @@ video {
     }
 }
 
-.c-card-item--5 .c-card-item-bg, .c-card-item--5 .c-card-item-bg-hover {
+.c-card-item--5 .c-card-item-bg,
+.c-card-item--5 .c-card-item-bg-hover {
     border-radius: 0px;
 }
 

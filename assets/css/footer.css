@@ -1,6 +1,6 @@
 .new-footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #1b1b1b;
+    color: #eceef2;
     padding: 40px 20px;
     text-align: center;
 }
@@ -41,7 +41,7 @@
 
 .new-footer-button {
     background-color: transparent; /* Sin fondo */
-    color: #fff; /* Color del texto blanco */
+    color: #eceef2; /* Color del texto blanco */
     border: none; /* Sin contorno */
     padding: 1px;
     cursor: pointer;
@@ -52,7 +52,7 @@
 
 .new-footer-button:hover {
     color: #000; /* Cambiar color de la letra a negro */
-    background-color: #fff; /* Fondo blanco */
+    background-color: #eceef2; /* Fondo blanco */
 }
 
 .new-footer-contact {
@@ -60,7 +60,7 @@
 }
 
 .new-footer-contact a {
-    color: #fff; /* Color de la letra blanco */
+    color: #eceef2; /* Color de la letra blanco */
     text-decoration: none; /* Quitar subrayado */
     padding: 1px; /* Espacio alrededor del texto */
     border-radius: 0px; /* Bordes redondeados */
@@ -72,8 +72,8 @@
 }
 
 .new-footer-contact a:hover {
-    color: #000; /* Cambiar color de la letra a negro */
-    background-color: #fff; /* Fondo blanco */
+    color: #1b1b1b; /* Cambiar color de la letra a negro */
+    background-color: #eceef2; /* Fondo blanco */
 }
 
 .new-footer-credits {

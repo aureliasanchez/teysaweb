@@ -22,7 +22,7 @@
     top: 10%; /* Movido más arriba */
     left: 50%;
     transform: translateX(-50%);
-    color: black;
+    color: #1b1b1b;
     text-align: center;
     width: 90%;
     z-index: 2;
@@ -52,7 +52,7 @@
 
 .video-overlay p {
     padding-top: 1%;
-    font-size: 1.2rem; /* Aumentado el tamaño del párrafo */
+    font-size: 1.7rem; /* Aumentado el tamaño del párrafo */
     margin-top: 20px;
     max-width: 90%;
     margin-left: auto;
@@ -65,17 +65,18 @@
     padding: 12px 24px;
     font-size: 2rem;
     font-weight: bold;
-    color: white;
-    background-color: black;
+    color: #eceef2;
+    background-color: #1b1b1b;
     text-decoration: none;
     border-radius: 5px;
+    border: 2px solid #1b1b1b;
     transition: background 0.3s ease, color 0.3s ease;
 }
 
 .video-overlay .cta-button:hover {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
+    background-color: #3c8cff;
+    color: #eceef2;
+    border: 2px solid #1b1b1b;
 }
 
 @media (max-width: 1100px) {

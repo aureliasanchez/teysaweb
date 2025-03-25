@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: #eceef2;
     border: 2px solid black;
     padding: 10px 20px;
     position: fixed;
@@ -31,34 +31,38 @@
   
   .nav-links a {
     text-decoration: none;
-    color: black;
+    color: #1b1b1b;
+    border-radius: 5px;
     font-size: 20px;
     padding: 14px 20px;
     font-weight: bold;
+    border: 2px solid #eceef2;
     transition: background 0.3s ease, color 0.3s ease;
   }
   
   .nav-links a:hover {
-    background: black;
-    color: white;
+    background: #3c8cff;
+    color: #eceef2;
+    border: 2px solid #1b1b1b;
     border-radius: 5px;
   }
   
   .contact-btn {
-    background: black;
-    color: white;
+    background: #1b1b1b;
+    color: #eceef2;
     padding: 16px 28px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 22px;
     font-weight: bold;
+    border: 2px solid;
     transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
   }
   
   .contact-btn:hover {
-    background: white;
-    color: black;
-    border: 2px solid black;
+    background: #3c8cff;
+    color: #eceef2;
+    border: 2px solid #1b1b1b;
   }
   
   .menu-toggle {
@@ -95,20 +99,20 @@
   
   .mobile-menu.show {
     max-height: 150px;
-    border: 2px solid black;
+    border: 2px solid #1b1b1b;
     visibility: visible;
     opacity: 1;
   }
   
   .mobile-menu a {
     text-decoration: none;
-    color: black;
+    color: #1b1b1b;
     font-size: 16px;
     padding: 12px;
     display: block;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #1b1b1b;
     border-radius: 0 !important;
-    background: white;
+    background: #eceef2;
     transition: background 0.3s ease, color 0.3s ease;
   }
   
@@ -118,8 +122,8 @@
   
   .mobile-menu a:hover,
   .mobile-menu a.nav-active {
-    background: black;
-    color: white;
+    background: #1b1b1b;
+    color: #eceef2;
   }
   
   @media (max-width: 768px) {
@@ -150,7 +154,7 @@
   
   a.nav-active,
   .mobile-menu a.nav-active {
-    background: black;
-    color: white;
+    background: #1b1b1b;
+    color: #eceef2;
     border-radius: 5px;
   }
