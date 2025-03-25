@@ -141,13 +141,32 @@
 						<div class="info-carousel-track" id="infoCarouselTrack">
 
 							<div class="info-carousel-card">
-
-								<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Cortando materiales">
-								<h3 class="info-carousel-card-title">Corte Oxi-Fuel, Agua, Plasma y Láser</h3>
+								<img src="/assets/img/pages/servicio/cortadoraOxi.webp" alt="Corte Oxi-Fuel">
+								<h3 class="info-carousel-card-title">Corte Oxi-Fuel</h3>
 								<p class="info-carousel-card-text">
-									Procesos de corte versátiles y de alta precisión, ideales para materiales de diversos espesores y tamaños, utilizando tecnología de última generación.
+									Ideal para cortar materiales gruesos y de gran tamaño, utilizando una mezcla de oxígeno y combustible para lograr cortes precisos y limpios.
 								</p>
-
+							</div>
+							<div class="info-carousel-card">
+								<img src="/assets/img/pages/servicio/corteAgua.webp" alt="Corte con Agua">
+								<h3 class="info-carousel-card-title">Corte con Agua</h3>
+								<p class="info-carousel-card-text">
+									Utiliza un chorro de agua a alta presión para cortar materiales sin generar calor, ideal para materiales sensibles al calor y de alta precisión.
+								</p>
+							</div>
+							<div class="info-carousel-card">
+								<img src="/assets/img/pages/servicio/cortePlasma.webp" alt="Corte con Plasma">
+								<h3 class="info-carousel-card-title">Corte con Plasma</h3>
+								<p class="info-carousel-card-text">
+									Utiliza un chorro de plasma para cortar materiales conductores de electricidad, ofreciendo cortes rápidos y precisos en metales de diversos espesores.
+								</p>
+							</div>
+							<div class="info-carousel-card">
+								<img src="/assets/img/pages/servicio/corteLaser.webp" alt="Corte con Láser">
+								<h3 class="info-carousel-card-title">Corte con Láser</h3>
+								<p class="info-carousel-card-text">
+									Utiliza un rayo láser para cortar materiales con alta precisión y velocidad, ideal para cortes complejos y detallados en una amplia variedad de materiales.
+								</p>
 							</div>
 							<div class="info-carousel-card">
 
@@ -159,13 +178,18 @@
 
 							</div>
 							<div class="info-carousel-card">
-
-								<img src="/assets/img/pages/servicio/maquinado.webp" alt="Corte materiales Hidráulica">
-								<h3 class="info-carousel-card-title">Maquinado CNC y Convencional</h3>
+								<img src="/assets/img/pages/servicio/maquinadoCNC.webp" alt="Maquinado CNC">
+								<h3 class="info-carousel-card-title">Maquinado CNC</h3>
 								<p class="info-carousel-card-text">
 									Más de 40 máquinas CNC para fresado, torneado y rectificado, con capacidad para ensamblajes grandes (X 4000mm, Y 2000mm, Z 1600mm) y piezas pequeñas (X 300mm, Y 200mm, Z 200mm).
 								</p>
-
+							</div>
+							<div class="info-carousel-card">
+								<img src="/assets/img/pages/servicio/maquinadoConvencional.webp" alt="Maquinado Convencional">
+								<h3 class="info-carousel-card-title">Maquinado Convencional</h3>
+								<p class="info-carousel-card-text">
+									Equipos de maquinado convencional para fresado, torneado y rectificado, ideales para proyectos que requieren precisión y flexibilidad en piezas de diversos tamaños.
+								</p>
 							</div>
 							<div class="info-carousel-card">
 
@@ -183,6 +207,124 @@
 								<p class="info-carousel-card-text">
 									Soluciones personalizadas para el doblado de tubos de diferentes radios, adaptándose a materiales como cobre, aluminio, acero al carbono y acero inoxidable.
 								</p>
+
+							</div>
+
+						</div>
+					</div>
+
+				</section>
+				<section class="info-carousel-2" id="carouselSection2">
+
+					<h2 class="info-carousel-2-title">Servicios Especiales</h2>
+					<p class="info-carousel-2-description">
+						Ofrecemos una gama completa de soluciones avanzadas en corte, doblado y maquinado, diseñadas para satisfacer las demandas técnicas de múltiples industrias.
+					</p>
+					<div class="info-carousel-2-controls">
+						<button class="info-carousel-2-button" id="prevBtn2">❮</button>
+						<button class="info-carousel-2-button" id="nextBtn2">❯</button>
+					</div>
+					<div class="info-carousel-2-container">
+						<div class="info-carousel-2-track" id="infoCarouselTrack2">
+
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="trenes">
+
+								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1">
+								<h3 class="info-carousel-2-card-title">
+									Piezas Estructurales para Trenes
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Componentes metálicos diseñados para soportar altos niveles de carga y garantizar un desempeño confiable en sistemas ferroviarios.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="automotris">
+
+								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6">
+								<h3 class="info-carousel-2-card-title">
+									Partes de Chasis para la Industria Automotriz
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Elementos clave diseñados para ofrecer durabilidad y precisión en el ensamblaje de vehículos.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="industrial">
+
+								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1">
+								<h3 class="info-carousel-2-card-title">
+									Piezas para Maquinaria Industrial
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Soluciones adaptadas para maquinaria especializada, garantizando exactitud y fiabilidad en procesos industriales.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="aeronaves">
+
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1">
+								<h3 class="info-carousel-2-card-title">
+									Componentes Metálicos para Aeronaves
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Piezas ligeras y resistentes, fabricadas para cumplir con los estrictos estándares de la industria aeronáutica.
+								</p>
+
+							</div>
+							<div class="info-carousel-2-card interactive-card selected" data-target="productos-corte" data-image-group="autopartes">
+
+								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1">
+								<h3 class="info-carousel-2-card-title">
+									Autopartes Personalizadas
+								</h3>
+								<p class="info-carousel-2-card-text">
+									Fabricación a medida de componentes específicos para satisfacer las demandas de las líneas de producción automotrices.
+								</p>
+
+							</div>
+
+						</div>
+					</div>
+					<div id="auto-carousel-container" class="auto-carousel">
+						<div class="auto-carousel-track" id="auto-carousel-track">
+
+							<div class="carousel-images" data-group="trenes">
+
+								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/trenes/trenes_02.webp" alt="Pieza Trenes 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/trenes/trenes_03.webp" alt="Pieza Trenes 3" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="automotris">
+
+								<img src="/assets/img/pages/productos/automotris/automotris_01.webp" alt="Pieza Automotriz 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_02.webp" alt="Pieza Automotriz 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_03.webp" alt="Pieza Automotriz 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_04.webp" alt="Pieza Automotriz 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_05.webp" alt="Pieza Automotriz 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="industrial">
+
+								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_02.webp" alt="Pieza Industrial 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_03.webp" alt="Pieza Industrial 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_04.webp" alt="Pieza Industrial 4" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="aeronaves">
+
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_02.webp" alt="Pieza Aeronave 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_03.webp" alt="Pieza Aeronave 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_04.webp" alt="Pieza Aeronave 4" class="auto-carousel-img">
+
+							</div>
+							<div class="carousel-images" data-group="autopartes">
+
+								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/autopartes/autoparte_02.webp" alt="Autopartes 2" class="auto-carousel-img">
 
 							</div>
 
