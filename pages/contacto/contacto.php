@@ -20,7 +20,7 @@
 	<meta content="" property="og:image">
 
 	<!-- Link -->
-	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet" />
+	<link href="/assets/css/main.css" rel="stylesheet" />
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet" />
 	<link href="/assets/css/acomodo.css" rel="stylesheet" />
 	<link href="/assets/css/formulario.css" rel="stylesheet" />
