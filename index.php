@@ -19,7 +19,7 @@
 	<meta content="" property="og:image">
 
 	<!-- Link -->
-	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet" />
+	<link href="/assets/css/main.css" rel="stylesheet" />
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet" />
 	<link href="/assets/css/acomodo.css" rel="stylesheet" />
 	<link href="/assets/css/formulario.css" rel="stylesheet" />
@@ -268,7 +268,6 @@
 
 				</section>
 
-
 				<section class="c-section c-section--light c-carousel c-carousel--2" data-animate-section>
 
 					<div class="wrap wrap--max">
@@ -282,7 +281,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="c-carousel-slides" data-carousel data-animate data-animate-y="100" data-animate-delay="400">
+					<div class="c-carousel-slides" data-carousel data-animate data-animate-y="100" data-animate-delay="800">
 
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank"

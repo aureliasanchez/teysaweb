@@ -20,7 +20,7 @@
 	<meta content="" property="og:image">
 
 	<!-- Link -->
-	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet" />
+	<link href="/assets/css/main.css" rel="stylesheet" />
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet" />
 	<link href="/assets/css/acomodo.css" rel="stylesheet" />
 	<link href="/assets/css/formulario.css" rel="stylesheet" />
@@ -59,16 +59,6 @@
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center">
 
-							<div class="c-breadcrumb" aria-label="breadcrumb" data-animate data-animate-y="75">
-								<ul class="c-breadcrumb-ul">
-									<li class="c-breadcrumb-li">
-										<a href="/index.php">Inicio</a>
-									</li>
-									<li class="c-breadcrumb-li active" aria-current="page">
-										Acerca de
-									</li>
-								</ul>
-							</div>
 							<h1 class="ts-2 textGray" data-animate-title>
 								Maquinados Teysa:
 								<br>
@@ -256,112 +246,6 @@
 							</div>
 
 						</div>
-					</div>
-				</section>
-				<section class="c-section c-section--dark c-section--dark-1 c-carousel c-carousel--5"
-					data-animate-section>
-					<div class="wrap wrap--max">
-
-						<div class="c-carousel-header text-center">
-
-							<div class="c-carousel-year">
-								<div class="c-carousel-year-inner" data-animate data-animate-scale=".8">
-									<div class="c-carousel-year-item">
-										1988
-									</div>
-								</div>
-							</div>
-							<h2 class="ts-2 textWhite" data-animate-title data-animate-delay="100">Nuestra historia</h2>
-
-						</div>
-						<div class="c-carousel-inner" data-animate data-animate-y="100" data-animate-delay="200">
-
-							<div class="c-carousel-items">
-
-								<div class="c-carousel-item" data-year=2004>
-									<div class="c-grid">
-
-										<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-
-											<h2 class="ts-3 textWhite">
-												El Inicio de una Trayectoria de Precisión e Innovación
-											</h2>
-											<span class="ts-eyebrow textWhite">
-												Más de 20 años liderando la industria con calidad y tecnología avanzada
-											</span>
-
-										</div>
-										<div class="col-span-8 col-start-2 md:col-span-4 md:col-start-9 ts-p">
-											<p>
-												Fundada en 2004 en Cd. Sahagún, Hidalgo, Maquinados Teysa nació para satisfacer las necesidades de manufactura en la industria metalmecánica. Iniciamos con un enfoque en la fabricación de piezas de alta precisión para sectores clave como el ferroviario, aeronáutico y automotriz.
-												<br><br>
-												Con el tiempo, nos consolidamos como líderes del sector, integrando tecnología de vanguardia y logrando la certificación ISO 9001:2015. Hoy, exportamos a México, EE.UU., Canadá y España, ampliando nuestra presencia y compromiso con la calidad en el mercado global.
-											</p>
-										</div>
-
-									</div>
-								</div>
-
-							</div>
-							<div class="c-carousel-controls" data-animate data-animate-x="200" data-animate-delay="600">
-								<button class="c-carousel-control-prev">
-									<svg class="c-icon-arrow-top" width="17" height="16" viewBox="0 0 17 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.85742 6.47376L7.58128 2.7499C8.10198 2.2292 8.9462 2.2292 9.4669 2.7499L13.1908 6.47376M8.52409 2.63737L8.52409 13.6404"
-											stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-											stroke-linejoin="round" />
-									</svg>
-								</button>
-								<button class="c-carousel-control-next">
-									<svg class="c-icon-arrow-top" width="17" height="16" viewBox="0 0 17 16" fill="none"
-										xmlns="http://www.w3.org/2000/svg">
-										<path
-											d="M3.85742 6.47376L7.58128 2.7499C8.10198 2.2292 8.9462 2.2292 9.4669 2.7499L13.1908 6.47376M8.52409 2.63737L8.52409 13.6404"
-											stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-											stroke-linejoin="round" />
-									</svg>
-									<div class="c-carousel-control-next-progress">
-										<svg width="28" height="28" viewbox="0 0 28 28" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<circle cx="14" cy="14" r="13" stroke="red" stroke-opacity="1" />
-										</svg>
-									</div>
-								</button>
-							</div>
-							<div class="c-section-progress">
-								<div class="c-section-progress-inner">
-									<div class="c-section-progress-dots">
-										<div data-section-id="1" class="c-section-progress-dot"></div>
-										<div data-section-id="2" class="c-section-progress-dot"></div>
-										<div data-section-id="3" class="c-section-progress-dot"></div>
-										<div data-section-id="4" class="c-section-progress-dot"></div>
-										<div data-section-id="5" class="c-section-progress-dot"></div>
-										<div data-section-id="6" class="c-section-progress-dot"></div>
-										<div data-section-id="7" class="c-section-progress-dot"></div>
-										<div data-section-id="8" class="c-section-progress-dot"></div>
-										<div data-section-id="9" class="c-section-progress-dot"></div>
-										<div data-section-id="10" class="c-section-progress-dot"></div>
-									</div>
-								</div>
-								<div class="c-section-progress-drag">
-									<div class="c-section-progress-drag-text">
-										1988
-									</div>
-									<div class="c-section-progress-drag-icon">
-										<svg class="c-icon-drag-nav" width="8" height="8" viewBox="0 0 8 8" fill="none"
-											xmlns="http://www.w3.org/2000/svg">
-											<g opacity="0.6">
-												<path d="M0.832031 2.5H7.16536M0.832031 5.5H7.16536" stroke="#102458"
-													stroke-linecap="round" stroke-linejoin="round" />
-											</g>
-										</svg>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
 					</div>
 				</section>
 				<section class="c-map cellphoneDisapare" data-animate-section>

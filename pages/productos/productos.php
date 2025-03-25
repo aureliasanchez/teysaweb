@@ -20,7 +20,7 @@
 	<meta content="" property="og:image">
 
 	<!-- Link -->
-	<link href="/assets/css/main.ea4bcd9e.css" rel="stylesheet" />
+	<link href="/assets/css/main.css" rel="stylesheet" />
 	<link href="/assets/css/sobreEscribe.css" rel="stylesheet" />
 	<link href="/assets/css/acomodo.css" rel="stylesheet" />
 	<link href="/assets/css/formulario.css" rel="stylesheet" />
@@ -59,16 +59,6 @@
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center">
 
-							<div class="c-breadcrumb" aria-label="breadcrumb" data-animate data-animate-y="75">
-								<ul class="c-breadcrumb-ul">
-									<li class="c-breadcrumb-li">
-										<a href="/index.php">Inicio</a>
-									</li>
-									<li class="c-breadcrumb-li active" aria-current="page">
-										Nuestros Productos
-									</li>
-								</ul>
-							</div>
 							<h1 class="ts-2" data-animate-title>Productos que <span>Impulsan</span> la Industria</h1>
 							<div class="ts-p" data-animate-paragraph data-animate-delay="400" data-split-articles>
 								<p class="textBlack">
