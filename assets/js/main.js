@@ -68735,7 +68735,15 @@ class s5 extends py {
             drag: i,
             gap: "3.5rem",
             arrows: i,
-            breakpoints: { 800: { perPage: 1, arrows: n } },
+            speed: 1200, // ← más lento (milisegundos, default es 400)
+            autoplay: true,
+            interval: 6000, // ← cada cuánto tiempo avanza (milisegundos)
+            breakpoints: {
+              800: {
+                perPage: 1,
+                arrows: n,
+              },
+            },
           });
         r.mount(), this.slideInstances.push(r);
       });
