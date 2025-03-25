@@ -31,6 +31,7 @@
 	<link href="/assets/css/header.css" rel="stylesheet" />
 	<link href="/assets/css/videos.css" rel="stylesheet" />
 	<link href="/assets/css/carruceles.css" rel="stylesheet" />
+	<link href="/assets/css/dosCuadros.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default" />
 	<link href="/index.php" rel="canonical" />
@@ -110,7 +111,7 @@
 									</div>
 									<div class="ts-body--xl" data-animate-paragraph data-animate-delay="100"
 										data-split-articles>
-										<p>
+										<p style="padding-top: 5%;">
 											Cumplimos con las demandas de la industria ferroviaria, automotriz e industrial, ofreciendo corte, doblado y fabricación de piezas metálicas con tecnología avanzada y calidad certificada.
 										</p>
 									</div>
@@ -271,8 +272,8 @@
 
 					<div class="wrap wrap--max">
 						<div class="c-carousel-inner c-grid">
-							<div class="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
-								<h2 class="ts-3" data-animate-title>
+							<div class="col-span-8 col-start-2 md:col-span-14 md:col-start-2">
+								<h2 class="ts-2" data-animate-title>
 									Nuestros clientes
 									<span>confían</span>
 									en nosotros, ¿y tú?

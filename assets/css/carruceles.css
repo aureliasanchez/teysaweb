@@ -80,13 +80,13 @@
 }
 
 .info-carousel-card-title {
-    font-size: 40px;
-    margin: 15px 0 10px;
+    font-size: 2.5rem;
+    margin: 10px 0 15px;
 }
 
 .info-carousel-card-text {
-    font-size: 20px;
-    text-align: center;
+    font-size: 1.5rem;
+    text-align: left;
 }
 
 .info-carousel-controls {
@@ -112,6 +112,13 @@
     background: #3c8cff;
 }
 
+@media (max-width: 799px) {
+  .ts-3 {
+      font-size: 2rem;
+      line-height: 1.5;
+  }
+}
+
 @media (max-width: 768px) {
     .info-carousel-card {
         flex: 0 0 100%;
@@ -120,22 +127,26 @@
     .info-carousel-container {
         overflow: unset;
     }
+
+    .info-carousel-title {
+      font-size: 3rem;
+  }
 }
 
 /* Segundo carrucel */
 .info-carousel-2 {
   padding: 60px 20px;
-  background: #f5f5f5;
+  background: #eceef2;
   text-align: center;
 }
 
 .info-carousel-2-title {
-  font-size: 3rem;
+  font-size: 5rem;
   margin-bottom: 10px;
 }
 
 .info-carousel-2-description {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   max-width: 800px;
   margin: 0 auto 30px auto;
 }
@@ -151,8 +162,8 @@
   width: 80px;
   height: 80px;
   font-size: 20px;
-  background: black;
-  color: white;
+  background: #1b1b1b;
+  color: #eceef2;
   border: none;
   border-radius: 50%;
   cursor: pointer;
@@ -160,7 +171,7 @@
 }
 
 .info-carousel-2-button:hover {
-  background: #333;
+  background: #3c8cff;
 }
 
 .info-carousel-2-container {
@@ -178,7 +189,7 @@
 .info-carousel-2-card {
   flex: 0 0 calc(33.33% - 20px);
   margin: 10px;
-  background: white;
+  background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -197,13 +208,14 @@
 }
 
 .info-carousel-2-card-title {
-  font-size: 40px;
-  margin: 10px 0 5px;
+  font-size: 2.5rem;
+  margin: 10px 0 15px;
 }
 
 .info-carousel-2-card-text {
-  font-size: 18px;
-  color: #555;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #1b1b1b;
 }
 
 .interactive-card {
@@ -213,7 +225,7 @@
 
 .interactive-card:hover,
 .interactive-card.selected {
-  background-color: black;
+  background-color: #3c8cff;
   color: white;
   transform: scale(1.05);
 }
@@ -281,5 +293,9 @@
   .auto-carousel-img {
     width: 100%;
     min-width: 100%;
+  }
+
+  .info-carousel-2-title {
+    font-size: 3rem;
   }
 }

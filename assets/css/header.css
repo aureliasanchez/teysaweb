@@ -152,9 +152,16 @@
     }
   }
   
-  a.nav-active,
-  .mobile-menu a.nav-active {
-    background: #1b1b1b;
+  a.nav-active {
+    background: #3c8cff;
     color: #eceef2;
+    border: 2px solid #1b1b1b;
+    border-radius: 5px;
+  }
+
+  .mobile-menu a.nav-active {
+    background: #3c8cff;
+    color: #eceef2;
+    border: unset;
     border-radius: 5px;
   }

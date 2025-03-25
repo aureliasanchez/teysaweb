@@ -35,9 +35,48 @@ div {
     height: auto;
 }
 
+.c-list h3 {
+    font-size: 1.9rem;
+}
+
+.c-list p {
+    font-size: 1.3rem;
+}
+
 @media (max-width: 799px) {
-    .c-button-text {
-        height: auto;
+    .ts-body--xl+.c-button {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 799px) {
+    .c-button--ts-1 .c-button-text {
+        height: 1.2rem;
+    }
+
+    .c-button .c-button-text+.c-button-icon {
+        display: none;
+    }
+
+    .c-button--ts-1 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 799px) {
+    .ts-2 {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 799px) {
+    .c-section--title-1 .c-section--title-1-h2 {
+        max-width: 90%;
+    }
+
+    .c-section--title-text-center {
+        text-align: justify;
     }
 }
 
@@ -457,13 +496,18 @@ video {
 
 @media (max-width: 600px) {
     .break-word {
-        word-break: break-all;
+        word-break: inherit;
         white-space: normal !important;
         padding-top: 5%;
     }
 
     .cellphoneDisapare {
         display: none;
+    }
+
+    .c-section--title-1 {
+        --padding: 3rem;
+        --padding-b: 2rem;
     }
 }
 

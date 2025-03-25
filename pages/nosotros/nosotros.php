@@ -16,7 +16,7 @@
 	<meta content="https://www.Teysa.com/contacto/" property="og:url">
 	<meta name="description" content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.">
 	<meta content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más." property="og:description">
-	<meta content="Teysa | Acerca de" property="og:title">
+	<meta content="Teysa | Nosotros" property="og:title">
 	<meta content="" property="og:image">
 
 	<!-- Link -->
@@ -32,6 +32,7 @@
 	<link href="/assets/css/header.css" rel="stylesheet" />
 	<link href="/assets/css/videos.css" rel="stylesheet" />
 	<link href="/assets/css/carruceles.css" rel="stylesheet" />
+	<link href="/assets/css/dosCuadros.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
@@ -43,7 +44,7 @@
 	<link href="https://www.performanse.com/en/about-us/" rel="alternate" hreflang="en">
 
 	<link href="/assets/img/logo/webp/icono/logoFinal.webp" rel="icon">
-	<title>Teysa | Acerca de</title>
+	<title>Teysa | Nosotros</title>
 </head>
 
 <body style="opacity: 0;">
@@ -68,67 +69,27 @@
 						</div>
 					</div>
 				</div>
-				<section class="c-section c-section--dark c-section--dark-2 c-lock-scroll-1" data-nav-section="dark">
-					<div class="wrap wrap--max">
-						<div class="c-lock-scroll-cards-wrap">
+				<div class="spa-card-grid">
 
-							<div class="c-lock-scroll-cards-scrollbar-wrap">
-								<div class="c-lock-scroll-cards-scrollbar">
-									<div class="c-lock-scroll-cards-scrollbar-inner"></div>
-								</div>
-							</div>
-							<div class="c-lock-scroll-cards">
+					<div class="spa-card-item">
 
-								<div class="c-lock-scroll-card" data-animate-section>
-									<div class="c-grid items-center c-lock-scroll-card-inner">
+						<img src="/assets/img/pages/acercaDe/equipo.webp" alt="Equipo de trabajo" class="spa-card-img" loading="lazy">
+						<h3 class="spa-card-title">Sobre Nosotros</h3>
+						<p class="spa-card-text">
+							En Maquinados Teysa creemos en la integridad, la innovación y la calidad como pilares fundamentales de nuestra filosofía. Nuestra personalidad profesional y comprometida se refleja en cada proyecto, ofreciendo flexibilidad en procesos y soluciones personalizadas. Nos diferenciamos por contar con tecnología de vanguardia, más de 40 máquinas CNC y una certificación ISO 9001:2015, lo que nos posiciona como líderes en el sector metalmecánico.
+						</p>
 
-										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2" data-animate data-animate-scale="0.8">
-											<img src="/assets/img/pages/acercaDe/equipo.webp" alt="Equipo de trabajo" class="imgFat centrado">
-										</div>
-										<div class="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
-
-											<h3 class="ts-3" data-animate-title>
-												Acerca de
-											</h3>
-											<div class="ts-p" data-split-articles data-animate-paragraph
-												data-animate-delay="200">
-												<p class="textoJustificado">
-													En Maquinados Teysa creemos en la integridad, la innovación y la calidad como pilares fundamentales de nuestra filosofía. Nuestra personalidad profesional y comprometida se refleja en cada proyecto, ofreciendo flexibilidad en procesos y soluciones personalizadas. Nos diferenciamos por contar con tecnología de vanguardia, más de 40 máquinas CNC y una certificación ISO 9001:2015, lo que nos posiciona como líderes en el sector metalmecánico.
-												</p>
-											</div>
-
-										</div>
-
-									</div>
-								</div>
-								<div class="c-lock-scroll-card" data-animate-section>
-									<div class="c-grid items-center c-lock-scroll-card-inner">
-
-										<div class="c-lock-scroll-card-img col-span-10 md:col-span-6 md:col-start-2" data-animate data-animate-scale="0.8">
-											<img src="/assets/img/pages/acercaDe/fundamentos.webp" alt="Maquina" class="imgFat centrado">
-										</div>
-										<div class="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
-
-											<h3 class="ts-3" data-animate-title>
-												Nuestros fundamentos
-											</h3>
-											<div class="ts-p" data-split-articles data-animate-paragraph
-												data-animate-delay="200">
-												<p>
-													Desde 2004, Maquinados Teysa diseña y fabrica soluciones de alta precisión para las industrias ferroviaria, automotriz y aeronáutica. Con tecnología de vanguardia y certificación ISO 9001:2015, somos sinónimo de calidad e innovación a nivel nacional e internacional.
-												</p>
-											</div>
-
-										</div>
-
-									</div>
-								</div>
-
-							</div>
-
-						</div>
 					</div>
-				</section>
+					<div class="spa-card-item">
+
+						<img src="/assets/img/pages/acercaDe/fundamentos.webp" alt="Maquina" class="spa-card-img" loading="lazy">
+						<h3 class="spa-card-title">Nuestros fundamentos</h3>
+						<p class="spa-card-text">
+							Desde 2004, Maquinados Teysa diseña y fabrica soluciones de alta precisión para las industrias ferroviaria, automotriz y aeronáutica. Con tecnología de vanguardia y certificación ISO 9001:2015, somos sinónimo de calidad e innovación a nivel nacional e internacional.
+						</p>
+					</div>
+
+				</div>
 				<section class="c-section c-section--light c-section--card-cyan-highlight c-cards c-cards--4"
 					data-animate-section data-nav-section="light">
 					<div class="wrap wrap--max">
