@@ -114,7 +114,7 @@
 							</div>
 						</div>
 						<div class="custom-form-container">
-							<form action="send_email.php" method="post">
+							<form action="procesar_formulario.php" method="post">
 								<div class="custom-form-group">
 									<label class="custom-form-label">Nombre Completo *</label>
 									<input type="text" name="nombre" class="custom-form-input" required>
