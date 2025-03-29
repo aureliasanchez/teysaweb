@@ -85,6 +85,12 @@
     .c-nav-bar-bg {
         margin-top: 8px;
     }
+
+    .imgLarge {
+        height: 100%;
+        width: auto;
+        max-height: 400px;
+    }
 }
 
 @media (max-width: 350px) {

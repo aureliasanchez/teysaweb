@@ -13,8 +13,11 @@
 	<meta content="es" property="og:locale">
 	<meta content="website" property="og:type">
 	<meta content="https://www.Teysa.com/contacto/" property="og:url">
-	<meta name="description" content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.">
-	<meta content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más." property="og:description">
+	<meta name="description"
+		content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.">
+	<meta
+		content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más."
+		property="og:description">
 	<meta content="Teysa | Innovación en Maquinados" property="og:title">
 	<meta content="" property="og:image">
 
@@ -55,7 +58,9 @@
 
 			<div class="video-section">
 
-				<iframe src="https://www.youtube.com/embed/kDInHYMnMGI?autoplay=1&mute=1&loop=1&playlist=kDInHYMnMGI&controls=0&showinfo=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+				<iframe
+					src="https://www.youtube.com/embed/kDInHYMnMGI?autoplay=1&mute=1&loop=1&playlist=kDInHYMnMGI&controls=0&showinfo=0&modestbranding=1"
+					frameborder="0" allowfullscreen></iframe>
 				<div class="video-overlay">
 
 					<div class="title">
@@ -64,7 +69,9 @@
 						<span>con precisión</span>
 					</div>
 					<p>
-						Desde México para el mundo, Maquinados Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
+						Desde México para el mundo, Maquinados Teysa combina tecnología de vanguardia y 45 centros de
+						maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas,
+						adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
 					</p>
 					<a href="/pages/servicios/servicios.php" class="cta-button">
 						Descubre nuestras soluciones
@@ -75,7 +82,8 @@
 			</div>
 			<div data-page data-entry-id="1">
 
-				<section class="c-section c-section--title-text-center c-section--light" data-animate-section data-nav-section="light">
+				<section class="c-section c-section--title-text-center c-section--light" data-animate-section
+					data-nav-section="light">
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center textBlack">
 
@@ -90,7 +98,9 @@
 									<strong>
 										Teysa
 									</strong>
-									contamos con tecnología avanzada y servicios especializados en corte, doblado, fabricación y maquinado para cubrir las necesidades de las industrias más exigentes. Descubre cómo podemos apoyar tus proyectos con soluciones hechas a la medida.
+									contamos con tecnología avanzada y servicios especializados en corte, doblado,
+									fabricación y maquinado para cubrir las necesidades de las industrias más exigentes.
+									Descubre cómo podemos apoyar tus proyectos con soluciones hechas a la medida.
 								</p>
 							</div>
 
@@ -98,7 +108,8 @@
 					</div>
 				</section>
 				<div class="c-cards-wrap">
-					<section class="c-cards c-cards--1 bgDarkGeay" data-animate-section data-animate-margin="-35% 0% -35% 0%" data-nav-section="dark">
+					<section class="c-cards c-cards--1 bgDarkGeay" data-animate-section
+						data-animate-margin="-35% 0% -35% 0%" data-nav-section="dark">
 						<div class="wrap wrap--max">
 							<div class="c-grid items-center">
 
@@ -112,10 +123,13 @@
 									<div class="ts-body--xl" data-animate-paragraph data-animate-delay="100"
 										data-split-articles>
 										<p style="padding-top: 5%;">
-											Cumplimos con las demandas de la industria ferroviaria, automotriz e industrial, ofreciendo corte, doblado y fabricación de piezas metálicas con tecnología avanzada y calidad certificada.
+											Cumplimos con las demandas de la industria ferroviaria, automotriz e
+											industrial, ofreciendo corte, doblado y fabricación de piezas metálicas con
+											tecnología avanzada y calidad certificada.
 										</p>
 									</div>
-									<a href="./pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
+									<a href="./pages/servicios/servicios.php"
+										class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 										<span class="c-button-bg">
 											<span></span>
@@ -131,7 +145,8 @@
 												fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path
 													d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-													stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+													stroke="currentColor" stroke-linecap="round"
+													stroke-linejoin="round" />
 											</svg>
 										</span>
 
@@ -141,7 +156,8 @@
 								<div class="col-span-10 md:col-span-7 md:text-right mobile:order-1">
 									<div class="c-cards-illustration">
 										<div>
-											<img src="/assets/img/pages/index/soluciones.webp" alt="Dobles metal" class="imgLarge centrado">
+											<img src="/assets/img/pages/index/soluciones.webp" alt="Dobles metal"
+												class="imgLarge centrado">
 										</div>
 									</div>
 								</div>
@@ -161,9 +177,12 @@
 										<span class="c-title-parts-wrap">
 											<span class="c-title-parts-bg"></span>
 											<span class="c-title-parts">
-												<span class="c-title-part" data-split-chars data-split-resize="false">Sencillo</span>
-												<span class="c-title-part" data-split-chars data-split-resize="false">Simple</span>
-												<span class="c-title-part" data-split-chars data-split-resize="false">Accesible</span>
+												<span class="c-title-part" data-split-chars
+													data-split-resize="false">Sencillo</span>
+												<span class="c-title-part" data-split-chars
+													data-split-resize="false">Simple</span>
+												<span class="c-title-part" data-split-chars
+													data-split-resize="false">Accesible</span>
 											</span>
 										</span>
 										<span class="break-word">
@@ -180,24 +199,28 @@
 					data-animate-section data-nav-section="light">
 					<div class="wrap wrap--max">
 						<div class="grid grid-cols-10 lg:grid-cols-14 gap-x-20 lg:gap-x-60">
-							<ul class="c-list col-span-8 col-start-2 md:col-span-14 md:col-start-1 lg:col-span-12 lg:col-start-2" data-animate-items>
+							<ul class="c-list col-span-8 col-start-2 md:col-span-14 md:col-start-1 lg:col-span-12 lg:col-start-2"
+								data-animate-items>
 
 								<li>
 									<h3>01. Contáctanos</h3>
 									<p>
-										Cuéntanos sobre tu proyecto y especificaciones. Nuestro equipo evaluará tus necesidades para ofrecerte una solución personalizada.
+										Cuéntanos sobre tu proyecto y especificaciones. Nuestro equipo evaluará tus
+										necesidades para ofrecerte una solución personalizada.
 									</p>
 								</li>
 								<li>
 									<h3>02. Recibe tu Propuesta</h3>
 									<p>
-										Te enviaremos una cotización detallada, junto con un plan adaptado a los requerimientos de tu industria.
+										Te enviaremos una cotización detallada, junto con un plan adaptado a los
+										requerimientos de tu industria.
 									</p>
 								</li>
 								<li>
 									<h3>03. Producción y Entrega</h3>
 									<p>
-										Una vez aprobado, comenzamos con la fabricación utilizando tecnología avanzada para garantizar precisión y calidad, entregando en tiempo y forma.
+										Una vez aprobado, comenzamos con la fabricación utilizando tecnología avanzada
+										para garantizar precisión y calidad, entregando en tiempo y forma.
 									</p>
 								</li>
 
@@ -237,7 +260,8 @@
 							</div>
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/pages/index/servicios/guillotina.webp" alt="Corte materiales Hidráulica">
+								<img src="/assets/img/pages/index/servicios/guillotina.webp"
+									alt="Corte materiales Hidráulica">
 								<h3 class="info-carousel-card-title">Corte con Guillotina Hidráulica</h3>
 								<p class="info-carousel-card-text">
 									Soluciones rápidas y eficaces.
@@ -281,11 +305,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="c-carousel-slides" data-carousel data-animate data-animate-y="100" data-animate-delay="800">
+					<div class="c-carousel-slides" data-carousel data-animate data-animate-y="100"
+						data-animate-delay="800">
 
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/alstom.webp" alt="Alstom" />
 								</span>
@@ -295,8 +319,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/amstedRail.webp" alt="Amsted Rail" />
 								</span>
@@ -306,8 +329,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/caf.webp" alt="CAF" />
 								</span>
@@ -317,8 +339,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/comau.webp" alt="Comau" />
 								</span>
@@ -328,8 +349,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/bombardier.webp" alt="Bombardier" />
 								</span>
@@ -339,8 +359,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/danieli.webp" alt="Danieli" />
 								</span>
@@ -350,8 +369,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/dina.webp" alt="Dina" />
 								</span>
@@ -361,8 +379,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/espartec.webp" alt="Espartec" />
 								</span>
@@ -372,8 +389,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/forbo.webp" alt="Forbo" />
 								</span>
@@ -383,8 +399,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/gerdau.webp" alt="Gerdau" />
 								</span>
@@ -394,8 +409,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/greenbrier.webp" alt="Greenbrier" />
 								</span>
@@ -405,8 +419,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/kuka.webp" alt="Kuka" />
 								</span>
@@ -416,8 +429,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/lauak.webp" alt="Lauak" />
 								</span>
@@ -427,8 +439,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg" alt="Matrix Metals" />
 								</span>
@@ -438,8 +449,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/sycsa.webp" alt="Sycsa" />
 								</span>
@@ -449,8 +459,7 @@
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
-							<a class="c-carousel-slide-inner c-client-logo" target="_blank"
-								rel="noreferrer noopener">
+							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
 									<img src="/assets/img/pages/index/clientes/vicrila.webp" alt="Vicrila" />
 								</span>
@@ -470,22 +479,27 @@
 							<div class="col-span-8 col-start-2 md:col-span-6 lg:col-span-5 lg:col-start-2">
 								<div class="c-dropdown-1-text">
 
-									<h2 class="ts-3" data-animate-title data-animate-delay="100">Preguntas Frecuentes</h2>
-									<div class="c-dropdown-1-illustration cellphoneDisapare" data-animate data-animate-delay="400" data-animate-scale=".8">
-										<img src="/assets/img/pages/index/pregunta.webp" alt="Pregunta" class="imgLarge centrado imgReduccion">
+									<h2 class="ts-3" data-animate-title data-animate-delay="100">Preguntas Frecuentes
+									</h2>
+									<div class="c-dropdown-1-illustration cellphoneDisapare" data-animate
+										data-animate-delay="400" data-animate-scale=".8">
+										<img src="/assets/img/pages/index/pregunta.webp" alt="Pregunta"
+											class="imgLarge centrado imgReduccion">
 									</div>
 
 								</div>
 							</div>
 							<div class="col-span-10 md:col-span-8 md:col-start-7 lg:col-span-7 lg:col-start-8">
-								<ul class="c-dropdown-items" data-accordions data-animate-items data-animate-stagger="70" data-animate-y="50" data-animate-delay="300">
+								<ul class="c-dropdown-items" data-accordions data-animate-items
+									data-animate-stagger="70" data-animate-y="50" data-animate-delay="300">
 
 									<li class="c-dropdown-item" data-accordion>
 
 										<div class="c-dropdown-item-title" data-accordion-trigger>
 
 											<span class="c-dropdown-item-title-text">
-												¿Qué tipos de materiales pueden trabajar en sus procesos de corte y maquinado?
+												¿Qué tipos de materiales pueden trabajar en sus procesos de corte y
+												maquinado?
 											</span>
 											<span class="c-dropdown-item-title-icon">
 												<svg enable-background="new 0 0 24 24" viewBox="0 0 24 24"
@@ -502,7 +516,8 @@
 											<div class="c-dropdown-item-text">
 												<div>
 													<p>
-														Trabajamos con acero, aluminio, cobre y acero inoxidable, adaptándonos a las necesidades específicas de tu proyecto.
+														Trabajamos con acero, aluminio, cobre y acero inoxidable,
+														adaptándonos a las necesidades específicas de tu proyecto.
 													</p>
 												</div>
 											</div>
@@ -531,7 +546,8 @@
 											<div class="c-dropdown-item-text">
 												<div>
 													<p>
-														Sí, estamos certificados bajo la norma ISO 9001:2015, garantizando procesos con los más altos estándares de calidad.
+														Sí, estamos certificados bajo la norma ISO 9001:2015,
+														garantizando procesos con los más altos estándares de calidad.
 													</p>
 												</div>
 											</div>
@@ -560,7 +576,9 @@
 											<div class="c-dropdown-item-text">
 												<div>
 													<p>
-														Atendemos principalmente a las industrias ferroviaria, automotriz, aeronáutica e industrial, además de otras manufacturas especializadas.
+														Atendemos principalmente a las industrias ferroviaria,
+														automotriz, aeronáutica e industrial, además de otras
+														manufacturas especializadas.
 													</p>
 												</div>
 											</div>
@@ -589,7 +607,9 @@
 											<div class="c-dropdown-item-text">
 												<div>
 													<p>
-														Contamos con más de 40 máquinas CNC y tecnologías avanzadas para atender proyectos de cualquier tamaño, desde piezas pequeñas hasta grandes ensamblajes.
+														Contamos con más de 40 máquinas CNC y tecnologías avanzadas para
+														atender proyectos de cualquier tamaño, desde piezas pequeñas
+														hasta grandes ensamblajes.
 													</p>
 												</div>
 											</div>
@@ -618,7 +638,9 @@
 											<div class="c-dropdown-item-text">
 												<div>
 													<p>
-														Solo necesitas contactarnos a través de nuestro formulario en línea o directamente por correo o teléfono, y uno de nuestros asesores se pondrá en contacto contigo.
+														Solo necesitas contactarnos a través de nuestro formulario en
+														línea o directamente por correo o teléfono, y uno de nuestros
+														asesores se pondrá en contacto contigo.
 													</p>
 												</div>
 											</div>
@@ -632,7 +654,8 @@
 						</div>
 					</div>
 				</section>
-				<section class="c-section c-section--light c-section--related" data-nav-section="light" data-animate-section>
+				<section class="c-section c-section--light c-section--related" data-nav-section="light"
+					data-animate-section>
 					<div class="wrap wrap--max">
 
 						<div class="flex flex-col items-center text-center">
@@ -643,13 +666,15 @@
 									<span>
 										soluciones de corte,
 									</span>
-									doblado y maquinado diseñadas para optimizar procesos, reducir tiempos y garantizar resultados de calidad Consulta nuestro blog
+									doblado y maquinado diseñadas para optimizar procesos, reducir tiempos y garantizar
+									resultados de calidad Consulta nuestro blog
 								</h2>
 							</span>
 							<div class="c-cards-content" style="padding-top: 5%;">
 								<div class="c-cards-content-cta">
 									<div data-animate data-animate-delay="400">
-										<a href="/pages/servicios/servicios.php" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
+										<a href="/pages/servicios/servicios.php"
+											class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
 
 											<span class="c-button-bg">
 												<span></span>
@@ -661,11 +686,12 @@
 												</span>
 											</span>
 											<span class="c-button-icon">
-												<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
+												<svg class="c-icon-arrow-right-sm" width="10" height="9"
+													viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path
 														d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-														stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+														stroke="currentColor" stroke-linecap="round"
+														stroke-linejoin="round" />
 												</svg>
 											</span>
 
@@ -698,7 +724,7 @@
 	<!-- Scripts -->
 	<script type="module" src="/assets/js/main.js" crossorigin="anonymous"
 		onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
-	</script>
+		</script>
 	<script src="/assets/js/precarga.js"></script>
 	<script src="/assets/js/universal.js"></script>
 	<script src="/assets/js/header.js"></script>
