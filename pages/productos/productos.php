@@ -56,65 +56,24 @@
 
 			<div data-page data-entry-id="47">
 
-				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--light" data-animate-section data-nav-section="light">
+				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--light fondoIndex" data-animate-section data-nav-section="light" style="background-image: url(/assets/img/pages/productos/fondo.webp);">
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center">
 
-							<h1 class="ts-2" data-animate-title>Productos que <span>Impulsan</span> la Industria</h1>
+							<h1 class="ts-2 textGray" data-animate-title>
+								Productos que
+								<span>Impulsan</span>
+								la Industria
+							</h1>
 							<div class="ts-p" data-animate-paragraph data-animate-delay="400" data-split-articles>
-								<p class="textBlack">
+								<p class="textGray">
 									Fabricamos piezas metálicas diseñadas para cumplir con los estándares más exigentes. Desde componentes ferroviarios hasta autopartes, garantizamos precisión y calidad en cada producto
 								</p>
-							</div>
-							<div class="c-cards-content" style="padding-top: 5%;">
-								<div class="c-cards-content-cta">
-									<div data-animate data-animate-delay="400">
-										<a href="#productos" class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
-
-											<span class="c-button-bg">
-												<span></span>
-											</span>
-											<span class="c-button-text">
-												<span class="c-button-text-inner">
-													<span class="c-button-text-hover">Explora nuestra gama de productos</span>
-													<span class="c-button-text-static">Explora nuestra gama de productos</span>
-												</span>
-											</span>
-											<span class="c-button-icon">
-												<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-														stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
-												</svg>
-											</span>
-
-										</a>
-									</div>
-								</div>
 							</div>
 
 						</div>
 					</div>
 				</div>
-				<section class="c-section c-section--light c-section--title-illustration" data-animate-section data-nav-section="light">
-					<div class="wrap">
-						<div class="c-grid">
-
-							<div class="col-span-10 md:col-span-12 md:col-start-2 text-center c-section-title">
-								<h2 class="ts-2 textBlack" data-animate-title>Versatilidad en <span>Cada Proyecto</span></h2>
-							</div>
-							<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
-								<p class="textBlack">
-									Desde trenes y aviones hasta maquinaria industrial, nuestros productos se adaptan a múltiples aplicaciones con precisión garantizada
-								</p>
-							</div>
-
-						</div>
-					</div>
-				</section>
-
-
 				<section class="info-carousel-2" id="carouselSection2">
 
 					<h2 class="info-carousel-2-title">Productos Especiales</h2>
@@ -130,7 +89,7 @@
 
 							<div class="info-carousel-2-card interactive-card selected" data-target="piesas trenes" data-image-group="trenes">
 
-								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1">
+								<img src="/assets/img/pages/productos/trenes/trenes_01.webp"  loading="lazy" alt="Pieza Trenes 1">
 								<h3 class="info-carousel-2-card-title">
 									Piezas Estructurales para Trenes
 								</h3>
@@ -141,7 +100,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="piesas automotris" data-image-group="automotris">
 
-								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6">
+								<img src="/assets/img/pages/productos/automotris/automotris_06.webp"  loading="lazy" alt="Pieza Automotriz 6">
 								<h3 class="info-carousel-2-card-title">
 									Partes de Chasis para la Industria Automotriz
 								</h3>
@@ -152,7 +111,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="piesas maquinaria industrial" data-image-group="industrial">
 
-								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1">
+								<img src="/assets/img/pages/productos/industrial/industrial_01.webp"  loading="lazy" alt="Pieza Industrial 1">
 								<h3 class="info-carousel-2-card-title">
 									Piezas para Maquinaria Industrial
 								</h3>
@@ -163,7 +122,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="piesas aeronaves" data-image-group="aeronaves">
 
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp"  loading="lazy" alt="Pieza Aeronave 1">
 								<h3 class="info-carousel-2-card-title">
 									Componentes Metálicos para Aeronaves
 								</h3>
@@ -174,7 +133,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="autopartes personalisadas" data-image-group="autopartes">
 
-								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1">
+								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp"  loading="lazy" alt="Autopartes 1">
 								<h3 class="info-carousel-2-card-title">
 									Autopartes Personalizadas
 								</h3>
@@ -191,41 +150,41 @@
 
 							<div class="carousel-images" data-group="trenes">
 
-								<img src="/assets/img/pages/productos/trenes/trenes_01.webp" alt="Pieza Trenes 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/trenes/trenes_02.webp" alt="Pieza Trenes 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/trenes/trenes_03.webp" alt="Pieza Trenes 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/trenes/trenes_01.webp"  loading="lazy" alt="Pieza Trenes 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/trenes/trenes_02.webp"  loading="lazy" alt="Pieza Trenes 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/trenes/trenes_03.webp"  loading="lazy" alt="Pieza Trenes 3" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="automotris">
 
-								<img src="/assets/img/pages/productos/automotris/automotris_01.webp" alt="Pieza Automotriz 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_02.webp" alt="Pieza Automotriz 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_03.webp" alt="Pieza Automotriz 3" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_04.webp" alt="Pieza Automotriz 4" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_05.webp" alt="Pieza Automotriz 5" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_06.webp" alt="Pieza Automotriz 6" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_01.webp"  loading="lazy" alt="Pieza Automotriz 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_02.webp"  loading="lazy" alt="Pieza Automotriz 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_03.webp"  loading="lazy" alt="Pieza Automotriz 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_04.webp"  loading="lazy" alt="Pieza Automotriz 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_05.webp"  loading="lazy" alt="Pieza Automotriz 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/automotris/automotris_06.webp"  loading="lazy" alt="Pieza Automotriz 6" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="industrial">
 
-								<img src="/assets/img/pages/productos/industrial/industrial_01.webp" alt="Pieza Industrial 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/industrial/industrial_02.webp" alt="Pieza Industrial 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/industrial/industrial_03.webp" alt="Pieza Industrial 3" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/industrial/industrial_04.webp" alt="Pieza Industrial 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_01.webp"  loading="lazy" alt="Pieza Industrial 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_02.webp"  loading="lazy" alt="Pieza Industrial 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_03.webp"  loading="lazy" alt="Pieza Industrial 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/industrial/industrial_04.webp"  loading="lazy" alt="Pieza Industrial 4" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="aeronaves">
 
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp" alt="Pieza Aeronave 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_02.webp" alt="Pieza Aeronave 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_03.webp" alt="Pieza Aeronave 3" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/aeronaves/aeronaves_04.webp" alt="Pieza Aeronave 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_01.webp"  loading="lazy" alt="Pieza Aeronave 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_02.webp"  loading="lazy" alt="Pieza Aeronave 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_03.webp"  loading="lazy" alt="Pieza Aeronave 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/aeronaves/aeronaves_04.webp"  loading="lazy" alt="Pieza Aeronave 4" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="autopartes">
 
-								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp" alt="Autopartes 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/autopartes/autoparte_02.webp" alt="Autopartes 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/autopartes/autoparte_01.webp"  loading="lazy" alt="Autopartes 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/productos/autopartes/autoparte_02.webp"  loading="lazy" alt="Autopartes 2" class="auto-carousel-img">
 
 							</div>
 
@@ -233,9 +192,6 @@
 					</div>
 
 				</section>
-
-
-
 				<section class="c-section c-section--light c-section--related" data-nav-section="light" data-animate-section>
 					<div class="wrap wrap--max">
 
@@ -244,42 +200,36 @@
 							<span class="c-title c-title--3">
 								<h2 class="ts-3" data-animate-title>
 									Eleva tus proyectos con productos diseñados para cumplir las demandas
-									<span>
+									<span style="color: #eceef2;">
 										más exigentes
 									</span>
 									de tu industria
 								</h2>
 							</span>
-							<div class="c-cards-content" style="padding-top: 5%;">
-								<div class="c-cards-content-cta">
-									<div data-animate data-animate-delay="400">
-										<a href="/pages/contacto/contacto.php" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue">
+							<a href="/pages/contacto/contacto.php"
+								class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue diagonal-corners"
+								style="margin-top: 5%;">
 
-											<span class="c-button-bg">
-												<span class="c-button-bg-hover"></span>
-											</span>
-											<span class="c-button-text">
-												<span class="c-button-text-inner">
+								<span class="c-button-bg">
+									<span></span>
+								</span>
+								<span class="c-button-text">
+									<span class="c-button-text-inner">
+										<span class="c-button-text-hover">Solicita tu cotización ahora</span>
+										<span class="c-button-text-static">Solicita tu cotización ahora</span>
+									</span>
+								</span>
+								<span class="c-button-icon">
+									<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
+										fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
+											stroke="currentColor" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</span>
 
-													<span class="c-button-text-hover">Solicita tu cotización hoy mismo</span>
-													<span class="c-button-text-static">Solicita tu cotización hoy mismo</span>
-
-												</span>
-											</span>
-											<span class="c-button-icon">
-												<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-														stroke="currentColor" stroke-linecap="round"
-														stroke-linejoin="round" />
-												</svg>
-											</span>
-
-										</a>
-									</div>
-								</div>
-							</div>
+							</a>
 
 						</div>
 

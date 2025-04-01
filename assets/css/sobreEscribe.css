@@ -27,7 +27,7 @@ div {
 }
 
 .c-button--ts-1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1;
 }
 
@@ -51,7 +51,7 @@ div {
 
 @media (max-width: 799px) {
     .c-button--ts-1 .c-button-text {
-        height: 1.2rem;
+        height: 1.5rem;
     }
 
     .c-button .c-button-text+.c-button-icon {
@@ -59,7 +59,7 @@ div {
     }
 
     .c-button--ts-1 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -104,14 +104,14 @@ div {
 }
 
 .c-section--title-text-center .ts-p {
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 .buttonColorBlue {
     background-color: #0146f9;
     color: #eceef2;
     border-color: #eceef2;
-    border-width: 2px;
+    border-width: 0px;
     border-style: solid;
 }
 
@@ -162,7 +162,8 @@ div {
 }
 
 .c-section--title-1 .c-title-parts-bg {
-    border: .125rem solid #3c8cff;
+    border: .125rem solid #0146f9;
+    border-radius: 0%;
 }
 
 .c-list h3 {
@@ -186,7 +187,7 @@ div {
 .c-dropdown-1 {
     --background-color: #eceef2;
     --title-color: #1b1b1b;
-    --dropdown-item-background-color: #3c8cff;
+    --dropdown-item-background-color: #0146f9;
     --dropdown-item-hover-background-color: #1b1b1b;
     --dropdown-item-active-background-color: #1b1b1b;
     --dropdown-item-expanded-background-color: #1b1b1b;
@@ -251,7 +252,15 @@ div {
 }
 
 .ts-3 .title-span:before {
-    background: #3c8cff68;
+    background: #0146f9;
+}
+
+.c-section--form .ts-eyebrow {
+    max-width: 90%;
+}
+
+.ts-eyebrow {
+    font-size: 1rem;
 }
 
 .c-nav-menu-bg {
@@ -460,7 +469,7 @@ video {
 }
 
 .ts-2 .title-span:before {
-    background: #3c8cff68;
+    background: #0146f9;
 }
 
 .c-cards--5 {
@@ -566,6 +575,19 @@ video {
     min-width: 200vh;
     transform: translate(-50%, -50%);
     pointer-events: none;
+}
+
+.diagonal-corners {
+    clip-path: polygon(0 0,
+            /* Top-left */
+            90% 0,
+            /* Top-right (cut) */
+            100% 10%,
+            100% 100%,
+            /* Bottom-right */
+            10% 100%,
+            /* Bottom-left (cut) */
+            0 90%);
 }
 
 @media (max-width: 1100px) {

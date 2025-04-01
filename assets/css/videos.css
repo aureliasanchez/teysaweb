@@ -69,14 +69,14 @@
     background-color: #1b1b1b;
     text-decoration: none;
     border-radius: 5px;
-    border: 2px solid #1b1b1b;
+    /* border: 2px solid #1b1b1b; */
     transition: background 0.3s ease, color 0.3s ease;
 }
 
 .video-overlay .cta-button:hover {
     background-color: #3c8cff;
     color: #eceef2;
-    border: 2px solid #1b1b1b;
+    /* border: 2px solid #1b1b1b; */
 }
 
 @media (max-width: 1100px) {

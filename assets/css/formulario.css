@@ -49,7 +49,7 @@
     color: white;
     border: none;
     border-radius: 0px;
-    font-size: 18px;
+    font-size: 2rem;
     cursor: pointer;
     transition: background 0.3s ease;
 }
@@ -111,16 +111,10 @@
     justify-content: center; /* Centra el contenido horizontalmente */
 }
 
-.custom-form-button {
-    width: auto;
-    padding: 20px 40px; /* Aumenta el tamaño del botón */
-    background: #0146f9;
-    color: white;
-    border: none;
-    border-radius: 0px;
-    font-size: 22px; /* Aumenta el tamaño de la letra */
-    cursor: pointer;
-    transition: background 0.3s ease;
+@media (max-width: 650px){
+    .custom-form-button {
+        font-size: 1.5rem; /* Aumenta el tamaño de la letra */
+    }
 }
 
 .custom-form-button:hover {

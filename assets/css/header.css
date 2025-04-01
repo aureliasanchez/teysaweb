@@ -36,14 +36,14 @@
     font-size: 20px;
     padding: 14px 20px;
     font-weight: bold;
-    border: 2px solid #eceef2;
+    /* border: 2px solid #eceef2; */
     transition: background 0.3s ease, color 0.3s ease;
   }
   
   .nav-links a:hover {
     background: #3c8cff;
     color: #eceef2;
-    border: 2px solid #1b1b1b;
+    /* border: 2px solid #1b1b1b; */
     border-radius: 5px;
   }
   
@@ -55,14 +55,14 @@
     border-radius: 5px;
     font-size: 22px;
     font-weight: bold;
-    border: 2px solid;
+    /* border: 2px solid; */
     transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
   }
   
   .contact-btn:hover {
     background: #3c8cff;
     color: #eceef2;
-    border: 2px solid #1b1b1b;
+    /* border: 2px solid #1b1b1b; */
   }
   
   .menu-toggle {
@@ -155,7 +155,7 @@
   a.nav-active {
     background: #3c8cff;
     color: #eceef2;
-    border: 2px solid #1b1b1b;
+    /* border: 2px solid #1b1b1b; */
     border-radius: 5px;
   }
 

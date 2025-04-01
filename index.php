@@ -73,7 +73,7 @@
 						maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas,
 						adaptándose a las necesidades de los sectores ferroviario, automotriz y más.
 					</p>
-					<a href="/pages/servicios/servicios.php" class="cta-button">
+					<a href="/pages/servicios/servicios.php" class="cta-button diagonal-corners">
 						Descubre nuestras soluciones
 					</a>
 
@@ -86,24 +86,11 @@
 					data-nav-section="light">
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center textBlack">
-
 							<h2 class="ts-2" data-animate-title data-animate-delay="100">
 								Optimiza tu
-								<span>Producción</span>
+								<span style="color: #eceef2;">Producción</span>
 								con Servicios de Alta Precisión
 							</h2>
-							<div class="ts-p" data-split-articles data-animate-paragraph data-animate-delay="500">
-								<p class="textBlack">
-									En Maquinados
-									<strong>
-										Teysa
-									</strong>
-									contamos con tecnología avanzada y servicios especializados en corte, doblado,
-									fabricación y maquinado para cubrir las necesidades de las industrias más exigentes.
-									Descubre cómo podemos apoyar tus proyectos con soluciones hechas a la medida.
-								</p>
-							</div>
-
 						</div>
 					</div>
 				</section>
@@ -129,7 +116,7 @@
 										</p>
 									</div>
 									<a href="./pages/servicios/servicios.php"
-										class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
+										class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue diagonal-corners">
 
 										<span class="c-button-bg">
 											<span></span>
@@ -156,8 +143,8 @@
 								<div class="col-span-10 md:col-span-7 md:text-right mobile:order-1">
 									<div class="c-cards-illustration">
 										<div>
-											<img src="/assets/img/pages/index/soluciones.webp" alt="Dobles metal"
-												class="imgLarge centrado">
+											<img src="/assets/img/pages/index/soluciones.webp"  loading="lazy"  loading="lazy" alt="Dobles metal"
+												class="imgLarge centrado diagonal-corners">
 										</div>
 									</div>
 								</div>
@@ -242,7 +229,7 @@
 
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/pages/index/servicios/corte.webp" alt="Corte material">
+								<img src="/assets/img/pages/index/servicios/corte.webp"  loading="lazy" alt="Corte material">
 								<h3 class="info-carousel-card-title">Corte de Materiales</h3>
 								<p class="info-carousel-card-text">
 									Precisión en cada proyecto con tecnología avanzada.
@@ -251,7 +238,7 @@
 							</div>
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/pages/index/servicios/doblado.webp" alt="Doblando materiales">
+								<img src="/assets/img/pages/index/servicios/doblado.webp"  loading="lazy" alt="Doblando materiales">
 								<h3 class="info-carousel-card-title">Doblado de Metales</h3>
 								<p class="info-carousel-card-text">
 									Adaptación a grandes formatos para múltiples industrias.
@@ -261,7 +248,7 @@
 							<div class="info-carousel-card">
 
 								<img src="/assets/img/pages/index/servicios/guillotina.webp"
-									alt="Corte materiales Hidráulica">
+									 loading="lazy" alt="Corte materiales Hidráulica">
 								<h3 class="info-carousel-card-title">Corte con Guillotina Hidráulica</h3>
 								<p class="info-carousel-card-text">
 									Soluciones rápidas y eficaces.
@@ -270,7 +257,7 @@
 							</div>
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/pages/index/servicios/tubos.webp" alt="Dobles de tubos">
+								<img src="/assets/img/pages/index/servicios/tubos.webp"  loading="lazy" alt="Dobles de tubos">
 								<h3 class="info-carousel-card-title">Doblado de Tubos CNC</h3>
 								<p class="info-carousel-card-text">
 									Para diferentes materiales y aplicaciones.
@@ -279,7 +266,7 @@
 							</div>
 							<div class="info-carousel-card">
 
-								<img src="/assets/img/pages/index/servicios/convencional.webp" alt="Maquina">
+								<img src="/assets/img/pages/index/servicios/convencional.webp"  loading="lazy" alt="Maquina">
 								<h3 class="info-carousel-card-title">Maquinado CNC y Convencional</h3>
 								<p class="info-carousel-card-text">
 									Piezas personalizadas con alta calidad.
@@ -299,7 +286,7 @@
 							<div class="col-span-8 col-start-2 md:col-span-14 md:col-start-2">
 								<h2 class="ts-2" data-animate-title>
 									Nuestros clientes
-									<span>confían</span>
+									<span style="color: #eceef2;">confían</span>
 									en nosotros, ¿y tú?
 								</h2>
 							</div>
@@ -311,160 +298,160 @@
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/alstom.webp" alt="Alstom" />
+									<img src="/assets/img/pages/index/clientes/alstom.webp"  loading="lazy" alt="Alstom" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/alstom.webp" alt="Alstom" />
+									<img src="/assets/img/pages/index/clientes/alstom.webp"  loading="lazy" alt="Alstom" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/amstedRail.webp" alt="Amsted Rail" />
+									<img src="/assets/img/pages/index/clientes/amstedRail.webp"  loading="lazy" alt="Amsted Rail" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/amstedRail.webp" alt="Amsted Rail" />
+									<img src="/assets/img/pages/index/clientes/amstedRail.webp"  loading="lazy" alt="Amsted Rail" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/caf.webp" alt="CAF" />
+									<img src="/assets/img/pages/index/clientes/caf.webp"  loading="lazy" alt="CAF" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/caf.webp" alt="CAF" />
+									<img src="/assets/img/pages/index/clientes/caf.webp"  loading="lazy" alt="CAF" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/comau.webp" alt="Comau" />
+									<img src="/assets/img/pages/index/clientes/comau.webp"  loading="lazy" alt="Comau" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/comau.webp" alt="Comau" />
+									<img src="/assets/img/pages/index/clientes/comau.webp"  loading="lazy" alt="Comau" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/bombardier.webp" alt="Bombardier" />
+									<img src="/assets/img/pages/index/clientes/bombardier.webp"  loading="lazy" alt="Bombardier" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/bombardier.webp" alt="Bombardier" />
+									<img src="/assets/img/pages/index/clientes/bombardier.webp"  loading="lazy" alt="Bombardier" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/danieli.webp" alt="Danieli" />
+									<img src="/assets/img/pages/index/clientes/danieli.webp"  loading="lazy" alt="Danieli" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/danieli.webp" alt="Danieli" />
+									<img src="/assets/img/pages/index/clientes/danieli.webp"  loading="lazy" alt="Danieli" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/dina.webp" alt="Dina" />
+									<img src="/assets/img/pages/index/clientes/dina.webp"  loading="lazy" alt="Dina" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/dina.webp" alt="Dina" />
+									<img src="/assets/img/pages/index/clientes/dina.webp"  loading="lazy" alt="Dina" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/espartec.webp" alt="Espartec" />
+									<img src="/assets/img/pages/index/clientes/espartec.webp"  loading="lazy" alt="Espartec" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/espartec.webp" alt="Espartec" />
+									<img src="/assets/img/pages/index/clientes/espartec.webp"  loading="lazy" alt="Espartec" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/forbo.webp" alt="Forbo" />
+									<img src="/assets/img/pages/index/clientes/forbo.webp"  loading="lazy" alt="Forbo" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/forbo.webp" alt="Forbo" />
+									<img src="/assets/img/pages/index/clientes/forbo.webp"  loading="lazy" alt="Forbo" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/gerdau.webp" alt="Gerdau" />
+									<img src="/assets/img/pages/index/clientes/gerdau.webp"  loading="lazy" alt="Gerdau" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/gerdau.webp" alt="Gerdau" />
+									<img src="/assets/img/pages/index/clientes/gerdau.webp"  loading="lazy" alt="Gerdau" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/greenbrier.webp" alt="Greenbrier" />
+									<img src="/assets/img/pages/index/clientes/greenbrier.webp"  loading="lazy" alt="Greenbrier" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/greenbrier.webp" alt="Greenbrier" />
+									<img src="/assets/img/pages/index/clientes/greenbrier.webp"  loading="lazy" alt="Greenbrier" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/kuka.webp" alt="Kuka" />
+									<img src="/assets/img/pages/index/clientes/kuka.webp"  loading="lazy" alt="Kuka" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/kuka.webp" alt="Kuka" />
+									<img src="/assets/img/pages/index/clientes/kuka.webp"  loading="lazy" alt="Kuka" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/lauak.webp" alt="Lauak" />
+									<img src="/assets/img/pages/index/clientes/lauak.webp"  loading="lazy" alt="Lauak" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/lauak.webp" alt="Lauak" />
+									<img src="/assets/img/pages/index/clientes/lauak.webp"  loading="lazy" alt="Lauak" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg" alt="Matrix Metals" />
+									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg"  loading="lazy" alt="Matrix Metals" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg" alt="Matrix Metals" />
+									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg"  loading="lazy" alt="Matrix Metals" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/sycsa.webp" alt="Sycsa" />
+									<img src="/assets/img/pages/index/clientes/sycsa.webp"  loading="lazy" alt="Sycsa" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/sycsa.webp" alt="Sycsa" />
+									<img src="/assets/img/pages/index/clientes/sycsa.webp"  loading="lazy" alt="Sycsa" />
 								</span>
 							</a>
 						</div>
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/vicrila.webp" alt="Vicrila" />
+									<img src="/assets/img/pages/index/clientes/vicrila.webp"  loading="lazy" alt="Vicrila" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/vicrila.webp" alt="Vicrila" />
+									<img src="/assets/img/pages/index/clientes/vicrila.webp"  loading="lazy" alt="Vicrila" />
 								</span>
 							</a>
 						</div>
@@ -483,7 +470,7 @@
 									</h2>
 									<div class="c-dropdown-1-illustration cellphoneDisapare" data-animate
 										data-animate-delay="400" data-animate-scale=".8">
-										<img src="/assets/img/pages/index/pregunta.webp" alt="Pregunta"
+										<img src="/assets/img/pages/index/pregunta.webp"  loading="lazy" alt="Pregunta"
 											class="imgLarge centrado imgReduccion">
 									</div>
 
@@ -657,16 +644,23 @@
 				<section class="c-section c-section--light c-section--related" data-nav-section="light"
 					data-animate-section>
 					<div class="wrap wrap--max">
-
 						<div class="flex flex-col items-center text-center">
 
 							<span class="c-title c-title--3">
 								<h2 class="ts-3" data-animate-title>
 									Impulsa tu industria con
-									<span>
-										soluciones de corte,
+									<span style="color: #eceef2;">
+										soluciones de corte
 									</span>
-									doblado y maquinado diseñadas para optimizar procesos, reducir tiempos y garantizar
+									,
+									<span style="color: #eceef2;">
+										doblado
+									</span>
+									y
+									<span style="color: #eceef2;">
+										maquinado
+									</span>
+									diseñadas para optimizar procesos, reducir tiempos y garantizar
 									resultados de calidad Consulta nuestro blog
 								</h2>
 							</span>
@@ -674,7 +668,7 @@
 								<div class="c-cards-content-cta">
 									<div data-animate data-animate-delay="400">
 										<a href="/pages/servicios/servicios.php"
-											class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue">
+											class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue diagonal-corners">
 
 											<span class="c-button-bg">
 												<span></span>
@@ -701,8 +695,6 @@
 							</div>
 
 						</div>
-
-
 					</div>
 				</section>
 
@@ -724,7 +716,7 @@
 	<!-- Scripts -->
 	<script type="module" src="/assets/js/main.js" crossorigin="anonymous"
 		onload="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/main.js'}});document.dispatchEvent(e);">
-		</script>
+	</script>
 	<script src="/assets/js/precarga.js"></script>
 	<script src="/assets/js/universal.js"></script>
 	<script src="/assets/js/header.js"></script>

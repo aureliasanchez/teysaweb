@@ -55,69 +55,24 @@
 
 			<div data-page data-entry-id="35">
 
-				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--light" data-animate-section data-nav-section="light">
+				<div class="c-section c-section--title-text-center c-section--hero c-section--hero-1 c-section--light fondoIndex" data-animate-section data-nav-section="light" style="background-image: url(/assets/img/pages/servicio/fondo.webp);">
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center">
 
-							<h1 class="ts-2" data-animate-title>
-								Servicios que <span>Impulsan</span> tu Producción
+							<h1 class="ts-2 textGray" data-animate-title>
+								Servicios que
+								<span>Impulsan</span>
+								tu Producción
 							</h1>
 							<div class="ts-p" data-animate-paragraph data-animate-delay="400" data-split-articles>
-								<p class="textBlack">
+								<p class="textGray">
 									En Maquinados Teysa ofrecemos soluciones completas en corte, doblado y maquinado, diseñadas para optimizar tus procesos industriales
 								</p>
-							</div>
-							<div class="c-cards-content" style="padding-top: 5%;">
-								<div class="c-cards-content-cta">
-									<div data-animate data-animate-delay="400">
-										<a href="#servicios" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue">
-
-											<span class="c-button-bg">
-												<span class="c-button-bg-hover"></span>
-											</span>
-											<span class="c-button-text">
-												<span class="c-button-text-inner">
-
-													<span class="c-button-text-hover">Descubre todos nuestros servicios</span>
-													<span class="c-button-text-static">Descubre todos nuestros servicios</span>
-
-												</span>
-											</span>
-											<span class="c-button-icon">
-												<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-														stroke="currentColor" stroke-linecap="round"
-														stroke-linejoin="round" />
-												</svg>
-											</span>
-
-										</a>
-									</div>
-								</div>
 							</div>
 
 						</div>
 					</div>
 				</div>
-				<section class="c-section c-section--light c-section--title-illustration" data-animate-section data-nav-section="light">
-					<div class="wrap">
-						<div class="c-grid">
-
-							<div class="col-span-10 md:col-span-12 md:col-start-2 text-center c-section-title">
-								<h2 class="ts-2" data-animate-title>Donde la <span>Precisión</span> Encuentra su Propósito</h2>
-							</div>
-							<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
-								<p class="textBlack">
-									Nuestros servicios se integran en proyectos clave de transporte, manufactura y tecnología, adaptándose a tus necesidades específicas
-								</p>
-							</div>
-
-						</div>
-					</div>
-				</section>
-
 				<section class="info-carousel-2" id="carouselSection2">
 
 					<h2 class="info-carousel-2-title">Servicios Especiales</h2>
@@ -133,7 +88,7 @@
 
 							<div class="info-carousel-2-card interactive-card selected" data-target="Detallado de acabados" data-image-group="detallado">
 
-								<img src="/assets/img/pages/servicio/detallado/detallado_02.webp" alt="Proceso detallado 2">
+								<img src="/assets/img/pages/servicio/detallado/detallado_02.webp"  loading="lazy" alt="Proceso detallado 2">
 								<h3 class="info-carousel-2-card-title">
 									Detallado de Acabados
 								</h3>
@@ -144,7 +99,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="Corte con agua" data-image-group="agua">
 
-								<img src="/assets/img/pages/servicio/agua/agua_09.webp" alt="Proceso corte de agua 9">
+								<img src="/assets/img/pages/servicio/agua/agua_09.webp"  loading="lazy" alt="Proceso corte de agua 9">
 								<h3 class="info-carousel-2-card-title">
 									Corte con Agua
 								</h3>
@@ -155,7 +110,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="Corte con plasma" data-image-group="plasma">
 
-								<img src="/assets/img/pages/servicio/plasma/plasma_01.webp" alt="Proceso corte con plasma 1">
+								<img src="/assets/img/pages/servicio/plasma/plasma_01.webp"  loading="lazy" alt="Proceso corte con plasma 1">
 								<h3 class="info-carousel-2-card-title">
 									Corte con Plasma
 								</h3>
@@ -166,7 +121,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="Corte con laser" data-image-group="laser">
 
-								<img src="/assets/img/pages/servicio/laser/laser_05.webp" alt="Proceso corte con laser 5">
+								<img src="/assets/img/pages/servicio/laser/laser_05.webp"  loading="lazy" alt="Proceso corte con laser 5">
 								<h3 class="info-carousel-2-card-title">
 									Corte con Láser
 								</h3>
@@ -177,7 +132,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="Corte con guillotina" data-image-group="guillotina">
 
-								<img src="/assets/img/pages/servicio/guillotina/guillotina_06.webp" alt="Proceso corte con guillotina 6">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_06.webp"  loading="lazy" alt="Proceso corte con guillotina 6">
 								<h3 class="info-carousel-2-card-title">
 									Corte con Guillotina Hidráulica
 								</h3>
@@ -188,7 +143,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="Maquinado CNC" data-image-group="cnc">
 
-								<img src="/assets/img/pages/servicio/cnc/cnc_01.webp" alt="Maquinado CNC 1">
+								<img src="/assets/img/pages/servicio/cnc/cnc_01.webp"  loading="lazy" alt="Maquinado CNC 1">
 								<h3 class="info-carousel-2-card-title">
 									Maquinado CNC
 								</h3>
@@ -199,7 +154,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="Maquinado convencional" data-image-group="convencional">
 
-								<img src="/assets/img/pages/servicio/convencional/convencional_06.webp" alt="Maquinado Convencional 6">
+								<img src="/assets/img/pages/servicio/convencional/convencional_06.webp"  loading="lazy" alt="Maquinado Convencional 6">
 								<h3 class="info-carousel-2-card-title">
 									Maquinado Convencional
 								</h3>
@@ -210,7 +165,7 @@
 							</div>
 							<div class="info-carousel-2-card interactive-card selected" data-target="Doblado de metales" data-image-group="tubos">
 
-								<img src="/assets/img/pages/servicio/tubos/tubos_02.webp" alt="Dobles 2">
+								<img src="/assets/img/pages/servicio/tubos/tubos_02.webp"  loading="lazy" alt="Dobles 2">
 								<h3 class="info-carousel-2-card-title">
 									Doblado de Metales y Tubos CNC
 								</h3>
@@ -227,71 +182,71 @@
 
 							<div class="carousel-images" data-group="detallado">
 
-								<img src="/assets/img/pages/servicio/detallado/detallado_01.webp" alt="Proceso detallado 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/detallado/detallado_02.webp" alt="Proceso detallado 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/detallado/detallado_04.webp" alt="Proceso detallado 4" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/detallado/detallado_06.webp" alt="Proceso detallado 6" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/detallado/detallado_01.webp"  loading="lazy" alt="Proceso detallado 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/detallado/detallado_02.webp"  loading="lazy" alt="Proceso detallado 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/detallado/detallado_04.webp"  loading="lazy" alt="Proceso detallado 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/detallado/detallado_06.webp"  loading="lazy" alt="Proceso detallado 6" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="agua">
 
-								<img src="/assets/img/pages/servicio/agua/agua_01.webp" alt="Proceso corte de agua 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/agua/agua_03.webp" alt="Proceso corte de agua 3" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/agua/agua_05.webp" alt="Proceso corte de agua 5" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/agua/agua_07.webp" alt="Proceso corte de agua 7" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/agua/agua_09.webp" alt="Proceso corte de agua 9" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_01.webp"  loading="lazy" alt="Proceso corte de agua 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_03.webp"  loading="lazy" alt="Proceso corte de agua 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_05.webp"  loading="lazy" alt="Proceso corte de agua 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_07.webp"  loading="lazy" alt="Proceso corte de agua 7" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/agua/agua_09.webp"  loading="lazy" alt="Proceso corte de agua 9" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="plasma">
 
-								<img src="/assets/img/pages/servicio/plasma/plasma_01.webp" alt="Proceso corte con plasma 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/plasma/plasma_02.webp" alt="Proceso corte con plasma 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/plasma/plasma_01.webp"  loading="lazy" alt="Proceso corte con plasma 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/plasma/plasma_02.webp"  loading="lazy" alt="Proceso corte con plasma 2" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="laser">
 
-								<img src="/assets/img/pages/servicio/laser/laser_01.webp" alt="Proceso corte con laser 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/laser/laser_02.webp" alt="Proceso corte con laser 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/laser/laser_03.webp" alt="Proceso corte con laser 3" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/laser/laser_05.webp" alt="Proceso corte con laser 5" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/laser/laser_06.webp" alt="Proceso corte con laser 6" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/laser/laser_01.webp"  loading="lazy" alt="Proceso corte con laser 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/laser/laser_02.webp"  loading="lazy" alt="Proceso corte con laser 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/laser/laser_03.webp"  loading="lazy" alt="Proceso corte con laser 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/laser/laser_05.webp"  loading="lazy" alt="Proceso corte con laser 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/laser/laser_06.webp"  loading="lazy" alt="Proceso corte con laser 6" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="guillotina">
 
-								<img src="/assets/img/pages/servicio/guillotina/guillotina_01.webp" alt="Proceso corte con guillotina 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/guillotina/guillotina_02.webp" alt="Proceso corte con guillotina 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/guillotina/guillotina_04.webp" alt="Proceso corte con guillotina 4" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/guillotina/guillotina_05.webp" alt="Proceso corte con guillotina 5" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/guillotina/guillotina_06.webp" alt="Proceso corte con guillotina 6" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/guillotina/guillotina_07.webp" alt="Proceso corte con guillotina 7" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_01.webp"  loading="lazy" alt="Proceso corte con guillotina 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_02.webp"  loading="lazy" alt="Proceso corte con guillotina 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_04.webp"  loading="lazy" alt="Proceso corte con guillotina 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_05.webp"  loading="lazy" alt="Proceso corte con guillotina 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_06.webp"  loading="lazy" alt="Proceso corte con guillotina 6" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/guillotina/guillotina_07.webp"  loading="lazy" alt="Proceso corte con guillotina 7" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="cnc">
 
-								<img src="/assets/img/pages/servicio/cnc/cnc_01.webp" alt="Maquinado CNC 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/cnc/cnc_02.webp" alt="Maquinado CNC 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/cnc/cnc_03.webp" alt="Maquinado CNC 3" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/cnc/cnc_04.webp" alt="Maquinado CNC 4" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/cnc/cnc_05.webp" alt="Maquinado CNC 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/cnc/cnc_01.webp"  loading="lazy" alt="Maquinado CNC 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/cnc/cnc_02.webp"  loading="lazy" alt="Maquinado CNC 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/cnc/cnc_03.webp"  loading="lazy" alt="Maquinado CNC 3" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/cnc/cnc_04.webp"  loading="lazy" alt="Maquinado CNC 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/cnc/cnc_05.webp"  loading="lazy" alt="Maquinado CNC 5" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="convencional">
 
-								<img src="/assets/img/pages/servicio/convencional/convencional_01.webp" alt="Maquinado Convencional 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/convencional/convencional_02.webp" alt="Maquinado Convencional 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/convencional/convencional_04.webp" alt="Maquinado Convencional 4" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/convencional/convencional_05.webp" alt="Maquinado Convencional 5" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/convencional/convencional_06.webp" alt="Maquinado Convencional 6" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/convencional/convencional_01.webp"  loading="lazy" alt="Maquinado Convencional 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/convencional/convencional_02.webp"  loading="lazy" alt="Maquinado Convencional 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/convencional/convencional_04.webp"  loading="lazy" alt="Maquinado Convencional 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/convencional/convencional_05.webp"  loading="lazy" alt="Maquinado Convencional 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/convencional/convencional_06.webp"  loading="lazy" alt="Maquinado Convencional 6" class="auto-carousel-img">
 
 							</div>
 							<div class="carousel-images" data-group="tubos">
 
-								<img src="/assets/img/pages/servicio/tubos/tubos_01.webp" alt="Dobles 1" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/tubos/tubos_02.webp" alt="Dobles 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/tubos/tubos_04.webp" alt="Dobles 4" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/tubos/tubos_05.webp" alt="Dobles 5" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/tubos/tubos_06.webp" alt="Dobles 6" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/tubos/tubos_01.webp"  loading="lazy" alt="Dobles 1" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/tubos/tubos_02.webp"  loading="lazy" alt="Dobles 2" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/tubos/tubos_04.webp"  loading="lazy" alt="Dobles 4" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/tubos/tubos_05.webp"  loading="lazy" alt="Dobles 5" class="auto-carousel-img">
+								<img src="/assets/img/pages/servicio/tubos/tubos_06.webp"  loading="lazy" alt="Dobles 6" class="auto-carousel-img">
 
 							</div>
 
@@ -299,7 +254,6 @@
 					</div>
 
 				</section>
-
 				<section class="c-section c-section--light c-section--related" data-nav-section="light" data-animate-section>
 					<div class="wrap wrap--max">
 						<div class="flex flex-col items-center text-center">
@@ -307,42 +261,36 @@
 							<span class="c-title c-title--3">
 								<h2 class="ts-3" data-animate-title>
 									Optimiza tus procesos con servicios de
-									<span>
+									<span style="color: #eceef2;">
 										alta precisión
 									</span>
 									diseñados para cumplir las demandas de tu industria
 								</h2>
 							</span>
-							<div class="c-cards-content" style="padding-top: 5%;">
-								<div class="c-cards-content-cta">
-									<div data-animate data-animate-delay="400">
-										<a href="/pages/contacto/contacto.php" class="c-button c-button--ts-2 c-button--icon-hover c-button--outlined buttonColorBlue buttonColorBlue">
+							<a href="/pages/contacto/contacto.php"
+								class="c-button c-button--icon-hover c-button--ts-1 buttonColorBlue diagonal-corners"
+								style="margin-top: 5%;">
 
-											<span class="c-button-bg">
-												<span class="c-button-bg-hover"></span>
-											</span>
-											<span class="c-button-text">
-												<span class="c-button-text-inner">
+								<span class="c-button-bg">
+									<span></span>
+								</span>
+								<span class="c-button-text">
+									<span class="c-button-text-inner">
+										<span class="c-button-text-hover">Solicita tu cotización ahora</span>
+										<span class="c-button-text-static">Solicita tu cotización ahora</span>
+									</span>
+								</span>
+								<span class="c-button-icon">
+									<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
+										fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
+											stroke="currentColor" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</span>
 
-													<span class="c-button-text-hover">Solicita tu cotización ahora</span>
-													<span class="c-button-text-static">Solicita tu cotización ahora</span>
-
-												</span>
-											</span>
-											<span class="c-button-icon">
-												<svg class="c-icon-arrow-right-sm" width="10" height="9" viewBox="0 0 10 9"
-													fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="M5.91609 0.541046L9.06254 3.68749C9.2578 3.88276 9.2578 4.19934 9.06254 4.3946L5.91609 7.54105M9.04338 4.04105H0.791091"
-														stroke="currentColor" stroke-linecap="round"
-														stroke-linejoin="round" />
-												</svg>
-											</span>
-
-										</a>
-									</div>
-								</div>
-							</div>
+							</a>
 
 						</div>
 					</div>

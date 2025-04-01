@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-
 <head>
 	<!-- Meta -->
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -73,7 +72,7 @@
 
 					<div class="spa-card-item">
 
-						<img src="/assets/img/pages/acercaDe/equipo.webp" alt="Equipo de trabajo" class="spa-card-img" loading="lazy">
+						<img src="/assets/img/pages/acercaDe/equipo.webp"  loading="lazy" alt="Equipo de trabajo" class="spa-card-img" loading="lazy">
 						<h3 class="spa-card-title">Sobre Nosotros</h3>
 						<p class="spa-card-text">
 							En Maquinados Teysa creemos en la integridad, la innovación y la calidad como pilares fundamentales de nuestra filosofía. Nuestra personalidad profesional y comprometida se refleja en cada proyecto, ofreciendo flexibilidad en procesos y soluciones personalizadas. Nos diferenciamos por contar con tecnología de vanguardia, más de 40 máquinas CNC y una certificación ISO 9001:2015, lo que nos posiciona como líderes en el sector metalmecánico.
@@ -82,7 +81,7 @@
 					</div>
 					<div class="spa-card-item">
 
-						<img src="/assets/img/pages/acercaDe/fundamentos.webp" alt="Maquina" class="spa-card-img" loading="lazy">
+						<img src="/assets/img/pages/acercaDe/fundamentos.webp"  loading="lazy" alt="Maquina" class="spa-card-img" loading="lazy">
 						<h3 class="spa-card-title">Nuestros fundamentos</h3>
 						<p class="spa-card-text">
 							Desde 2004, Maquinados Teysa diseña y fabrica soluciones de alta precisión para las industrias ferroviaria, automotriz y aeronáutica. Con tecnología de vanguardia y certificación ISO 9001:2015, somos sinónimo de calidad e innovación a nivel nacional e internacional.
@@ -100,7 +99,7 @@
 								<h2 class="ts-2" data-animate-title>
 									Nuestros Valores,
 									<br>
-									<span>Nuestra Esencia</span>
+									<span style="color: #eceef2;">Nuestra Esencia</span>
 								</h2>
 								<div class="ts-p textBlack" data-split-articles data-animate-paragraph data-animate-delay="200">
 									<p>

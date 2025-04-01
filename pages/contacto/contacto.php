@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
 
-
 <head>
 	<!-- Meta -->
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -62,7 +61,10 @@
 						<div class="c-grid">
 
 							<div class="col-span-10 md:col-span-12 md:col-start-2 text-center c-section-title">
-								<h2 class="ts-2" data-animate-title>Información de <span>Contacto</span></h2>
+								<h2 class="ts-2" data-animate-title>
+									Información de 
+									<span style="color: #eceef2;">Contacto</span>
+								</h2>
 							</div>
 							<div class="col-span-10 md:col-span-8 md:col-start-4 text-center ts-p c-section-text" data-split-articles data-animate-paragraph data-animate-delay="200">
 
@@ -103,7 +105,7 @@
 
 					</div>
 				</section>
-				<section class="c-section c-section--dark c-section--form c-section--form-1" data-nav-section="dark" data-animate-delay="400">
+				<section class="c-section c-section--dark c-section--form c-section--form-1" data-nav-section="dark" data-animate-delay="400" style="padding-top: 5%;">
 					<div class="wrap wrap--max">
 
 						<div class="text-center">
@@ -116,6 +118,7 @@
 						</div>
 						<div class="custom-form-container">
 							<form action="procesar_formulario.php" method="post">
+
 								<div class="custom-form-group">
 									<label class="custom-form-label">Nombre Completo *</label>
 									<input type="text" name="nombre" class="custom-form-input" required>
@@ -147,9 +150,10 @@
 									<label class="custom-form-label">Incluir información sobre el costo de envío</label>
 									<textarea name="mensaje" class="custom-form-textarea" placeholder="Ejemplo: 'Por favor, incluir información sobre el costo de envío.'"></textarea>
 								</div>
-								<div class="custom-form-button-container">
-									<button type="submit" class="custom-form-button">Solicitar Cotización</button>
+								<div class="custom-form-button-container" style="padding-top: 5%;">
+									<button type="submit" class="custom-form-button diagonal-corners">Solicitar Cotización</button>
 								</div>
+
 							</form>
 						</div>
 
