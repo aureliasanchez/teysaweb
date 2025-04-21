@@ -33,6 +33,7 @@
 	<link href="/assets/css/videos.css" rel="stylesheet" />
 	<link href="/assets/css/carruceles.css" rel="stylesheet" />
 	<link href="/assets/css/dosCuadros.css" rel="stylesheet" />
+	<link href="/assets/css/whatsapp.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
@@ -161,7 +162,6 @@
 								<img src="/assets/img/pages/productos/automotris/automotris_02.webp"  loading="lazy" alt="Pieza Automotriz 2" class="auto-carousel-img">
 								<img src="/assets/img/pages/productos/automotris/automotris_03.webp"  loading="lazy" alt="Pieza Automotriz 3" class="auto-carousel-img">
 								<img src="/assets/img/pages/productos/automotris/automotris_04.webp"  loading="lazy" alt="Pieza Automotriz 4" class="auto-carousel-img">
-								<img src="/assets/img/pages/productos/automotris/automotris_05.webp"  loading="lazy" alt="Pieza Automotriz 5" class="auto-carousel-img">
 								<img src="/assets/img/pages/productos/automotris/automotris_06.webp"  loading="lazy" alt="Pieza Automotriz 6" class="auto-carousel-img">
 
 							</div>

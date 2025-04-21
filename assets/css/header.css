@@ -1,167 +1,187 @@
 /* Estilos para el header */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #eceef2;
-    border: 2px solid black;
-    padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .header.hidden {
-    transform: translateY(-100%);
-  }
-  
-  .logo img {
-    width: 80px;
-    height: auto;
-    max-width: 100%;
-  }
-  
-  .nav-links {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #1b1b1b;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 14px 20px;
-    font-weight: bold;
-    /* border: 2px solid #eceef2; */
-    transition: background 0.3s ease, color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    background: #3c8cff;
-    color: #eceef2;
-    /* border: 2px solid #1b1b1b; */
-    border-radius: 5px;
-  }
-  
-  .contact-btn {
-    background: #1b1b1b;
-    color: #eceef2;
-    padding: 16px 28px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 22px;
-    font-weight: bold;
-    /* border: 2px solid; */
-    transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
-  }
-  
-  .contact-btn:hover {
-    background: #3c8cff;
-    color: #eceef2;
-    /* border: 2px solid #1b1b1b; */
-  }
-  
-  .menu-toggle {
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .menu-toggle.active {
-    transform: rotate(90deg);
-  }
-  
-  .mobile-menu {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background: white;
-    flex-direction: column;
-    gap: 0;
-    padding: 0;
-    width: 150px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out, border 0.3s ease-out;
-    z-index: 100;
-    border: none;
-    display: flex;
-    visibility: hidden;
-    opacity: 0;
-  }
-  
-  .mobile-menu.show {
-    max-height: 150px;
-    border: 2px solid #1b1b1b;
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  .mobile-menu a {
-    text-decoration: none;
-    color: #1b1b1b;
-    font-size: 16px;
-    padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eceef2;
+  border: 2px solid black;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header.hidden {
+  transform: translateY(-100%);
+}
+
+.logo img {
+  width: auto;
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #1b1b1b;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 8px 12px;
+  font-weight: bold;
+  /* border: 2px solid #eceef2; */
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background: #3c8cff;
+  color: #eceef2;
+  /* border: 2px solid #1b1b1b; */
+  border-radius: 5px;
+}
+
+.contact-btn {
+  background: #0146f9;
+  color: #eceef2;
+  padding: 16px 28px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  /* border: 2px solid; */
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #3c8cff;
+  color: #eceef2;
+  /* border: 2px solid #1b1b1b; */
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menu-toggle.active {
+  transform: rotate(90deg);
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+  width: 150px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, border 0.3s ease-out;
+  z-index: 100;
+  border: none;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.mobile-menu.show {
+  max-height: 150px;
+  border: 2px solid #1b1b1b;
+  visibility: visible;
+  opacity: 1;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #1b1b1b;
+  font-size: 16px;
+  padding: 12px;
+  display: block;
+  border-bottom: 1px solid #1b1b1b;
+  border-radius: 0 !important;
+  background: #eceef2;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.mobile-menu a:last-child {
+  border-bottom: none;
+}
+
+.mobile-menu a:hover,
+.mobile-menu a.nav-active {
+  background: #1b1b1b;
+  color: #eceef2;
+}
+
+.deskLogo {
+  display: block;
+}
+
+.phoneLogo {
+  display: none;
+}
+
+@media (max-width: 870px) {
+  .phoneLogo {
     display: block;
-    border-bottom: 1px solid #1b1b1b;
-    border-radius: 0 !important;
-    background: #eceef2;
-    transition: background 0.3s ease, color 0.3s ease;
   }
-  
-  .mobile-menu a:last-child {
-    border-bottom: none;
-  }
-  
-  .mobile-menu a:hover,
-  .mobile-menu a.nav-active {
-    background: #1b1b1b;
-    color: #eceef2;
-  }
-  
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-    }
-    .menu-toggle {
-      display: block;
-    }
-    .logo img {
-      width: 50px;
-    }
-    .contact-btn {
-      font-size: 20px;
-      padding: 14px 22px;
-    }
-  }
-  
-  @media (min-width: 769px) {
-    .mobile-menu {
-      display: none !important;
-    }
 
-    .mobile-menu a.nav-active {
-        border-radius: 0;
-    }
+  .deskLogo {
+    display: none;
   }
-  
-  a.nav-active {
-    background: #3c8cff;
-    color: #eceef2;
-    /* border: 2px solid #1b1b1b; */
-    border-radius: 5px;
+
+  .logo img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .contact-btn {
+    font-size: 20px;
+    padding: 14px 22px;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-menu {
+    display: none !important;
   }
 
   .mobile-menu a.nav-active {
-    background: #3c8cff;
-    color: #eceef2;
-    border: unset;
-    border-radius: 5px;
+    border-radius: 0;
   }
+}
+
+a.nav-active {
+  background: #3c8cff;
+  color: #eceef2;
+  /* border: 2px solid #1b1b1b; */
+  border-radius: 5px;
+}
+
+.mobile-menu a.nav-active {
+  background: #3c8cff;
+  color: #eceef2;
+  border: unset;
+  border-radius: 5px;
+}

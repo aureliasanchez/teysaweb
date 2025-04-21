@@ -35,6 +35,7 @@
 	<link href="/assets/css/videos.css" rel="stylesheet" />
 	<link href="/assets/css/carruceles.css" rel="stylesheet" />
 	<link href="/assets/css/dosCuadros.css" rel="stylesheet" />
+	<link href="/assets/css/whatsapp.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default" />
 	<link href="/index.php" rel="canonical" />
@@ -143,7 +144,7 @@
 								<div class="col-span-10 md:col-span-7 md:text-right mobile:order-1">
 									<div class="c-cards-illustration">
 										<div>
-											<img src="/assets/img/pages/index/soluciones.webp"  loading="lazy"  loading="lazy" alt="Dobles metal"
+											<img src="./assets/img/pages/index/soluciones.webp"  loading="lazy"  loading="lazy" alt="Dobles metal"
 												class="imgLarge centrado diagonal-corners">
 										</div>
 									</div>
@@ -428,10 +429,10 @@
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg"  loading="lazy" alt="Matrix Metals" />
+									<img src="/assets/img/pages/index/clientes/matrixMetals.webp"  loading="lazy" alt="Matrix Metals" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg"  loading="lazy" alt="Matrix Metals" />
+									<img src="/assets/img/pages/index/clientes/matrixMetals.webp"  loading="lazy" alt="Matrix Metals" />
 								</span>
 							</a>
 						</div>

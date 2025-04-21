@@ -32,6 +32,7 @@
 	<link href="/assets/css/videos.css" rel="stylesheet" />
 	<link href="/assets/css/carruceles.css" rel="stylesheet" />
 	<link href="/assets/css/dosCuadros.css" rel="stylesheet" />
+	<link href="/assets/css/whatsapp.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 	<link href="/index.php" rel="alternate" hreflang="x-default">
 	<link href="index.php" rel="canonical">
@@ -235,7 +236,6 @@
 
 								<img src="/assets/img/pages/servicio/convencional/convencional_01.webp"  loading="lazy" alt="Maquinado Convencional 1" class="auto-carousel-img">
 								<img src="/assets/img/pages/servicio/convencional/convencional_02.webp"  loading="lazy" alt="Maquinado Convencional 2" class="auto-carousel-img">
-								<img src="/assets/img/pages/servicio/convencional/convencional_04.webp"  loading="lazy" alt="Maquinado Convencional 4" class="auto-carousel-img">
 								<img src="/assets/img/pages/servicio/convencional/convencional_05.webp"  loading="lazy" alt="Maquinado Convencional 5" class="auto-carousel-img">
 								<img src="/assets/img/pages/servicio/convencional/convencional_06.webp"  loading="lazy" alt="Maquinado Convencional 6" class="auto-carousel-img">
 
