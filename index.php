@@ -14,7 +14,7 @@
 	<meta content="website" property="og:type">
 	<meta content="https://www.Teysa.com/contacto/" property="og:url">
 	<meta name="description"
-		content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.">
+		content="Desde México para el mundo, Maquinados Teysa con tecnología de vanguardia  para ofrecer soluciones en corte de distintos materiales, doblez, tuberia y maquinado CNC de piezas metálicas de pequeño, mediano y gran formato, adaptándose a las necesidades de los sectores ferroviario, automotriz y más.">
 	<meta
 		content="Desde México para el mundo, Teysa combina tecnología de vanguardia y 45 centros de maquinado para ofrecer soluciones en corte, doblado y fabricación de piezas metálicas, adaptándose a las necesidades de los sectores ferroviario, automotriz y más."
 		property="og:description">
@@ -239,6 +239,15 @@
 							</div>
 							<div class="info-carousel-card">
 
+								<img src="/assets/img/pages/index/servicios/convencional.webp"  loading="lazy" alt="Maquina">
+								<h3 class="info-carousel-card-title">Maquinado CNC y Convencional</h3>
+								<p class="info-carousel-card-text">
+									Equipos de maquinado convencional para fresado, torneado y rectificado, ideales para proyectos precisos y adaptables.
+								</p>
+
+							</div>
+							<div class="info-carousel-card">
+
 								<img src="/assets/img/pages/index/servicios/doblado.webp"  loading="lazy" alt="Doblando materiales">
 								<h3 class="info-carousel-card-title">Doblado de Metales</h3>
 								<p class="info-carousel-card-text">
@@ -262,15 +271,6 @@
 								<h3 class="info-carousel-card-title">Doblado de Tubos CNC</h3>
 								<p class="info-carousel-card-text">
 									Para diferentes materiales y aplicaciones.
-								</p>
-
-							</div>
-							<div class="info-carousel-card">
-
-								<img src="/assets/img/pages/index/servicios/convencional.webp"  loading="lazy" alt="Maquina">
-								<h3 class="info-carousel-card-title">Maquinado CNC y Convencional</h3>
-								<p class="info-carousel-card-text">
-									Piezas personalizadas con alta calidad.
 								</p>
 
 							</div>
@@ -429,10 +429,10 @@
 						<div class="c-carousel-slide" data-carousel-item>
 							<a class="c-carousel-slide-inner c-client-logo" target="_blank" rel="noreferrer noopener">
 								<span class="c-client-logo-static">
-									<img src="/assets/img/pages/index/clientes/matrixMetals.webp"  loading="lazy" alt="Matrix Metals" />
+									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg"  loading="lazy" alt="Matrix Metals" />
 								</span>
 								<span class="c-client-logo-hover">
-									<img src="/assets/img/pages/index/clientes/matrixMetals.webp"  loading="lazy" alt="Matrix Metals" />
+									<img src="/assets/img/pages/index/clientes/matrixMetals.jpg"  loading="lazy" alt="Matrix Metals" />
 								</span>
 							</a>
 						</div>

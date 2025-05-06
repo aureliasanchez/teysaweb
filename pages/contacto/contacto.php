@@ -63,7 +63,7 @@
 
 							<div class="col-span-10 md:col-span-12 md:col-start-2 text-center c-section-title">
 								<h2 class="ts-2" data-animate-title>
-									Información de 
+									Información de
 									<span style="color: #eceef2;">Contacto</span>
 								</h2>
 							</div>
@@ -72,8 +72,8 @@
 								<p class="textBlack">
 									<strong>Télefono:</strong>
 									<span>
-										<a href="https://wa.me/527919153714" target="_blank">
-											+52 791 915 3714
+										<a href="https://wa.me/7751277208" target="_blank">
+											+52 775 127 7208
 										</a>
 									</span>
 								</p>
