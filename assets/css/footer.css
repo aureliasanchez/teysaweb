@@ -27,8 +27,8 @@
 }
 
 .new-footer-logo-img {
-    /*max-height: 80px;*/
-    /*width: auto;*/
+    max-height: 80px;
+    width: auto;
 }
 
 .new-footer-buttons {
@@ -115,9 +115,9 @@
     }
 
     .new-footer-logo-img {
-        /*height: 100%;*/
-        /*max-height: 100px;*/
-        /*width: auto;*/
+        height: 100%;
+        max-height: 100px;
+        width: auto;
     }
 
     .new-footer-button {
